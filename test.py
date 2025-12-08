@@ -1,17 +1,15 @@
-from recommender.core import group_recommend
+from recommender.core import group_recommend,load_dataset
 
-places = [
-    {"name": "Goa", "tags": ["beach", "nightlife", "food"]},
-    {"name": "Manali", "tags": ["mountains", "nature", "adventure"]},
-    {"name": "Jaipur", "tags": ["history", "food", "culture"]}
+places = load_dataset("data/dataset.json")
+
+group = [
+    ["mountains", "nature"],
+    ["adventure"],
 ]
+results = group_recommend(group, places, top_n=10)
 
-group_users = [
-    ["beach", "food"],
-    ["beach", "nightlife"]
-]
+print("\n=== TOP RECOMMENDATIONS ===\n")
+for r in results:
+    print(f"{r['place']} ({r['state']})  --> score: {r['score']}")
 
-recommendations = group_recommend(group_users, places)
 
-for r in recommendations:
-    print(r)

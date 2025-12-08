@@ -1,0 +1,14 @@
+def group_recommend(group_users,places):
+    results=[]
+
+    for place in places:
+        total_score=0
+        for user in group_users:
+            total_score+=check_score(user,place["tags"])
+
+            results.append({
+            "place": place["name"],
+            "score": total_score
+        })
+    results.sort(key=lambda x: x["score"], reverse=True)
+    return results[:3]

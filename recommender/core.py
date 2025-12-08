@@ -1,39 +1,48 @@
-import pandas as pd
-import numpy as np
-# import sklearn
-# from sklearn.preprocessing import OneHotEncoder
-
-df=pd.read_csv('/home/electron/Documents/GitHub/TripSync_Ai/data/indian_travel_destinations_enhanced.csv')
-popularity_map = {'Offbeat': 1, 'Medium': 2, 'High': 3}
-df['popularity_rank'] = df['popularity'].map(popularity_map).astype('Int64')
-
-def split_column(col):
-    return col.str.lower().str.split(",")
-
-df["tags"] = split_column(df["tags"])
-df["season"] = split_column(df["season"])
-df["best_for"] = split_column(df["best_for"])
+import json
 
 
-def check_score(user_intrest,place_tags):
-    score=0
-    for i in user_intrest:
-        if i in place_tags:
-            score+=1
-    return score
+
+def load_dataset(path="data/dataset.json"):
+    """Loads dataset.json which contains a list of place dictionaries."""
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)   # MUST be a JSON array
+
+popularity_map = {
+    "Offbeat": 1,
+    "Medium": 2,
+    "High": 3
+}
 
 
-def group_recommend(group_users,places):
-    results=[]
+# ---------------------- GROUP RECOMMENDER ----------------------
 
+def group_recommend(group_users, places, top_n=10):
+    """
+    group_users: list of lists e.g. [["beach","food"], ["mountains"]]
+    places: list of dicts with "place" and "tags" fields
+    returns: top_n places sorted by score
+    """
+    user_sets = [set(u) for u in group_users]
+
+    results = []
     for place in places:
-        total_score=0
-        for user in group_users:
-            total_score+=check_score(user,place["tags"])
+        place_tags = set(place.get("tags", []))
 
-            results.append({
-            "place": place["name"],
-            "score": total_score
+        # tag match score
+        tag_score = sum(len(u & place_tags) for u in user_sets)
+
+        # popularity boost
+        pop_score = popularity_map.get(place.get("popularity", "Offbeat"), 1)
+
+        final_score = tag_score + pop_score
+
+        results.append({
+            "place": place["place"],
+            "state": place["state"],
+            "score": final_score
         })
+
+    # sort by score DESC
     results.sort(key=lambda x: x["score"], reverse=True)
-    return results[:3]
+    return results[:top_n]
+
