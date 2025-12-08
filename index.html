@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripSync AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- ************ 1. LANDING PAGE ************ -->
+<div class="screen active" id="landing">
+  <h1 class="title">TripSync AI</h1>
+  <p class="subtitle">Plan trips your entire group will love</p>
+
+  <button class="btn" onclick="go('role')">Create Trip</button>
+  <button class="btn" style="background:#222" onclick="go('role')">Join Trip</button>
+</div>
+
+<!-- ************ 2. TRAVEL ROLE SELECTION ************ -->
+<div class="screen" id="role">
+  <h2 class="title">Who are you travelling as?</h2>
+
+  <div class="card" onclick="selectRole(this)">🧍 Solo</div>
+  <div class="card" onclick="selectRole(this)">🧑‍🤝‍🧑 Friends</div>
+  <div class="card" onclick="selectRole(this)">❤ Couples</div>
+  <div class="card" onclick="selectRole(this)">👨‍👩‍👧 Family</div>
+
+  <button class="btn" onclick="go('interests')" id="roleContinue" disabled>
+    Continue
+  </button>
+</div>
+
+<!-- ************ 3. INTEREST TAG SELECTION ************ -->
+<div class="screen" id="interests">
+  <h2 class="title">Pick what you love</h2>
+  <p class="subtitle">Choose multiple interests</p>
+
+  <div id="chipContainer"></div>
+
+  <button class="btn" id="interestContinue" disabled onclick="go('budget')">
+    Continue
+  </button>
+</div>
+
+<!-- ************ 4. BUDGET ************ -->
+<div class="screen" id="budget">
+  <h2 class="title">Select Budget</h2>
+
+  <div class="card" onclick="selectBudget(this)">₹ Low</div>
+  <div class="card" onclick="selectBudget(this)">₹₹ Medium</div>
+  <div class="card" onclick="selectBudget(this)">₹₹₹ High</div>
+
+  <button class="btn" id="budgetContinue" disabled onclick="go('group')">
+    Continue
+  </button>
+</div>
+
+<!-- ************ 5. ADD FRIENDS / LOBBY ************ -->
+<div class="screen" id="group">
+  <h2 class="title">Add your travel crew</h2>
+  <p class="subtitle">Share this join code:</p>
+
+  <div class="card" style="font-size:1.4rem;text-align:center;" id="joinCode"></div>
+
+  <p style="margin-top:20px;opacity:0.7;">Members:</p>
+  <div class="card">🧑 You</div>
+
+  <button class="btn" onclick="startLoading()">Generate Trip</button>
+</div>
+
+<!-- ************ 6. LOADING SCREEN ************ -->
+<div class="screen" id="loading" style="text-align:center;">
+  <div class="loader"></div>
+  <p id="loadingMessage" style="margin-top:20px;opacity:0.7;">Balancing vibes...</p>
+</div>
+
+<!-- ************ 7. RESULTS (EMPTY FOR NOW) ************ -->
+<div class="screen" id="results">
+  <h2 class="title">Your Perfect Trips</h2>
+
+  <p style="opacity:0.7;margin-top:20px;">Results will be displayed here later...</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
