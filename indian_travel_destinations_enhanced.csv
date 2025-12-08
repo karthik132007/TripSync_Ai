@@ -1,0 +1,308 @@
+place,state,tags,avg_cost_per_day,trip_duration,best_for,season,climate,popularity
+Manali,Himachal Pradesh,"mountains,nature,adventure,snow",1500,5,"friends,couples,families","mar,apr,may,jun,oct,nov",Cold,High
+Shimla,Himachal Pradesh,"mountains,heritage,nature,colonial",1400,3,"families,couples,students","mar,apr,may,jun,oct,nov",Cold,Medium
+Dharamshala,Himachal Pradesh,"mountains,spiritual,nature,buddhist",1200,3,"solo,spiritual,couples","mar,apr,may,sep,oct,nov",Cold,Medium
+McLeod Ganj,Himachal Pradesh,"mountains,spiritual,budget,tibetan",1000,3,"solo,backpackers,students","mar,apr,may,sep,oct,nov",Cold,Medium
+Kasol,Himachal Pradesh,"mountains,nature,hippie,budget",800,3,"backpackers,friends,solo","mar,apr,may,jun,sep,oct",Cold,Medium
+Dalhousie,Himachal Pradesh,"mountains,nature,colonial,peaceful",1300,3,"families,couples,seniors","mar,apr,may,jun,sep,oct",Cold,Medium
+Kullu,Himachal Pradesh,"mountains,adventure,nature,rafting",1200,5,"friends,adventure,families","mar,apr,may,jun,oct,nov",Cold,Medium
+Kufri,Himachal Pradesh,"mountains,snow,adventure,winter",1500,5,"families,couples,friends","dec,jan,feb,mar",Cold,Medium
+Kasauli,Himachal Pradesh,"mountains,peaceful,nature,colonial",1600,3,"couples,families,seniors","mar,apr,may,sep,oct,nov",Cold,Medium
+Chail,Himachal Pradesh,"mountains,nature,peaceful,luxury",2000,3,"couples,families,luxury","mar,apr,may,jun,sep,oct",Cold,Medium
+Spiti Valley,Himachal Pradesh,"mountains,adventure,offbeat,buddhist",1800,5,"adventure,photographers,solo","may,jun,jul,aug,sep",Cold,Offbeat
+Bir Billing,Himachal Pradesh,"mountains,adventure,paragliding,nature",1200,5,"adventure,friends,solo","mar,apr,may,sep,oct,nov",Cold,Medium
+Khajjiar,Himachal Pradesh,"mountains,nature,peaceful,scenic",1300,3,"families,couples,nature","apr,may,jun,sep,oct",Cold,Medium
+Kinnaur,Himachal Pradesh,"mountains,offbeat,nature,apple",1500,3,"adventure,photographers,nature","apr,may,jun,sep,oct",Cold,Offbeat
+Chamba,Himachal Pradesh,"mountains,heritage,nature,temples",1100,3,"heritage,families,couples","mar,apr,may,jun,sep,oct",Cold,Medium
+Palampur,Himachal Pradesh,"mountains,tea,nature,peaceful",1300,3,"couples,families,nature","mar,apr,may,sep,oct,nov",Cold,Medium
+Kaza,Himachal Pradesh,"mountains,offbeat,adventure,monasteries",1600,5,"adventure,photographers,solo","may,jun,jul,aug,sep",Cold,Offbeat
+Jibhi,Himachal Pradesh,"mountains,offbeat,nature,budget",1000,3,"backpackers,nature,couples","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Mashobra,Himachal Pradesh,"mountains,peaceful,nature,camping",1400,3,"couples,families,camping","mar,apr,may,jun,sep,oct",Cold,Medium
+Shoghi,Himachal Pradesh,"mountains,peaceful,nature,offbeat",1200,3,"couples,families,nature","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Mussoorie,Uttarakhand,"mountains,nature,colonial,scenic",1500,3,"families,couples,honeymoon","mar,apr,may,jun,sep,oct",Cold,Medium
+Nainital,Uttarakhand,"mountains,lakes,nature,boating",1400,3,"families,couples,students","mar,apr,may,jun,sep,oct",Cold,Medium
+Rishikesh,Uttarakhand,"spiritual,adventure,yoga,rafting",1000,5,"solo,adventure,spiritual","sep,oct,nov,dec,jan,feb,mar",Moderate,Medium
+Haridwar,Uttarakhand,"spiritual,religious,heritage,ghats",800,3,"families,spiritual,pilgrims","sep,oct,nov,dec,jan,feb,mar",Moderate,Medium
+Auli,Uttarakhand,"mountains,snow,skiing,adventure",2000,5,"adventure,skiing,couples","dec,jan,feb,mar",Cold,Medium
+Lansdowne,Uttarakhand,"mountains,peaceful,nature,offbeat",1200,3,"couples,families,peaceful","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Almora,Uttarakhand,"mountains,nature,temples,culture",1100,3,"families,heritage,nature","mar,apr,may,jun,sep,oct",Cold,Medium
+Ranikhet,Uttarakhand,"mountains,peaceful,nature,army",1200,3,"couples,families,peaceful","mar,apr,may,jun,sep,oct",Cold,Medium
+Chopta,Uttarakhand,"mountains,trekking,nature,offbeat",1000,5,"trekking,adventure,nature","apr,may,jun,sep,oct",Cold,Offbeat
+Valley of Flowers,Uttarakhand,"mountains,nature,trekking,unesco",1500,5,"trekking,nature,photographers","jul,aug,sep",Cold,High
+Kausani,Uttarakhand,"mountains,nature,peaceful,scenic",1100,3,"couples,nature,peaceful","mar,apr,may,jun,sep,oct",Cold,Medium
+Binsar,Uttarakhand,"mountains,nature,wildlife,offbeat",1400,3,"nature,wildlife,couples","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Mukteshwar,Uttarakhand,"mountains,adventure,nature,offbeat",1300,5,"adventure,couples,nature","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Chakrata,Uttarakhand,"mountains,offbeat,nature,waterfalls",1200,3,"offbeat,nature,adventure","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Kanatal,Uttarakhand,"mountains,peaceful,nature,camping",1300,3,"couples,camping,nature","mar,apr,may,jun,sep,oct",Cold,Medium
+Srinagar,J&K,"mountains,lakes,houseboats,gardens",1800,3,"couples,families,honeymoon","apr,may,jun,jul,aug,sep",Cold,Medium
+Gulmarg,J&K,"mountains,snow,skiing,adventure",2500,5,"adventure,skiing,couples","dec,jan,feb,mar,apr,may",Cold,Medium
+Pahalgam,J&K,"mountains,nature,trekking,rivers",2000,5,"families,nature,trekking","apr,may,jun,jul,aug,sep",Cold,Medium
+Leh,Ladakh,"mountains,adventure,buddhist,high-altitude",2000,5,"adventure,bikers,photographers","may,jun,jul,aug,sep",Cold,Medium
+Ladakh,Ladakh,"mountains,adventure,monasteries,lakes",2200,5,"adventure,bikers,nature","may,jun,jul,aug,sep",Cold,Medium
+Sonamarg,J&K,"mountains,nature,glaciers,trekking",1800,5,"nature,trekking,photographers","may,jun,jul,aug,sep",Cold,Medium
+Nubra Valley,Ladakh,"mountains,desert,monasteries,camels",2500,6,"adventure,photographers,offbeat","jun,jul,aug,sep",Cold,Medium
+Pangong Lake,Ladakh,"mountains,lakes,scenic,photography",2000,6,"photographers,adventure,nature","may,jun,jul,aug,sep",Cold,Medium
+Kargil,J&K,"mountains,heritage,war-memorial,offbeat",1500,3,"history,adventure,bikers","may,jun,jul,aug,sep",Cold,Offbeat
+Patnitop,J&K,"mountains,nature,peaceful,skiing",1600,3,"families,couples,winter","dec,jan,feb,mar,apr,may",Cold,Medium
+Goa - North,Goa,"beach,party,nightlife,water-sports",1500,3,"friends,party,youth","oct,nov,dec,jan,feb,mar",Tropical,High
+Goa - South,Goa,"beach,peaceful,nature,scenic",1800,3,"couples,families,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Palolem Beach,Goa,"beach,peaceful,scenic,budget",1200,3,"backpackers,couples,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Arambol Beach,Goa,"beach,hippie,budget,peaceful",1000,3,"backpackers,hippie,solo","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Agonda Beach,Goa,"beach,peaceful,nature,offbeat",1400,3,"couples,peaceful,nature","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Varkala,Kerala,"beach,cliffs,spiritual,ayurveda",1300,3,"couples,wellness,spiritual","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Alleppey,Kerala,"backwaters,houseboats,nature,kerala",2000,3,"couples,families,honeymoon","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kovalam,Kerala,"beach,scenic,lighthouse,resorts",1800,3,"families,couples,luxury","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Gokarna,Karnataka,"beach,peaceful,temples,budget",900,3,"backpackers,spiritual,nature","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Pondicherry,Tamil Nadu,"beach,french,heritage,cafes",1200,3,"couples,solo,heritage","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Mamallapuram,Tamil Nadu,"beach,heritage,temples,unesco",1100,3,"families,heritage,beach","oct,nov,dec,jan,feb,mar",Tropical,High
+Visakhapatnam,Andhra Pradesh,"beach,city,hills,nature",1200,2,"families,couples,budget","oct,nov,dec,jan,feb,mar",Tropical,High
+Puri,Odisha,"beach,spiritual,temples,heritage",1000,3,"families,spiritual,pilgrims","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Diu,Maharashtra,"beach,peaceful,heritage,offbeat",1300,3,"couples,peaceful,heritage","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Daman,Maharashtra,"beach,budget,peaceful,heritage",1100,3,"families,budget,weekend","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Tarkarli,Maharashtra,"beach,water-sports,scuba,offbeat",1400,3,"adventure,water-sports,friends","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Alibaug,Maharashtra,"beach,weekend,forts,budget",1500,2,"families,friends,weekend","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Murudeshwar,Karnataka,"beach,temples,scenic,spiritual",1200,3,"families,spiritual,beach","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Karwar,Karnataka,"beach,peaceful,nature,offbeat",1100,3,"nature,peaceful,couples","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Mandvi Beach,Gujarat,"beach,offbeat,peaceful,gujarat",1000,3,"offbeat,peaceful,families","oct,nov,dec,jan,feb",Tropical,Offbeat
+Havelock Island,Andaman & Nicobar,"islands,beach,scuba,water-sports",3000,6,"couples,adventure,honeymoon","oct,nov,dec,jan,feb,mar,apr,may",Tropical,Medium
+Neil Island,Andaman & Nicobar,"islands,beach,peaceful,nature",2500,6,"couples,peaceful,nature","oct,nov,dec,jan,feb,mar,apr,may",Tropical,Medium
+Port Blair,Andaman & Nicobar,"islands,heritage,history,beach",2000,6,"families,history,beach","oct,nov,dec,jan,feb,mar,apr,may",Tropical,Medium
+Ross Island,Andaman & Nicobar,"islands,heritage,ruins,history",2200,6,"history,heritage,photographers","oct,nov,dec,jan,feb,mar,apr,may",Tropical,Medium
+Kavaratti,Lakshadweep,"islands,beach,pristine,water-sports",3500,6,"luxury,honeymoon,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Agatti Island,Lakshadweep,"islands,beach,lagoons,pristine",3500,6,"luxury,nature,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Bangaram Island,Lakshadweep,"islands,beach,pristine,luxury",4000,6,"luxury,honeymoon,diving","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Minicoy Island,Lakshadweep,"islands,beach,lighthouse,pristine",3500,6,"offbeat,nature,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Jaipur,Rajasthan,"heritage,forts,culture,shopping",1500,3,"families,heritage,photographers","oct,nov,dec,jan,feb,mar",Moderate,High
+Udaipur,Rajasthan,"heritage,lakes,palaces,romantic",1800,3,"couples,honeymoon,luxury","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Jaisalmer,Rajasthan,"desert,forts,culture,camels",1400,3,"adventure,heritage,photographers","oct,nov,dec,jan,feb",Arid,Medium
+Jodhpur,Rajasthan,"heritage,forts,blue-city,culture",1300,3,"heritage,photographers,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Pushkar,Rajasthan,"spiritual,culture,budget,camels",800,3,"backpackers,spiritual,budget","oct,nov,dec,jan,feb",Moderate,Medium
+Ajmer,Rajasthan,"spiritual,religious,heritage,pilgrimage",1000,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Bikaner,Rajasthan,"heritage,desert,forts,culture",1200,3,"heritage,offbeat,photographers","oct,nov,dec,jan,feb",Arid,Medium
+Mount Abu,Rajasthan,"mountains,temples,lakes,heritage",1400,3,"families,couples,heritage","oct,nov,dec,jan,feb,mar,apr,may",Cold,Medium
+Ranthambore,Rajasthan,"wildlife,tigers,nature,safari",2500,3,"wildlife,families,photographers","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Chittorgarh,Rajasthan,"heritage,forts,history,culture",1200,3,"heritage,history,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Bundi,Rajasthan,"heritage,offbeat,forts,step-wells",1000,3,"offbeat,heritage,photographers","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Alwar,Rajasthan,"heritage,forts,palaces,offbeat",1100,3,"heritage,weekend,families","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Shekhawati,Rajasthan,"heritage,havelis,art,offbeat",1000,3,"heritage,art,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Kumbhalgarh,Rajasthan,"heritage,forts,walls,nature",1400,3,"heritage,trekking,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Ranakpur,Rajasthan,"temples,heritage,jain,architecture",1300,3,"heritage,spiritual,peaceful","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Rann of Kutch,Gujarat,"desert,culture,festival,unique",2000,3,"photographers,culture,families","nov,dec,jan,feb",Arid,Medium
+Ahmedabad,Gujarat,"heritage,culture,food,unesco",1200,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Dwarka,Gujarat,"spiritual,temples,pilgrimage,beach",1000,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Somnath,Gujarat,"spiritual,temples,beach,heritage",1100,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Gir National Park,Gujarat,"wildlife,lions,nature,safari",2200,3,"wildlife,families,nature","dec,jan,feb,mar,apr",Moderate,Medium
+Saputara,Gujarat,"mountains,nature,tribal,peaceful",1200,3,"families,nature,peaceful","oct,nov,dec,jan,feb,mar",Cold,Medium
+Vadodara,Gujarat,"heritage,palaces,culture,museums",1300,3,"heritage,families,culture","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Statue of Unity,Gujarat,"monument,tourism,modern,scenic",1500,3,"families,tourists,patriotic","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Khajuraho,Madhya Pradesh,"heritage,temples,unesco,architecture",1200,3,"heritage,art,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Pachmarhi,Madhya Pradesh,"mountains,nature,waterfalls,caves",1100,3,"nature,families,trekking","oct,nov,dec,jan,feb,mar",Cold,Medium
+Kanha National Park,Madhya Pradesh,"wildlife,tigers,nature,safari",2300,3,"wildlife,nature,photographers","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Bandhavgarh,Madhya Pradesh,"wildlife,tigers,nature,safari",2400,3,"wildlife,photographers,nature","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Orchha,Madhya Pradesh,"heritage,temples,palaces,offbeat",1000,3,"heritage,offbeat,photographers","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Ujjain,Madhya Pradesh,"spiritual,temples,pilgrimage,culture",900,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Omkareshwar,Madhya Pradesh,"spiritual,temples,pilgrimage,river",900,3,"spiritual,pilgrims,peaceful","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Mandu,Madhya Pradesh,"heritage,ruins,architecture,offbeat",1000,3,"heritage,offbeat,photographers","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Sanchi,Madhya Pradesh,"heritage,buddhist,unesco,stupas",900,3,"heritage,spiritual,history","oct,nov,dec,jan,feb,mar",Moderate,High
+Munnar,Kerala,"mountains,tea,nature,scenic",1600,3,"couples,honeymoon,nature","sep,oct,nov,dec,jan,feb,mar,apr",Cold,Medium
+Wayanad,Kerala,"mountains,nature,wildlife,coffee",1400,3,"nature,families,adventure","oct,nov,dec,jan,feb,mar",Cold,Medium
+Thekkady,Kerala,"wildlife,nature,spices,boating",1500,3,"wildlife,families,nature","sep,oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kumarakom,Kerala,"backwaters,houseboats,birds,peaceful",2200,3,"couples,luxury,peaceful","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kochi,Kerala,"heritage,culture,food,coast",1500,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Vagamon,Kerala,"mountains,nature,peaceful,offbeat",1200,3,"offbeat,nature,couples","sep,oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Athirapally,Kerala,"waterfalls,nature,scenic,forest",1300,3,"nature,families,photographers","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Bekal,Kerala,"beach,forts,heritage,peaceful",1400,3,"couples,peaceful,heritage","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kannur,Kerala,"beach,culture,theyyam,offbeat",1200,3,"culture,offbeat,beach","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Kollam,Kerala,"backwaters,beach,lakes,peaceful",1300,3,"peaceful,nature,couples","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Coorg,Karnataka,"mountains,coffee,nature,waterfalls",1600,3,"nature,couples,families","oct,nov,dec,jan,feb,mar",Cold,Medium
+Hampi,Karnataka,"heritage,ruins,unesco,backpacker",800,3,"backpackers,heritage,photographers","oct,nov,dec,jan,feb",Moderate,High
+Mysore,Karnataka,"heritage,palaces,culture,yoga",1200,3,"heritage,families,culture","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Bangalore,Karnataka,"city,food,nightlife,gardens",1500,2,"business,friends,food","oct,nov,dec,jan,feb,mar",Subtropical,High
+Chikmagalur,Karnataka,"mountains,coffee,nature,trekking",1400,5,"nature,trekking,couples","sep,oct,nov,dec,jan,feb",Cold,Medium
+Kabini,Karnataka,"wildlife,nature,safari,luxury",3000,3,"wildlife,luxury,nature","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Dandeli,Karnataka,"adventure,rafting,wildlife,nature",1500,5,"adventure,friends,rafting","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Badami,Karnataka,"heritage,caves,temples,offbeat",1000,3,"heritage,offbeat,history","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Sakleshpur,Karnataka,"mountains,nature,trekking,coffee",1300,5,"trekking,nature,offbeat","oct,nov,dec,jan,feb,mar",Cold,Medium
+Udupi,Karnataka,"beach,temples,food,pilgrimage",1100,3,"spiritual,food,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Ooty,Tamil Nadu,"mountains,tea,nature,colonial",1500,3,"families,couples,honeymoon","mar,apr,may,jun,sep,oct,nov",Cold,Medium
+Kodaikanal,Tamil Nadu,"mountains,lakes,nature,peaceful",1400,3,"families,couples,nature","apr,may,jun,sep,oct,nov",Cold,Medium
+Chennai,Tamil Nadu,"city,beach,temples,food",1300,2,"business,heritage,food","nov,dec,jan,feb,mar",Tropical,High
+Madurai,Tamil Nadu,"temples,heritage,culture,spiritual",1000,3,"heritage,spiritual,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Rameswaram,Tamil Nadu,"spiritual,temples,beach,pilgrimage",1100,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kanyakumari,Tamil Nadu,"beach,sunrise,temples,scenic",1200,3,"families,scenic,spiritual","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Thanjavur,Tamil Nadu,"heritage,temples,unesco,art",1000,3,"heritage,art,families","oct,nov,dec,jan,feb,mar",Tropical,High
+Yercaud,Tamil Nadu,"mountains,nature,peaceful,offbeat",1200,3,"couples,peaceful,nature","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Coonoor,Tamil Nadu,"mountains,tea,nature,scenic",1400,3,"couples,nature,peaceful","mar,apr,may,jun,sep,oct,nov",Cold,Medium
+Trichy,Tamil Nadu,"heritage,temples,culture,history",1000,3,"heritage,families,spiritual","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Shillong,North East,"mountains,nature,waterfalls,music",1300,6,"nature,music,offbeat","mar,apr,may,sep,oct,nov",Cold,Medium
+Cherrapunji,North East,"mountains,waterfalls,caves,rain",1200,6,"nature,adventure,offbeat","oct,nov,dec,jan,feb,mar",Cold,Medium
+Kaziranga,North East,"wildlife,rhinos,nature,unesco",2000,6,"wildlife,nature,photographers","nov,dec,jan,feb,mar,apr",Moderate,High
+Tawang,North East,"mountains,monasteries,snow,buddhist",1800,6,"offbeat,spiritual,adventure","mar,apr,may,sep,oct",Cold,Medium
+Ziro Valley,North East,"mountains,tribal,music,offbeat",1400,6,"offbeat,culture,music","mar,apr,may,sep,oct",Cold,Offbeat
+Majuli,North East,"islands,culture,monasteries,offbeat",1000,6,"offbeat,culture,spiritual","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Gangtok,North East,"mountains,nature,monasteries,scenic",1600,6,"families,nature,adventure","mar,apr,may,sep,oct,nov",Cold,Medium
+Pelling,North East,"mountains,monasteries,scenic,trekking",1400,5,"nature,trekking,peaceful","mar,apr,may,sep,oct,nov",Cold,Medium
+Lachung,North East,"mountains,snow,nature,offbeat",2000,6,"nature,offbeat,adventure","mar,apr,may,oct,nov",Cold,Offbeat
+Dawki,North East,"rivers,crystal-clear,nature,offbeat",1200,6,"nature,photographers,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Mawlynnong,North East,"village,cleanest,nature,offbeat",1000,6,"offbeat,nature,eco-tourism","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Tezpur,North East,"heritage,nature,offbeat,temples",1100,6,"offbeat,heritage,nature","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Dimapur,North East,"heritage,culture,offbeat,ruins",1000,6,"offbeat,heritage,culture","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Kohima,North East,"war-memorial,heritage,culture,mountains",1300,6,"history,offbeat,culture","oct,nov,dec,jan,feb,mar",Cold,Medium
+Itanagar,North East,"capital,nature,tribal,offbeat",1200,6,"offbeat,nature,culture","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Mumbai,Maharashtra,"city,bollywood,food,nightlife",2000,2,"business,friends,food","oct,nov,dec,jan,feb,mar",Subtropical,High
+Lonavala,Maharashtra,"mountains,waterfalls,weekend,caves",1500,2,"families,friends,weekend","jun,jul,aug,sep,oct,nov",Cold,Medium
+Mahabaleshwar,Maharashtra,"mountains,nature,strawberries,scenic",1600,3,"families,couples,nature","oct,nov,dec,jan,feb,mar",Cold,Medium
+Matheran,Maharashtra,"mountains,toy-train,car-free,peaceful",1700,3,"families,peaceful,nature","oct,nov,dec,jan,feb,mar",Cold,Medium
+Aurangabad,Maharashtra,"heritage,caves,unesco,history",1200,3,"heritage,history,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Ajanta Ellora,Maharashtra,"heritage,caves,unesco,art",1300,3,"heritage,art,history","oct,nov,dec,jan,feb,mar",Moderate,High
+Nashik,Maharashtra,"spiritual,temples,vineyards,culture",1200,3,"spiritual,wine,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Kolhapur,Maharashtra,"heritage,temples,food,culture",1100,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Panchgani,Maharashtra,"mountains,nature,viewpoints,peaceful",1500,3,"couples,families,nature","oct,nov,dec,jan,feb,mar",Cold,Medium
+Igatpuri,Maharashtra,"mountains,waterfalls,trekking,weekend",1300,2,"trekking,weekend,adventure","jun,jul,aug,sep,oct",Cold,Medium
+Darjeeling,West Bengal,"mountains,tea,toy-train,scenic",1400,3,"families,couples,nature","mar,apr,may,sep,oct,nov",Cold,Medium
+Kalimpong,West Bengal,"mountains,nature,monasteries,peaceful",1200,3,"peaceful,nature,offbeat","mar,apr,may,sep,oct,nov",Cold,Medium
+Kolkata,West Bengal,"city,heritage,food,culture",1300,2,"heritage,food,culture","oct,nov,dec,jan,feb,mar",Subtropical,High
+Sundarbans,West Bengal,"wildlife,mangroves,tigers,nature",2000,3,"wildlife,nature,adventure","sep,oct,nov,dec,jan,feb",Moderate,Medium
+Digha,West Bengal,"beach,budget,weekend,seafood",1000,2,"families,budget,weekend","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Shantiniketan,West Bengal,"heritage,culture,university,peaceful",1100,3,"culture,peaceful,heritage","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Agra,Uttar Pradesh,"heritage,taj-mahal,unesco,mughal",1400,3,"heritage,families,tourists","oct,nov,dec,jan,feb,mar",Moderate,High
+Varanasi,Uttar Pradesh,"spiritual,ghats,temples,culture",1000,3,"spiritual,culture,photographers","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Lucknow,Uttar Pradesh,"heritage,food,nawabi,culture",1200,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Ayodhya,Uttar Pradesh,"spiritual,temples,pilgrimage,religious",900,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Mathura,Uttar Pradesh,"spiritual,temples,pilgrimage,krishna",1000,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Vrindavan,Uttar Pradesh,"spiritual,temples,pilgrimage,krishna",900,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Allahabad,Uttar Pradesh,"spiritual,sangam,pilgrimage,kumbh",1000,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Sarnath,Uttar Pradesh,"spiritual,buddhist,heritage,unesco",900,3,"spiritual,heritage,buddhist","oct,nov,dec,jan,feb,mar",Moderate,High
+Delhi,Delhi,"city,heritage,food,museums",1500,2,"business,heritage,food","oct,nov,dec,jan,feb,mar",Subtropical,High
+Agra-Delhi-Jaipur,Delhi,"heritage,golden-triangle,tourist,popular",1800,3,"tourists,heritage,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Bodhgaya,Bihar,"spiritual,buddhist,unesco,pilgrimage",900,3,"spiritual,buddhist,pilgrims","oct,nov,dec,jan,feb,mar",Moderate,High
+Nalanda,Bihar,"heritage,ruins,unesco,history",800,3,"heritage,history,education","oct,nov,dec,jan,feb,mar",Moderate,High
+Rajgir,Bihar,"spiritual,hot-springs,buddhist,nature",1000,3,"spiritual,wellness,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Puri,Odisha,"spiritual,beach,temples,pilgrimage",1100,3,"spiritual,beach,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Konark,Odisha,"heritage,temples,unesco,architecture",1000,3,"heritage,architecture,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Bhubaneswar,Odisha,"heritage,temples,culture,city",1200,2,"heritage,business,families","oct,nov,dec,jan,feb,mar",Subtropical,High
+Chilika Lake,Odisha,"nature,birds,lake,dolphins",1300,3,"nature,bird-watching,families","oct,nov,dec,jan,feb",Moderate,Medium
+Hyderabad,Telangana,"city,heritage,food,it-hub",1400,2,"business,food,heritage","oct,nov,dec,jan,feb,mar",Subtropical,High
+Tirupati,Andhra Pradesh,"spiritual,temples,pilgrimage,religious",1200,3,"spiritual,pilgrims,families","sep,oct,nov,dec,jan,feb,mar",Moderate,Medium
+Araku Valley,Andhra Pradesh,"mountains,nature,tribal,coffee",1300,3,"nature,families,offbeat","oct,nov,dec,jan,feb,mar",Cold,Medium
+Amaravati,Andhra Pradesh,"heritage,buddhist,stupas,ruins",1000,3,"heritage,buddhist,history","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Amritsar,Punjab & Haryana,"spiritual,golden-temple,heritage,food",1100,3,"spiritual,heritage,food","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Chandigarh,Punjab & Haryana,"city,modern,gardens,architecture",1500,2,"business,architecture,families","oct,nov,dec,jan,feb,mar",Subtropical,High
+Tirthan Valley,Himachal Pradesh,"mountains,nature,offbeat,trekking",1200,5,"offbeat,nature,trekking","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Barot Valley,Himachal Pradesh,"mountains,offbeat,nature,fishing",1000,3,"offbeat,nature,peaceful","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Malana,Himachal Pradesh,"mountains,offbeat,tribal,trekking",900,5,"offbeat,trekking,adventure","may,jun,jul,aug,sep",Cold,Offbeat
+Sangla Valley,Himachal Pradesh,"mountains,offbeat,nature,scenic",1400,3,"offbeat,nature,photographers","apr,may,jun,sep,oct",Cold,Offbeat
+Chitkul,Himachal Pradesh,"mountains,offbeat,last-village,scenic",1300,3,"offbeat,adventure,photographers","may,jun,jul,aug,sep",Cold,Offbeat
+Pithoragarh,Uttarakhand,"mountains,offbeat,nature,trekking",1100,5,"offbeat,trekking,nature","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Munsiyari,Uttarakhand,"mountains,offbeat,trekking,snow",1200,5,"trekking,offbeat,nature","mar,apr,may,sep,oct",Cold,Offbeat
+Chaukori,Uttarakhand,"mountains,offbeat,tea,peaceful",1100,3,"peaceful,offbeat,nature","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Pangot,Uttarakhand,"mountains,nature,bird-watching,offbeat",1200,3,"bird-watching,nature,peaceful","mar,apr,may,sep,oct,nov",Cold,Offbeat
+Abbott Mount,Uttarakhand,"mountains,offbeat,colonial,peaceful",1100,3,"offbeat,peaceful,nature","mar,apr,may,jun,sep,oct",Cold,Offbeat
+Bhandardara,Maharashtra,"mountains,lakes,waterfalls,weekend",1300,2,"weekend,nature,camping","jun,jul,aug,sep,oct",Cold,Medium
+Amboli,Maharashtra,"mountains,waterfalls,offbeat,nature",1200,3,"nature,offbeat,monsoon","jun,jul,aug,sep",Cold,Offbeat
+Chikhaldara,Maharashtra,"mountains,offbeat,nature,wildlife",1100,3,"offbeat,nature,families","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Toranmal,Maharashtra,"mountains,offbeat,tribal,nature",1000,3,"offbeat,nature,peaceful","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Khandala,Maharashtra,"mountains,waterfalls,weekend,scenic",1500,2,"weekend,families,couples","jun,jul,aug,sep,oct",Cold,Medium
+Jim Corbett,Uttarakhand,"wildlife,tigers,nature,safari",2500,3,"wildlife,families,nature","nov,dec,jan,feb,mar,apr,may",Moderate,Medium
+Pench National Park,Maharashtra,"wildlife,tigers,nature,safari",2200,3,"wildlife,nature,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Tadoba,Maharashtra,"wildlife,tigers,nature,safari",2400,3,"wildlife,photographers,nature","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Nagarhole,India,"wildlife,elephants,nature,safari",2300,3,"wildlife,nature,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Periyar,Kerala,"wildlife,nature,elephants,spices",1600,3,"wildlife,nature,families","sep,oct,nov,dec,jan,feb,mar",Tropical,Medium
+Dudhwa National Park,Uttar Pradesh,"wildlife,tigers,nature,offbeat",2000,3,"wildlife,offbeat,nature","nov,dec,jan,feb,mar",Moderate,Offbeat
+Bharatpur,Rajasthan,"wildlife,birds,unesco,nature",1500,3,"bird-watching,nature,families","oct,nov,dec,jan,feb",Moderate,High
+Sariska,Rajasthan,"wildlife,tigers,nature,safari",2000,3,"wildlife,families,weekend","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Ponmudi,Kerala,"mountains,nature,offbeat,scenic",1300,3,"offbeat,nature,couples","sep,oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Nelliampathy,Kerala,"mountains,nature,offbeat,tea",1200,3,"offbeat,nature,peaceful","sep,oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Devikulam,Kerala,"mountains,nature,tea,offbeat",1400,3,"offbeat,nature,couples","sep,oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Idukki,Kerala,"mountains,dam,nature,scenic",1300,3,"nature,families,scenic","sep,oct,nov,dec,jan,feb,mar",Cold,Medium
+Silent Valley,Kerala,"nature,rainforest,wildlife,offbeat",1500,3,"nature,offbeat,wildlife","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Yelagiri,Tamil Nadu,"mountains,nature,adventure,offbeat",1200,5,"offbeat,families,adventure","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Valparai,Tamil Nadu,"mountains,tea,wildlife,offbeat",1400,3,"offbeat,nature,wildlife","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Kolli Hills,Tamil Nadu,"mountains,offbeat,nature,trekking",1100,5,"offbeat,trekking,nature","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Agumbe,Karnataka,"mountains,rainforest,waterfalls,offbeat",1300,3,"offbeat,nature,monsoon","jun,jul,aug,sep",Cold,Offbeat
+Kudremukh,Karnataka,"mountains,trekking,nature,offbeat",1200,5,"trekking,nature,offbeat","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Bandipur,Karnataka,"wildlife,nature,safari,tigers",2200,3,"wildlife,families,nature","oct,nov,dec,jan,feb,mar",Moderate,Medium
+BR Hills,Karnataka,"mountains,wildlife,nature,offbeat",1500,3,"wildlife,offbeat,nature","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Talakona,Andhra Pradesh,"waterfalls,nature,trekking,offbeat",1100,5,"nature,trekking,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Barmer,Rajasthan,"desert,culture,offbeat,handicrafts",1100,3,"offbeat,culture,heritage","oct,nov,dec,jan,feb",Arid,Offbeat
+Osian,Rajasthan,"desert,temples,camels,offbeat",1200,3,"offbeat,heritage,desert","oct,nov,dec,jan,feb",Arid,Offbeat
+Sikar,Rajasthan,"heritage,havelis,offbeat,art",1000,3,"heritage,offbeat,art","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Mandawa,Rajasthan,"heritage,havelis,art,culture",1100,3,"heritage,art,culture","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Nawalgarh,Rajasthan,"heritage,havelis,art,offbeat",1000,3,"heritage,offbeat,art","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Champaner,Gujarat,"heritage,unesco,ruins,offbeat",1100,3,"heritage,offbeat,history","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Patan,Gujarat,"heritage,step-well,unesco,textiles",1000,3,"heritage,art,textiles","oct,nov,dec,jan,feb,mar",Moderate,High
+Dholavira,Gujarat,"heritage,ruins,harappan,unesco",1200,3,"heritage,history,offbeat","oct,nov,dec,jan,feb",Moderate,High
+Junagadh,Gujarat,"heritage,lions,temples,forts",1100,3,"heritage,wildlife,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Porbandar,Gujarat,"heritage,beach,gandhi,history",1200,3,"heritage,beach,history","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Bhopal,Madhya Pradesh,"city,lakes,heritage,culture",1200,2,"heritage,families,business","oct,nov,dec,jan,feb,mar",Subtropical,High
+Indore,Madhya Pradesh,"city,food,heritage,business",1300,2,"food,business,families","oct,nov,dec,jan,feb,mar",Subtropical,High
+Gwalior,Madhya Pradesh,"heritage,forts,palaces,music",1100,3,"heritage,families,music","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Maheshwar,Madhya Pradesh,"heritage,temples,river,textiles",1000,3,"heritage,spiritual,textiles","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Amarkantak,Madhya Pradesh,"spiritual,nature,temples,peaceful",1000,3,"spiritual,nature,peaceful","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Panna National Park,Madhya Pradesh,"wildlife,tigers,nature,safari",2100,3,"wildlife,nature,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Chitrakoot,Madhya Pradesh,"spiritual,temples,nature,waterfalls",900,3,"spiritual,nature,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Fatehpur Sikri,Uttar Pradesh,"heritage,mughal,unesco,architecture",1100,3,"heritage,architecture,families","oct,nov,dec,jan,feb,mar",Moderate,High
+Jhansi,Uttar Pradesh,"heritage,forts,history,culture",1000,3,"heritage,history,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Naimisharanya,Uttar Pradesh,"spiritual,temples,pilgrimage,peaceful",800,3,"spiritual,pilgrims,peaceful","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Vindhyachal,Uttar Pradesh,"spiritual,temples,pilgrimage,goddess",900,3,"spiritual,pilgrims,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Ganpatipule,Maharashtra,"beach,temples,peaceful,offbeat",1400,3,"peaceful,spiritual,beach","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Ratnagiri,Maharashtra,"beach,heritage,mangoes,offbeat",1300,3,"offbeat,beach,heritage","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Marari Beach,Kerala,"beach,peaceful,backwaters,offbeat",1800,3,"peaceful,couples,beach","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Cherai Beach,Kerala,"beach,backwaters,dolphins,peaceful",1400,3,"families,beach,nature","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Beypore,Kerala,"beach,heritage,shipbuilding,offbeat",1200,3,"offbeat,heritage,beach","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Kappad Beach,Kerala,"beach,heritage,historic,offbeat",1200,3,"heritage,beach,offbeat","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Kashid Beach,Maharashtra,"beach,peaceful,weekend,scenic",1500,2,"weekend,couples,beach","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Malpe Beach,Karnataka,"beach,islands,water-sports,offbeat",1300,3,"water-sports,beach,families","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Aizawl,North East,"mountains,culture,offbeat,scenic",1200,6,"offbeat,culture,nature","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Imphal,North East,"heritage,war-memorial,culture,offbeat",1300,6,"heritage,culture,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Loktak Lake,North East,"nature,floating-islands,unique,offbeat",1200,6,"nature,offbeat,photographers","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Bhalukpong,North East,"nature,adventure,rafting,offbeat",1300,5,"adventure,nature,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Bomdila,North East,"mountains,monasteries,nature,offbeat",1400,6,"offbeat,nature,spiritual","mar,apr,may,sep,oct",Cold,Offbeat
+Pasighat,North East,"nature,adventure,offbeat,tribal",1200,5,"offbeat,adventure,nature","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Mokokchung,North East,"culture,tribal,offbeat,festivals",1100,6,"offbeat,culture,festivals","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Unakoti,North East,"heritage,rock-carvings,offbeat,temples",1000,6,"heritage,offbeat,art","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Agartala,North East,"heritage,palaces,culture,offbeat",1200,6,"heritage,culture,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Namchi,North East,"mountains,statues,monasteries,scenic",1400,6,"spiritual,scenic,families","mar,apr,may,sep,oct,nov",Cold,Medium
+Ravangla,North East,"mountains,monasteries,nature,peaceful",1300,6,"peaceful,nature,spiritual","mar,apr,may,sep,oct,nov",Cold,Medium
+Yuksom,North East,"mountains,trekking,monasteries,offbeat",1200,5,"trekking,offbeat,nature","mar,apr,may,sep,oct",Cold,Offbeat
+Kozhikode,Kerala,"heritage,beach,food,history",1300,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Thrissur,Kerala,"culture,temples,festivals,heritage",1200,3,"culture,festivals,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Palakkad,Kerala,"heritage,forts,nature,offbeat",1100,3,"heritage,nature,offbeat","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Mangalore,Karnataka,"beach,temples,food,coast",1300,3,"beach,food,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Manipal,Karnataka,"city,education,beaches,youth",1200,2,"students,youth,beach","oct,nov,dec,jan,feb,mar",Subtropical,High
+Chikkaballapur,Karnataka,"mountains,trekking,offbeat,nature",1000,5,"trekking,offbeat,weekend","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Nandi Hills,Karnataka,"mountains,sunrise,cycling,weekend",1200,2,"weekend,cycling,families","sep,oct,nov,dec,jan,feb,mar",Cold,Medium
+Horsley Hills,Andhra Pradesh,"mountains,nature,peaceful,offbeat",1100,3,"peaceful,offbeat,nature","oct,nov,dec,jan,feb,mar",Cold,Offbeat
+Lepakshi,Andhra Pradesh,"heritage,temples,art,architecture",900,3,"heritage,art,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Kumbakonam,Tamil Nadu,"temples,heritage,spiritual,culture",1000,3,"spiritual,heritage,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Chidambaram,Tamil Nadu,"temples,spiritual,heritage,culture",1000,3,"spiritual,heritage,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Tirunelveli,Tamil Nadu,"temples,heritage,food,culture",1100,3,"heritage,food,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Kanchipuram,Tamil Nadu,"temples,silk,heritage,spiritual",1100,3,"spiritual,shopping,heritage","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Vellore,Tamil Nadu,"heritage,forts,temples,education",1000,3,"heritage,families,students","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Tiruvannamalai,Tamil Nadu,"spiritual,temples,trekking,pilgrimage",1000,5,"spiritual,trekking,pilgrims","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Tanjore,Tamil Nadu,"heritage,temples,art,music",1000,3,"heritage,art,families","oct,nov,dec,jan,feb,mar",Tropical,Medium
+Dindigul,Tamil Nadu,"heritage,forts,food,offbeat",900,3,"offbeat,food,heritage","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Hamirpur,Himachal Pradesh,"heritage,temples,offbeat,nature",1000,3,"offbeat,nature,heritage","mar,apr,may,jun,sep,oct",Moderate,Offbeat
+Una,Himachal Pradesh,"heritage,nature,offbeat,peaceful",1000,3,"offbeat,peaceful,nature","mar,apr,may,jun,sep,oct",Moderate,Offbeat
+Bilaspur HP,Himachal Pradesh,"heritage,lakes,nature,offbeat",1100,3,"offbeat,nature,families","mar,apr,may,jun,sep,oct",Moderate,Offbeat
+Deogarh,Rajasthan,"heritage,palaces,lakes,offbeat",1200,3,"heritage,offbeat,luxury","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Dungarpur,Rajasthan,"heritage,palaces,lakes,offbeat",1100,3,"heritage,offbeat,peaceful","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Jhalawar,Rajasthan,"heritage,forts,waterfalls,offbeat",1000,3,"heritage,offbeat,nature","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Sawai Madhopur,Rajasthan,"wildlife,forts,heritage,tigers",1800,3,"wildlife,heritage,families","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Mirik,West Bengal,"mountains,lakes,tea,peaceful",1200,3,"peaceful,nature,couples","mar,apr,may,sep,oct,nov",Cold,Medium
+Kurseong,West Bengal,"mountains,tea,toy-train,peaceful",1100,3,"peaceful,nature,offbeat","mar,apr,may,sep,oct,nov",Cold,Medium
+Sandakphu,West Bengal,"mountains,trekking,snow,adventure",1500,5,"trekking,adventure,nature","apr,may,oct,nov",Cold,Medium
+Purulia,West Bengal,"heritage,masks,culture,offbeat",900,3,"offbeat,culture,heritage","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Bishnupur WB,West Bengal,"heritage,temples,terracotta,art",1000,3,"heritage,art,offbeat","oct,nov,dec,jan,feb,mar",Moderate,Medium
+Sirpur,Chhattisgarh,"heritage,ruins,buddhist,offbeat",900,3,"heritage,offbeat,history","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Bastar,Chhattisgarh,"tribal,culture,nature,offbeat",1100,3,"offbeat,culture,nature","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Jagdalpur,Chhattisgarh,"waterfalls,tribal,nature,offbeat",1000,3,"nature,offbeat,waterfalls","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Dantewada,Chhattisgarh,"tribal,culture,temples,offbeat",900,3,"offbeat,culture,spiritual","oct,nov,dec,jan,feb,mar",Moderate,Offbeat
+Gopalpur,Odisha,"beach,peaceful,offbeat,heritage",1100,3,"peaceful,beach,offbeat","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Chandipur,Odisha,"beach,unique,offbeat,nature",1000,3,"offbeat,nature,beach","oct,nov,dec,jan,feb,mar",Tropical,Offbeat
+Bhitarkanika,Odisha,"wildlife,mangroves,crocodiles,nature",1500,3,"wildlife,nature,offbeat","oct,nov,dec,jan,feb",Moderate,Medium
+Simlipal,Odisha,"wildlife,nature,waterfalls,tigers",1600,3,"wildlife,nature,offbeat","nov,dec,jan,feb,mar",Moderate,Medium
+Dehradun,Uttarakhand,"mountains,education,nature,city",1400,2,"families,students,nature","mar,apr,may,jun,sep,oct,nov",Cold,High
+Naukuchiatal,Uttarakhand,"mountains,lakes,nature,peaceful",1200,3,"peaceful,nature,couples","mar,apr,may,jun,sep,oct",Cold,Medium
+Bhimtal,Uttarakhand,"mountains,lakes,nature,peaceful",1200,3,"families,nature,peaceful","mar,apr,may,jun,sep,oct",Cold,Medium
+Sattal,Uttarakhand,"mountains,lakes,birds,nature",1300,3,"nature,bird-watching,peaceful","mar,apr,may,jun,sep,oct",Cold,Medium
