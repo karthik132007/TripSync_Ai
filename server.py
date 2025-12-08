@@ -40,7 +40,7 @@ def create_group():
     return jsonify({"group_id": gid})
 
 
-# ------------------ JOIN GROUP ------------------
+# ---------- JOIN GROUP ----------
 @app.route("/join_group", methods=["POST"])
 def join_group():
     data = request.json
@@ -49,8 +49,28 @@ def join_group():
     if not group_id or group_id not in groups:
         return jsonify({"error": "Invalid Group ID"}), 400
 
+    user_name = data.get("user_name", "Anonymous")
+    
+    # Check if user already exists in group (prevent duplicates)
+    existing_members = groups[group_id]["members"]
+    for i, member in enumerate(existing_members):
+        if member.get("name") == user_name:
+            # User already in group, UPDATE their preferences
+            existing_members[i] = {
+                "name": user_name,
+                "type": data.get("user_type"),
+                "interests": data.get("user_interests"),
+                "budget": data.get("user_budget")
+            }
+            return jsonify({
+                "success": True,
+                "members": existing_members,
+                "updated": True
+            })
+    
+    # Add new user to group
     user = {
-        "name": data.get("user_name", "Anonymous"),
+        "name": user_name,
         "type": data.get("user_type"),
         "interests": data.get("user_interests"),
         "budget": data.get("user_budget")
@@ -60,11 +80,12 @@ def join_group():
 
     return jsonify({
         "success": True,
-        "members": groups[group_id]["members"]
+        "members": groups[group_id]["members"],
+        "already_joined": False
     })
 
 
-# ------------------ VERIFY GROUP (CHECK IF EXISTS) ------------------
+# ---------- VERIFY GROUP (CHECK IF EXISTS) ----------
 @app.route("/verify_group", methods=["POST"])
 def verify_group():
     data = request.json
@@ -89,10 +110,13 @@ def get_group_members():
     if not group_id or group_id not in groups:
         return jsonify({"error": "Invalid Group ID"}), 400
 
-    members = groups[group_id]["members"]
+    group_data = groups[group_id]
+    
+    # Return members AND the results (if they exist)
     return jsonify({
         "success": True,
-        "members": members
+        "members": group_data["members"],
+        "trip_results": group_data.get("results", []) 
     })
 
 
@@ -105,16 +129,20 @@ def generate_group_trip():
     if not group_id or group_id not in groups:
         return jsonify({"error": "Invalid Group ID"}), 400
 
+    # If results already exist, return them (Idempotency)
+    # This ensures if User B clicks generate after User A, they get the same trip.
+    if groups[group_id].get("results"):
+        return jsonify(groups[group_id]["results"])
+
     members = groups[group_id]["members"]
 
     # Combine interests (list of lists)
     group_interests = [m["interests"] for m in members]
 
-    # Pick majority budget as group's final budget
+    # Pick majority budget
     budgets = [m["budget"] for m in members]
     group_budget = max(set(budgets), key=budgets.count) if budgets else "mid"
 
-    # Traveler type became "friends" for group mode
     group_type = "friends"
 
     results = travel_recommend(
@@ -124,6 +152,9 @@ def generate_group_trip():
         places=places,
         top_n=10
     )
+
+    # SAVE the results to the group object
+    groups[group_id]["results"] = results
 
     return jsonify(results)
 

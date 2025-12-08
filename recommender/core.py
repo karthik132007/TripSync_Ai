@@ -1,16 +1,33 @@
 import pandas as pd
 import json
+import os
 
-def load_dataset(path="data/indian_travel_destinations_enhanced.csv"):
-    """Loads the CSV dataset and converts to list of dicts."""
-    df = pd.read_csv(path)
-    df['popularity_rank'] = df['popularity'].map(popularity_map).astype('Int64')
+def load_dataset(path):
+    ext = os.path.splitext(path)[1]
 
-    # Split columns
+    if ext == ".json":
+        df = pd.read_json(path)
+    elif ext == ".csv":
+        df = pd.read_csv(path)
+    else:
+        raise ValueError("Unsupported format: " + ext)
+
+    # Handle popularity
+    if "popularity" in df.columns:
+        df['popularity_rank'] = df['popularity'].map(popularity_map).astype('Int64')
+
+    # Fix list/string columns
     for col in ['tags', 'season', 'best_for']:
-        df[col] = df[col].str.lower().str.split(',')
+        if col in df.columns:
+            df[col] = df[col].apply(
+                lambda x: [str(i).lower() for i in x] if isinstance(x, list)
+                else str(x).lower().split(',') if pd.notna(x)
+                else []
+            )
 
     return df.to_dict('records')
+
+
 
 popularity_map = {
     "Offbeat": 1,

@@ -81,19 +81,6 @@
     </button>
   </div>
 
-  <!-- ************ SHARE CODE SCREEN (FOR TEAM OWNER) ************ -->
-  <div class="screen" id="sharecode">
-    <h2 class="title">Share this code with your crew</h2>
-    <p class="subtitle">Your friends can join using this code</p>
-
-    <div class="card code-card" id="displayTeamCode"></div>
-    <p class="subtitle" style="margin-top: 20px; text-align: center;">Copy & share with your friends</p>
-
-    <button class="btn primary" onclick="proceedFromShareCode()" style="margin-top: 20px;">
-      Continue to Interests
-    </button>
-  </div>
-
   <!-- ************ 3. INTEREST TAG SELECTION ************ -->
   <div class="screen" id="interests">
     <h2 class="title">Pick what you love</h2>
@@ -116,7 +103,7 @@
       <div class="card" onclick="selectBudget(this)">₹₹₹ High</div>
     </div>
 
-    <button class="btn primary" id="budgetContinue" disabled onclick="showLobby()">
+    <button class="btn primary" id="budgetContinue" disabled onclick="proceedToBudget()">
       Continue
     </button>
   </div>
