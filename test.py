@@ -1,4 +1,5 @@
-from recommender.recommender import group_recommend
+from recommender.core import group_recommend
+
 places = [
     {"name": "Goa", "tags": ["beach", "nightlife", "food"]},
     {"name": "Manali", "tags": ["mountains", "nature", "adventure"]},
