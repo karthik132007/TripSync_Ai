@@ -10,3 +10,4 @@ top_30_tags = [
     'heritage', 'spiritual', 'culture', 'peaceful', 'offbeat', 
     'romantic', 'history', 'luxury', 'food', 'nightlife'
 ]
+implemented a content-based recommendation algorithm using similarity-based scoring and group aggregation heuristics
