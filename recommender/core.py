@@ -13,9 +13,6 @@ popularity_map = {
     "High": 3
 }
 
-
-# ---------------------- GROUP RECOMMENDER ----------------------
-
 def group_recommend(group_users, places, top_n=10):
     """
     group_users: list of lists e.g. [["beach","food"], ["mountains"]]
@@ -46,3 +43,86 @@ def group_recommend(group_users, places, top_n=10):
     results.sort(key=lambda x: x["score"], reverse=True)
     return results[:top_n]
 
+
+def match_interests(user_interests, place_tags):
+    """
+    Supports:
+    - single person → ['mountains','nature']
+    - group → [['mountains','nature'], ['food','nightlife']]
+    """
+
+    place_set = set(place_tags)
+
+    # Case 1: GROUP INPUT (list of lists)
+    if user_interests and isinstance(user_interests[0], (list, tuple)):
+        scores = []
+        for person in user_interests:
+            person_set = set(person)
+            scores.append(len(person_set & place_set))
+        # normalize group: sum / group_size → fair scoring
+        return sum(scores) / max(1, len(scores))
+
+    # Case 2: SINGLE USER (list)
+    return len(set(user_interests) & place_set)
+
+
+
+def match_traveller_type(user_type, best_for_list):
+    """Return 1 if traveller type is supported, else 0."""
+    return 1 if user_type.lower() in [b.lower() for b in best_for_list] else 0
+
+
+def match_budget(user_budget, place_cost):
+    """
+    user_budget → low / mid / high
+    place_cost → avg_cost_per_day (number)
+    """
+    if place_cost is None:
+        return 0
+
+    if user_budget == "low" and place_cost <= 1500:
+        return 1
+    if user_budget == "mid" and 1500 < place_cost <= 4000:
+        return 1
+    if user_budget == "high" and place_cost > 4000:
+        return 1
+
+    return 0
+
+
+# ---------------------- FINAL COMBINED RECOMMENDER ----------------------
+
+def travel_recommend(user_type, user_interests, user_budget, places, top_n=10):
+    """
+    Now supports:
+    user_interests = ['mountains','nature']  → solo
+    user_interests = [['mountains'],['food','nightlife']] → friends group
+    """
+
+    results = []
+
+    for p in places:
+
+        # Interest score (group-aware)
+        interest_score = match_interests(user_interests, p.get("tags", [])) * 3
+
+        # Traveller type score (solo/friends/couples/family)
+        traveller_score = match_traveller_type(user_type, p.get("best_for", [])) * 2
+
+        # Budget score
+        budget_score = match_budget(user_budget, p.get("avg_cost_per_day")) * 1
+
+        # Popularity boost
+        popularity_boost = popularity_map.get(p.get("popularity", "Offbeat"), 1)
+
+        # Final score
+        total = interest_score + traveller_score + budget_score + popularity_boost
+
+        results.append({
+            "place": p["place"],
+            "state": p["state"],
+            "score": total
+        })
+
+    results.sort(key=lambda x: x["score"], reverse=True)
+    return results[:top_n]
