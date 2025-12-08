@@ -23,7 +23,7 @@ def check_score(user_intrest,place_tags):
     return score
 
 
-def group_recomend(group_users,places):
+def group_recommend(group_users,places):
     results=[]
 
     for place in places:
