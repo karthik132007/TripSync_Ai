@@ -1,11 +1,16 @@
+import pandas as pd
 import json
 
+def load_dataset(path="data/indian_travel_destinations_enhanced.csv"):
+    """Loads the CSV dataset and converts to list of dicts."""
+    df = pd.read_csv(path)
+    df['popularity_rank'] = df['popularity'].map(popularity_map).astype('Int64')
 
+    # Split columns
+    for col in ['tags', 'season', 'best_for']:
+        df[col] = df[col].str.lower().str.split(',')
 
-def load_dataset(path="data/dataset.json"):
-    """Loads dataset.json which contains a list of place dictionaries."""
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)   # MUST be a JSON array
+    return df.to_dict('records')
 
 popularity_map = {
     "Offbeat": 1,
@@ -59,8 +64,8 @@ def match_interests(user_interests, place_tags):
         for person in user_interests:
             person_set = set(person)
             scores.append(len(person_set & place_set))
-        # normalize group: sum / group_size → fair scoring
-        return sum(scores) / max(1, len(scores))
+        # Return SUM so places satisfying all users rank highest
+        return sum(scores)
 
     # Case 2: SINGLE USER (list)
     return len(set(user_interests) & place_set)

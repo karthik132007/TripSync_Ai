@@ -4,83 +4,147 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TripSync AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+<div class="bg-blobs"></div>
+<div class="shell">
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Trip planning, balanced</p>
+      <h1>TripSync AI</h1>
+      <p class="lead">Blend interests, budgets, and vibes to get group-proof trips.</p>
+      <div class="hero-actions">
+        <button class="btn primary" onclick="startCreateFlow()">Start planning</button>
+        <button class="btn ghost" onclick="startJoinFlow()">Join a trip</button>
+      </div>
+    </div>
+    <div class="hero-card">
+      <p class="pill">Live</p>
+      <h3>Group recommender</h3>
+      <p>Interests + budget + popularity blend</p>
+      <div class="mini-metrics">
+        <span>⚡ Instant</span><span>🎯 Balanced</span><span>🌐 India-wide</span>
+      </div>
+    </div>
+  </header>
 
-<!-- ************ 1. LANDING PAGE ************ -->
-<div class="screen active" id="landing">
-  <h1 class="title">TripSync AI</h1>
-  <p class="subtitle">Plan trips your entire group will love</p>
+  <!-- ************ NAME INPUT SCREEN ************ -->
+  <div class="screen" id="username">
+    <h2 class="title">What's your name?</h2>
+    <p class="subtitle">So your crew knows who you are</p>
 
-  <button class="btn" onclick="go('role')">Create Trip</button>
-  <button class="btn" style="background:#222" onclick="go('role')">Join Trip</button>
-</div>
+    <input type="text" id="userNameInput" placeholder="Enter your name" class="input-field" />
+    <p id="nameError" class="error-msg" style="display:none;"></p>
 
-<!-- ************ 2. TRAVEL ROLE SELECTION ************ -->
-<div class="screen" id="role">
-  <h2 class="title">Who are you travelling as?</h2>
+    <button class="btn primary" onclick="proceedWithName()">Continue</button>
+  </div>
 
-  <div class="card" onclick="selectRole(this)">🧍 Solo</div>
-  <div class="card" onclick="selectRole(this)">🧑‍🤝‍🧑 Friends</div>
-  <div class="card" onclick="selectRole(this)">❤ Couples</div>
-  <div class="card" onclick="selectRole(this)">👨‍👩‍👧 Family</div>
+  <!-- ************ 1. LANDING PAGE ************ -->
+  <div class="screen active" id="landing">
+    <div class="panel">
+      <h2>Choose how you travel</h2>
+      <p class="subtitle">Solo, friends, couples, family — we adapt the picks.</p>
+      <p style="margin-top: 20px; opacity: 0.7; font-size: 0.95rem;">Use the buttons above to get started →</p>
+    </div>
+  </div>
 
-  <button class="btn" onclick="go('interests')" id="roleContinue" disabled>
-    Continue
-  </button>
-</div>
+  <!-- ************ 2. TEAM CODE INPUT (JOIN FLOW) ************ -->
+  <div class="screen" id="teamcode">
+    <h2 class="title">Join your crew</h2>
+    <p class="subtitle">Enter the team code to sync with your group</p>
 
-<!-- ************ 3. INTEREST TAG SELECTION ************ -->
-<div class="screen" id="interests">
-  <h2 class="title">Pick what you love</h2>
-  <p class="subtitle">Choose multiple interests</p>
+    <input type="text" id="teamcodeInput" placeholder="e.g. TS-1234" maxlength="8" class="input-field" />
+    <p id="teamcodeError" class="error-msg" style="display:none;"></p>
 
-  <div id="chipContainer"></div>
+    <button class="btn primary" onclick="joinTeam()">Join Team</button>
+    <button class="btn ghost" onclick="go('landing')" style="margin-top:10px;">Back</button>
+  </div>
 
-  <button class="btn" id="interestContinue" disabled onclick="go('budget')">
-    Continue
-  </button>
-</div>
+  <!-- ************ 3. TRAVEL ROLE SELECTION ************ -->
+  <div class="screen" id="role">
+    <h2 class="title">Who are you travelling as?</h2>
 
-<!-- ************ 4. BUDGET ************ -->
-<div class="screen" id="budget">
-  <h2 class="title">Select Budget</h2>
+    <div class="grid">
+      <div class="card" onclick="selectRole(this)">🧍 Solo</div>
+      <div class="card" onclick="selectRole(this)">🧑‍🤝‍🧑 Friends</div>
+      <div class="card" onclick="selectRole(this)">❤ Couples</div>
+      <div class="card" onclick="selectRole(this)">👨‍👩‍👧 Family</div>
+    </div>
 
-  <div class="card" onclick="selectBudget(this)">₹ Low</div>
-  <div class="card" onclick="selectBudget(this)">₹₹ Medium</div>
-  <div class="card" onclick="selectBudget(this)">₹₹₹ High</div>
+    <button class="btn primary" onclick="proceedAfterRole()" id="roleContinue" disabled>
+      Continue
+    </button>
+  </div>
 
-  <button class="btn" id="budgetContinue" disabled onclick="go('group')">
-    Continue
-  </button>
-</div>
+  <!-- ************ SHARE CODE SCREEN (FOR TEAM OWNER) ************ -->
+  <div class="screen" id="sharecode">
+    <h2 class="title">Share this code with your crew</h2>
+    <p class="subtitle">Your friends can join using this code</p>
 
-<!-- ************ 5. ADD FRIENDS / LOBBY ************ -->
-<div class="screen" id="group">
-  <h2 class="title">Add your travel crew</h2>
-  <p class="subtitle">Share this join code:</p>
+    <div class="card code-card" id="displayTeamCode"></div>
+    <p class="subtitle" style="margin-top: 20px; text-align: center;">Copy & share with your friends</p>
 
-  <div class="card" style="font-size:1.4rem;text-align:center;" id="joinCode"></div>
+    <button class="btn primary" onclick="proceedFromShareCode()" style="margin-top: 20px;">
+      Continue to Interests
+    </button>
+  </div>
 
-  <p style="margin-top:20px;opacity:0.7;">Members:</p>
-  <div class="card">🧑 You</div>
+  <!-- ************ 3. INTEREST TAG SELECTION ************ -->
+  <div class="screen" id="interests">
+    <h2 class="title">Pick what you love</h2>
+    <p class="subtitle">Choose multiple interests</p>
 
-  <button class="btn" onclick="startLoading()">Generate Trip</button>
-</div>
+    <div id="chipContainer" class="chip-wrap"></div>
 
-<!-- ************ 6. LOADING SCREEN ************ -->
-<div class="screen" id="loading" style="text-align:center;">
-  <div class="loader"></div>
-  <p id="loadingMessage" style="margin-top:20px;opacity:0.7;">Balancing vibes...</p>
-</div>
+    <button class="btn primary" id="interestContinue" disabled onclick="go('budget')">
+      Continue
+    </button>
+  </div>
 
-<!-- ************ 7. RESULTS (EMPTY FOR NOW) ************ -->
-<div class="screen" id="results">
-  <h2 class="title">Your Perfect Trips</h2>
+  <!-- ************ 4. BUDGET ************ -->
+  <div class="screen" id="budget">
+    <h2 class="title">Select Budget</h2>
 
-  <p style="opacity:0.7;margin-top:20px;">Results will be displayed here later...</p>
+    <div class="grid budget-grid">
+      <div class="card" onclick="selectBudget(this)">₹ Low</div>
+      <div class="card" onclick="selectBudget(this)">₹₹ Medium</div>
+      <div class="card" onclick="selectBudget(this)">₹₹₹ High</div>
+    </div>
+
+    <button class="btn primary" id="budgetContinue" disabled onclick="showLobby()">
+      Continue
+    </button>
+  </div>
+
+  <!-- ************ 5. TEAM LOBBY (BEFORE GENERATE) ************ -->
+  <div class="screen" id="group">
+    <h2 class="title">Your crew</h2>
+    <p class="subtitle">Waiting for everyone to add their interests</p>
+
+    <div id="membersList" class="members-grid"></div>
+
+    <p class="subtitle" style="margin-top: 24px;">Team Code: <strong id="groupTeamCode"></strong></p>
+
+    <button class="btn primary" onclick="runRecommendationFlow()" id="generateBtn">Generate Trip</button>
+  </div>
+
+  <!-- ************ 6. LOADING SCREEN ************ -->
+  <div class="screen" id="loading" style="text-align:center;">
+    <div class="loader"></div>
+    <p id="loadingMessage" class="subtitle" style="margin-top:20px;">Balancing vibes...</p>
+  </div>
+
+  <!-- ************ 7. RESULTS (EMPTY FOR NOW) ************ -->
+  <div class="screen" id="results">
+    <h2 class="title">Your Perfect Trips</h2>
+
+    <p class="subtitle">Results will be displayed here later...</p>
+  </div>
 </div>
 
 <script src="script.js"></script>

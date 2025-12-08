@@ -1,7 +1,154 @@
+const API_BASE = "http://127.0.0.1:5000";
+let joinMode = false; // true when user joins an existing trip (skip role step)
+
 /* ---------- PAGE NAVIGATION ---------- */
 function go(screenId) {
   document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
   document.getElementById(screenId).classList.add("active");
+}
+
+function startCreateFlow() {
+  joinMode = false;
+  document.getElementById("userNameInput").value = "";
+  document.getElementById("nameError").style.display = "none";
+  go("username");
+}
+
+async function proceedAfterRole() {
+  const roleCard = document.querySelector("#role .card.selected");
+  if (!roleCard) {
+    alert("Please select a travel type");
+    return;
+  }
+  
+  const roleText = roleCard.innerText.split(" ")[1].toLowerCase();
+  
+  // Only create group for group modes (friends, couples, family)
+  if (!joinMode && roleText !== "solo") {
+    // Create group for team owner
+    try {
+      console.log("Creating group...");
+      const res = await fetch(`${API_BASE}/create_group`, { method: "GET" });
+      const data = await res.json();
+      console.log("Group created:", data);
+      localStorage.setItem("currentGroup", data.group_id);
+      localStorage.setItem("isGroupOwner", "true");
+      go("interests");
+    } catch (err) {
+      console.error("Error creating group:", err);
+      alert("Failed to create group: " + err.message);
+    }
+  } else {
+    // Solo travelers or joiners proceed directly to interests
+    console.log("Proceeding to interests (solo or join mode)");
+    go("interests");
+  }
+}
+
+function showLobby() {
+  go("group");
+  const groupId = localStorage.getItem("currentGroup");
+  const currentUserName = localStorage.getItem("currentUserName") || "Anonymous";
+  
+  // Display team code
+  document.getElementById("groupTeamCode").innerText = groupId;
+  
+  // Fetch and display members
+  fetchAndRenderMembers(groupId, currentUserName);
+}
+
+async function fetchAndRenderMembers(groupId, currentUserName) {
+  try {
+    const res = await fetch(`${API_BASE}/get_group_members`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ group_id: groupId })
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      renderMembers(data.members, currentUserName);
+    }
+  } catch (err) {
+    console.error("Failed to fetch members:", err);
+  }
+}
+
+function renderMembers(members, currentUserName) {
+  const container = document.getElementById("membersList");
+  container.innerHTML = "";
+
+  members.forEach(member => {
+    const card = document.createElement("div");
+    card.className = "member-card ready";
+    
+    const isCurrentUser = member.name === currentUserName;
+    const badge = `<span class="status-badge ready">${isCurrentUser ? "You" : "Ready"}</span>`;
+    
+    const interestSummary = (member.interests || []).slice(0, 3).join(", ") || "No interests";
+    
+    card.innerHTML = `
+      <div class="member-name">${member.name}</div>
+      <div class="member-status">${member.user_type || "Traveler"}</div>
+      <div style="font-size: 0.9rem; color: var(--muted); margin-top: 8px;">
+        ${interestSummary}
+      </div>
+      ${badge}
+    `;
+    
+    container.appendChild(card);
+  });
+}
+
+function startJoinFlow() {
+  joinMode = true;
+  document.getElementById("teamcodeInput").value = "";
+  document.getElementById("teamcodeError").style.display = "none";
+  go("username");
+}
+
+/* ---------- USERNAME CAPTURE ---------- */
+async function proceedWithName() {
+  const name = document.getElementById("userNameInput").value.trim();
+  const errorEl = document.getElementById("nameError");
+  
+  if (!name) {
+    errorEl.textContent = "Please enter your name";
+    errorEl.style.display = "block";
+    return;
+  }
+  
+  // Store name in localStorage
+  localStorage.setItem("currentUserName", name);
+  errorEl.style.display = "none";
+  
+  // Proceed based on mode
+  if (joinMode) {
+    go("teamcode");
+  } else {
+    go("role");
+  }
+}
+
+async function joinTeam() {
+  const teamcode = document.getElementById("teamcodeInput").value.trim().toUpperCase();
+  const errorEl = document.getElementById("teamcodeError");
+
+  if (!teamcode) {
+    errorEl.textContent = "Please enter a team code";
+    errorEl.style.display = "block";
+    return;
+  }
+
+  // Store the team code and proceed to lobby
+  localStorage.setItem("currentGroup", teamcode);
+  localStorage.setItem("isGroupOwner", "false");
+  errorEl.style.display = "none";
+  
+  // Show lobby screen
+  const groupId = localStorage.getItem("currentGroup");
+  document.getElementById("groupTeamCode").innerText = groupId;
+  await showLobby();
 }
 
 /* ---------- ROLE SELECTION ---------- */
@@ -13,17 +160,55 @@ function selectRole(el) {
 
 /* ---------- INTEREST TAGS ---------- */
 const tags = [
-  "Mountains","Beach","Nature","Forest","Waterfalls",
-  "Adventure","Trekking","Camping","Nightlife","Food",
-  "Road Trips","Photography","Diving","Snow","Culture"
+  "Mountains", "Beach", "Nature", "Forest", "Waterfalls",
+  "Lakes", "Desert", "River", "Islands", "Caves",
+  "Trekking", "Adventure", "Camping", "Safari", "Rafting",
+  "Skiing", "Paragliding", "Water-sports", "Bird-watching", "Boating",
+  "Heritage", "Spiritual", "Culture", "Peaceful", "Offbeat",
+  "Romantic", "History", "Luxury", "Food", "Nightlife"
 ];
+
+const tagIcons = {
+  "Mountains": "⛰️",
+  "Beach": "🏖️",
+  "Nature": "🌿",
+  "Forest": "🌲",
+  "Waterfalls": "💧",
+  "Lakes": "🏞️",
+  "Desert": "🏜️",
+  "River": "🌊",
+  "Islands": "🏝️",
+  "Caves": "🕳️",
+  "Trekking": "🥾",
+  "Adventure": "⚡",
+  "Camping": "🏕️",
+  "Safari": "🦁",
+  "Rafting": "🛶",
+  "Skiing": "🎿",
+  "Paragliding": "🪂",
+  "Water-sports": "🏄‍♂️",
+  "Bird-watching": "🦜",
+  "Boating": "⛵",
+  "Heritage": "🏛️",
+  "Spiritual": "🧘",
+  "Culture": "🎭",
+  "Peaceful": "🕊️",
+  "Offbeat": "🌀",
+  "Romantic": "❤️",
+  "History": "📜",
+  "Luxury": "💎",
+  "Food": "🍜",
+  "Nightlife": "🌃"
+};
 
 const chipContainer = document.getElementById("chipContainer");
 
 tags.forEach(tag => {
   const chip = document.createElement("div");
   chip.className = "chip";
-  chip.innerText = tag;
+  const icon = tagIcons[tag] || "•";
+  chip.dataset.tag = tag;
+  chip.innerHTML = `${icon} <span>${tag}</span>`;
   chip.onclick = () => {
     chip.classList.toggle("selected");
     const selected = document.querySelectorAll(".chip.selected").length;
@@ -63,4 +248,108 @@ function startLoading() {
   setTimeout(() => {
     go("results");
   }, 3000);
+}
+
+/* ---------- FINAL API CALL + DISPLAY RESULTS ---------- */
+
+async function generateRecommendations() {
+  const roleCard = document.querySelector("#role .card.selected");
+  const user_type = joinMode
+    ? "friends"
+    : roleCard
+      ? roleCard.innerText.split(" ")[1].toLowerCase()
+      : "solo";
+
+  const selectedChips = document.querySelectorAll(".chip.selected");
+  const user_interests = Array.from(selectedChips).map(c => (c.dataset.tag || "").toLowerCase());
+
+  const budgetCard = document.querySelector("#budget .card.selected");
+  let budgetText = budgetCard ? budgetCard.innerText.trim() : "Low";
+
+  const user_budget = budgetText.includes("Low")
+    ? "low"
+    : budgetText.includes("Medium")
+    ? "mid"
+    : "high";
+
+  const groupId = localStorage.getItem("currentGroup");
+  const currentUserName = localStorage.getItem("currentUserName") || "Anonymous";
+
+  // Add user to group before generating recommendations
+  try {
+    const joinRes = await fetch(`${API_BASE}/join_group`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        group_id: groupId,
+        user_name: currentUserName,
+        user_type: user_type,
+        user_interests: user_interests,
+        user_budget: user_budget
+      })
+    });
+
+    if (!joinRes.ok) {
+      throw new Error("Failed to join group");
+    }
+
+    // Now generate group recommendations
+    const res = await fetch(`${API_BASE}/generate_group_trip`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ group_id: groupId })
+    });
+
+    if (!res.ok) {
+      throw new Error(`API error ${res.status}`);
+    }
+
+    const data = await res.json();
+    console.log("Received results:", data);
+
+    renderResults(data);
+  } catch (err) {
+    console.error(err);
+    renderResults([], `Request failed: ${err.message}`);
+  }
+}
+
+/* ---------- RENDER RESULTS INTO HTML ---------- */
+function renderResults(results, errorMsg) {
+  const container = document.getElementById("results");
+  container.innerHTML = `<h2 class='title'>Your Perfect Trips</h2>`;
+
+  if (errorMsg) {
+    const err = document.createElement("p");
+    err.style.color = "#f88";
+    err.textContent = errorMsg;
+    container.appendChild(err);
+    return;
+  }
+
+  if (!results || results.length === 0) {
+    const empty = document.createElement("p");
+    empty.style.opacity = 0.7;
+    empty.textContent = "No results yet. Try adjusting your interests or budget.";
+    container.appendChild(empty);
+    return;
+  }
+
+  results.forEach(place => {
+    const card = document.createElement("div");
+    card.className = "card result-card";
+    card.innerHTML = `
+      <h3>${place.place}</h3>
+      <p>${place.state}</p>
+      <strong>Score: ${place.score}</strong>
+    `;
+    container.appendChild(card);
+  });
+}
+
+async function runRecommendationFlow() {
+  startLoading();          // show loading animation
+  await new Promise(r => setTimeout(r, 2000));  // wait a bit
+  await generateRecommendations();               // call backend API
+  go("results");                                  // move to results page
 }
