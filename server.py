@@ -5,12 +5,15 @@ import random
 import json
 from gemini_handler import get_place_info, get_place_description, get_full_trip_plan
 from wikipedia_images import get_first_image, get_place_images
-
+from flask import render_template
 app = Flask(
     __name__,
     static_folder=str(Path(__file__).resolve().parent / "static"),
     template_folder=str(Path(__file__).resolve().parent / "templates"),
 )
+@app.route("/", methods=["GET"])
+def home():
+    return render_template("index.html")
 
 # ------------------ LOAD DATASET ------------------
 def _dataset_path() -> str:
