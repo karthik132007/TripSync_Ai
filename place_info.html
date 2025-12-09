@@ -289,8 +289,12 @@
     }
 
     function renderPage(data) {
+      // Get the place name from the URL parameter as fallback
+      const params = new URLSearchParams(window.location.search);
+      const placeName = params.get("place") || data.place || data.trip_title || "Unknown Place";
+      
       // Header
-      document.getElementById("placeName").textContent = data.trip_title || data.place || "Unknown Place";
+      document.getElementById("placeName").textContent = data.trip_title || placeName;
       const img = document.getElementById("headerImage");
       if (data.image) {
         img.src = data.image;

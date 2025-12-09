@@ -450,10 +450,15 @@ function renderResults(results, errorMsg) {
     const duration = place.trip_duration ? `${place.trip_duration} day${place.trip_duration > 1 ? "s" : ""}` : "—";
     const climate = place.climate ? formatTag(place.climate) : "—";
     const popularity = place.popularity ? formatTag(place.popularity) : "—";
+    const imageUrl = place.image || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Crect fill='%23222' width='400' height='250'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23666' text-anchor='middle' dominant-baseline='middle'%3ENo Image%3C/text%3E%3C/svg%3E";
 
     const card = document.createElement("div");
     card.className = "card result-card";
     card.innerHTML = `
+      <div class="result-image" style="width: 100%; height: 180px; overflow: hidden; border-radius: 8px; margin-bottom: 16px; background: #1a1a1a;">
+        <img src="${imageUrl}" alt="${place.place}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect fill=%22%23333%22 width=%22400%22 height=%22250%22/%3E%3C/svg%3E'">
+      </div>
+
       <div class="result-top">
         <div>
           <h3>${place.place || "Unknown"}</h3>
@@ -482,6 +487,56 @@ function renderResults(results, errorMsg) {
   });
 
   container.appendChild(grid);
+
+  // Fetch images asynchronously for each place
+  results.forEach(place => {
+    const placeName = place.place;
+    const state = place.state || "";
+    
+    // Only fetch if image is not already present
+    if (!place.image) {
+      fetchPlaceImage(placeName, state).then(imageUrl => {
+        if (imageUrl) {
+          updateCardImage(placeName, imageUrl);
+        }
+      });
+    }
+  });
+}
+
+/* ---------- FETCH WIKIPEDIA IMAGES ASYNCHRONOUSLY ---------- */
+async function fetchPlaceImage(placeName, state = "") {
+  // Fetch a Wikipedia image for a place from the backend
+  try {
+    const params = new URLSearchParams({
+      place: placeName,
+      state: state
+    });
+    
+    const res = await fetch(`${API_BASE}/get_place_image?${params.toString()}`);
+    if (res.ok) {
+      const data = await res.json();
+      return data.image || null;
+    }
+  } catch (err) {
+    console.error(`Error fetching image for ${placeName}:`, err);
+  }
+  return null;
+}
+
+function updateCardImage(placeName, imageUrl) {
+  // Update a result card's image dynamically
+  const cards = document.querySelectorAll(".result-card");
+  cards.forEach(card => {
+    const heading = card.querySelector("h3");
+    if (heading && heading.textContent === placeName) {
+      const img = card.querySelector(".result-image img");
+      if (img && imageUrl) {
+        img.src = imageUrl;
+        img.style.opacity = "1";
+      }
+    }
+  });
 }
 
 async function runRecommendationFlow() {

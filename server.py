@@ -2,7 +2,9 @@ from pathlib import Path
 from flask import Flask, request, jsonify
 from recommender.core import load_dataset, travel_recommend
 import random
+import json
 from gemini_handler import get_place_info, get_place_description, get_full_trip_plan
+from wikipedia_images import get_first_image
 
 app = Flask(__name__)
 
@@ -11,6 +13,21 @@ def _dataset_path() -> str:
     return str(Path(__file__).resolve().parent.parent / "data" / "dataset.json")
 
 places = load_dataset("data/dataset.json")
+
+# Helper function to get place state from dataset
+def get_place_state(place_name: str) -> str:
+    """Get the state for a place from dataset"""
+    for place in places:
+        if place.get("place", "").lower() == place_name.lower():
+            return place.get("state", "")
+    return ""
+
+# Helper function to get place image from Wikipedia
+def get_place_image(place_name: str) -> str:
+    """Get the cover image for a place from Wikipedia"""
+    state = get_place_state(place_name)
+    image_url = get_first_image(place_name, state)
+    return image_url if image_url else ""
 
 # Helper function to get place duration from dataset
 def get_place_duration(place_name: str) -> int:
@@ -162,6 +179,13 @@ def generate_group_trip():
         top_n=10
     )
 
+    # Add images to results
+    for place in results:
+        place_name = place.get("place", "")
+        image_url = get_place_image(place_name)
+        if image_url:
+            place["image"] = image_url
+
     # SAVE the results to the group object
     groups[group_id]["results"] = results
 
@@ -184,6 +208,13 @@ def recommend():
         places=places,
         top_n=10
     )
+
+    # Add images to results
+    for place in results:
+        place_name = place.get("place", "")
+        image_url = get_place_image(place_name)
+        if image_url:
+            place["image"] = image_url
 
     return jsonify(results)
 
@@ -239,6 +270,29 @@ def place_info():
     except Exception as e:
         print(f"Error fetching place info: {e}")
         return jsonify({"error": f"Failed to fetch place information: {str(e)}"}), 500
+
+# ---------- GET PLACE IMAGE (ASYNC) ----------
+@app.route("/get_place_image", methods=["GET"])
+def get_place_image_endpoint():
+    """
+    Fetch a single place's cover image from Wikipedia
+    Query params: place (required), state (optional)
+    Response: {image: "https://...", error: "..."} or {image: null}
+    """
+    place_name = request.args.get("place", "").strip()
+    state = request.args.get("state", "").strip()
+    
+    if not place_name:
+        return jsonify({"error": "Place name is required", "image": None}), 400
+    
+    try:
+        # Get image from Wikipedia
+        image_url = get_place_image(place_name)
+        return jsonify({"image": image_url})
+    except Exception as e:
+        print(f"Error fetching image for {place_name}: {e}")
+        return jsonify({"image": None, "error": str(e)})
+
 
 # ------------------ HEALTH CHECK ------------------
 @app.route("/health", methods=["GET"])

@@ -1,0 +1,7 @@
+flask
+gunicorn
+pandas
+json
+os
+pathlib
+random

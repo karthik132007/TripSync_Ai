@@ -66,26 +66,26 @@ def group_recommend(group_users, places, top_n=10):
     return results[:top_n]
 
 
-def match_interests(user_interests, place_tags):
-    """
-    Supports:
-    - single person → ['mountains','nature']
-    - group → [['mountains','nature'], ['food','nightlife']]
-    """
-
+def match_interests_fair(user_interests, place_tags):
     place_set = set(place_tags)
 
-    # Case 1: GROUP INPUT (list of lists)
-    if user_interests and isinstance(user_interests[0], (list, tuple)):
-        scores = []
+    # multi-user case
+    if isinstance(user_interests[0], (list, tuple)):
+        per_user_scores = []
         for person in user_interests:
             person_set = set(person)
-            scores.append(len(person_set & place_set))
-        # Return SUM so places satisfying all users rank highest
-        return sum(scores)
+            per_user_scores.append(len(person_set & place_set))
 
-    # Case 2: SINGLE USER (list)
+        # NEW IMPROVED:
+        # Balanced score = average + bonus for satisfying multiple users
+        avg_score = sum(per_user_scores) / len(per_user_scores)
+        satisfied_users = sum(1 for s in per_user_scores if s > 0)
+
+        return avg_score + (0.5 * satisfied_users)
+
+    # single user case
     return len(set(user_interests) & place_set)
+
 
 
 
@@ -126,7 +126,7 @@ def travel_recommend(user_type, user_interests, user_budget, places, top_n=6):
     for p in places:
 
         # Interest score (group-aware)
-        interest_score = match_interests(user_interests, p.get("tags", [])) * 3
+        interest_score = match_interests_fair(user_interests, p.get("tags", [])) * 5
 
         # Traveller type score (solo/friends/couples/family)
         traveller_score = match_traveller_type(user_type, p.get("best_for", [])) * 2
@@ -135,7 +135,7 @@ def travel_recommend(user_type, user_interests, user_budget, places, top_n=6):
         budget_score = match_budget(user_budget, p.get("avg_cost_per_day")) * 1
 
         # Popularity boost
-        popularity_boost = popularity_map.get(p.get("popularity", "Offbeat"), 1)
+        popularity_boost = 0.5* popularity_map.get(p.get("popularity", "Offbeat"), 1)
 
         # Final score
         total = interest_score + traveller_score + budget_score + popularity_boost

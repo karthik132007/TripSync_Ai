@@ -339,3 +339,7 @@ def health():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+ARLI_API_KEY="5bb3d6c8-c657-40c7-9ff5-0a8d2646bf45"
+PROJECT_ID="pivotal-leaf-471506-p3"
