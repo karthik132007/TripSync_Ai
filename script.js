@@ -11,6 +11,9 @@ function startCreateFlow() {
   joinMode = false;
   document.getElementById("userNameInput").value = "";
   document.getElementById("nameError").style.display = "none";
+  // Clear any stale group state when starting fresh solo flow
+  localStorage.removeItem("currentGroup");
+  localStorage.removeItem("isGroupOwner");
   go("username");
 }
 
@@ -41,6 +44,11 @@ async function proceedAfterRole() {
   } else {
     // Solo travelers or joiners proceed directly to interests
     console.log("Proceeding to interests (solo or join mode)");
+    if (roleText === "solo") {
+      // Ensure no leftover group ID forces a group call
+      localStorage.removeItem("currentGroup");
+      localStorage.removeItem("isGroupOwner");
+    }
     go("interests");
   }
 }
@@ -310,9 +318,11 @@ function selectBudget(el) {
   document.getElementById("budgetContinue").disabled = false;
 }
 
-/* ---------- JOIN CODE ---------- */
-document.getElementById("joinCode").innerText =
-  "TS-" + Math.floor(Math.random() * 9000 + 1000);
+/* ---------- JOIN CODE (guard if element exists) ---------- */
+const joinCodeEl = document.getElementById("joinCode");
+if (joinCodeEl) {
+  joinCodeEl.innerText = "TS-" + Math.floor(Math.random() * 9000 + 1000);
+}
 
 /* ---------- LOADING -> RESULTS ---------- */
 const loadingMessages = [
@@ -339,26 +349,49 @@ function startLoading() {
 /* ---------- FINAL API CALL + DISPLAY RESULTS ---------- */
 
 async function generateRecommendations() {
-  const roleCard = document.querySelector("#role .card.selected");
-  const roleText = roleCard
-    ? roleCard.innerText.split(" ")[1].toLowerCase()
-    : "solo";
-
+  // 1. Check if we are part of a group (Host or Joiner)
+  const groupId = localStorage.getItem("currentGroup");
+  
+  // Get user preferences for the request
   const selectedChips = document.querySelectorAll(".chip.selected");
   const user_interests = Array.from(selectedChips).map(c => (c.dataset.tag || "").toLowerCase());
 
   const budgetCard = document.querySelector("#budget .card.selected");
   let budgetText = budgetCard ? budgetCard.innerText.trim() : "Low";
-  const user_budget = budgetText.includes("Low")
-    ? "low"
-    : budgetText.includes("Medium")
-    ? "mid"
-    : "high";
+  const user_budget = budgetText.includes("Low") ? "low" : budgetText.includes("Medium") ? "mid" : "high";
+  const roleCard = document.querySelector("#role .card.selected");
+  const roleText = roleCard ? roleCard.innerText.split(" ")[1].toLowerCase() : "solo";
 
   try {
-    // Solo travelers use /recommend endpoint
-    if (roleText === "solo") {
-      console.log("Generating solo recommendations...");
+    // Use group API only when a groupId exists AND either user joined a group or selected a group role.
+    const shouldUseGroup = groupId && (joinMode || roleText !== "solo");
+
+    if (shouldUseGroup) {
+      console.log("Generating group recommendations for:", groupId);
+      
+      // Ensure user is updated in group before generating
+      const currentUserName = localStorage.getItem("currentUserName") || "Anonymous";
+      
+      // We assume user_type is "friends" for mixed groups, or fallback to 'solo' if undefined
+      // But for the API call, we just need to ensure we join the group first.
+      await addCurrentUserToGroup(groupId, currentUserName);
+
+      const res = await fetch(`${API_BASE}/generate_group_trip`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ group_id: groupId })
+      });
+
+      if (!res.ok) throw new Error(`API error ${res.status}`);
+
+      const data = await res.json();
+      console.log("Received Group results:", data);
+      renderResults(data);
+
+    } else {
+      // 3. SOLO MODE (Only if no Group ID exists)
+      console.log("Generating SOLO recommendations...");
+
       const res = await fetch(`${API_BASE}/recommend`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -369,34 +402,10 @@ async function generateRecommendations() {
         })
       });
 
-      if (!res.ok) {
-        throw new Error(`API error ${res.status}`);
-      }
+      if (!res.ok) throw new Error(`API error ${res.status}`);
 
       const data = await res.json();
-      console.log("Received results:", data);
-      renderResults(data);
-    } else {
-      // Group travelers use /generate_group_trip endpoint
-      const groupId = localStorage.getItem("currentGroup");
-      console.log("Generating group recommendations for:", groupId);
-      
-      // Ensure user is updated in group before generating
-      const currentUserName = localStorage.getItem("currentUserName") || "Anonymous";
-      await addCurrentUserToGroup(groupId, currentUserName);
-
-      const res = await fetch(`${API_BASE}/generate_group_trip`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ group_id: groupId })
-      });
-
-      if (!res.ok) {
-        throw new Error(`API error ${res.status}`);
-      }
-
-      const data = await res.json();
-      console.log("Received results:", data);
+      console.log("Received Solo results:", data);
       renderResults(data);
     }
   } catch (err) {
@@ -426,16 +435,53 @@ function renderResults(results, errorMsg) {
     return;
   }
 
-  results.forEach(place => {
+  const formatTag = t => t ? t.charAt(0).toUpperCase() + t.slice(1) : "";
+  const formatList = arr => (arr || []).slice(0, 3).map(formatTag).join(", ") || "—";
+  const formatCurrency = num => typeof num === "number" ? `₹${num.toLocaleString("en-IN")}/day` : "—";
+
+  const grid = document.createElement("div");
+  grid.className = "result-grid";
+
+  results.slice(0, 6).forEach(place => {
+    const tags = (place.tags || []).slice(0, 4).map(t => `<span class="tag-chip">${formatTag(t)}</span>`).join("");
+    const bestFor = formatList(place.best_for);
+    const seasons = formatList(place.season);
+    const cost = formatCurrency(place.avg_cost_per_day);
+    const duration = place.trip_duration ? `${place.trip_duration} day${place.trip_duration > 1 ? "s" : ""}` : "—";
+    const climate = place.climate ? formatTag(place.climate) : "—";
+    const popularity = place.popularity ? formatTag(place.popularity) : "—";
+
     const card = document.createElement("div");
     card.className = "card result-card";
     card.innerHTML = `
-      <h3>${place.place}</h3>
-      <p>${place.state}</p>
-      <strong>Score: ${place.score}</strong>
+      <div class="result-top">
+        <div>
+          <h3>${place.place || "Unknown"}</h3>
+          <p class="result-sub">${place.state || ""}</p>
+        </div>
+        <div class="pill score-pill">Score: ${place.score ?? "-"}</div>
+      </div>
+
+      <div class="result-meta">
+        <div><strong>Budget</strong><span>${cost}</span></div>
+        <div><strong>Duration</strong><span>${duration}</span></div>
+        <div><strong>Climate</strong><span>${climate}</span></div>
+        <div><strong>Popularity</strong><span>${popularity}</span></div>
+      </div>
+
+      <div class="result-meta">
+        <div><strong>Best for</strong><span>${bestFor}</span></div>
+        <div><strong>Seasons</strong><span>${seasons}</span></div>
+      </div>
+
+      <div class="tag-list">${tags}</div>
+      
+      <button class="btn ghost know-more-btn" onclick="showPlaceInfo('${(place.place || '').replace(/'/g, "\\'")}')">📖 Know More</button>
     `;
-    container.appendChild(card);
+    grid.appendChild(card);
   });
+
+  container.appendChild(grid);
 }
 
 async function runRecommendationFlow() {
@@ -443,4 +489,10 @@ async function runRecommendationFlow() {
   await new Promise(r => setTimeout(r, 2000));  // wait a bit
   await generateRecommendations();               // call backend API
   go("results");                                  // move to results page
+}
+
+/* ---------- PLACE INFO (WIKIPEDIA) ---------- */
+function showPlaceInfo(placeName) {
+  const url = `place_info.html?place=${encodeURIComponent(placeName)}`;
+  window.open(url, "_blank");
 }

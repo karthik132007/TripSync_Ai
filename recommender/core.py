@@ -114,7 +114,7 @@ def match_budget(user_budget, place_cost):
 
 # ---------------------- FINAL COMBINED RECOMMENDER ----------------------
 
-def travel_recommend(user_type, user_interests, user_budget, places, top_n=10):
+def travel_recommend(user_type, user_interests, user_budget, places, top_n=6):
     """
     Now supports:
     user_interests = ['mountains','nature']  → solo
@@ -141,9 +141,16 @@ def travel_recommend(user_type, user_interests, user_budget, places, top_n=10):
         total = interest_score + traveller_score + budget_score + popularity_boost
 
         results.append({
-            "place": p["place"],
-            "state": p["state"],
-            "score": total
+            "place": p.get("place"),
+            "state": p.get("state"),
+            "score": total,
+            "tags": p.get("tags", []),
+            "avg_cost_per_day": p.get("avg_cost_per_day"),
+            "trip_duration": p.get("trip_duration"),
+            "best_for": p.get("best_for", []),
+            "season": p.get("season", []),
+            "climate": p.get("climate"),
+            "popularity": p.get("popularity")
         })
 
     results.sort(key=lambda x: x["score"], reverse=True)

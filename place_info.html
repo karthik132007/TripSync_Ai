@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Place Details - TripSync AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Specific overrides for the info page */
+    body {
+      background: #05070f; /* Fallback */
+      background: radial-gradient(circle at 50% 0%, rgba(110, 240, 193, 0.1), transparent 40%),
+                  var(--bg);
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    .info-header {
+      position: relative;
+      height: 40vh;
+      min-height: 300px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      border-bottom: 1px solid var(--stroke);
+    }
+
+    .info-header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 0%, var(--bg) 100%);
+      z-index: 1;
+    }
+
+    .header-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.6;
+      z-index: 0;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px 40px;
+    }
+
+    .place-title {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      line-height: 1;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #fff 0%, #a0c4ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-shell {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .info-section {
+      margin-bottom: 40px;
+      animation: fadeIn 0.5s ease forwards;
+      opacity: 0;
+    }
+
+    .info-section:nth-child(1) { animation-delay: 0.1s; }
+    .info-section:nth-child(2) { animation-delay: 0.2s; }
+    .info-section:nth-child(3) { animation-delay: 0.3s; }
+
+    .section-title {
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--stroke), transparent);
+    }
+
+    .description-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 24px;
+      border-radius: 16px;
+      border: 1px solid var(--stroke);
+    }
+
+    .food-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .food-card {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      padding: 16px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.2s;
+    }
+
+    .food-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+
+    .food-icon {
+      font-size: 1.5rem;
+    }
+
+    .loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+    }
+
+    .gallery-item {
+      aspect-ratio: 4/3;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--stroke);
+      cursor: pointer;
+      transition: transform 0.2s;
+      background: var(--card);
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+      border-color: var(--accent);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .back-fab {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--accent);
+      color: #000;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      box-shadow: 0 10px 30px rgba(110, 240, 193, 0.3);
+      cursor: pointer;
+      border: none;
+      z-index: 50;
+      transition: transform 0.2s;
+    }
+
+    .back-fab:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loader" class="loading-overlay">
+    <div class="loader"></div>
+    <p class="subtitle" style="margin-top: 20px;">Fetching details...</p>
+  </div>
+
+  <div id="content" style="display: none;">
+    <header class="info-header">
+      <img id="headerImage" class="header-bg" src="" alt="Place Background" />
+      <div class="header-content">
+        <div class="pill">📍 Destination Guide</div>
+        <h1 id="placeName" class="place-title"></h1>
+      </div>
+    </header>
+
+    <main class="content-shell">
+      <section class="info-section">
+        <h2 class="section-title">✨ The Vibe</h2>
+        <div id="placeDescription" class="description-text"></div>
+      </section>
+
+      <section class="info-section" id="foodSection">
+        <h2 class="section-title">🍽️ Must Try Foods</h2>
+        <div id="foodGrid" class="food-grid"></div>
+      </section>
+
+      <section class="info-section" id="cuisineSection">
+        <h2 class="section-title">🍜 Local Cuisines</h2>
+        <div id="cuisineGrid" class="chip-wrap"></div>
+      </section>
+      <section class="info-section" id="gallerySection">
+        <h2 class="section-title">📸 Photo Gallery</h2>
+        <div id="galleryGrid" class="gallery-grid"></div>
+      </section>
+    </main>
+
+    <button class="back-fab" onclick="window.close()" title="Close">✕</button>
+  </div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:5000";
+
+    async function loadPlaceInfo() {
+      const params = new URLSearchParams(window.location.search);
+      const place = params.get("place");
+
+      if (!place) {
+        alert("No place specified!");
+        window.close();
+        return;
+      }
+
+      document.title = `${place} - TripSync AI`;
+
+      try {
+        console.log(`Fetching info for: ${place}`);
+        const res = await fetch(`${API_BASE}/place_info`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ place: place })
+        });
+
+        console.log(`Response status: ${res.status}`);
+        
+        if (!res.ok) {
+          const errData = await res.json();
+          throw new Error(errData.error || "Failed to fetch data");
+        }
+
+        const data = await res.json();
+        console.log("Data received:", data);
+        renderPage(data);
+      } catch (err) {
+        console.error("Error in loadPlaceInfo:", err);
+        document.getElementById("loader").innerHTML = `
+          <p class="error-msg">Failed to load info for ${place}.</p>
+          <p style="color: #9fb0c8; font-size: 0.9rem; margin-top: 10px;">Error: ${err.message}</p>
+          <button class="btn ghost" onclick="window.close()" style="margin-top: 20px;">Close</button>
+        `;
+      }
+    }
+
+    function renderPage(data) {
+      // Header
+      document.getElementById("placeName").textContent = data.place;
+      const img = document.getElementById("headerImage");
+      if (data.image) {
+        img.src = data.image;
+      } else {
+        // Fallback gradient if no image
+        img.style.display = "none";
+        document.querySelector(".info-header").style.background = 
+          "linear-gradient(135deg, #1a3a52, #0d2842)";
+      }
+
+      // Description
+      document.getElementById("placeDescription").textContent = 
+        data.description || "No description available.";
+
+      // Foods
+      const foodGrid = document.getElementById("foodGrid");
+      if (data.famous_food && data.famous_food.length > 0 && data.famous_food[0] !== "Food data not available") {
+        data.famous_food.forEach(food => {
+          const div = document.createElement("div");
+          div.className = "food-card";
+          div.innerHTML = `<span class="food-icon">🥘</span> <span>${food.replace(/^•\s*/, '')}</span>`;
+          foodGrid.appendChild(div);
+        });
+      } else {
+        document.getElementById("foodSection").style.display = "none";
+      }
+
+      // Cuisines
+      const cuisineGrid = document.getElementById("cuisineGrid");
+      if (data.cuisines && data.cuisines.length > 0 && data.cuisines[0] !== "Cuisine data not available") {
+        data.cuisines.forEach(cuisine => {
+          const chip = document.createElement("div");
+          chip.className = "chip selected"; // Reusing existing chip style
+          chip.style.cursor = "default";
+          chip.innerHTML = `<span>${cuisine}</span>`;
+          cuisineGrid.appendChild(chip);
+        });
+      } else {
+        document.getElementById("cuisineSection").style.display = "none";
+      }
+
+      // Gallery
+      const galleryGrid = document.getElementById("galleryGrid");
+      if (data.gallery && data.gallery.length > 0) {
+        data.gallery.forEach(imgUrl => {
+          const div = document.createElement("div");
+          div.className = "gallery-item";
+          div.innerHTML = `<img src="${imgUrl}" alt="Place photo" loading="lazy" onclick="window.open('${imgUrl}', '_blank')">`;
+          galleryGrid.appendChild(div);
+        });
+      } else {
+        document.getElementById("gallerySection").style.display = "none";
+      }
+
+      // Show content
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    }
+
+    loadPlaceInfo();
+  </script>
+</body>
+</html>

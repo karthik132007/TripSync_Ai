@@ -2,6 +2,7 @@ from pathlib import Path
 from flask import Flask, request, jsonify
 from recommender.core import load_dataset, travel_recommend
 import random
+from gemini_handler import get_place_info, get_place_description
 
 app = Flask(__name__)
 
@@ -178,6 +179,37 @@ def recommend():
 
     return jsonify(results)
 
+
+# ---------- PLACE INFO (GEMINI) ----------
+@app.route("/place_info", methods=["POST", "OPTIONS"])
+def place_info():
+    if request.method == "OPTIONS":
+        return jsonify({"status": "ok"}), 200
+    
+    data = request.json
+    place_name = data.get("place")
+    
+    if not place_name:
+        return jsonify({"error": "Place name is required"}), 400
+    
+    try:
+        print(f"Fetching info for: {place_name} using Gemini API")
+        
+        # Use Gemini to fetch comprehensive place information
+        place_data = get_place_info(place_name)
+        
+        # Add place name to response
+        place_data["place"] = place_name
+        
+        # Add empty gallery for now (can be enhanced later)
+        place_data["gallery"] = []
+        
+        print(f"Successfully fetched info for {place_name}")
+        return jsonify(place_data)
+        
+    except Exception as e:
+        print(f"Error fetching place info: {e}")
+        return jsonify({"error": f"Failed to fetch place information: {str(e)}"}), 500
 
 # ------------------ HEALTH CHECK ------------------
 @app.route("/health", methods=["GET"])
