@@ -1,7 +1,5 @@
 flask
 gunicorn
 pandas
-json
-os
-pathlib
-random
+requests
+python-dotenv
