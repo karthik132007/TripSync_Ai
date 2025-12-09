@@ -27,7 +27,7 @@ def _ensure_api_key():
     return ARLI_API_KEY
 
 
-def _call_arli_api(prompt: str, temperature: float = 0.7, max_tokens: int = 2000) -> str:
+def _call_arli_api(prompt: str, temperature: float = 0.7, max_tokens: int = 2000, retries: int = 2) -> str:
     """
     Call Arli API with given prompt
     
@@ -35,57 +35,83 @@ def _call_arli_api(prompt: str, temperature: float = 0.7, max_tokens: int = 2000
         prompt: The prompt to send to Arli
         temperature: Creativity level (0-1)
         max_tokens: Maximum response length
+        retries: Number of retries on timeout
         
     Returns:
         Response text from Arli API
     """
-    try:
-        api_key = _ensure_api_key()
-        
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}"
-        }
-        
-        payload = json.dumps({
-            "model": ARLI_MODEL,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are a concise travel guide. Return short, factual answers. Keep JSON tight and valid."
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "repetition_penalty": 1.05,
-            "temperature": temperature,
-            "top_p": 0.9,
-            "top_k": 40,
-            "max_completion_tokens": max_tokens,
-            "stream": False
-        })
-        
-        response = requests.post(ARLI_API_URL, headers=headers, data=payload, timeout=60)
-        
-        if response.status_code == 200:
-            data = response.json()
-            # Handle Arli response format
-            if 'choices' in data and len(data['choices']) > 0:
-                return data['choices'][0]['message']['content']
-            else:
-                return str(data)
-        else:
-            error_msg = f"Arli API error: {response.status_code} - {response.text[:200]}"
-            print(error_msg)
-            raise Exception(error_msg)
+    last_error = None
+    
+    for attempt in range(retries + 1):
+        try:
+            api_key = _ensure_api_key()
             
-    except requests.exceptions.Timeout:
-        raise Exception("Arli API request timed out")
-    except Exception as e:
-        print(f"Error calling Arli API: {e}")
-        raise
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}"
+            }
+            
+            payload = json.dumps({
+                "model": ARLI_MODEL,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "You are a concise travel guide. Return short, factual answers. Keep JSON tight and valid."
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                "repetition_penalty": 1.05,
+                "temperature": temperature,
+                "top_p": 0.9,
+                "top_k": 40,
+                "max_completion_tokens": max_tokens,
+                "stream": False
+            })
+            
+            # Increased timeout to 120 seconds for slower API responses
+            response = requests.post(ARLI_API_URL, headers=headers, data=payload, timeout=120)
+            
+            if response.status_code == 200:
+                data = response.json()
+                # Handle Arli response format
+                if 'choices' in data and len(data['choices']) > 0:
+                    return data['choices'][0]['message']['content']
+                else:
+                    return str(data)
+            else:
+                error_msg = f"Arli API error: {response.status_code} - {response.text[:200]}"
+                print(f"Attempt {attempt + 1}/{retries + 1}: {error_msg}")
+                last_error = error_msg
+                if attempt < retries:
+                    continue
+                else:
+                    raise Exception(error_msg)
+                
+        except requests.exceptions.Timeout as e:
+            last_error = f"Arli API request timed out (attempt {attempt + 1}/{retries + 1})"
+            print(last_error)
+            if attempt < retries:
+                print(f"Retrying... ({attempt + 1}/{retries})")
+                continue
+            else:
+                raise Exception(last_error)
+        except requests.exceptions.RequestException as e:
+            last_error = f"Arli API connection error: {str(e)}"
+            print(last_error)
+            if attempt < retries:
+                print(f"Retrying... ({attempt + 1}/{retries})")
+                continue
+            else:
+                raise Exception(last_error)
+        except Exception as e:
+            print(f"Error calling Arli API: {e}")
+            raise
+    
+    # Fallback in case all retries fail
+    raise Exception(f"Arli API failed after {retries + 1} attempts: {last_error}")
 
 
 def get_place_description(place_name: str) -> str:
@@ -183,18 +209,24 @@ def get_full_trip_plan(place_name: str, duration: int = 3, role: str = "tourist"
         )
 
         response = _call_arli_api(prompt, temperature=0.6, max_tokens=1500)
-        
+
         if response:
             import re
-            
-            json_match = re.search(r'\{[\s\S]*\}', response, re.DOTALL)
+
+            # First try to extract JSON from markdown code block
+            json_match = re.search(r'```json\s*(\{[\s\S]*?\})\s*```', response, re.IGNORECASE)
+            if not json_match:
+                # Fallback to direct JSON extraction
+                json_match = re.search(r'\{[\s\S]*\}', response, re.DOTALL)
+
             if json_match:
                 try:
-                    plan = json.loads(json_match.group())
+                    json_str = json_match.group(1) if json_match.groups() else json_match.group()
+                    plan = json.loads(json_str)
                     return plan
                 except json.JSONDecodeError:
                     return {"error": "JSON parsing failed", "response_sample": response[:200]}
-        
+
         return {"error": "No response from Arli API"}
         
     except Exception as e:

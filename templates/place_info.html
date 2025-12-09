@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/static/style.css" />
   <style>
     /* Specific overrides for the info page */
     body {
@@ -199,7 +199,12 @@
 
   <div id="loader" class="loading-overlay">
     <div class="loader"></div>
-    <p class="subtitle" style="margin-top: 20px;">Fetching details...</p>
+    <p id="loadingMessage" class="subtitle" style="margin-top: 20px; color: var(--accent); font-size: 1.1rem;">
+      ✨ Creating your personalized trip plan...
+    </p>
+    <p id="loadingSubtext" class="subtitle" style="margin-top: 8px; opacity: 0.7; font-size: 0.9rem;">
+      Analyzing destination details
+    </p>
   </div>
 
   <div id="content" style="display: none;">
@@ -253,21 +258,45 @@
 
       document.title = `${place} - TripSync AI`;
 
+      // Progressive loading messages
+      const loadingMessages = [
+        { msg: "✨ Creating your personalized trip plan...", sub: "Analyzing destination details" },
+        { msg: "🎯 Matching preferences...", sub: "Finding best attractions for you" },
+        { msg: "🗓️ Building day-by-day itinerary...", sub: "Optimizing activities and timing" },
+        { msg: "💰 Calculating budget breakdown...", sub: "Planning expenses and costs" },
+        { msg: "🍽️ Finding local cuisines...", sub: "Discovering authentic food spots" }
+      ];
+
+      let messageIndex = 0;
+      const messageInterval = setInterval(() => {
+        messageIndex = (messageIndex + 1) % loadingMessages.length;
+        const msgEl = document.getElementById("loadingMessage");
+        const subEl = document.getElementById("loadingSubtext");
+        if (msgEl && subEl) {
+          msgEl.textContent = loadingMessages[messageIndex].msg;
+          subEl.textContent = loadingMessages[messageIndex].sub;
+        }
+      }, 1500);
+
       try {
         console.log(`Fetching full trip plan for: ${place}`);
         console.log(`Role: ${role}, Budget: ${budget}, Interests: ${interests}`);
         
+        const payload = { 
+          place: place,
+          user_type: role,
+          user_budget: budget,
+          user_interests: interests
+        };
+        console.log("Sending payload:", payload);
+        
         const res = await fetch(`${API_BASE}/place_info`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ 
-            place: place,
-            user_type: role,
-            user_budget: budget,
-            user_interests: interests
-          })
+          body: JSON.stringify(payload)
         });
 
+        clearInterval(messageInterval);
         console.log(`Response status: ${res.status}`);
         
         if (!res.ok) {
@@ -276,12 +305,15 @@
         }
 
         const data = await res.json();
-        console.log("Data received:", data);
+        console.log("Full response data:", JSON.stringify(data, null, 2));
+        console.log("Has daily_schedule:", !!data.daily_schedule);
+        console.log("daily_schedule is array:", Array.isArray(data.daily_schedule));
         renderPage(data);
       } catch (err) {
+        clearInterval(messageInterval);
         console.error("Error in loadPlaceInfo:", err);
         document.getElementById("loader").innerHTML = `
-          <p class="error-msg">Failed to load info for ${place}.</p>
+          <p class="error-msg" style="color: #f88; font-size: 1.1rem; margin-bottom: 12px;">❌ Failed to load trip plan</p>
           <p style="color: #9fb0c8; font-size: 0.9rem; margin-top: 10px;">Error: ${err.message}</p>
           <button class="btn ghost" onclick="window.close()" style="margin-top: 20px;">Close</button>
         `;

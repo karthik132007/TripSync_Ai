@@ -416,24 +416,38 @@ async function generateRecommendations() {
 
 /* ---------- RENDER RESULTS INTO HTML ---------- */
 function renderResults(results, errorMsg) {
-  const container = document.getElementById("results");
-  container.innerHTML = `<h2 class='title'>Your Perfect Trips</h2>`;
-
+  const container = document.getElementById("resultsContainer");
+  
   if (errorMsg) {
-    const err = document.createElement("p");
-    err.style.color = "#f88";
-    err.textContent = errorMsg;
-    container.appendChild(err);
+    container.innerHTML = `
+      <p style="color: #f88; text-align: center; padding: 40px 20px;">
+        ${errorMsg}
+      </p>
+    `;
     return;
   }
 
   if (!results || results.length === 0) {
-    const empty = document.createElement("p");
-    empty.style.opacity = 0.7;
-    empty.textContent = "No results yet. Try adjusting your interests or budget.";
-    container.appendChild(empty);
+    container.innerHTML = `
+      <p style="opacity: 0.7; text-align: center; padding: 40px 20px;">
+        No results yet. Try adjusting your interests or budget.
+      </p>
+    `;
     return;
   }
+
+  // Show image fetching message
+  container.innerHTML = `
+    <div style="text-align: center; padding: 40px 20px; animation: pulse 1.5s infinite;">
+      <div class="loader" style="margin: 0 auto 20px;"></div>
+      <p class="subtitle" style="color: var(--accent); font-size: 1.1rem; margin-bottom: 8px;">
+        🖼️ Loading destination images...
+      </p>
+      <p class="subtitle" style="opacity: 0.6; font-size: 0.9rem;">
+        Just a moment while we fetch beautiful photos
+      </p>
+    </div>
+  `;
 
   const formatTag = t => t ? t.charAt(0).toUpperCase() + t.slice(1) : "";
   const formatList = arr => (arr || []).slice(0, 3).map(formatTag).join(", ") || "—";
@@ -441,8 +455,9 @@ function renderResults(results, errorMsg) {
 
   const grid = document.createElement("div");
   grid.className = "result-grid";
+  grid.id = "resultsGrid";
 
-  results.slice(0, 6).forEach(place => {
+  results.slice(0, 6).forEach((place, index) => {
     const tags = (place.tags || []).slice(0, 4).map(t => `<span class="tag-chip">${formatTag(t)}</span>`).join("");
     const bestFor = formatList(place.best_for);
     const seasons = formatList(place.season);
@@ -450,13 +465,25 @@ function renderResults(results, errorMsg) {
     const duration = place.trip_duration ? `${place.trip_duration} day${place.trip_duration > 1 ? "s" : ""}` : "—";
     const climate = place.climate ? formatTag(place.climate) : "—";
     const popularity = place.popularity ? formatTag(place.popularity) : "—";
-    const imageUrl = place.image || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Crect fill='%23222' width='400' height='250'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23666' text-anchor='middle' dominant-baseline='middle'%3ENo Image%3C/text%3E%3C/svg%3E";
+    const imageUrl = place.image || "";
 
     const card = document.createElement("div");
     card.className = "card result-card";
+    card.setAttribute("data-place", place.place);
+    card.style.opacity = "0";
+    card.style.animation = `fadeInUp 0.5s ease forwards`;
+    card.style.animationDelay = `${index * 0.1}s`;
+    
+    // Show skeleton loader while image loads
+    const imageSrc = imageUrl || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Crect fill='%23222' width='400' height='250'/%3E%3Ctext x='50%25' y='50%25' font-size='14' fill='%23666' text-anchor='middle' dominant-baseline='middle'%3E⏳ Loading...%3C/text%3E%3C/svg%3E";
+    
     card.innerHTML = `
-      <div class="result-image" style="width: 100%; height: 180px; overflow: hidden; border-radius: 8px; margin-bottom: 16px; background: #1a1a1a;">
-        <img src="${imageUrl}" alt="${place.place}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect fill=%22%23333%22 width=%22400%22 height=%22250%22/%3E%3C/svg%3E'">
+      <div class="result-image" style="width: 100%; height: 180px; overflow: hidden; border-radius: 8px; margin-bottom: 16px; background: #1a1a1a; position: relative;">
+        <img class="result-img" src="${imageSrc}" alt="${place.place}" 
+             style="width: 100%; height: 100%; object-fit: cover; opacity: ${imageUrl ? '0.8' : '0.5'};" 
+             data-place="${place.place}"
+             data-state="${place.state || ''}"
+             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect fill=%22%23333%22 width=%22400%22 height=%22250%22/%3E%3C/svg%3E'; this.classList.add('loaded');">
       </div>
 
       <div class="result-top">
@@ -481,27 +508,117 @@ function renderResults(results, errorMsg) {
 
       <div class="tag-list">${tags}</div>
       
-      <button class="btn ghost know-more-btn" onclick="showPlaceInfo('${(place.place || '').replace(/'/g, "\\'")}')">📖 Know More</button>
+      <button class="btn ghost know-more-btn" onclick="showPlaceInfo('${(place.place || '').replace(/'/g, "\\'")}')">🗺️ Get Plan</button>
     `;
     grid.appendChild(card);
   });
 
-  container.appendChild(grid);
+  // Clear loading message and show results after a brief delay
+  setTimeout(() => {
+    container.innerHTML = "";
+    container.appendChild(grid);
 
-  // Fetch images asynchronously for each place
-  results.forEach(place => {
-    const placeName = place.place;
-    const state = place.state || "";
-    
-    // Only fetch if image is not already present
-    if (!place.image) {
-      fetchPlaceImage(placeName, state).then(imageUrl => {
-        if (imageUrl) {
-          updateCardImage(placeName, imageUrl);
-        }
-      });
+    // Show progress indicator while images load
+    const progressDiv = document.createElement("div");
+    progressDiv.id = "imageProgress";
+    progressDiv.style.cssText = "text-align: center; padding: 20px; color: var(--accent); font-size: 0.9rem; opacity: 0.8;";
+    progressDiv.innerHTML = "📸 Loading images...";
+    container.appendChild(progressDiv);
+
+    // Fetch images asynchronously for each place that doesn't have one
+    let imagesLoaded = 0;
+    const imagesToLoad = results.filter(p => !p.image);
+    const totalImages = imagesToLoad.length;
+
+    if (totalImages === 0) {
+      // All images already present, remove progress
+      setTimeout(() => {
+        const prog = document.getElementById("imageProgress");
+        if (prog) prog.remove();
+      }, 500);
+      return;
     }
-  });
+
+    results.forEach(place => {
+      const placeName = place.place;
+      const state = place.state || "";
+      
+      // Only fetch if image is not already present
+      if (!place.image) {
+        fetchPlaceImage(placeName, state).then(imageUrl => {
+          if (imageUrl) {
+            updateCardImage(placeName, imageUrl);
+          }
+          imagesLoaded++;
+          
+          // Update progress
+          const prog = document.getElementById("imageProgress");
+          if (prog && totalImages > 0) {
+            const percentage = Math.round((imagesLoaded / totalImages) * 100);
+            prog.innerHTML = `📸 Loading images... ${imagesLoaded}/${totalImages} (${percentage}%)`;
+            
+            // Remove progress indicator when all done
+            if (imagesLoaded === totalImages) {
+              setTimeout(() => {
+                prog.style.transition = "opacity 0.5s";
+                prog.style.opacity = "0";
+                setTimeout(() => prog.remove(), 500);
+              }, 500);
+            }
+          }
+        }).catch(err => {
+          console.error(`Failed to fetch image for ${placeName}:`, err);
+          imagesLoaded++;
+          
+          // Update progress even on error
+          const prog = document.getElementById("imageProgress");
+          if (prog && totalImages > 0) {
+            const percentage = Math.round((imagesLoaded / totalImages) * 100);
+            prog.innerHTML = `📸 Loading images... ${imagesLoaded}/${totalImages} (${percentage}%)`;
+            
+            if (imagesLoaded === totalImages) {
+              setTimeout(() => {
+                prog.style.transition = "opacity 0.5s";
+                prog.style.opacity = "0";
+                setTimeout(() => prog.remove(), 500);
+              }, 500);
+            }
+          }
+        });
+      }
+    });
+  }, 600);
+}
+
+/* ---------- SHOW LOADING SKELETONS ---------- */
+function showLoadingSkeletons(count) {
+  const container = document.getElementById("resultsContainer");
+  const grid = document.createElement("div");
+  grid.className = "result-grid";
+  grid.id = "skeletonLoader";
+
+  for (let i = 0; i < Math.min(count, 6); i++) {
+    const skeleton = document.createElement("div");
+    skeleton.className = "card result-card skeleton-card";
+    skeleton.style.opacity = "0";
+    skeleton.style.animation = `fadeInUp 0.5s ease forwards`;
+    skeleton.style.animationDelay = `${i * 0.1}s`;
+    
+    skeleton.innerHTML = `
+      <div class="skeleton skeleton-image"></div>
+      <div class="skeleton skeleton-title"></div>
+      <div class="skeleton skeleton-subtitle"></div>
+      <div style="margin: 12px 0;">
+        <div class="skeleton skeleton-meta" style="width: 100%; margin-bottom: 6px;"></div>
+        <div class="skeleton skeleton-meta" style="width: 95%; margin-bottom: 6px;"></div>
+        <div class="skeleton skeleton-meta" style="width: 90%;"></div>
+      </div>
+    `;
+    grid.appendChild(skeleton);
+  }
+
+  container.innerHTML = "";
+  container.appendChild(grid);
 }
 
 /* ---------- FETCH WIKIPEDIA IMAGES ASYNCHRONOUSLY ---------- */
@@ -525,25 +642,56 @@ async function fetchPlaceImage(placeName, state = "") {
 }
 
 function updateCardImage(placeName, imageUrl) {
-  // Update a result card's image dynamically
+  // Update a result card's image dynamically with smooth fade-in
   const cards = document.querySelectorAll(".result-card");
   cards.forEach(card => {
     const heading = card.querySelector("h3");
     if (heading && heading.textContent === placeName) {
       const img = card.querySelector(".result-image img");
       if (img && imageUrl) {
+        // Add loading class to trigger fade-in animation
+        img.classList.add("loading");
         img.src = imageUrl;
-        img.style.opacity = "1";
+        
+        // When image loads, mark as loaded and fade in
+        img.onload = function() {
+          this.classList.remove("loading");
+          this.classList.add("loaded");
+          this.style.opacity = "1";
+        };
+        
+        // Fallback for slow connections - ensure it looks good
+        setTimeout(() => {
+          if (img.style.opacity !== "1") {
+            img.classList.add("loaded");
+            img.style.opacity = "1";
+          }
+        }, 1000);
       }
     }
   });
 }
 
 async function runRecommendationFlow() {
-  startLoading();          // show loading animation
-  await new Promise(r => setTimeout(r, 2000));  // wait a bit
-  await generateRecommendations();               // call backend API
-  go("results");                                  // move to results page
+  // Go to results page FIRST to show loading
+  go("results");
+  
+  // Show immediate loading state
+  const container = document.getElementById("resultsContainer");
+  container.innerHTML = `
+    <div style="text-align: center; padding: 60px 20px; animation: pulse 1.5s infinite;">
+      <div class="loader" style="margin: 0 auto 20px;"></div>
+      <p class="subtitle" style="color: var(--accent); font-size: 1.1rem; margin-bottom: 8px;">
+        🎯 Finding your perfect destinations...
+      </p>
+      <p class="subtitle" style="opacity: 0.6; font-size: 0.9rem;">
+        Analyzing preferences and calculating matches
+      </p>
+    </div>
+  `;
+  
+  // Then fetch recommendations
+  await generateRecommendations();
 }
 
 /* ---------- PLACE INFO (WIKIPEDIA) ---------- */
@@ -567,6 +715,6 @@ function showPlaceInfo(placeName) {
     interests: interests.join(",")
   });
   
-  const url = `place_info.html?${params.toString()}`;
+  const url = `/templates/place_info.html?${params.toString()}`;
   window.open(url, "_blank");
 }

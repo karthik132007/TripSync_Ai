@@ -4,15 +4,21 @@ from recommender.core import load_dataset, travel_recommend
 import random
 import json
 from gemini_handler import get_place_info, get_place_description, get_full_trip_plan
-from wikipedia_images import get_first_image
+from wikipedia_images import get_first_image, get_place_images
 
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    static_folder=str(Path(__file__).resolve().parent / "static"),
+    template_folder=str(Path(__file__).resolve().parent / "templates"),
+)
 
 # ------------------ LOAD DATASET ------------------
 def _dataset_path() -> str:
-    return str(Path(__file__).resolve().parent.parent / "data" / "dataset.json")
+    """Absolute path to dataset.json in the data/ folder."""
+    return str(Path(__file__).resolve().parent / "data" / "dataset.json")
 
-places = load_dataset("data/dataset.json")
+
+places = load_dataset(_dataset_path())
 
 # Helper function to get place state from dataset
 def get_place_state(place_name: str) -> str:
@@ -243,7 +249,7 @@ def place_info():
         if user_type and user_budget:
             duration = data.get("duration") or get_place_duration(place_name)
             interests_list = user_interests if isinstance(user_interests, list) else []
-            
+
             print(f"Generating full trip plan for: {place_name} ({duration} days) for {user_type} with {user_budget} budget")
             trip_plan = get_full_trip_plan(
                 place_name=place_name,
@@ -252,17 +258,31 @@ def place_info():
                 budget=user_budget,
                 interests=interests_list
             )
-            return jsonify(trip_plan)
-        
-        # Otherwise, return basic place information
+            # Check if trip plan was successfully generated (has daily_schedule and no error)
+            if trip_plan.get("daily_schedule") and not trip_plan.get("error"):
+                print(f"Successfully generated trip plan for {place_name}")
+                return jsonify(trip_plan)
+            
+            # If trip plan has error, log and fall back
+            if trip_plan.get("error"):
+                print(f"Trip plan error for {place_name}: {trip_plan.get('error')}")
+            else:
+                print(f"Trip plan missing daily_schedule for {place_name}")
+
+        # Otherwise, or as fallback, return basic place information
+        print(f"Falling back to basic place info for {place_name}")
+
+        # Otherwise, or as fallback, return basic place information
         place_data = get_place_info(place_name)
-        
+
         # Add place name and duration to response
         place_data["place"] = place_name
         place_data["recommended_duration"] = get_place_duration(place_name)
-        
-        # Add empty gallery for now (can be enhanced later)
-        place_data["gallery"] = []
+
+        # Add image and gallery
+        state = get_place_state(place_name)
+        place_data["image"] = get_first_image(place_name, state) or ""
+        place_data["gallery"] = get_place_images(place_name, state, limit=5)
         
         print(f"Successfully fetched info for {place_name}")
         return jsonify(place_data)
@@ -301,4 +321,5 @@ def health():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
+
