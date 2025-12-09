@@ -1,6 +1,6 @@
 """
-Gemini AI Handler for TripSync
-Handles place descriptions, trip details, and travel recommendations using Google Gemini API
+Arli AI Handler for TripSync
+Handles place descriptions, trip details, and travel recommendations using Arli API
 """
 
 # Load environment variables from .env file
@@ -10,32 +10,87 @@ try:
 except ImportError:
     pass
 
-import google.generativeai as genai
+import requests
 import os
+import json
 from typing import Dict, List, Optional
 
-# Lazy model init so server can start even if key is missing; functions will error clearly when called
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-_model = None
+# Arli API Configuration
+ARLI_API_KEY = os.getenv("ARLI_API_KEY", "5bb3d6c8-c657-40c7-9ff5-0a8d2646bf45")
+ARLI_API_URL = "https://api.arliai.com/v1/chat/completions"
+ARLI_MODEL = "Gemma-3-27B-it"
+
+def _ensure_api_key():
+    """Check if API key is set."""
+    if not ARLI_API_KEY:
+        raise RuntimeError("ARLI_API_KEY not set. Export it or add to .env before calling Arli functions.")
+    return ARLI_API_KEY
 
 
-def _ensure_model():
-    """Initialize and memoize the Gemini model."""
-    global _model
-    if _model is not None:
-        return _model
-
-    if not GEMINI_API_KEY:
-        raise RuntimeError("GEMINI_API_KEY not set. Export it or add to .env before calling Gemini functions.")
-
-    genai.configure(api_key=GEMINI_API_KEY)
-    _model = genai.GenerativeModel('gemini-2.5-flash')
-    return _model
+def _call_arli_api(prompt: str, temperature: float = 0.7, max_tokens: int = 2000) -> str:
+    """
+    Call Arli API with given prompt
+    
+    Args:
+        prompt: The prompt to send to Arli
+        temperature: Creativity level (0-1)
+        max_tokens: Maximum response length
+        
+    Returns:
+        Response text from Arli API
+    """
+    try:
+        api_key = _ensure_api_key()
+        
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}"
+        }
+        
+        payload = json.dumps({
+            "model": ARLI_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a concise travel guide. Return short, factual answers. Keep JSON tight and valid."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "repetition_penalty": 1.05,
+            "temperature": temperature,
+            "top_p": 0.9,
+            "top_k": 40,
+            "max_completion_tokens": max_tokens,
+            "stream": False
+        })
+        
+        response = requests.post(ARLI_API_URL, headers=headers, data=payload, timeout=60)
+        
+        if response.status_code == 200:
+            data = response.json()
+            # Handle Arli response format
+            if 'choices' in data and len(data['choices']) > 0:
+                return data['choices'][0]['message']['content']
+            else:
+                return str(data)
+        else:
+            error_msg = f"Arli API error: {response.status_code} - {response.text[:200]}"
+            print(error_msg)
+            raise Exception(error_msg)
+            
+    except requests.exceptions.Timeout:
+        raise Exception("Arli API request timed out")
+    except Exception as e:
+        print(f"Error calling Arli API: {e}")
+        raise
 
 
 def get_place_description(place_name: str) -> str:
     """
-    Get a concise description of a place using Gemini
+    Get a concise description of a place using Arli
     
     Args:
         place_name: Name of the place
@@ -47,9 +102,9 @@ def get_place_description(place_name: str) -> str:
         prompt = f"""Provide a concise 2-3 sentence description of {place_name} as a tourist destination. 
         Focus on its main attractions and why travelers should visit. Keep it engaging and informative."""
         
-        model = _ensure_model()
-        response = model.generate_content(prompt)
-        return response.text if response.text else "Description not available"
+        response = _call_arli_api(prompt, max_tokens=500)
+        return response if response else "Description not available"
+        
     except Exception as e:
         print(f"Error generating description for {place_name}: {e}")
         return "Description not available"
@@ -78,16 +133,13 @@ def get_place_info(place_name: str) -> Dict:
         
         Make sure the response is valid JSON. Focus on authentic local foods, traditional cuisines, and unique activities."""
         
-        model = _ensure_model()
-        response = model.generate_content(prompt)
+        response = _call_arli_api(prompt, max_tokens=1500)
         
-        # Parse the response
-        if response.text:
-            import json
+        if response:
             import re
             
             # Extract JSON from response
-            json_match = re.search(r'\{[\s\S]*\}', response.text)
+            json_match = re.search(r'\{[\s\S]*\}', response)
             if json_match:
                 try:
                     return json.loads(json_match.group())
@@ -99,6 +151,55 @@ def get_place_info(place_name: str) -> Dict:
     except Exception as e:
         print(f"Error fetching place info for {place_name}: {e}")
         return _create_fallback_response(place_name)
+
+
+def get_full_trip_plan(place_name: str, duration: int = 3, role: str = "tourist", 
+                       budget: str = "medium", interests: List[str] = None) -> Dict:
+    """
+    Generate a comprehensive trip plan and full guide for a place
+    
+    Args:
+        place_name: Name of the destination
+        duration: Number of days for the trip
+        role: User type (tourist/adventure_seeker/foodie/cultural_enthusiast/family/solo_traveler/couple)
+        budget: Budget level (low/medium/high)
+        interests: List of user interests
+        
+    Returns:
+        Dictionary with complete trip plan, itinerary, budget, and detailed guide
+    """
+    try:
+        interests_str = ", ".join(interests) if interests else "sightseeing"
+        
+        prompt = (
+            f"Create a {duration}-day plan for {place_name} for a {role} on a {budget} budget. "
+            f"Interests: {interests_str}. Return only valid JSON with these keys: "
+            f"trip_title (string), role (string), budget (string), duration (string), "
+            f"daily_schedule (array of objects with day, morning, afternoon, evening, cost), "
+            f"budget_breakdown (object with accommodation, food, activities, transport, total_per_day, trip_total), "
+            f"must_see (array of 3-5 places), food_to_try (array of 3-5 dishes), "
+            f"getting_around (string), best_season (string), packing (array of 3-5 items), tips (array of 3-5 strings). "
+            f"Keep all values concise."
+        )
+
+        response = _call_arli_api(prompt, temperature=0.6, max_tokens=1500)
+        
+        if response:
+            import re
+            
+            json_match = re.search(r'\{[\s\S]*\}', response, re.DOTALL)
+            if json_match:
+                try:
+                    plan = json.loads(json_match.group())
+                    return plan
+                except json.JSONDecodeError:
+                    return {"error": "JSON parsing failed", "response_sample": response[:200]}
+        
+        return {"error": "No response from Arli API"}
+        
+    except Exception as e:
+        print(f"Error generating trip plan: {e}")
+        return {"error": str(e)}
 
 
 def get_trip_itinerary(place_name: str, days: int = 3, interests: List[str] = None) -> Dict:
@@ -131,21 +232,19 @@ def get_trip_itinerary(place_name: str, days: int = 3, interests: List[str] = No
         
         Make sure activities are specific and realistic for {place_name}. Return valid JSON only."""
         
-        model = _ensure_model()
-        response = model.generate_content(prompt)
+        response = _call_arli_api(prompt, max_tokens=2000)
         
-        if response.text:
-            import json
+        if response:
             import re
             
-            json_match = re.search(r'\{[\s\S]*\}', response.text)
+            json_match = re.search(r'\{[\s\S]*\}', response)
             if json_match:
                 try:
                     return json.loads(json_match.group())
                 except json.JSONDecodeError:
                     return {"error": "Could not parse itinerary"}
         
-        return {"error": "No response from Gemini"}
+        return {"error": "No response from Arli API"}
         
     except Exception as e:
         print(f"Error generating itinerary for {place_name}: {e}")
@@ -154,7 +253,7 @@ def get_trip_itinerary(place_name: str, days: int = 3, interests: List[str] = No
 
 def get_group_trip_suggestion(places: List[str], interests: List[str], budget: str) -> str:
     """
-    Get Gemini's suggestion for the best place for a group trip
+    Get Arli's suggestion for the best place for a group trip
     
     Args:
         places: List of candidate destinations
@@ -162,7 +261,7 @@ def get_group_trip_suggestion(places: List[str], interests: List[str], budget: s
         budget: Budget level (low/medium/high)
         
     Returns:
-        Gemini's recommendation text
+        Arli's recommendation text
     """
     try:
         places_str = ", ".join(places)
@@ -175,9 +274,8 @@ def get_group_trip_suggestion(places: List[str], interests: List[str], budget: s
         
         Provide a concise recommendation (2-3 sentences) explaining why this destination is the best choice for the group."""
         
-        model = _ensure_model()
-        response = model.generate_content(prompt)
-        return response.text if response.text else "Unable to generate recommendation"
+        response = _call_arli_api(prompt, max_tokens=500)
+        return response if response else "Unable to generate recommendation"
         
     except Exception as e:
         print(f"Error generating group suggestion: {e}")
@@ -198,27 +296,35 @@ def _create_fallback_response(place_name: str) -> Dict:
 
 if __name__ == "__main__":
     # Test the module
-    print("Testing Gemini Handler...\n")
+    print("Testing Arli Handler...\n")
     
     # Test place description
     print("=" * 50)
     print("Test 1: Place Description")
     print("=" * 50)
-    desc = get_place_description("Jaipur")
-    print(f"Jaipur: {desc}\n")
+    try:
+        desc = get_place_description("Jaipur")
+        print(f"Jaipur: {desc}\n")
+    except Exception as e:
+        print(f"Error: {e}\n")
     
     # Test place info
     print("=" * 50)
     print("Test 2: Place Information")
     print("=" * 50)
-    info = get_place_info("Manali")
-    import json
-    print(json.dumps(info, indent=2))
-    print()
+    try:
+        info = get_place_info("Manali")
+        print(json.dumps(info, indent=2))
+        print()
+    except Exception as e:
+        print(f"Error: {e}\n")
     
     # Test trip itinerary
     print("=" * 50)
     print("Test 3: Trip Itinerary")
     print("=" * 50)
-    itinerary = get_trip_itinerary("Goa", days=3, interests=["beach", "food", "relaxation"])
-    print(json.dumps(itinerary, indent=2))
+    try:
+        itinerary = get_trip_itinerary("Goa", days=3, interests=["beach", "food", "relaxation"])
+        print(json.dumps(itinerary, indent=2))
+    except Exception as e:
+        print(f"Error: {e}")

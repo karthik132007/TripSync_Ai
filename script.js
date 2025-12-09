@@ -493,6 +493,25 @@ async function runRecommendationFlow() {
 
 /* ---------- PLACE INFO (WIKIPEDIA) ---------- */
 function showPlaceInfo(placeName) {
-  const url = `place_info.html?place=${encodeURIComponent(placeName)}`;
+  // Get user preferences from localStorage
+  const roleCard = document.querySelector("#role .card.selected");
+  const roleText = roleCard ? roleCard.innerText.split(" ")[1].toLowerCase() : "tourist";
+  
+  const selectedChips = document.querySelectorAll(".chip.selected");
+  const interests = Array.from(selectedChips).map(c => (c.dataset.tag || "").toLowerCase());
+  
+  const budgetCard = document.querySelector("#budget .card.selected");
+  let budgetText = budgetCard ? budgetCard.innerText.trim() : "Medium";
+  const budget = budgetText.includes("Low") ? "low" : budgetText.includes("Medium") ? "medium" : "high";
+  
+  // Build URL with all parameters
+  const params = new URLSearchParams({
+    place: placeName,
+    role: roleText,
+    budget: budget,
+    interests: interests.join(",")
+  });
+  
+  const url = `place_info.html?${params.toString()}`;
   window.open(url, "_blank");
 }

@@ -241,6 +241,9 @@
     async function loadPlaceInfo() {
       const params = new URLSearchParams(window.location.search);
       const place = params.get("place");
+      const role = params.get("role") || "tourist";
+      const budget = params.get("budget") || "medium";
+      const interests = params.get("interests") ? params.get("interests").split(",") : [];
 
       if (!place) {
         alert("No place specified!");
@@ -251,11 +254,18 @@
       document.title = `${place} - TripSync AI`;
 
       try {
-        console.log(`Fetching info for: ${place}`);
+        console.log(`Fetching full trip plan for: ${place}`);
+        console.log(`Role: ${role}, Budget: ${budget}, Interests: ${interests}`);
+        
         const res = await fetch(`${API_BASE}/place_info`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ place: place })
+          body: JSON.stringify({ 
+            place: place,
+            user_type: role,
+            user_budget: budget,
+            user_interests: interests
+          })
         });
 
         console.log(`Response status: ${res.status}`);
@@ -280,7 +290,7 @@
 
     function renderPage(data) {
       // Header
-      document.getElementById("placeName").textContent = data.place;
+      document.getElementById("placeName").textContent = data.trip_title || data.place || "Unknown Place";
       const img = document.getElementById("headerImage");
       if (data.image) {
         img.src = data.image;
@@ -291,6 +301,23 @@
           "linear-gradient(135deg, #1a3a52, #0d2842)";
       }
 
+      // Check if we have a full trip plan (with daily_schedule)
+      const isTripPlan = data.daily_schedule && Array.isArray(data.daily_schedule);
+
+      if (isTripPlan) {
+        // Render full trip plan
+        renderTripPlan(data);
+      } else {
+        // Render basic place info
+        renderBasicInfo(data);
+      }
+
+      // Show content
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    }
+
+    function renderBasicInfo(data) {
       // Description
       document.getElementById("placeDescription").textContent = 
         data.description || "No description available.";
@@ -313,7 +340,7 @@
       if (data.cuisines && data.cuisines.length > 0 && data.cuisines[0] !== "Cuisine data not available") {
         data.cuisines.forEach(cuisine => {
           const chip = document.createElement("div");
-          chip.className = "chip selected"; // Reusing existing chip style
+          chip.className = "chip selected";
           chip.style.cursor = "default";
           chip.innerHTML = `<span>${cuisine}</span>`;
           cuisineGrid.appendChild(chip);
@@ -334,10 +361,163 @@
       } else {
         document.getElementById("gallerySection").style.display = "none";
       }
+    }
 
-      // Show content
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("content").style.display = "block";
+    function renderTripPlan(data) {
+      const mainContent = document.querySelector(".content-shell");
+      mainContent.innerHTML = ""; // Clear existing content
+
+      // Trip Overview Section
+      const overviewSection = document.createElement("section");
+      overviewSection.className = "info-section";
+      overviewSection.innerHTML = `
+        <h2 class="section-title">📋 Trip Overview</h2>
+        <div class="description-text">
+          <p><strong>Duration:</strong> ${data.duration} day${data.duration > 1 ? 's' : ''}</p>
+          <p><strong>Budget Level:</strong> ${data.budget ? data.budget.charAt(0).toUpperCase() + data.budget.slice(1) : 'N/A'}</p>
+          <p><strong>Best for:</strong> ${data.role ? data.role.charAt(0).toUpperCase() + data.role.slice(1) : 'Travelers'}</p>
+          ${data.best_season ? `<p><strong>Best Season:</strong> ${data.best_season}</p>` : ''}
+        </div>
+      `;
+      mainContent.appendChild(overviewSection);
+
+      // Daily Itinerary
+      if (data.daily_schedule && data.daily_schedule.length > 0) {
+        const itinerarySection = document.createElement("section");
+        itinerarySection.className = "info-section";
+        itinerarySection.innerHTML = `<h2 class="section-title">📅 Day-by-Day Itinerary</h2>`;
+        
+        data.daily_schedule.forEach(day => {
+          const dayCard = document.createElement("div");
+          dayCard.className = "card";
+          dayCard.style.marginBottom = "20px";
+          dayCard.innerHTML = `
+            <h3 style="color: var(--accent); margin-bottom: 16px;">Day ${day.day}</h3>
+            <p style="margin-bottom: 8px;"><strong>Morning:</strong> ${day.morning || 'Free time'}</p>
+            <p style="margin-bottom: 8px;"><strong>Afternoon:</strong> ${day.afternoon || 'Free time'}</p>
+            <p style="margin-bottom: 8px;"><strong>Evening:</strong> ${day.evening || 'Free time'}</p>
+            ${day.cost ? `<p style="margin-top: 12px; color: var(--accent);"><strong>Estimated Cost:</strong> ${day.cost}</p>` : ''}
+          `;
+          itinerarySection.appendChild(dayCard);
+        });
+        
+        mainContent.appendChild(itinerarySection);
+      }
+
+      // Budget Breakdown
+      if (data.budget_breakdown) {
+        const budgetSection = document.createElement("section");
+        budgetSection.className = "info-section";
+        budgetSection.innerHTML = `
+          <h2 class="section-title">💰 Budget Breakdown</h2>
+          <div class="card">
+            ${data.budget_breakdown.accommodation ? `<p><strong>Accommodation:</strong> ${data.budget_breakdown.accommodation}</p>` : ''}
+            ${data.budget_breakdown.food ? `<p><strong>Food:</strong> ${data.budget_breakdown.food}</p>` : ''}
+            ${data.budget_breakdown.activities ? `<p><strong>Activities:</strong> ${data.budget_breakdown.activities}</p>` : ''}
+            ${data.budget_breakdown.transport ? `<p><strong>Transport:</strong> ${data.budget_breakdown.transport}</p>` : ''}
+            ${data.budget_breakdown.total_per_day ? `<p style="margin-top: 12px; color: var(--accent); font-weight: 600;"><strong>Per Day:</strong> ${data.budget_breakdown.total_per_day}</p>` : ''}
+            ${data.budget_breakdown.trip_total ? `<p style="color: var(--accent); font-weight: 600;"><strong>Trip Total:</strong> ${data.budget_breakdown.trip_total}</p>` : ''}
+          </div>
+        `;
+        mainContent.appendChild(budgetSection);
+      }
+
+      // Must See Places
+      if (data.must_see && data.must_see.length > 0) {
+        const mustSeeSection = document.createElement("section");
+        mustSeeSection.className = "info-section";
+        mustSeeSection.innerHTML = `<h2 class="section-title">⭐ Must-See Attractions</h2>`;
+        
+        const grid = document.createElement("div");
+        grid.className = "chip-wrap";
+        data.must_see.forEach(place => {
+          const chip = document.createElement("div");
+          chip.className = "chip selected";
+          chip.style.cursor = "default";
+          chip.innerHTML = `<span>${place}</span>`;
+          grid.appendChild(chip);
+        });
+        
+        mustSeeSection.appendChild(grid);
+        mainContent.appendChild(mustSeeSection);
+      }
+
+      // Food to Try
+      if (data.food_to_try && data.food_to_try.length > 0) {
+        const foodSection = document.createElement("section");
+        foodSection.className = "info-section";
+        foodSection.innerHTML = `<h2 class="section-title">🍽️ Food to Try</h2>`;
+        
+        const foodGrid = document.createElement("div");
+        foodGrid.className = "food-grid";
+        data.food_to_try.forEach(food => {
+          const div = document.createElement("div");
+          div.className = "food-card";
+          div.innerHTML = `<span class="food-icon">🥘</span> <span>${food}</span>`;
+          foodGrid.appendChild(div);
+        });
+        
+        foodSection.appendChild(foodGrid);
+        mainContent.appendChild(foodSection);
+      }
+
+      // Getting Around
+      if (data.getting_around) {
+        const transportSection = document.createElement("section");
+        transportSection.className = "info-section";
+        transportSection.innerHTML = `
+          <h2 class="section-title">🚗 Getting Around</h2>
+          <div class="description-text">
+            <p>${data.getting_around}</p>
+          </div>
+        `;
+        mainContent.appendChild(transportSection);
+      }
+
+      // Packing List
+      if (data.packing) {
+        const packingSection = document.createElement("section");
+        packingSection.className = "info-section";
+        packingSection.innerHTML = `<h2 class="section-title">🎒 What to Pack</h2>`;
+        
+        const packingGrid = document.createElement("div");
+        packingGrid.className = "chip-wrap";
+        
+        // Handle both array and string formats
+        const packingItems = Array.isArray(data.packing) ? data.packing : [data.packing];
+        packingItems.forEach(item => {
+          const chip = document.createElement("div");
+          chip.className = "chip";
+          chip.style.cursor = "default";
+          chip.innerHTML = `<span>${item}</span>`;
+          packingGrid.appendChild(chip);
+        });
+        
+        packingSection.appendChild(packingGrid);
+        mainContent.appendChild(packingSection);
+      }
+
+      // Travel Tips
+      if (data.tips) {
+        const tipsSection = document.createElement("section");
+        tipsSection.className = "info-section";
+        tipsSection.innerHTML = `<h2 class="section-title">💡 Pro Tips</h2>`;
+        
+        const tipsList = document.createElement("div");
+        tipsList.className = "description-text";
+        
+        // Handle both array and string formats
+        const tipItems = Array.isArray(data.tips) ? data.tips : [data.tips];
+        tipItems.forEach(tip => {
+          const p = document.createElement("p");
+          p.style.marginBottom = "12px";
+          p.innerHTML = `• ${tip}`;
+          tipsList.appendChild(p);
+        });
+        
+        tipsSection.appendChild(tipsList);
+        mainContent.appendChild(tipsSection);
+      }
     }
 
     loadPlaceInfo();

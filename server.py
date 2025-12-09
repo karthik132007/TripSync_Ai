@@ -2,7 +2,7 @@ from pathlib import Path
 from flask import Flask, request, jsonify
 from recommender.core import load_dataset, travel_recommend
 import random
-from gemini_handler import get_place_info, get_place_description
+from gemini_handler import get_place_info, get_place_description, get_full_trip_plan
 
 app = Flask(__name__)
 
@@ -11,6 +11,14 @@ def _dataset_path() -> str:
     return str(Path(__file__).resolve().parent.parent / "data" / "dataset.json")
 
 places = load_dataset("data/dataset.json")
+
+# Helper function to get place duration from dataset
+def get_place_duration(place_name: str) -> int:
+    """Get the recommended trip duration for a place from dataset"""
+    for place in places:
+        if place.get("place", "").lower() == place_name.lower():
+            return place.get("trip_duration", 3)
+    return 3  # Default to 3 days if not found
 
 # ---------- IN-MEMORY GROUP STORAGE ----------
 groups = {}
@@ -195,11 +203,32 @@ def place_info():
     try:
         print(f"Fetching info for: {place_name} using Gemini API")
         
-        # Use Gemini to fetch comprehensive place information
+        # Check if user wants full trip plan with personalized details
+        user_type = data.get("user_type")  # solo_traveler, couple, family, friends, etc.
+        user_budget = data.get("user_budget")  # low, medium, high
+        user_interests = data.get("user_interests")  # List of interests
+        
+        # If user details provided, generate comprehensive trip plan
+        if user_type and user_budget:
+            duration = data.get("duration") or get_place_duration(place_name)
+            interests_list = user_interests if isinstance(user_interests, list) else []
+            
+            print(f"Generating full trip plan for: {place_name} ({duration} days) for {user_type} with {user_budget} budget")
+            trip_plan = get_full_trip_plan(
+                place_name=place_name,
+                duration=duration,
+                role=user_type,
+                budget=user_budget,
+                interests=interests_list
+            )
+            return jsonify(trip_plan)
+        
+        # Otherwise, return basic place information
         place_data = get_place_info(place_name)
         
-        # Add place name to response
+        # Add place name and duration to response
         place_data["place"] = place_name
+        place_data["recommended_duration"] = get_place_duration(place_name)
         
         # Add empty gallery for now (can be enhanced later)
         place_data["gallery"] = []
