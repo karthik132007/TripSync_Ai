@@ -9,11 +9,8 @@ from flask import render_template
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
-app = Flask(
-    __name__,
-    static_folder=str(BASE_DIR / "static"),
-    template_folder=str(BASE_DIR / "templates")
-)
+app = Flask(__name__, static_folder="static", template_folder="templates")
+
 @app.route("/", methods=["GET"])
 def home():
     return render_template("index.html")
