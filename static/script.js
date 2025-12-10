@@ -715,6 +715,6 @@ function showPlaceInfo(placeName) {
     interests: interests.join(",")
   });
   
-  const url = `/templates/place_info.html?${params.toString()}`;
+  const url = `/place_info_page?${params.toString()}`;
   window.open(url, "_blank");
 }

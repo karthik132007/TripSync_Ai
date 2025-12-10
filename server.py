@@ -15,6 +15,11 @@ app = Flask(
 def home():
     return render_template("index.html")
 
+@app.route("/place_info_page", methods=["GET"])
+def place_info_page():
+    """Serve the place info page with query parameters"""
+    return render_template("place_info.html")
+
 # ------------------ LOAD DATASET ------------------
 def _dataset_path() -> str:
     """Absolute path to dataset.json in the data/ folder."""
