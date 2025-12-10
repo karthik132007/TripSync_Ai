@@ -6,10 +6,13 @@ import json
 from gemini_handler import get_place_info, get_place_description, get_full_trip_plan
 from wikipedia_images import get_first_image, get_place_images
 from flask import render_template
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+
 app = Flask(
     __name__,
-    static_folder=str(Path(__file__).resolve().parent / "static"),
-    template_folder=str(Path(__file__).resolve().parent / "templates"),
+    static_folder=str(BASE_DIR / "static"),
+    template_folder=str(BASE_DIR / "templates")
 )
 @app.route("/", methods=["GET"])
 def home():
