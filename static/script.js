@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:5000";
+const API_BASE = "https://tripsync-ai.onrender.com";;
 let joinMode = false; // true when user joins an existing trip (skip role step)
 let persistedResults = null; // keep last good results to avoid flicker
 let resultsLocked = false;   // once we render good results, ignore further clears
