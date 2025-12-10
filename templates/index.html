@@ -14,21 +14,55 @@
 <div class="bg-blobs"></div>
 <div class="shell">
   <header class="hero">
-    <div>
-      <p class="eyebrow">Trip planning, balanced</p>
-      <h1>TripSync AI</h1>
-      <p class="lead">Blend interests, budgets, and vibes to get group-proof trips.</p>
+    <div class="hero-content">
+      <p class="eyebrow">✨ AI-Powered Travel Planning</p>
+      <h1>Discover Your Next <br><span class="gradient-text">Perfect Getaway</span></h1>
+      <p class="lead">Stop debating, start packing. We blend everyone's interests and budgets into one perfect itinerary that makes the whole group happy.</p>
       <div class="hero-actions">
-        <button class="btn primary" onclick="startCreateFlow()">Start planning</button>
-        <button class="btn ghost" onclick="startJoinFlow()">Join a trip</button>
+        <button class="btn primary" onclick="startCreateFlow()">
+          <span>Start Planning</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="btn ghost" onclick="startJoinFlow()">
+          <span>Join Existing Trip</span>
+        </button>
+      </div>
+      <div class="trust-badge">
+        <div class="avatars">
+          <span class="avatar">👩‍💻</span><span class="avatar">👨‍🎨</span><span class="avatar">🧘‍♀️</span>
+        </div>
+        <p>Trusted by 10,000+ travelers</p>
       </div>
     </div>
-    <div class="hero-card">
-      <p class="pill">Live</p>
-      <h3>Group recommender</h3>
-      <p>Interests + budget + popularity blend</p>
+    <div class="hero-card glass-panel">
+      <div class="card-header">
+        <span class="pill">Live Demo</span>
+        <div class="status-dot"></div>
+      </div>
+      <h3>Group Harmony Engine</h3>
+      <div class="demo-visual">
+        <div class="demo-row">
+          <span>🏄‍♂️ Surfing</span>
+          <div class="bar" style="width: 80%"></div>
+        </div>
+        <div class="demo-row">
+          <span>🍜 Foodie</span>
+          <div class="bar" style="width: 60%"></div>
+        </div>
+        <div class="demo-row">
+          <span>💰 Budget</span>
+          <div class="bar" style="width: 90%"></div>
+        </div>
+      </div>
       <div class="mini-metrics">
-        <span>⚡ Instant</span><span>🎯 Balanced</span><span>🌐 India-wide</span>
+        <div class="metric">
+          <strong>98%</strong>
+          <span>Match Rate</span>
+        </div>
+        <div class="metric">
+          <strong>< 1min</strong>
+          <span>Generation</span>
+        </div>
       </div>
     </div>
   </header>
@@ -46,47 +80,137 @@
 
   <!-- ************ 1. LANDING PAGE ************ -->
   <div class="screen active" id="landing">
-    <div class="panel">
-      <h2>Choose how you travel</h2>
-      <p class="subtitle">Solo, friends, couples, family — we adapt the picks.</p>
-      <p style="margin-top: 20px; opacity: 0.7; font-size: 0.95rem;">Use the buttons above to get started →</p>
-    </div>
-
-    <div class="panel" style="margin-top: 16px;">
-      <h2>Why TripSync works</h2>
-      <div class="grid">
-        <div class="card">🎯 Balances everyone's interests without endless debates.</div>
-        <div class="card">💰 Matches budget to vibe so no one feels overspent.</div>
-        <div class="card">⚡ Fast picks powered by live scoring on your tags.</div>
+    
+    <!-- Features Section -->
+    <section class="section-features">
+      <div class="section-header">
+        <h2>Why Travelers Love TripSync</h2>
+        <p class="subtitle">Planning group trips shouldn't feel like a second job.</p>
       </div>
-    </div>
-
-    <div class="panel" style="margin-top: 16px;">
-      <h2>How it works</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>1) Pick your role</strong>
-          <p class="subtitle">Solo or group. Creators get a shareable team code.</p>
+      <div class="grid features-grid">
+        <div class="feature-card">
+          <div class="icon-box">🎯</div>
+          <h3>Democracy Engine</h3>
+          <p>No more "I don't care, you pick". We mathematically balance everyone's preferences.</p>
         </div>
-        <div class="card">
-          <strong>2) Add interests + budget</strong>
-          <p class="subtitle">Choose 3+ tags and daily spend. Everyone else does the same.</p>
+        <div class="feature-card">
+          <div class="icon-box">💰</div>
+          <h3>Budget Harmony</h3>
+          <p>We find spots that fit the student and the splurger in your group equally well.</p>
         </div>
-        <div class="card">
-          <strong>3) Generate together</strong>
-          <p class="subtitle">We blend the crew's choices and return top-matching trips.</p>
+        <div class="feature-card">
+          <div class="icon-box">⚡</div>
+          <h3>Instant Itineraries</h3>
+          <p>Get a complete plan with hotels, spots, and vibes in seconds, not weeks.</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="panel" style="margin-top: 16px;">
-      <h2>Popular right now</h2>
-      <div class="grid">
-        <div class="card">🌊 Beach + Foodies → Goa, Varkala, Puducherry</div>
-        <div class="card">⛰️ Mountains + Offbeat → Spiti, Tawang, Auli</div>
-        <div class="card">🏛️ Culture + Nightlife → Jaipur, Kolkata, Mumbai</div>
+    <!-- How it Works -->
+    <section class="section-steps">
+      <div class="section-header">
+        <h2>How It Works</h2>
+        <p class="subtitle">Three simple steps to your dream vacation.</p>
       </div>
-    </div>
+      <div class="steps-container">
+        <div class="step-item">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Create a Lobby</h3>
+            <p>Start a trip and share the unique code with your friends. No sign-up needed.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Swipe Your Vibe</h3>
+            <p>Everyone picks their interests (Beaches? Hiking? Party?) and budget comfort zone.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Get Synced</h3>
+            <p>Our AI crunches the data and reveals the perfect destination for the whole squad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="section-popular">
+      <div class="section-header">
+        <h2>Trending This Season</h2>
+        <p class="subtitle">Where everyone else is heading right now.</p>
+      </div>
+      <div class="grid popular-grid">
+        <div class="dest-card" style="background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+          <div class="dest-info">
+            <h3>Goa, India</h3>
+            <p>Beaches • Nightlife • Seafood</p>
+          </div>
+        </div>
+        <div class="dest-card" style="background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+          <div class="dest-info">
+            <h3>Kyoto, Japan</h3>
+            <p>Culture • Temples • Nature</p>
+          </div>
+        </div>
+        <div class="dest-card" style="background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1533929736472-594e45cc863f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+          <div class="dest-info">
+            <h3>Santorini, Greece</h3>
+            <p>Views • Romance • Luxury</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-testimonials">
+      <div class="section-header">
+        <h2>Traveler Stories</h2>
+      </div>
+      <div class="grid testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Finally a trip where my boyfriend didn't complain about the budget and I didn't complain about the hotel."</p>
+          <div class="user-info">
+            <div class="avatar-circle">S</div>
+            <div>
+              <strong>Sarah J.</strong>
+              <span>Traveled to Bali</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"The 'Group Harmony' feature is real. It somehow found a place that had hiking for me and spas for my wife."</p>
+          <div class="user-info">
+            <div class="avatar-circle">M</div>
+            <div>
+              <strong>Mike T.</strong>
+              <span>Traveled to Swiss Alps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>TripSync AI</h3>
+          <p>Making group travel actually happen.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">About</a>
+          <a href="#">Destinations</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 TripSync AI. All rights reserved.</p>
+      </div>
+    </footer>
 
   </div>
 
@@ -154,7 +278,7 @@
 
     <p class="subtitle" style="margin-top: 24px;">Team Code: <strong id="groupTeamCode"></strong></p>
 
-    <button class="btn primary" onclick="runRecommendationFlow()" id="generateBtn">Generate Trip</button>
+    <button type="button" class="btn primary" onclick="runRecommendationFlow(event)" id="generateBtn">Generate Trip</button>
   </div>
 
   <!-- ************ 6. LOADING SCREEN ************ -->

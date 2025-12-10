@@ -194,11 +194,11 @@ def generate_group_trip():
     )
 
     # Add images to results
-    for place in results:
-        place_name = place.get("place", "")
-        image_url = get_place_image(place_name)
-        if image_url:
-            place["image"] = image_url
+    # for place in results:
+    #     place_name = place.get("place", "")
+    #     image_url = get_place_image(place_name)
+    #     if image_url:
+    #         place["image"] = image_url
 
     # SAVE the results to the group object
     groups[group_id]["results"] = results
@@ -224,11 +224,11 @@ def recommend():
     )
 
     # Add images to results
-    for place in results:
-        place_name = place.get("place", "")
-        image_url = get_place_image(place_name)
-        if image_url:
-            place["image"] = image_url
+    # for place in results:
+    #     place_name = place.get("place", "")
+    #     image_url = get_place_image(place_name)
+    #     if image_url:
+    #         place["image"] = image_url
 
     return jsonify(results)
 

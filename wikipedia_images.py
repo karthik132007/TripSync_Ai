@@ -18,25 +18,43 @@ HEADERS = {
 # Cache file path
 CACHE_FILE = Path(__file__).resolve().parent / "data" / "image_cache.json"
 
+# Global in-memory cache to prevent constant file reads and Live Server reloads
+_mem_cache = None
+
 def load_cache() -> dict:
-    """Load image cache from file"""
+    """Load image cache from memory or file"""
+    global _mem_cache
+    if _mem_cache is not None:
+        return _mem_cache
+
     try:
         if CACHE_FILE.exists():
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                _mem_cache = json.load(f)
+        else:
+            _mem_cache = {}
     except Exception as e:
         print(f"Error loading cache: {e}")
-    return {}
+        _mem_cache = {}
+    
+    return _mem_cache
 
 def save_cache(cache: dict):
-    """Save image cache to file"""
-    try:
-        # Ensure data directory exists
-        CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
-        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
-            json.dump(cache, f, indent=2, ensure_ascii=False)
-    except Exception as e:
-        print(f"Error saving cache: {e}")
+    """Update in-memory cache (File write disabled to prevent auto-reload)"""
+    global _mem_cache
+    _mem_cache = cache
+    
+    # NOTE: File writing is disabled because it triggers VS Code Live Server 
+    # to reload the page immediately, causing the UI to reset.
+    # To enable persistence, we would need to move the cache outside the workspace.
+    
+    # try:
+    #     # Ensure data directory exists
+    #     CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    #     with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+    #         json.dump(cache, f, indent=2, ensure_ascii=False)
+    # except Exception as e:
+    #     print(f"Error saving cache: {e}")
 
 def get_from_cache(place_name: str, state: str = "") -> Optional[str]:
     """Get image URL from cache"""

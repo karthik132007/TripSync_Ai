@@ -11,17 +11,15 @@
   <style>
     /* Specific overrides for the info page */
     body {
-      background: #05070f; /* Fallback */
-      background: radial-gradient(circle at 50% 0%, rgba(110, 240, 193, 0.1), transparent 40%),
-                  var(--bg);
+      background: var(--bg);
       min-height: 100vh;
       padding: 0;
     }
 
     .info-header {
       position: relative;
-      height: 40vh;
-      min-height: 300px;
+      height: 50vh;
+      min-height: 400px;
       overflow: hidden;
       display: flex;
       align-items: flex-end;
@@ -32,7 +30,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(to bottom, transparent 0%, var(--bg) 100%);
+      background: linear-gradient(to bottom, transparent 0%, rgba(248, 250, 252, 0.8) 80%, var(--bg) 100%);
       z-index: 1;
     }
 
@@ -42,7 +40,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      opacity: 0.6;
       z-index: 0;
     }
 
@@ -56,12 +53,11 @@
     }
 
     .place-title {
-      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-size: clamp(3rem, 6vw, 5rem);
       line-height: 1;
-      margin-bottom: 10px;
-      background: linear-gradient(135deg, #fff 0%, #a0c4ff 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      margin-bottom: 16px;
+      color: var(--text);
+      text-shadow: 0 2px 10px rgba(255,255,255,0.5);
     }
 
     .content-shell {
@@ -81,12 +77,12 @@
     .info-section:nth-child(3) { animation-delay: 0.3s; }
 
     .section-title {
-      font-size: 1.4rem;
-      color: var(--accent);
-      margin-bottom: 16px;
+      font-size: 1.6rem;
+      color: var(--text);
+      margin-bottom: 20px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
     }
 
     .section-title::after {
@@ -97,13 +93,15 @@
     }
 
     .description-text {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       line-height: 1.8;
-      color: var(--muted);
-      background: rgba(255, 255, 255, 0.03);
-      padding: 24px;
-      border-radius: 16px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 32px;
+      border-radius: 24px;
       border: 1px solid var(--stroke);
+      box-shadow: var(--shadow);
     }
 
     .food-grid {
@@ -113,19 +111,22 @@
     }
 
     .food-card {
-      background: var(--card);
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(8px);
       border: 1px solid var(--stroke);
       padding: 16px;
-      border-radius: 12px;
+      border-radius: 16px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       transition: transform 0.2s;
     }
 
     .food-card:hover {
       transform: translateY(-2px);
       border-color: var(--accent);
+      background: white;
+      box-shadow: var(--shadow);
     }
 
     .food-icon {
@@ -151,7 +152,7 @@
 
     .gallery-item {
       aspect-ratio: 4/3;
-      border-radius: 12px;
+      border-radius: 16px;
       overflow: hidden;
       border: 1px solid var(--stroke);
       cursor: pointer;
@@ -162,6 +163,7 @@
     .gallery-item:hover {
       transform: scale(1.02);
       border-color: var(--accent);
+      box-shadow: var(--shadow);
     }
 
     .gallery-item img {
@@ -174,8 +176,8 @@
       position: fixed;
       bottom: 30px;
       right: 30px;
-      background: var(--accent);
-      color: #000;
+      background: linear-gradient(135deg, #0ea5e9, #3b82f6);
+      color: white;
       width: 56px;
       height: 56px;
       border-radius: 50%;
@@ -183,7 +185,7 @@
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
-      box-shadow: 0 10px 30px rgba(110, 240, 193, 0.3);
+      box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
       cursor: pointer;
       border: none;
       z-index: 50;
@@ -334,7 +336,7 @@
         // Fallback gradient if no image
         img.style.display = "none";
         document.querySelector(".info-header").style.background = 
-          "linear-gradient(135deg, #1a3a52, #0d2842)";
+          "linear-gradient(135deg, #e0f2fe, #bae6fd)";
       }
 
       // Check if we have a full trip plan (with daily_schedule)
