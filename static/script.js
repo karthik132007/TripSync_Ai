@@ -1,4 +1,4 @@
-const API_BASE = "https://tripsync-ai.onrender.com";;
+const API_BASE = "https://tripsync-ai.onrender.com/";;
 let joinMode = false; // true when user joins an existing trip (skip role step)
 let persistedResults = null; // keep last good results to avoid flicker
 let resultsLocked = false;   // once we render good results, ignore further clears
@@ -26,7 +26,7 @@ async function proceedAfterRole() {
     return;
   }
   
-  const roleText = roleCard.innerText.split(" ")[1].toLowerCase();
+  const roleText = roleCard.dataset.role || "solo";
   
   // Only create group for group modes (friends, couples, family)
   if (!joinMode && roleText !== "solo") {
@@ -86,9 +86,7 @@ function proceedToBudget() {
 
   // Check if user is solo (for creators)
   const roleCard = document.querySelector("#role .card.selected");
-  const roleText = roleCard
-    ? roleCard.innerText.split(" ")[1].toLowerCase()
-    : "solo";
+  const roleText = roleCard ? (roleCard.dataset.role || "solo") : "solo";
 
   if (roleText === "solo") {
     runRecommendationFlow();
@@ -99,20 +97,13 @@ function proceedToBudget() {
 
 async function addCurrentUserToGroup(groupId, currentUserName) {
   const roleCard = document.querySelector("#role .card.selected");
-  const user_type = roleCard
-    ? roleCard.innerText.split(" ")[1].toLowerCase()
-    : "solo";
+  const user_type = roleCard ? (roleCard.dataset.role || "solo") : "solo";
 
   const selectedChips = document.querySelectorAll(".chip.selected");
   const user_interests = Array.from(selectedChips).map(c => (c.dataset.tag || "").toLowerCase());
 
   const budgetCard = document.querySelector("#budget .card.selected");
-  let budgetText = budgetCard ? budgetCard.innerText.trim() : "Low";
-  const user_budget = budgetText.includes("Low")
-    ? "low"
-    : budgetText.includes("Medium")
-    ? "mid"
-    : "high";
+  const user_budget = budgetCard ? (budgetCard.dataset.budget || "medium") : "medium";
 
   try {
     console.log("Adding user to group...", { groupId, currentUserName, user_type, user_interests, user_budget });
@@ -735,14 +726,13 @@ async function runRecommendationFlow(event) {
 function showPlaceInfo(placeName) {
   // Get user preferences from localStorage
   const roleCard = document.querySelector("#role .card.selected");
-  const roleText = roleCard ? roleCard.innerText.split(" ")[1].toLowerCase() : "tourist";
+  const roleText = roleCard ? (roleCard.dataset.role || "tourist") : "tourist";
   
   const selectedChips = document.querySelectorAll(".chip.selected");
   const interests = Array.from(selectedChips).map(c => (c.dataset.tag || "").toLowerCase());
   
   const budgetCard = document.querySelector("#budget .card.selected");
-  let budgetText = budgetCard ? budgetCard.innerText.trim() : "Medium";
-  const budget = budgetText.includes("Low") ? "low" : budgetText.includes("Medium") ? "medium" : "high";
+  const budget = budgetCard ? (budgetCard.dataset.budget || "medium") : "medium";
   
   // Build URL with all parameters
   const params = new URLSearchParams({
@@ -755,4 +745,28 @@ function showPlaceInfo(placeName) {
   // Use API_BASE to ensure we hit the Flask server, not the frontend server (if separate)
   const url = `${API_BASE}/place_info_page?${params.toString()}`;
   window.open(url, "_blank");
+}
+
+function copyTeamCode() {
+  const code = document.getElementById("groupTeamCode").innerText;
+  if (!code || code === "...") return;
+  
+  navigator.clipboard.writeText(code).then(() => {
+    const display = document.querySelector(".code-display");
+    const originalHTML = display.innerHTML;
+    
+    display.style.background = "#dcfce7";
+    display.style.borderColor = "#22c55e";
+    display.style.color = "#15803d";
+    display.innerHTML = `<strong>Copied!</strong> <span class="copy-icon">✅</span>`;
+    
+    setTimeout(() => {
+      display.style.background = "";
+      display.style.borderColor = "";
+      display.style.color = "";
+      display.innerHTML = originalHTML;
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
 }

@@ -15,10 +15,15 @@
 <div class="shell">
   <!-- ************ NAME INPUT SCREEN ************ -->
   <div class="screen" id="username">
-    <h2 class="title">What's your name?</h2>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('landing')">←</button>
+      <h2 class="title">What's your name?</h2>
+    </div>
     <p class="subtitle">So your crew knows who you are</p>
 
-    <input type="text" id="userNameInput" placeholder="Enter your name" class="input-field" />
+    <div class="input-wrapper">
+      <input type="text" id="userNameInput" placeholder="Enter your name" class="input-field" />
+    </div>
     <p id="nameError" class="error-msg" style="display:none;"></p>
 
     <button class="btn primary" onclick="proceedWithName()">Continue</button>
@@ -215,25 +220,57 @@
 
   <!-- ************ 2. TEAM CODE INPUT (JOIN FLOW) ************ -->
   <div class="screen" id="teamcode">
-    <h2 class="title">Join your crew</h2>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('landing')">←</button>
+      <h2 class="title">Join your crew</h2>
+    </div>
     <p class="subtitle">Enter the team code to sync with your group</p>
 
-    <input type="text" id="teamcodeInput" placeholder="e.g. TS-1234" maxlength="8" class="input-field" />
+    <div class="input-wrapper">
+      <input type="text" id="teamcodeInput" placeholder="e.g. TS-1234" maxlength="8" class="input-field" />
+    </div>
     <p id="teamcodeError" class="error-msg" style="display:none;"></p>
 
     <button class="btn primary" onclick="joinTeam()">Join Team</button>
-    <button class="btn ghost" onclick="go('landing')" style="margin-top:10px;">Back</button>
   </div>
 
   <!-- ************ 3. TRAVEL ROLE SELECTION ************ -->
   <div class="screen" id="role">
-    <h2 class="title">Who are you travelling as?</h2>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('username')">←</button>
+      <h2 class="title">Who are you travelling with?</h2>
+    </div>
+    <p class="subtitle">We'll customize the vibe for your group</p>
 
-    <div class="grid">
-      <div class="card" onclick="selectRole(this)">🧍 Solo</div>
-      <div class="card" onclick="selectRole(this)">🧑‍🤝‍🧑 Friends</div>
-      <div class="card" onclick="selectRole(this)">❤ Couples</div>
-      <div class="card" onclick="selectRole(this)">👨‍👩‍👧 Family</div>
+    <div class="grid role-grid">
+      <div class="card role-card" onclick="selectRole(this)" data-role="solo">
+        <div class="role-icon">🧍</div>
+        <div class="role-info">
+          <h3>Solo</h3>
+          <p>Just me, myself & I</p>
+        </div>
+      </div>
+      <div class="card role-card" onclick="selectRole(this)" data-role="friends">
+        <div class="role-icon">🧑‍🤝‍🧑</div>
+        <div class="role-info">
+          <h3>Friends</h3>
+          <p>The whole squad</p>
+        </div>
+      </div>
+      <div class="card role-card" onclick="selectRole(this)" data-role="couples">
+        <div class="role-icon">❤</div>
+        <div class="role-info">
+          <h3>Couples</h3>
+          <p>Romantic getaway</p>
+        </div>
+      </div>
+      <div class="card role-card" onclick="selectRole(this)" data-role="family">
+        <div class="role-icon">👨‍👩‍👧</div>
+        <div class="role-info">
+          <h3>Family</h3>
+          <p>Fun for all ages</p>
+        </div>
+      </div>
     </div>
 
     <button class="btn primary" onclick="proceedAfterRole()" id="roleContinue" disabled>
@@ -243,8 +280,11 @@
 
   <!-- ************ 3. INTEREST TAG SELECTION ************ -->
   <div class="screen" id="interests">
-    <h2 class="title">Pick what you love</h2>
-    <p class="subtitle">Choose multiple interests</p>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('role')">←</button>
+      <h2 class="title">Pick what you love</h2>
+    </div>
+    <p class="subtitle">Select at least 3 interests for better results</p>
 
     <div id="chipContainer" class="chip-wrap"></div>
 
@@ -255,12 +295,38 @@
 
   <!-- ************ 4. BUDGET ************ -->
   <div class="screen" id="budget">
-    <h2 class="title">Select Budget</h2>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('interests')">←</button>
+      <h2 class="title">What's the budget?</h2>
+    </div>
+    <p class="subtitle">Per person, excluding flights per day</p>
 
     <div class="grid budget-grid">
-      <div class="card" onclick="selectBudget(this)">₹ Low</div>
-      <div class="card" onclick="selectBudget(this)">₹₹ Medium</div>
-      <div class="card" onclick="selectBudget(this)">₹₹₹ High</div>
+      <div class="card budget-card" onclick="selectBudget(this)" data-budget="low">
+        <div class="budget-icon">💸</div>
+        <div class="budget-info">
+          <h3>Low</h3>
+          <h5>500 - 1000</h5>
+          <p>Budget-friendly spots</p>
+        </div>
+      </div>
+      <div class="card budget-card" onclick="selectBudget(this)" data-budget="medium">
+        <div class="budget-icon">💰</div>
+        <div class="budget-info">
+          <h3>Medium</h3>
+          <h5>1000 - 2000</h5>
+          <p>Balanced comfort</p>
+        </div>
+      </div>
+      <div class="card budget-card" onclick="selectBudget(this)" data-budget="high">
+        <div class="budget-icon">💎</div>
+        <div class="budget-info">
+          <h3>High</h3>
+          <h5>2000+</h5>
+
+          <p>Luxury & indulgence</p>
+        </div>
+      </div>
     </div>
 
     <button class="btn primary" id="budgetContinue" disabled onclick="proceedToBudget()">
@@ -270,14 +336,27 @@
 
   <!-- ************ 5. TEAM LOBBY (BEFORE GENERATE) ************ -->
   <div class="screen" id="group">
-    <h2 class="title">Your crew</h2>
-    <p class="subtitle">Waiting for everyone to add their interests</p>
+    <div class="screen-header">
+      <button class="btn-icon-back" onclick="go('budget')">←</button>
+      <h2 class="title">Your Crew</h2>
+    </div>
+    <p class="subtitle">Waiting for everyone to join...</p>
 
-    <div id="membersList" class="members-grid"></div>
+    <div class="lobby-card">
+      <div class="lobby-header">
+        <span>Team Code</span>
+        <div class="code-display" onclick="copyTeamCode()">
+          <strong id="groupTeamCode">...</strong>
+          <span class="copy-icon">📋</span>
+        </div>
+      </div>
+      <div id="membersList" class="members-grid"></div>
+    </div>
 
-    <p class="subtitle" style="margin-top: 24px;">Team Code: <strong id="groupTeamCode"></strong></p>
-
-    <button type="button" class="btn primary" onclick="runRecommendationFlow(event)" id="generateBtn">Generate Trip</button>
+    <button type="button" class="btn primary" onclick="runRecommendationFlow(event)" id="generateBtn">
+      <span>Generate Trip</span>
+      <span class="btn-subtext">When everyone is ready</span>
+    </button>
   </div>
 
   <!-- ************ 6. LOADING SCREEN ************ -->
