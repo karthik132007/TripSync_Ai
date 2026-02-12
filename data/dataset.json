@@ -1,20 +1,20 @@
 [
   {
-    "place":"Manali",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Manali",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "adventure"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 5,
+    "best_for": [
       "friends",
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -22,24 +22,24 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"High"
+    "climate": "Cold",
+    "popularity": "High"
   },
   {
-    "place":"Shimla",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Shimla",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "heritage",
       "nature"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -47,24 +47,24 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Dharamshala",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "spiritual",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "solo",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -72,22 +72,22 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"McLeod Ganj",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "McLeod Ganj",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "spiritual"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -95,23 +95,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kasol",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kasol",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "friends",
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -119,24 +119,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Dalhousie",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -144,25 +144,25 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kullu",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kullu",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "adventure",
       "nature",
       "rafting"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "friends",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -170,47 +170,47 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kufri",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kufri",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "adventure"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 5,
+    "best_for": [
       "family",
       "couples",
       "friends"
     ],
-    "season":[
+    "season": [
       "dec",
       "jan",
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kasauli",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kasauli",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "peaceful",
       "nature"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -218,25 +218,25 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Chail",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Chail",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "peaceful",
       "luxury"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -244,48 +244,48 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Spiti Valley",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Spiti Valley",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "adventure",
       "offbeat"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 5,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bir Billing",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Bir Billing",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "adventure",
       "paragliding",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "friends",
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -293,71 +293,71 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Khajjiar",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Khajjiar",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kinnaur",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kinnaur",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chamba",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Chamba",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "heritage",
       "nature"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -365,24 +365,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Palampur",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Palampur",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -390,46 +390,46 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kaza",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Kaza",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "adventure"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 5,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Jibhi",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Jibhi",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -437,25 +437,25 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mashobra",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Mashobra",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "peaceful",
       "nature",
       "camping"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -463,25 +463,25 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Shoghi",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Shoghi",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "peaceful",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -489,23 +489,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mussoorie",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Mussoorie",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -513,25 +513,25 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Nainital",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Nainital",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "lakes",
       "nature",
       "boating"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -539,23 +539,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Rishikesh",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Rishikesh",
+    "state": "Uttarakhand",
+    "tags": [
       "spiritual",
       "adventure",
       "rafting"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 5,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -564,22 +564,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Haridwar",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Haridwar",
+    "state": "Uttarakhand",
+    "tags": [
       "spiritual",
       "heritage"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -588,47 +588,47 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Auli",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Auli",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "skiing",
       "adventure"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 5,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "dec",
       "jan",
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Lansdowne",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Lansdowne",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "peaceful",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -636,23 +636,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Almora",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Almora",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature",
       "culture"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -660,24 +660,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Ranikhet",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Ranikhet",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "peaceful",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -685,68 +685,68 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Chopta",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Chopta",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "trekking",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Valley of Flowers",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Valley of Flowers",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"High"
+    "climate": "Cold",
+    "popularity": "High"
   },
   {
-    "place":"Kausani",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Kausani",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -754,23 +754,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Binsar",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Binsar",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -778,24 +778,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mukteshwar",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Mukteshwar",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "adventure",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 5,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -803,24 +803,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chakrata",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Chakrata",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "offbeat",
       "nature",
       "waterfalls"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -828,24 +828,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kanatal",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Kanatal",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "peaceful",
       "nature",
       "camping"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -853,23 +853,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Srinagar",
-    "state":"J&K",
-    "tags":[
+    "place": "Srinagar",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "lakes"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
@@ -877,23 +877,23 @@
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Gulmarg",
-    "state":"J&K",
-    "tags":[
+    "place": "Gulmarg",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "skiing",
       "adventure"
     ],
-    "avg_cost_per_day":2500,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 2500,
+    "trip_duration": 5,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "dec",
       "jan",
       "feb",
@@ -901,23 +901,23 @@
       "apr",
       "may"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Pahalgam",
-    "state":"J&K",
-    "tags":[
+    "place": "Pahalgam",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 5,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
@@ -925,159 +925,159 @@
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Leh",
-    "state":"Ladakh",
-    "tags":[
+    "place": "Leh",
+    "state": "Ladakh",
+    "tags": [
       "mountains",
       "adventure"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Ladakh",
-    "state":"Ladakh",
-    "tags":[
+    "place": "Ladakh",
+    "state": "Ladakh",
+    "tags": [
       "mountains",
       "adventure",
       "lakes"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Sonamarg",
-    "state":"J&K",
-    "tags":[
+    "place": "Sonamarg",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Nubra Valley",
-    "state":"Ladakh",
-    "tags":[
+    "place": "Nubra Valley",
+    "state": "Ladakh",
+    "tags": [
       "mountains",
       "desert"
     ],
-    "avg_cost_per_day":2500,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2500,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Pangong Lake",
-    "state":"Ladakh",
-    "tags":[
+    "place": "Pangong Lake",
+    "state": "Ladakh",
+    "tags": [
       "mountains",
       "lakes"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kargil",
-    "state":"J&K",
-    "tags":[
+    "place": "Kargil",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Patnitop",
-    "state":"J&K",
-    "tags":[
+    "place": "Patnitop",
+    "state": "J&K",
+    "tags": [
       "mountains",
       "nature",
       "peaceful",
       "skiing"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "dec",
       "jan",
       "feb",
@@ -1085,23 +1085,23 @@
       "apr",
       "may"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Goa - North",
-    "state":"Goa",
-    "tags":[
+    "place": "Goa - North",
+    "state": "Goa",
+    "tags": [
       "beach",
       "nightlife",
       "water-sports"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1109,24 +1109,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"High"
+    "climate": "Tropical",
+    "popularity": "High"
   },
   {
-    "place":"Goa - South",
-    "state":"Goa",
-    "tags":[
+    "place": "Goa - South",
+    "state": "Goa",
+    "tags": [
       "beach",
       "peaceful",
       "nature"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1134,22 +1134,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Palolem Beach",
-    "state":"Goa",
-    "tags":[
+    "place": "Palolem Beach",
+    "state": "Goa",
+    "tags": [
       "beach",
       "peaceful"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1157,22 +1157,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Arambol Beach",
-    "state":"Goa",
-    "tags":[
+    "place": "Arambol Beach",
+    "state": "Goa",
+    "tags": [
       "beach",
       "peaceful"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1180,24 +1180,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Agonda Beach",
-    "state":"Goa",
-    "tags":[
+    "place": "Agonda Beach",
+    "state": "Goa",
+    "tags": [
       "beach",
       "peaceful",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1205,22 +1205,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Varkala",
-    "state":"Kerala",
-    "tags":[
+    "place": "Varkala",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "spiritual"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1228,22 +1228,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Alleppey",
-    "state":"Kerala",
-    "tags":[
+    "place": "Alleppey",
+    "state": "Kerala",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1251,22 +1251,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kovalam",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kovalam",
+    "state": "Kerala",
+    "tags": [
       "beach"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1274,22 +1274,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Gokarna",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Gokarna",
+    "state": "Karnataka",
+    "tags": [
       "beach",
       "peaceful"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1297,23 +1297,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Pondicherry",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Pondicherry",
+    "state": "Tamil Nadu",
+    "tags": [
       "beach",
       "heritage"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "solo"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1321,22 +1321,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Mamallapuram",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Mamallapuram",
+    "state": "Tamil Nadu",
+    "tags": [
       "beach",
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1344,23 +1344,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"High"
+    "climate": "Tropical",
+    "popularity": "High"
   },
   {
-    "place":"Visakhapatnam",
-    "state":"Andhra Pradesh",
-    "tags":[
+    "place": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "tags": [
       "beach",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 2,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1368,23 +1368,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"High"
+    "climate": "Tropical",
+    "popularity": "High"
   },
   {
-    "place":"Puri",
-    "state":"Odisha",
-    "tags":[
+    "place": "Puri",
+    "state": "Odisha",
+    "tags": [
       "beach",
       "spiritual",
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1392,24 +1392,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Diu",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Diu",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1417,23 +1417,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Daman",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Daman",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1441,23 +1441,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Tarkarli",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Tarkarli",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "water-sports",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1465,22 +1465,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Alibaug",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Alibaug",
+    "state": "Maharashtra",
+    "tags": [
       "beach"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "family",
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1488,22 +1488,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Murudeshwar",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Murudeshwar",
+    "state": "Karnataka",
+    "tags": [
       "beach",
       "spiritual"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1511,24 +1511,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Karwar",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Karwar",
+    "state": "Karnataka",
+    "tags": [
       "beach",
       "peaceful",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1536,46 +1536,46 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mandvi Beach",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Mandvi Beach",
+    "state": "Gujarat",
+    "tags": [
       "beach",
       "offbeat",
       "peaceful"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Havelock Island",
-    "state":"Andaman & Nicobar",
-    "tags":[
+    "place": "Havelock Island",
+    "state": "Andaman & Nicobar",
+    "tags": [
       "islands",
       "beach",
       "water-sports"
     ],
-    "avg_cost_per_day":3000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 3000,
+    "trip_duration": 6,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1585,24 +1585,24 @@
       "apr",
       "may"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Neil Island",
-    "state":"Andaman & Nicobar",
-    "tags":[
+    "place": "Neil Island",
+    "state": "Andaman & Nicobar",
+    "tags": [
       "islands",
       "beach",
       "peaceful",
       "nature"
     ],
-    "avg_cost_per_day":2500,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2500,
+    "trip_duration": 6,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1612,24 +1612,24 @@
       "apr",
       "may"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Port Blair",
-    "state":"Andaman & Nicobar",
-    "tags":[
+    "place": "Port Blair",
+    "state": "Andaman & Nicobar",
+    "tags": [
       "islands",
       "heritage",
       "history",
       "beach"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1639,23 +1639,23 @@
       "apr",
       "may"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Ross Island",
-    "state":"Andaman & Nicobar",
-    "tags":[
+    "place": "Ross Island",
+    "state": "Andaman & Nicobar",
+    "tags": [
       "islands",
       "heritage",
       "history"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1665,23 +1665,23 @@
       "apr",
       "may"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kavaratti",
-    "state":"Lakshadweep",
-    "tags":[
+    "place": "Kavaratti",
+    "state": "Lakshadweep",
+    "tags": [
       "islands",
       "beach",
       "water-sports"
     ],
-    "avg_cost_per_day":3500,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 3500,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1689,22 +1689,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Agatti Island",
-    "state":"Lakshadweep",
-    "tags":[
+    "place": "Agatti Island",
+    "state": "Lakshadweep",
+    "tags": [
       "islands",
       "beach"
     ],
-    "avg_cost_per_day":3500,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 3500,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1712,23 +1712,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Bangaram Island",
-    "state":"Lakshadweep",
-    "tags":[
+    "place": "Bangaram Island",
+    "state": "Lakshadweep",
+    "tags": [
       "islands",
       "beach",
       "luxury"
     ],
-    "avg_cost_per_day":4000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 4000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1736,22 +1736,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Minicoy Island",
-    "state":"Lakshadweep",
-    "tags":[
+    "place": "Minicoy Island",
+    "state": "Lakshadweep",
+    "tags": [
       "islands",
       "beach"
     ],
-    "avg_cost_per_day":3500,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 3500,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1759,22 +1759,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Jaipur",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1782,23 +1782,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Udaipur",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Udaipur",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "lakes",
       "romantic"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1806,44 +1806,44 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Jaisalmer",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Jaisalmer",
+    "state": "Rajasthan",
+    "tags": [
       "desert",
       "culture"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Arid",
-    "popularity":"Medium"
+    "climate": "Arid",
+    "popularity": "Medium"
   },
   {
-    "place":"Jodhpur",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Jodhpur",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1851,44 +1851,44 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Pushkar",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Pushkar",
+    "state": "Rajasthan",
+    "tags": [
       "spiritual",
       "culture"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Ajmer",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Ajmer",
+    "state": "Rajasthan",
+    "tags": [
       "spiritual",
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1896,47 +1896,47 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Bikaner",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Bikaner",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "desert",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Arid",
-    "popularity":"Medium"
+    "climate": "Arid",
+    "popularity": "Medium"
   },
   {
-    "place":"Mount Abu",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Mount Abu",
+    "state": "Rajasthan",
+    "tags": [
       "mountains",
       "lakes",
       "heritage"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1946,22 +1946,22 @@
       "apr",
       "may"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Ranthambore",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Ranthambore",
+    "state": "Rajasthan",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1969,23 +1969,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Chittorgarh",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Chittorgarh",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "history",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -1993,22 +1993,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Bundi",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Bundi",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2016,22 +2016,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Alwar",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Alwar",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2039,22 +2039,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Shekhawati",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Shekhawati",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2062,22 +2062,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kumbhalgarh",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Kumbhalgarh",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "nature"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2085,21 +2085,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Ranakpur",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Ranakpur",
+    "state": "Rajasthan",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2107,44 +2107,44 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Rann of Kutch",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Rann of Kutch",
+    "state": "Gujarat",
+    "tags": [
       "desert",
       "culture"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Arid",
-    "popularity":"Medium"
+    "climate": "Arid",
+    "popularity": "Medium"
   },
   {
-    "place":"Ahmedabad",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Ahmedabad",
+    "state": "Gujarat",
+    "tags": [
       "heritage",
       "culture",
       "food"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2152,22 +2152,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Dwarka",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Dwarka",
+    "state": "Gujarat",
+    "tags": [
       "spiritual",
       "beach"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2175,23 +2175,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Somnath",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Somnath",
+    "state": "Gujarat",
+    "tags": [
       "spiritual",
       "beach",
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2199,45 +2199,45 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Gir National Park",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Gir National Park",
+    "state": "Gujarat",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "dec",
       "jan",
       "feb",
       "mar",
       "apr"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Saputara",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Saputara",
+    "state": "Gujarat",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2245,22 +2245,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Vadodara",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Vadodara",
+    "state": "Gujarat",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2268,21 +2268,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Statue of Unity",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Statue of Unity",
+    "state": "Gujarat",
+    "tags": [
       "nan"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2290,21 +2290,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Khajuraho",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2312,24 +2312,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Pachmarhi",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Pachmarhi",
+    "state": "Madhya Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "waterfalls",
       "caves"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2337,22 +2337,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kanha National Park",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Kanha National Park",
+    "state": "Madhya Pradesh",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2360,22 +2360,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Bandhavgarh",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Bandhavgarh",
+    "state": "Madhya Pradesh",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2383,22 +2383,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Orchha",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Orchha",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2406,22 +2406,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Ujjain",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Ujjain",
+    "state": "Madhya Pradesh",
+    "tags": [
       "spiritual",
       "culture"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2429,22 +2429,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Omkareshwar",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Omkareshwar",
+    "state": "Madhya Pradesh",
+    "tags": [
       "spiritual",
       "river"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2452,22 +2452,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Mandu",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Mandu",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2475,21 +2475,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Sanchi",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Sanchi",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2497,22 +2497,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Munnar",
-    "state":"Kerala",
-    "tags":[
+    "place": "Munnar",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -2522,22 +2522,22 @@
       "mar",
       "apr"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Wayanad",
-    "state":"Kerala",
-    "tags":[
+    "place": "Wayanad",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2545,22 +2545,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Thekkady",
-    "state":"Kerala",
-    "tags":[
+    "place": "Thekkady",
+    "state": "Kerala",
+    "tags": [
       "nature",
       "boating"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -2569,21 +2569,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kumarakom",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kumarakom",
+    "state": "Kerala",
+    "tags": [
       "peaceful"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2591,23 +2591,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kochi",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kochi",
+    "state": "Kerala",
+    "tags": [
       "heritage",
       "culture",
       "food"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2615,24 +2615,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Vagamon",
-    "state":"Kerala",
-    "tags":[
+    "place": "Vagamon",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -2641,23 +2641,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Athirapally",
-    "state":"Kerala",
-    "tags":[
+    "place": "Athirapally",
+    "state": "Kerala",
+    "tags": [
       "waterfalls",
       "nature",
       "forest"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2665,23 +2665,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Bekal",
-    "state":"Kerala",
-    "tags":[
+    "place": "Bekal",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "heritage",
       "peaceful"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2689,23 +2689,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kannur",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kannur",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "culture",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2713,23 +2713,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kollam",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kollam",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "lakes",
       "peaceful"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2737,24 +2737,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Coorg",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Coorg",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "nature",
       "waterfalls"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2762,43 +2762,43 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Hampi",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Hampi",
+    "state": "Karnataka",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Mysore",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Mysore",
+    "state": "Karnataka",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2806,22 +2806,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Bangalore",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Bangalore",
+    "state": "Karnataka",
+    "tags": [
       "food",
       "nightlife"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2829,23 +2829,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Chikmagalur",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Chikmagalur",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 5,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -2853,23 +2853,23 @@
       "jan",
       "feb"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kabini",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Kabini",
+    "state": "Karnataka",
+    "tags": [
       "nature",
       "safari",
       "luxury"
     ],
-    "avg_cost_per_day":3000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2877,23 +2877,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Dandeli",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Dandeli",
+    "state": "Karnataka",
+    "tags": [
       "adventure",
       "rafting",
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2901,23 +2901,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Badami",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Badami",
+    "state": "Karnataka",
+    "tags": [
       "heritage",
       "caves",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2925,23 +2925,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Sakleshpur",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Sakleshpur",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2949,22 +2949,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Udupi",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Udupi",
+    "state": "Karnataka",
+    "tags": [
       "beach",
       "food"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -2972,23 +2972,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Ooty",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Ooty",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -2997,25 +2997,25 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kodaikanal",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Kodaikanal",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "lakes",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
@@ -3023,45 +3023,45 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Chennai",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Chennai",
+    "state": "Tamil Nadu",
+    "tags": [
       "beach",
       "food"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"High"
+    "climate": "Tropical",
+    "popularity": "High"
   },
   {
-    "place":"Madurai",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Madurai",
+    "state": "Tamil Nadu",
+    "tags": [
       "heritage",
       "culture",
       "spiritual"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3069,22 +3069,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Rameswaram",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Rameswaram",
+    "state": "Tamil Nadu",
+    "tags": [
       "spiritual",
       "beach"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3092,21 +3092,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Kanyakumari",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "tags": [
       "beach"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3114,21 +3114,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Thanjavur",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Thanjavur",
+    "state": "Tamil Nadu",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3136,24 +3136,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"High"
+    "climate": "Tropical",
+    "popularity": "High"
   },
   {
-    "place":"Yercaud",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Yercaud",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "nature",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3161,22 +3161,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Coonoor",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Coonoor",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3185,23 +3185,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Trichy",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Trichy",
+    "state": "Tamil Nadu",
+    "tags": [
       "heritage",
       "culture",
       "history"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3209,23 +3209,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Shillong",
-    "state":"North East",
-    "tags":[
+    "place": "Shillong",
+    "state": "North East",
+    "tags": [
       "mountains",
       "nature",
       "waterfalls"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3233,23 +3233,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Cherrapunji",
-    "state":"North East",
-    "tags":[
+    "place": "Cherrapunji",
+    "state": "North East",
+    "tags": [
       "mountains",
       "waterfalls",
       "caves"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3257,21 +3257,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kaziranga",
-    "state":"North East",
-    "tags":[
+    "place": "Kaziranga",
+    "state": "North East",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
@@ -3279,66 +3279,66 @@
       "mar",
       "apr"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Tawang",
-    "state":"North East",
-    "tags":[
+    "place": "Tawang",
+    "state": "North East",
+    "tags": [
       "mountains"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Ziro Valley",
-    "state":"North East",
-    "tags":[
+    "place": "Ziro Valley",
+    "state": "North East",
+    "tags": [
       "mountains",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Majuli",
-    "state":"North East",
-    "tags":[
+    "place": "Majuli",
+    "state": "North East",
+    "tags": [
       "islands",
       "culture",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3346,22 +3346,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Gangtok",
-    "state":"North East",
-    "tags":[
+    "place": "Gangtok",
+    "state": "North East",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3369,22 +3369,22 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Pelling",
-    "state":"North East",
-    "tags":[
+    "place": "Pelling",
+    "state": "North East",
+    "tags": [
       "mountains",
       "trekking"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3392,45 +3392,45 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Lachung",
-    "state":"North East",
-    "tags":[
+    "place": "Lachung",
+    "state": "North East",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Dawki",
-    "state":"North East",
-    "tags":[
+    "place": "Dawki",
+    "state": "North East",
+    "tags": [
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3438,22 +3438,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mawlynnong",
-    "state":"North East",
-    "tags":[
+    "place": "Mawlynnong",
+    "state": "North East",
+    "tags": [
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3461,23 +3461,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Tezpur",
-    "state":"North East",
-    "tags":[
+    "place": "Tezpur",
+    "state": "North East",
+    "tags": [
       "heritage",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3485,23 +3485,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Dimapur",
-    "state":"North East",
-    "tags":[
+    "place": "Dimapur",
+    "state": "North East",
+    "tags": [
       "heritage",
       "culture",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3509,23 +3509,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kohima",
-    "state":"North East",
-    "tags":[
+    "place": "Kohima",
+    "state": "North East",
+    "tags": [
       "heritage",
       "culture",
       "mountains"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3533,22 +3533,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Itanagar",
-    "state":"North East",
-    "tags":[
+    "place": "Itanagar",
+    "state": "North East",
+    "tags": [
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":6,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 6,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3556,22 +3556,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mumbai",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "tags": [
       "food",
       "nightlife"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3579,24 +3579,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Lonavala",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Lonavala",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "waterfalls",
       "caves"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "family",
       "friends"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
@@ -3604,23 +3604,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Mahabaleshwar",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Mahabaleshwar",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3628,22 +3628,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Matheran",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Matheran",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "peaceful"
     ],
-    "avg_cost_per_day":1700,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1700,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3651,23 +3651,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Aurangabad",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Aurangabad",
+    "state": "Maharashtra",
+    "tags": [
       "heritage",
       "caves",
       "history"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3675,22 +3675,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Ajanta Ellora",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Ajanta Ellora",
+    "state": "Maharashtra",
+    "tags": [
       "heritage",
       "caves"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3698,22 +3698,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Nashik",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Nashik",
+    "state": "Maharashtra",
+    "tags": [
       "spiritual",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3721,23 +3721,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Kolhapur",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Kolhapur",
+    "state": "Maharashtra",
+    "tags": [
       "heritage",
       "food",
       "culture"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3745,24 +3745,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Panchgani",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Panchgani",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "couples",
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3770,45 +3770,45 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Igatpuri",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Igatpuri",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "waterfalls",
       "trekking"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Darjeeling",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Darjeeling",
+    "state": "West Bengal",
+    "tags": [
       "mountains"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3816,23 +3816,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kalimpong",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Kalimpong",
+    "state": "West Bengal",
+    "tags": [
       "mountains",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -3840,23 +3840,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Kolkata",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "tags": [
       "heritage",
       "food",
       "culture"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3864,21 +3864,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Sundarbans",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Sundarbans",
+    "state": "West Bengal",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -3886,21 +3886,21 @@
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Digha",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Digha",
+    "state": "West Bengal",
+    "tags": [
       "beach"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3908,23 +3908,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Shantiniketan",
-    "state":"West Bengal",
-    "tags":[
+    "place": "Shantiniketan",
+    "state": "West Bengal",
+    "tags": [
       "heritage",
       "culture",
       "peaceful"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3932,21 +3932,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Agra",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3954,22 +3954,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Varanasi",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual",
       "culture"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -3977,23 +3977,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Lucknow",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Lucknow",
+    "state": "Uttar Pradesh",
+    "tags": [
       "heritage",
       "food",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4001,21 +4001,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Ayodhya",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4023,21 +4023,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Mathura",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Mathura",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4045,21 +4045,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Vrindavan",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Vrindavan",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4067,21 +4067,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Allahabad",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Allahabad",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4089,22 +4089,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Sarnath",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Sarnath",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual",
       "heritage"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4112,22 +4112,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Delhi",
-    "state":"Delhi",
-    "tags":[
+    "place": "Delhi",
+    "state": "Delhi",
+    "tags": [
       "heritage",
       "food"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4135,21 +4135,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Agra-Delhi-Jaipur",
-    "state":"Delhi",
-    "tags":[
+    "place": "Agra-Delhi-Jaipur",
+    "state": "Delhi",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4157,21 +4157,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Bodhgaya",
-    "state":"Bihar",
-    "tags":[
+    "place": "Bodhgaya",
+    "state": "Bihar",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4179,22 +4179,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Nalanda",
-    "state":"Bihar",
-    "tags":[
+    "place": "Nalanda",
+    "state": "Bihar",
+    "tags": [
       "heritage",
       "history"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4202,22 +4202,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Rajgir",
-    "state":"Bihar",
-    "tags":[
+    "place": "Rajgir",
+    "state": "Bihar",
+    "tags": [
       "spiritual",
       "nature"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4225,22 +4225,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Puri",
-    "state":"Odisha",
-    "tags":[
+    "place": "Puri",
+    "state": "Odisha",
+    "tags": [
       "spiritual",
       "beach"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4248,21 +4248,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Konark",
-    "state":"Odisha",
-    "tags":[
+    "place": "Konark",
+    "state": "Odisha",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4270,22 +4270,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Bhubaneswar",
-    "state":"Odisha",
-    "tags":[
+    "place": "Bhubaneswar",
+    "state": "Odisha",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4293,43 +4293,43 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Chilika Lake",
-    "state":"Odisha",
-    "tags":[
+    "place": "Chilika Lake",
+    "state": "Odisha",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Hyderabad",
-    "state":"Telangana",
-    "tags":[
+    "place": "Hyderabad",
+    "state": "Telangana",
+    "tags": [
       "heritage",
       "food"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4337,21 +4337,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Tirupati",
-    "state":"Andhra Pradesh",
-    "tags":[
+    "place": "Tirupati",
+    "state": "Andhra Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -4360,22 +4360,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Araku Valley",
-    "state":"Andhra Pradesh",
-    "tags":[
+    "place": "Araku Valley",
+    "state": "Andhra Pradesh",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4383,21 +4383,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Amaravati",
-    "state":"Andhra Pradesh",
-    "tags":[
+    "place": "Amaravati",
+    "state": "Andhra Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4405,23 +4405,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Amritsar",
-    "state":"Punjab & Haryana",
-    "tags":[
+    "place": "Amritsar",
+    "state": "Punjab & Haryana",
+    "tags": [
       "spiritual",
       "heritage",
       "food"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4429,21 +4429,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Chandigarh",
-    "state":"Punjab & Haryana",
-    "tags":[
+    "place": "Chandigarh",
+    "state": "Punjab & Haryana",
+    "tags": [
       "nan"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4451,24 +4451,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Tirthan Valley",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Tirthan Valley",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "nature",
       "offbeat",
       "trekking"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4476,23 +4476,23 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Barot Valley",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Barot Valley",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4500,92 +4500,92 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Malana",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Malana",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "trekking"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Sangla Valley",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Sangla Valley",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "apr",
       "may",
       "jun",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chitkul",
-    "state":"Himachal Pradesh",
-    "tags":[
+    "place": "Chitkul",
+    "state": "Himachal Pradesh",
+    "tags": [
       "mountains",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "may",
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Pithoragarh",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Pithoragarh",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "offbeat",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4593,46 +4593,46 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Munsiyari",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Munsiyari",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "offbeat",
       "trekking"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chaukori",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Chaukori",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "offbeat",
       "peaceful"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4640,24 +4640,24 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Pangot",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Pangot",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature",
       "bird-watching",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4665,23 +4665,23 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Abbott Mount",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Abbott Mount",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "offbeat",
       "peaceful"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "solo"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -4689,69 +4689,69 @@
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bhandardara",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Bhandardara",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "lakes",
       "waterfalls"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Amboli",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Amboli",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "waterfalls",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chikhaldara",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Chikhaldara",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4759,23 +4759,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Toranmal",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Toranmal",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4783,45 +4783,45 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Khandala",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Khandala",
+    "state": "Maharashtra",
+    "tags": [
       "mountains",
       "waterfalls"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep",
       "oct"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Jim Corbett",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Jim Corbett",
+    "state": "Uttarakhand",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
@@ -4830,22 +4830,22 @@
       "apr",
       "may"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Pench National Park",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Pench National Park",
+    "state": "Maharashtra",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4853,22 +4853,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Tadoba",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Tadoba",
+    "state": "Maharashtra",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4876,22 +4876,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Nagarhole",
-    "state":"India",
-    "tags":[
+    "place": "Nagarhole",
+    "state": "India",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4899,21 +4899,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Periyar",
-    "state":"Kerala",
-    "tags":[
+    "place": "Periyar",
+    "state": "Kerala",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -4922,65 +4922,65 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Dudhwa National Park",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Dudhwa National Park",
+    "state": "Uttar Pradesh",
+    "tags": [
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bharatpur",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Bharatpur",
+    "state": "Rajasthan",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Sariska",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Sariska",
+    "state": "Rajasthan",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -4988,23 +4988,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Ponmudi",
-    "state":"Kerala",
-    "tags":[
+    "place": "Ponmudi",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -5013,23 +5013,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Nelliampathy",
-    "state":"Kerala",
-    "tags":[
+    "place": "Nelliampathy",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -5038,23 +5038,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Devikulam",
-    "state":"Kerala",
-    "tags":[
+    "place": "Devikulam",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -5063,22 +5063,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Idukki",
-    "state":"Kerala",
-    "tags":[
+    "place": "Idukki",
+    "state": "Kerala",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "sep",
       "oct",
       "nov",
@@ -5087,22 +5087,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
+    "climate": "Cold",
+    "popularity": "Medium"
   },
   {
-    "place":"Silent Valley",
-    "state":"Kerala",
-    "tags":[
+    "place": "Silent Valley",
+    "state": "Kerala",
+    "tags": [
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5110,24 +5110,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Yelagiri",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Yelagiri",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "nature",
       "adventure",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5135,22 +5135,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Valparai",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Valparai",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5158,24 +5158,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kolli Hills",
-    "state":"Tamil Nadu",
-    "tags":[
+    "place": "Kolli Hills",
+    "state": "Tamil Nadu",
+    "tags": [
       "mountains",
       "offbeat",
       "nature",
       "trekking"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5183,46 +5183,46 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Agumbe",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Agumbe",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "waterfalls",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "jun",
       "jul",
       "aug",
       "sep"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kudremukh",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Kudremukh",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "trekking",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5230,22 +5230,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bandipur",
-    "state":"Karnataka",
-    "tags":[
+    "place": "Bandipur",
+    "state": "Karnataka",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5253,23 +5253,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"BR Hills",
-    "state":"Karnataka",
-    "tags":[
+    "place": "BR Hills",
+    "state": "Karnataka",
+    "tags": [
       "mountains",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5277,24 +5277,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Cold",
-    "popularity":"Offbeat"
+    "climate": "Cold",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Talakona",
-    "state":"Andhra Pradesh",
-    "tags":[
+    "place": "Talakona",
+    "state": "Andhra Pradesh",
+    "tags": [
       "waterfalls",
       "nature",
       "trekking",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":5,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 5,
+    "best_for": [
       "friends"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5302,67 +5302,67 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Barmer",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Barmer",
+    "state": "Rajasthan",
+    "tags": [
       "desert",
       "culture",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Arid",
-    "popularity":"Offbeat"
+    "climate": "Arid",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Osian",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Osian",
+    "state": "Rajasthan",
+    "tags": [
       "desert",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Arid",
-    "popularity":"Offbeat"
+    "climate": "Arid",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Sikar",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Sikar",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5370,22 +5370,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Mandawa",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Mandawa",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5393,22 +5393,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Nawalgarh",
-    "state":"Rajasthan",
-    "tags":[
+    "place": "Nawalgarh",
+    "state": "Rajasthan",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5416,22 +5416,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Champaner",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Champaner",
+    "state": "Gujarat",
+    "tags": [
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5439,21 +5439,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Patan",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Patan",
+    "state": "Gujarat",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5461,42 +5461,42 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Dholavira",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Dholavira",
+    "state": "Gujarat",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Junagadh",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Junagadh",
+    "state": "Gujarat",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5504,23 +5504,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Porbandar",
-    "state":"Gujarat",
-    "tags":[
+    "place": "Porbandar",
+    "state": "Gujarat",
+    "tags": [
       "heritage",
       "beach",
       "history"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5528,23 +5528,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Bhopal",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Bhopal",
+    "state": "Madhya Pradesh",
+    "tags": [
       "lakes",
       "heritage",
       "culture"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5552,22 +5552,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Indore",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Indore",
+    "state": "Madhya Pradesh",
+    "tags": [
       "food",
       "heritage"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5575,21 +5575,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Subtropical",
-    "popularity":"High"
+    "climate": "Subtropical",
+    "popularity": "High"
   },
   {
-    "place":"Gwalior",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Gwalior",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5597,22 +5597,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Maheshwar",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Maheshwar",
+    "state": "Madhya Pradesh",
+    "tags": [
       "heritage",
       "river"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5620,23 +5620,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Amarkantak",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Amarkantak",
+    "state": "Madhya Pradesh",
+    "tags": [
       "spiritual",
       "nature",
       "peaceful"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5644,22 +5644,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Panna National Park",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Panna National Park",
+    "state": "Madhya Pradesh",
+    "tags": [
       "nature",
       "safari"
     ],
-    "avg_cost_per_day":2100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 2100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5667,23 +5667,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Chitrakoot",
-    "state":"Madhya Pradesh",
-    "tags":[
+    "place": "Chitrakoot",
+    "state": "Madhya Pradesh",
+    "tags": [
       "spiritual",
       "nature",
       "waterfalls"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5691,21 +5691,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Fatehpur Sikri",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Fatehpur Sikri",
+    "state": "Uttar Pradesh",
+    "tags": [
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5713,23 +5713,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"High"
+    "climate": "Moderate",
+    "popularity": "High"
   },
   {
-    "place":"Jhansi",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Jhansi",
+    "state": "Uttar Pradesh",
+    "tags": [
       "heritage",
       "history",
       "culture"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5737,22 +5737,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Naimisharanya",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Naimisharanya",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual",
       "peaceful"
     ],
-    "avg_cost_per_day":800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 800,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5760,21 +5760,21 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Vindhyachal",
-    "state":"Uttar Pradesh",
-    "tags":[
+    "place": "Vindhyachal",
+    "state": "Uttar Pradesh",
+    "tags": [
       "spiritual"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5782,23 +5782,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Ganpatipule",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Ganpatipule",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5806,23 +5806,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Ratnagiri",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Ratnagiri",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5830,23 +5830,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Marari Beach",
-    "state":"Kerala",
-    "tags":[
+    "place": "Marari Beach",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1800,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5854,22 +5854,22 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Cherai Beach",
-    "state":"Kerala",
-    "tags":[
+    "place": "Cherai Beach",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "peaceful"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5877,23 +5877,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Beypore",
-    "state":"Kerala",
-    "tags":[
+    "place": "Beypore",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5901,23 +5901,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kappad Beach",
-    "state":"Kerala",
-    "tags":[
+    "place": "Kappad Beach",
+    "state": "Kerala",
+    "tags": [
       "beach",
       "heritage",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5925,23 +5925,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Kashid Beach",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Kashid Beach",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
       "couples"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5949,23 +5949,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Diveagar",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Diveagar",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "heritage"
     ],
-    "avg_cost_per_day":1400,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1400,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5973,23 +5973,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Srivardhan",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Srivardhan",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "peaceful",
       "offbeat"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -5997,23 +5997,23 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Harihareshwar",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Harihareshwar",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "spiritual",
       "peaceful"
     ],
-    "avg_cost_per_day":1300,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6021,46 +6021,46 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Medium"
+    "climate": "Tropical",
+    "popularity": "Medium"
   },
   {
-    "place":"Velas",
-    "state":"Maharashtra",
-    "tags":[
+    "place": "Velas",
+    "state": "Maharashtra",
+    "tags": [
       "beach",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":2,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 2,
+    "best_for": [
       "family"
     ],
-    "season":[
+    "season": [
       "feb",
       "mar",
       "apr"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bastar",
-    "state":"Chhattisgarh",
-    "tags":[
+    "place": "Bastar",
+    "state": "Chhattisgarh",
+    "tags": [
       "culture",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "offbeat",
       "culture",
       "nature"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6068,25 +6068,25 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Jagdalpur",
-    "state":"Chhattisgarh",
-    "tags":[
+    "place": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "tags": [
       "waterfalls",
       "nature",
       "offbeat"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "nature",
       "offbeat",
       "waterfalls"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6094,24 +6094,24 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Dantewada",
-    "state":"Chhattisgarh",
-    "tags":[
+    "place": "Dantewada",
+    "state": "Chhattisgarh",
+    "tags": [
       "culture",
       "offbeat"
     ],
-    "avg_cost_per_day":900,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 900,
+    "trip_duration": 3,
+    "best_for": [
       "offbeat",
       "culture",
       "spiritual"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6119,26 +6119,26 @@
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Offbeat"
+    "climate": "Moderate",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Gopalpur",
-    "state":"Odisha",
-    "tags":[
+    "place": "Gopalpur",
+    "state": "Odisha",
+    "tags": [
       "beach",
       "peaceful",
       "offbeat",
       "heritage"
     ],
-    "avg_cost_per_day":1100,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
       "peaceful",
       "beach",
       "offbeat"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6146,25 +6146,25 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Chandipur",
-    "state":"Odisha",
-    "tags":[
+    "place": "Chandipur",
+    "state": "Odisha",
+    "tags": [
       "beach",
       "offbeat",
       "nature"
     ],
-    "avg_cost_per_day":1000,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1000,
+    "trip_duration": 3,
+    "best_for": [
       "offbeat",
       "nature",
       "beach"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
@@ -6172,70 +6172,70 @@
       "feb",
       "mar"
     ],
-    "climate":"Tropical",
-    "popularity":"Offbeat"
+    "climate": "Tropical",
+    "popularity": "Offbeat"
   },
   {
-    "place":"Bhitarkanika",
-    "state":"Odisha",
-    "tags":[
+    "place": "Bhitarkanika",
+    "state": "Odisha",
+    "tags": [
       "nature"
     ],
-    "avg_cost_per_day":1500,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1500,
+    "trip_duration": 3,
+    "best_for": [
       "wildlife",
       "nature",
       "offbeat"
     ],
-    "season":[
+    "season": [
       "oct",
       "nov",
       "dec",
       "jan",
       "feb"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Simlipal",
-    "state":"Odisha",
-    "tags":[
+    "place": "Simlipal",
+    "state": "Odisha",
+    "tags": [
       "nature",
       "waterfalls"
     ],
-    "avg_cost_per_day":1600,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
       "wildlife",
       "nature",
       "offbeat"
     ],
-    "season":[
+    "season": [
       "nov",
       "dec",
       "jan",
       "feb",
       "mar"
     ],
-    "climate":"Moderate",
-    "popularity":"Medium"
+    "climate": "Moderate",
+    "popularity": "Medium"
   },
   {
-    "place":"Dehradun",
-    "state":"Uttarakhand",
-    "tags":[
+    "place": "Dehradun",
+    "state": "Uttarakhand",
+    "tags": [
       "mountains",
       "nature"
     ],
-    "avg_cost_per_day":1200,
-    "trip_duration":3,
-    "best_for":[
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
       "family",
       "couples"
     ],
-    "season":[
+    "season": [
       "mar",
       "apr",
       "may",
@@ -6243,7 +6243,823 @@
       "oct",
       "nov"
     ],
-    "climate":"Cold",
-    "popularity":"Medium"
-  }
+    "climate": "Cold",
+    "popularity": "Medium"
+  },
+  [
+    {
+      "place": "Dhanaulti",
+      "state": "Uttarakhand",
+      "tags": [
+        "mountains",
+        "peaceful",
+        "nature",
+        "camping"
+      ],
+      "avg_cost_per_day": 1300,
+      "trip_duration": 2,
+      "best_for": [
+        "couples",
+        "friends",
+        "family"
+      ],
+      "season": [
+        "mar",
+        "apr",
+        "may",
+        "jun",
+        "sep",
+        "oct",
+        "nov"
+      ],
+      "climate": "Cold",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Bhimtal",
+      "state": "Uttarakhand",
+      "tags": [
+        "lakes",
+        "nature",
+        "peaceful"
+      ],
+      "avg_cost_per_day": 1400,
+      "trip_duration": 3,
+      "best_for": [
+        "family",
+        "couples"
+      ],
+      "season": [
+        "mar",
+        "apr",
+        "may",
+        "jun",
+        "sep",
+        "oct",
+        "nov"
+      ],
+      "climate": "Cold",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Hogenakkal",
+      "state": "Tamil Nadu",
+      "tags": [
+        "waterfalls",
+        "nature",
+        "boating"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 1,
+      "best_for": [
+        "friends",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Tropical",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Jog Falls",
+      "state": "Karnataka",
+      "tags": [
+        "waterfalls",
+        "nature"
+      ],
+      "avg_cost_per_day": 1100,
+      "trip_duration": 2,
+      "best_for": [
+        "family",
+        "friends"
+      ],
+      "season": [
+        "jul",
+        "aug",
+        "sep",
+        "oct",
+        "nov"
+      ],
+      "climate": "Tropical",
+      "popularity": "High"
+    },
+    {
+      "place": "Belur",
+      "state": "Karnataka",
+      "tags": [
+        "heritage",
+        "history",
+        "architecture"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 1,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Halebidu",
+      "state": "Karnataka",
+      "tags": [
+        "heritage",
+        "history",
+        "architecture"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 1,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Lepakshi",
+      "state": "Andhra Pradesh",
+      "tags": [
+        "heritage",
+        "spiritual",
+        "architecture"
+      ],
+      "avg_cost_per_day": 900,
+      "trip_duration": 1,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb"
+      ],
+      "climate": "Hot",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Modhera",
+      "state": "Gujarat",
+      "tags": [
+        "heritage",
+        "history",
+        "architecture"
+      ],
+      "avg_cost_per_day": 1100,
+      "trip_duration": 1,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Srisailam",
+      "state": "Andhra Pradesh",
+      "tags": [
+        "spiritual",
+        "nature",
+        "forest"
+      ],
+      "avg_cost_per_day": 1200,
+      "trip_duration": 2,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "sep",
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb"
+      ],
+      "climate": "Moderate",
+      "popularity": "High"
+    },
+    {
+      "place": "Warangal",
+      "state": "Telangana",
+      "tags": [
+        "heritage",
+        "history",
+        "lakes"
+      ],
+      "avg_cost_per_day": 1100,
+      "trip_duration": 2,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Doodhpathri",
+      "state": "J&K",
+      "tags": [
+        "mountains",
+        "nature",
+        "meadows",
+        "offbeat"
+      ],
+      "avg_cost_per_day": 1800,
+      "trip_duration": 3,
+      "best_for": [
+        "family",
+        "couples"
+      ],
+      "season": [
+        "apr",
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep"
+      ],
+      "climate": "Cold",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Tso Moriri",
+      "state": "Ladakh",
+      "tags": [
+        "lakes",
+        "nature",
+        "offbeat",
+        "adventure"
+      ],
+      "avg_cost_per_day": 2200,
+      "trip_duration": 4,
+      "best_for": [
+        "friends",
+        "solo"
+      ],
+      "season": [
+        "jun",
+        "jul",
+        "aug",
+        "sep"
+      ],
+      "climate": "Cold",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Hanle",
+      "state": "Ladakh",
+      "tags": [
+        "stargazing",
+        "offbeat",
+        "adventure"
+      ],
+      "avg_cost_per_day": 2000,
+      "trip_duration": 3,
+      "best_for": [
+        "friends",
+        "solo"
+      ],
+      "season": [
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep"
+      ],
+      "climate": "Cold",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Sissu",
+      "state": "Himachal Pradesh",
+      "tags": [
+        "mountains",
+        "waterfalls",
+        "nature"
+      ],
+      "avg_cost_per_day": 1500,
+      "trip_duration": 2,
+      "best_for": [
+        "friends",
+        "couples"
+      ],
+      "season": [
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "oct"
+      ],
+      "climate": "Cold",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Narkanda",
+      "state": "Himachal Pradesh",
+      "tags": [
+        "mountains",
+        "skiing",
+        "nature"
+      ],
+      "avg_cost_per_day": 1400,
+      "trip_duration": 2,
+      "best_for": [
+        "family",
+        "friends"
+      ],
+      "season": [
+        "dec",
+        "jan",
+        "feb",
+        "apr",
+        "may",
+        "jun"
+      ],
+      "climate": "Cold",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Sandakphu",
+      "state": "West Bengal",
+      "tags": [
+        "mountains",
+        "trekking",
+        "adventure"
+      ],
+      "avg_cost_per_day": 1200,
+      "trip_duration": 5,
+      "best_for": [
+        "friends",
+        "solo"
+      ],
+      "season": [
+        "mar",
+        "apr",
+        "may",
+        "oct",
+        "nov",
+        "dec"
+      ],
+      "climate": "Cold",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Lava",
+      "state": "West Bengal",
+      "tags": [
+        "mountains",
+        "nature",
+        "peaceful"
+      ],
+      "avg_cost_per_day": 1100,
+      "trip_duration": 3,
+      "best_for": [
+        "family",
+        "couples"
+      ],
+      "season": [
+        "mar",
+        "apr",
+        "may",
+        "oct",
+        "nov",
+        "dec"
+      ],
+      "climate": "Cold",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Unakoti",
+      "state": "Tripura",
+      "tags": [
+        "heritage",
+        "offbeat",
+        "culture"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 2,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Loktak Lake",
+      "state": "Manipur",
+      "tags": [
+        "lakes",
+        "nature",
+        "offbeat"
+      ],
+      "avg_cost_per_day": 1300,
+      "trip_duration": 2,
+      "best_for": [
+        "friends",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Mechuka",
+      "state": "Arunachal Pradesh",
+      "tags": [
+        "mountains",
+        "offbeat",
+        "valley"
+      ],
+      "avg_cost_per_day": 1500,
+      "trip_duration": 5,
+      "best_for": [
+        "friends",
+        "solo"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar",
+        "apr"
+      ],
+      "climate": "Cold",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Nongriat",
+      "state": "Meghalaya",
+      "tags": [
+        "nature",
+        "trekking",
+        "offbeat"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 3,
+      "best_for": [
+        "friends",
+        "solo"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Dudhsagar Falls",
+      "state": "Goa",
+      "tags": [
+        "waterfalls",
+        "adventure",
+        "nature"
+      ],
+      "avg_cost_per_day": 1500,
+      "trip_duration": 1,
+      "best_for": [
+        "friends",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Tropical",
+      "popularity": "High"
+    },
+    {
+      "place": "Malshej Ghat",
+      "state": "Maharashtra",
+      "tags": [
+        "mountains",
+        "waterfalls",
+        "nature"
+      ],
+      "avg_cost_per_day": 1400,
+      "trip_duration": 2,
+      "best_for": [
+        "family",
+        "friends"
+      ],
+      "season": [
+        "jun",
+        "jul",
+        "aug",
+        "sep"
+      ],
+      "climate": "Cool",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Shirdi",
+      "state": "Maharashtra",
+      "tags": [
+        "spiritual"
+      ],
+      "avg_cost_per_day": 1200,
+      "trip_duration": 2,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "High"
+    },
+    {
+      "place": "Bhedaghat",
+      "state": "Madhya Pradesh",
+      "tags": [
+        "nature",
+        "waterfalls",
+        "boating"
+      ],
+      "avg_cost_per_day": 1100,
+      "trip_duration": 2,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Satkosia",
+      "state": "Odisha",
+      "tags": [
+        "nature",
+        "wildlife",
+        "river"
+      ],
+      "avg_cost_per_day": 1600,
+      "trip_duration": 3,
+      "best_for": [
+        "friends",
+        "family"
+      ],
+      "season": [
+        "nov",
+        "dec",
+        "jan",
+        "feb"
+      ],
+      "climate": "Moderate",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Chettinad",
+      "state": "Tamil Nadu",
+      "tags": [
+        "heritage",
+        "culture",
+        "food"
+      ],
+      "avg_cost_per_day": 1500,
+      "trip_duration": 2,
+      "best_for": [
+        "family",
+        "culture_vultures"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Tropical",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Thiruvananthapuram",
+      "state": "Kerala",
+      "tags": [
+        "heritage",
+        "spiritual",
+        "city"
+      ],
+      "avg_cost_per_day": 1400,
+      "trip_duration": 2,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Tropical",
+      "popularity": "High"
+    },
+    {
+      "place": "Poovar",
+      "state": "Kerala",
+      "tags": [
+        "beach",
+        "backwaters",
+        "peaceful"
+      ],
+      "avg_cost_per_day": 2000,
+      "trip_duration": 2,
+      "best_for": [
+        "couples",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Tropical",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Kadmat Island",
+      "state": "Lakshadweep",
+      "tags": [
+        "islands",
+        "beach",
+        "water-sports"
+      ],
+      "avg_cost_per_day": 3500,
+      "trip_duration": 5,
+      "best_for": [
+        "couples",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar",
+        "apr"
+      ],
+      "climate": "Tropical",
+      "popularity": "Offbeat"
+    },
+    {
+      "place": "Baratang Island",
+      "state": "Andaman & Nicobar",
+      "tags": [
+        "caves",
+        "nature",
+        "adventure"
+      ],
+      "avg_cost_per_day": 2000,
+      "trip_duration": 1,
+      "best_for": [
+        "friends",
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar",
+        "apr"
+      ],
+      "climate": "Tropical",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Kurukshetra",
+      "state": "Haryana",
+      "tags": [
+        "spiritual",
+        "history",
+        "heritage"
+      ],
+      "avg_cost_per_day": 1000,
+      "trip_duration": 1,
+      "best_for": [
+        "family",
+        "history_buffs"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    },
+    {
+      "place": "Anandpur Sahib",
+      "state": "Punjab",
+      "tags": [
+        "spiritual",
+        "heritage"
+      ],
+      "avg_cost_per_day": 900,
+      "trip_duration": 1,
+      "best_for": [
+        "family"
+      ],
+      "season": [
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar"
+      ],
+      "climate": "Moderate",
+      "popularity": "Medium"
+    }
+  ]
 ]
