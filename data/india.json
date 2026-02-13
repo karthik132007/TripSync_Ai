@@ -1,7 +1,6 @@
 [
   {
     "place": "Manali",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -23,11 +22,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Shimla",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "heritage",
@@ -48,11 +47,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Dharamshala",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "spiritual",
@@ -73,11 +72,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "McLeod Ganj",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "spiritual"
@@ -96,11 +95,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kasol",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature"
@@ -120,11 +119,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Dalhousie",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -145,11 +144,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kullu",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "adventure",
@@ -171,11 +170,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kufri",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "adventure"
@@ -194,11 +193,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kasauli",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "peaceful",
@@ -219,11 +218,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chail",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -245,11 +244,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Spiti Valley",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "adventure",
@@ -268,11 +267,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bir Billing",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "adventure",
@@ -294,11 +293,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Khajjiar",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -318,11 +317,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kinnaur",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -341,11 +340,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chamba",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "heritage",
@@ -366,11 +365,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Palampur",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -391,11 +390,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kaza",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -414,11 +413,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Jibhi",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -438,11 +437,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mashobra",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "peaceful",
@@ -464,11 +463,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Shoghi",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "peaceful",
@@ -490,11 +489,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mussoorie",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature"
@@ -514,11 +513,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Nainital",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "lakes",
@@ -540,11 +539,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Rishikesh",
-    "state": "Uttarakhand",
     "tags": [
       "spiritual",
       "adventure",
@@ -565,11 +564,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Haridwar",
-    "state": "Uttarakhand",
     "tags": [
       "spiritual",
       "heritage"
@@ -589,11 +588,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Auli",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "skiing",
@@ -611,11 +610,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Lansdowne",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "peaceful",
@@ -637,11 +636,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Almora",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature",
@@ -661,11 +660,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ranikhet",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "peaceful",
@@ -686,11 +685,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chopta",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "trekking",
@@ -710,11 +709,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Valley of Flowers",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature",
@@ -731,11 +730,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Kausani",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature",
@@ -755,11 +754,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Binsar",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature",
@@ -779,11 +778,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mukteshwar",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "adventure",
@@ -804,11 +803,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chakrata",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "offbeat",
@@ -829,11 +828,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kanatal",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "peaceful",
@@ -854,11 +853,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Srinagar",
-    "state": "J&K",
     "tags": [
       "mountains",
       "lakes"
@@ -878,11 +877,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Gulmarg",
-    "state": "J&K",
     "tags": [
       "mountains",
       "skiing",
@@ -902,11 +901,11 @@
       "may"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pahalgam",
-    "state": "J&K",
     "tags": [
       "mountains",
       "nature",
@@ -926,11 +925,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Leh",
-    "state": "Ladakh",
     "tags": [
       "mountains",
       "adventure"
@@ -948,11 +947,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ladakh",
-    "state": "Ladakh",
     "tags": [
       "mountains",
       "adventure",
@@ -971,11 +970,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Sonamarg",
-    "state": "J&K",
     "tags": [
       "mountains",
       "nature",
@@ -994,11 +993,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Nubra Valley",
-    "state": "Ladakh",
     "tags": [
       "mountains",
       "desert"
@@ -1015,11 +1014,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pangong Lake",
-    "state": "Ladakh",
     "tags": [
       "mountains",
       "lakes"
@@ -1037,11 +1036,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kargil",
-    "state": "J&K",
     "tags": [
       "mountains",
       "heritage",
@@ -1060,11 +1059,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Patnitop",
-    "state": "J&K",
     "tags": [
       "mountains",
       "nature",
@@ -1086,11 +1085,11 @@
       "may"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Goa - North",
-    "state": "Goa",
     "tags": [
       "beach",
       "nightlife",
@@ -1110,11 +1109,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Goa - South",
-    "state": "Goa",
     "tags": [
       "beach",
       "peaceful",
@@ -1135,11 +1134,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Palolem Beach",
-    "state": "Goa",
     "tags": [
       "beach",
       "peaceful"
@@ -1158,11 +1157,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Arambol Beach",
-    "state": "Goa",
     "tags": [
       "beach",
       "peaceful"
@@ -1181,11 +1180,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Agonda Beach",
-    "state": "Goa",
     "tags": [
       "beach",
       "peaceful",
@@ -1206,11 +1205,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Varkala",
-    "state": "Kerala",
     "tags": [
       "beach",
       "spiritual"
@@ -1229,11 +1228,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Alleppey",
-    "state": "Kerala",
     "tags": [
       "nature"
     ],
@@ -1252,11 +1251,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kovalam",
-    "state": "Kerala",
     "tags": [
       "beach"
     ],
@@ -1275,11 +1274,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Gokarna",
-    "state": "Karnataka",
     "tags": [
       "beach",
       "peaceful"
@@ -1298,11 +1297,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pondicherry",
-    "state": "Tamil Nadu",
     "tags": [
       "beach",
       "heritage"
@@ -1322,11 +1321,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mamallapuram",
-    "state": "Tamil Nadu",
     "tags": [
       "beach",
       "heritage"
@@ -1345,11 +1344,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Visakhapatnam",
-    "state": "Andhra Pradesh",
     "tags": [
       "beach",
       "nature"
@@ -1369,11 +1368,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Puri",
-    "state": "Odisha",
     "tags": [
       "beach",
       "spiritual",
@@ -1393,11 +1392,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Diu",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -1418,11 +1417,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Daman",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -1442,11 +1441,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Tarkarli",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "water-sports",
@@ -1466,11 +1465,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Alibaug",
-    "state": "Maharashtra",
     "tags": [
       "beach"
     ],
@@ -1489,11 +1488,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Murudeshwar",
-    "state": "Karnataka",
     "tags": [
       "beach",
       "spiritual"
@@ -1512,11 +1511,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Karwar",
-    "state": "Karnataka",
     "tags": [
       "beach",
       "peaceful",
@@ -1537,11 +1536,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mandvi Beach",
-    "state": "Gujarat",
     "tags": [
       "beach",
       "offbeat",
@@ -1560,11 +1559,11 @@
       "feb"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Havelock Island",
-    "state": "Andaman & Nicobar",
     "tags": [
       "islands",
       "beach",
@@ -1586,11 +1585,11 @@
       "may"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Neil Island",
-    "state": "Andaman & Nicobar",
     "tags": [
       "islands",
       "beach",
@@ -1613,11 +1612,11 @@
       "may"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Port Blair",
-    "state": "Andaman & Nicobar",
     "tags": [
       "islands",
       "heritage",
@@ -1640,11 +1639,11 @@
       "may"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ross Island",
-    "state": "Andaman & Nicobar",
     "tags": [
       "islands",
       "heritage",
@@ -1666,11 +1665,11 @@
       "may"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kavaratti",
-    "state": "Lakshadweep",
     "tags": [
       "islands",
       "beach",
@@ -1690,11 +1689,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Agatti Island",
-    "state": "Lakshadweep",
     "tags": [
       "islands",
       "beach"
@@ -1713,11 +1712,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bangaram Island",
-    "state": "Lakshadweep",
     "tags": [
       "islands",
       "beach",
@@ -1737,11 +1736,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Minicoy Island",
-    "state": "Lakshadweep",
     "tags": [
       "islands",
       "beach"
@@ -1760,11 +1759,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Jaipur",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "culture"
@@ -1783,11 +1782,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Udaipur",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "lakes",
@@ -1807,11 +1806,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Jaisalmer",
-    "state": "Rajasthan",
     "tags": [
       "desert",
       "culture"
@@ -1829,11 +1828,11 @@
       "feb"
     ],
     "climate": "Arid",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Jodhpur",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "culture"
@@ -1852,11 +1851,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pushkar",
-    "state": "Rajasthan",
     "tags": [
       "spiritual",
       "culture"
@@ -1874,11 +1873,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ajmer",
-    "state": "Rajasthan",
     "tags": [
       "spiritual",
       "heritage"
@@ -1897,11 +1896,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bikaner",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "desert",
@@ -1920,11 +1919,11 @@
       "feb"
     ],
     "climate": "Arid",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mount Abu",
-    "state": "Rajasthan",
     "tags": [
       "mountains",
       "lakes",
@@ -1947,11 +1946,11 @@
       "may"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ranthambore",
-    "state": "Rajasthan",
     "tags": [
       "nature",
       "safari"
@@ -1970,11 +1969,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chittorgarh",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "history",
@@ -1994,11 +1993,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bundi",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "offbeat"
@@ -2017,11 +2016,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Alwar",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "offbeat"
@@ -2040,11 +2039,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Shekhawati",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "offbeat"
@@ -2063,11 +2062,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kumbhalgarh",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "nature"
@@ -2086,11 +2085,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ranakpur",
-    "state": "Rajasthan",
     "tags": [
       "heritage"
     ],
@@ -2108,11 +2107,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Rann of Kutch",
-    "state": "Gujarat",
     "tags": [
       "desert",
       "culture"
@@ -2129,11 +2128,11 @@
       "feb"
     ],
     "climate": "Arid",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ahmedabad",
-    "state": "Gujarat",
     "tags": [
       "heritage",
       "culture",
@@ -2153,11 +2152,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Dwarka",
-    "state": "Gujarat",
     "tags": [
       "spiritual",
       "beach"
@@ -2176,11 +2175,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Somnath",
-    "state": "Gujarat",
     "tags": [
       "spiritual",
       "beach",
@@ -2200,11 +2199,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Gir National Park",
-    "state": "Gujarat",
     "tags": [
       "nature",
       "safari"
@@ -2222,11 +2221,11 @@
       "apr"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Saputara",
-    "state": "Gujarat",
     "tags": [
       "mountains",
       "nature",
@@ -2246,11 +2245,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Vadodara",
-    "state": "Gujarat",
     "tags": [
       "heritage",
       "culture"
@@ -2269,11 +2268,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Statue of Unity",
-    "state": "Gujarat",
     "tags": [
       "nan"
     ],
@@ -2291,11 +2290,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Khajuraho",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage"
     ],
@@ -2313,11 +2312,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Pachmarhi",
-    "state": "Madhya Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -2338,11 +2337,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kanha National Park",
-    "state": "Madhya Pradesh",
     "tags": [
       "nature",
       "safari"
@@ -2361,11 +2360,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bandhavgarh",
-    "state": "Madhya Pradesh",
     "tags": [
       "nature",
       "safari"
@@ -2384,11 +2383,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Orchha",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage",
       "offbeat"
@@ -2407,11 +2406,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Ujjain",
-    "state": "Madhya Pradesh",
     "tags": [
       "spiritual",
       "culture"
@@ -2430,11 +2429,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Omkareshwar",
-    "state": "Madhya Pradesh",
     "tags": [
       "spiritual",
       "river"
@@ -2453,11 +2452,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mandu",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage",
       "offbeat"
@@ -2476,11 +2475,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Sanchi",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage"
     ],
@@ -2498,11 +2497,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Munnar",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature"
@@ -2523,11 +2522,11 @@
       "apr"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Wayanad",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature"
@@ -2546,11 +2545,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Thekkady",
-    "state": "Kerala",
     "tags": [
       "nature",
       "boating"
@@ -2570,11 +2569,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kumarakom",
-    "state": "Kerala",
     "tags": [
       "peaceful"
     ],
@@ -2592,11 +2591,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kochi",
-    "state": "Kerala",
     "tags": [
       "heritage",
       "culture",
@@ -2616,11 +2615,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Vagamon",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature",
@@ -2642,11 +2641,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Athirapally",
-    "state": "Kerala",
     "tags": [
       "waterfalls",
       "nature",
@@ -2666,11 +2665,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bekal",
-    "state": "Kerala",
     "tags": [
       "beach",
       "heritage",
@@ -2690,11 +2689,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kannur",
-    "state": "Kerala",
     "tags": [
       "beach",
       "culture",
@@ -2714,11 +2713,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kollam",
-    "state": "Kerala",
     "tags": [
       "beach",
       "lakes",
@@ -2738,11 +2737,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Coorg",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "nature",
@@ -2763,11 +2762,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Hampi",
-    "state": "Karnataka",
     "tags": [
       "heritage"
     ],
@@ -2784,11 +2783,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Mysore",
-    "state": "Karnataka",
     "tags": [
       "heritage",
       "culture"
@@ -2807,11 +2806,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bangalore",
-    "state": "Karnataka",
     "tags": [
       "food",
       "nightlife"
@@ -2830,11 +2829,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Chikmagalur",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "nature",
@@ -2854,11 +2853,11 @@
       "feb"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kabini",
-    "state": "Karnataka",
     "tags": [
       "nature",
       "safari",
@@ -2878,11 +2877,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Dandeli",
-    "state": "Karnataka",
     "tags": [
       "adventure",
       "rafting",
@@ -2902,11 +2901,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Badami",
-    "state": "Karnataka",
     "tags": [
       "heritage",
       "caves",
@@ -2926,11 +2925,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Sakleshpur",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "nature",
@@ -2950,11 +2949,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Udupi",
-    "state": "Karnataka",
     "tags": [
       "beach",
       "food"
@@ -2973,11 +2972,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ooty",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "nature"
@@ -2998,11 +2997,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kodaikanal",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "lakes",
@@ -3024,11 +3023,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chennai",
-    "state": "Tamil Nadu",
     "tags": [
       "beach",
       "food"
@@ -3046,11 +3045,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Madurai",
-    "state": "Tamil Nadu",
     "tags": [
       "heritage",
       "culture",
@@ -3070,11 +3069,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Rameswaram",
-    "state": "Tamil Nadu",
     "tags": [
       "spiritual",
       "beach"
@@ -3093,11 +3092,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kanyakumari",
-    "state": "Tamil Nadu",
     "tags": [
       "beach"
     ],
@@ -3115,11 +3114,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Thanjavur",
-    "state": "Tamil Nadu",
     "tags": [
       "heritage"
     ],
@@ -3137,11 +3136,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Yercaud",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "nature",
@@ -3162,11 +3161,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Coonoor",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "nature"
@@ -3186,11 +3185,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Trichy",
-    "state": "Tamil Nadu",
     "tags": [
       "heritage",
       "culture",
@@ -3210,11 +3209,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Shillong",
-    "state": "North East",
     "tags": [
       "mountains",
       "nature",
@@ -3234,11 +3233,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Cherrapunji",
-    "state": "North East",
     "tags": [
       "mountains",
       "waterfalls",
@@ -3258,11 +3257,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kaziranga",
-    "state": "North East",
     "tags": [
       "nature"
     ],
@@ -3280,11 +3279,11 @@
       "apr"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Tawang",
-    "state": "North East",
     "tags": [
       "mountains"
     ],
@@ -3301,11 +3300,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ziro Valley",
-    "state": "North East",
     "tags": [
       "mountains",
       "offbeat"
@@ -3323,11 +3322,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Majuli",
-    "state": "North East",
     "tags": [
       "islands",
       "culture",
@@ -3347,11 +3346,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Gangtok",
-    "state": "North East",
     "tags": [
       "mountains",
       "nature"
@@ -3370,11 +3369,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pelling",
-    "state": "North East",
     "tags": [
       "mountains",
       "trekking"
@@ -3393,11 +3392,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Lachung",
-    "state": "North East",
     "tags": [
       "mountains",
       "nature",
@@ -3416,11 +3415,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Dawki",
-    "state": "North East",
     "tags": [
       "nature",
       "offbeat"
@@ -3439,11 +3438,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mawlynnong",
-    "state": "North East",
     "tags": [
       "nature",
       "offbeat"
@@ -3462,11 +3461,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Tezpur",
-    "state": "North East",
     "tags": [
       "heritage",
       "nature",
@@ -3486,11 +3485,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Dimapur",
-    "state": "North East",
     "tags": [
       "heritage",
       "culture",
@@ -3510,11 +3509,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kohima",
-    "state": "North East",
     "tags": [
       "heritage",
       "culture",
@@ -3534,11 +3533,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Itanagar",
-    "state": "North East",
     "tags": [
       "nature",
       "offbeat"
@@ -3557,11 +3556,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mumbai",
-    "state": "Maharashtra",
     "tags": [
       "food",
       "nightlife"
@@ -3580,11 +3579,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Lonavala",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "waterfalls",
@@ -3605,11 +3604,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mahabaleshwar",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "nature"
@@ -3629,11 +3628,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Matheran",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "peaceful"
@@ -3652,11 +3651,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Aurangabad",
-    "state": "Maharashtra",
     "tags": [
       "heritage",
       "caves",
@@ -3676,11 +3675,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Ajanta Ellora",
-    "state": "Maharashtra",
     "tags": [
       "heritage",
       "caves"
@@ -3699,11 +3698,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Nashik",
-    "state": "Maharashtra",
     "tags": [
       "spiritual",
       "culture"
@@ -3722,11 +3721,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kolhapur",
-    "state": "Maharashtra",
     "tags": [
       "heritage",
       "food",
@@ -3746,11 +3745,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Panchgani",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "nature",
@@ -3771,11 +3770,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Igatpuri",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "waterfalls",
@@ -3794,11 +3793,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Darjeeling",
-    "state": "West Bengal",
     "tags": [
       "mountains"
     ],
@@ -3817,11 +3816,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kalimpong",
-    "state": "West Bengal",
     "tags": [
       "mountains",
       "nature",
@@ -3841,11 +3840,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Kolkata",
-    "state": "West Bengal",
     "tags": [
       "heritage",
       "food",
@@ -3865,11 +3864,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Sundarbans",
-    "state": "West Bengal",
     "tags": [
       "nature"
     ],
@@ -3887,11 +3886,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Digha",
-    "state": "West Bengal",
     "tags": [
       "beach"
     ],
@@ -3909,11 +3908,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Shantiniketan",
-    "state": "West Bengal",
     "tags": [
       "heritage",
       "culture",
@@ -3933,11 +3932,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Agra",
-    "state": "Uttar Pradesh",
     "tags": [
       "heritage"
     ],
@@ -3955,11 +3954,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Varanasi",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual",
       "culture"
@@ -3978,11 +3977,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Lucknow",
-    "state": "Uttar Pradesh",
     "tags": [
       "heritage",
       "food",
@@ -4002,11 +4001,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ayodhya",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -4024,11 +4023,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mathura",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -4046,11 +4045,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Vrindavan",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -4068,11 +4067,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Allahabad",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -4090,11 +4089,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Sarnath",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual",
       "heritage"
@@ -4113,11 +4112,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Delhi",
-    "state": "Delhi",
     "tags": [
       "heritage",
       "food"
@@ -4136,11 +4135,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Agra-Delhi-Jaipur",
-    "state": "Delhi",
     "tags": [
       "heritage"
     ],
@@ -4158,11 +4157,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Bodhgaya",
-    "state": "Bihar",
     "tags": [
       "spiritual"
     ],
@@ -4180,11 +4179,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Nalanda",
-    "state": "Bihar",
     "tags": [
       "heritage",
       "history"
@@ -4203,11 +4202,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Rajgir",
-    "state": "Bihar",
     "tags": [
       "spiritual",
       "nature"
@@ -4226,11 +4225,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Puri",
-    "state": "Odisha",
     "tags": [
       "spiritual",
       "beach"
@@ -4249,11 +4248,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Konark",
-    "state": "Odisha",
     "tags": [
       "heritage"
     ],
@@ -4271,11 +4270,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Bhubaneswar",
-    "state": "Odisha",
     "tags": [
       "heritage",
       "culture"
@@ -4294,11 +4293,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Chilika Lake",
-    "state": "Odisha",
     "tags": [
       "nature"
     ],
@@ -4315,11 +4314,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Hyderabad",
-    "state": "Telangana",
     "tags": [
       "heritage",
       "food"
@@ -4338,11 +4337,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Tirupati",
-    "state": "Andhra Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -4361,11 +4360,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Araku Valley",
-    "state": "Andhra Pradesh",
     "tags": [
       "mountains",
       "nature"
@@ -4384,11 +4383,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Amaravati",
-    "state": "Andhra Pradesh",
     "tags": [
       "heritage"
     ],
@@ -4406,11 +4405,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Amritsar",
-    "state": "Punjab & Haryana",
     "tags": [
       "spiritual",
       "heritage",
@@ -4430,11 +4429,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chandigarh",
-    "state": "Punjab & Haryana",
     "tags": [
       "nan"
     ],
@@ -4452,11 +4451,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Tirthan Valley",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -4477,11 +4476,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Barot Valley",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -4501,11 +4500,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Malana",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -4524,11 +4523,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Sangla Valley",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -4547,11 +4546,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chitkul",
-    "state": "Himachal Pradesh",
     "tags": [
       "mountains",
       "offbeat"
@@ -4569,11 +4568,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Pithoragarh",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "offbeat",
@@ -4594,11 +4593,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Munsiyari",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "offbeat",
@@ -4617,11 +4616,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chaukori",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "offbeat",
@@ -4641,11 +4640,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Pangot",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature",
@@ -4666,11 +4665,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Abbott Mount",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "offbeat",
@@ -4690,11 +4689,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bhandardara",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "lakes",
@@ -4713,11 +4712,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Amboli",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "waterfalls",
@@ -4736,11 +4735,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chikhaldara",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "offbeat",
@@ -4760,11 +4759,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Toranmal",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "offbeat",
@@ -4784,11 +4783,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Khandala",
-    "state": "Maharashtra",
     "tags": [
       "mountains",
       "waterfalls"
@@ -4807,11 +4806,11 @@
       "oct"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Jim Corbett",
-    "state": "Uttarakhand",
     "tags": [
       "nature",
       "safari"
@@ -4831,11 +4830,11 @@
       "may"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Pench National Park",
-    "state": "Maharashtra",
     "tags": [
       "nature",
       "safari"
@@ -4854,11 +4853,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Tadoba",
-    "state": "Maharashtra",
     "tags": [
       "nature",
       "safari"
@@ -4877,11 +4876,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Nagarhole",
-    "state": "India",
     "tags": [
       "nature",
       "safari"
@@ -4900,11 +4899,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Periyar",
-    "state": "Kerala",
     "tags": [
       "nature"
     ],
@@ -4923,11 +4922,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Dudhwa National Park",
-    "state": "Uttar Pradesh",
     "tags": [
       "nature",
       "offbeat"
@@ -4945,11 +4944,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bharatpur",
-    "state": "Rajasthan",
     "tags": [
       "nature"
     ],
@@ -4966,11 +4965,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Sariska",
-    "state": "Rajasthan",
     "tags": [
       "nature",
       "safari"
@@ -4989,11 +4988,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ponmudi",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature",
@@ -5014,11 +5013,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Nelliampathy",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature",
@@ -5039,11 +5038,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Devikulam",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature",
@@ -5064,11 +5063,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Idukki",
-    "state": "Kerala",
     "tags": [
       "mountains",
       "nature"
@@ -5088,11 +5087,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Silent Valley",
-    "state": "Kerala",
     "tags": [
       "nature",
       "offbeat"
@@ -5111,11 +5110,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Yelagiri",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "nature",
@@ -5136,11 +5135,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Valparai",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "offbeat"
@@ -5159,11 +5158,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kolli Hills",
-    "state": "Tamil Nadu",
     "tags": [
       "mountains",
       "offbeat",
@@ -5184,11 +5183,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Agumbe",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "waterfalls",
@@ -5206,11 +5205,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kudremukh",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "trekking",
@@ -5231,11 +5230,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bandipur",
-    "state": "Karnataka",
     "tags": [
       "nature",
       "safari"
@@ -5254,11 +5253,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "BR Hills",
-    "state": "Karnataka",
     "tags": [
       "mountains",
       "nature",
@@ -5278,11 +5277,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Talakona",
-    "state": "Andhra Pradesh",
     "tags": [
       "waterfalls",
       "nature",
@@ -5303,11 +5302,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Barmer",
-    "state": "Rajasthan",
     "tags": [
       "desert",
       "culture",
@@ -5326,11 +5325,11 @@
       "feb"
     ],
     "climate": "Arid",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Osian",
-    "state": "Rajasthan",
     "tags": [
       "desert",
       "offbeat"
@@ -5348,11 +5347,11 @@
       "feb"
     ],
     "climate": "Arid",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Sikar",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "offbeat"
@@ -5371,11 +5370,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Mandawa",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "culture"
@@ -5394,11 +5393,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Nawalgarh",
-    "state": "Rajasthan",
     "tags": [
       "heritage",
       "offbeat"
@@ -5417,11 +5416,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Champaner",
-    "state": "Gujarat",
     "tags": [
       "heritage",
       "offbeat"
@@ -5440,11 +5439,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Patan",
-    "state": "Gujarat",
     "tags": [
       "heritage"
     ],
@@ -5462,11 +5461,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Dholavira",
-    "state": "Gujarat",
     "tags": [
       "heritage"
     ],
@@ -5483,11 +5482,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Junagadh",
-    "state": "Gujarat",
     "tags": [
       "heritage"
     ],
@@ -5505,11 +5504,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Porbandar",
-    "state": "Gujarat",
     "tags": [
       "heritage",
       "beach",
@@ -5529,11 +5528,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Bhopal",
-    "state": "Madhya Pradesh",
     "tags": [
       "lakes",
       "heritage",
@@ -5553,11 +5552,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Indore",
-    "state": "Madhya Pradesh",
     "tags": [
       "food",
       "heritage"
@@ -5576,11 +5575,11 @@
       "mar"
     ],
     "climate": "Subtropical",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Gwalior",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage"
     ],
@@ -5598,11 +5597,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Maheshwar",
-    "state": "Madhya Pradesh",
     "tags": [
       "heritage",
       "river"
@@ -5621,11 +5620,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Amarkantak",
-    "state": "Madhya Pradesh",
     "tags": [
       "spiritual",
       "nature",
@@ -5645,11 +5644,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Panna National Park",
-    "state": "Madhya Pradesh",
     "tags": [
       "nature",
       "safari"
@@ -5668,11 +5667,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Chitrakoot",
-    "state": "Madhya Pradesh",
     "tags": [
       "spiritual",
       "nature",
@@ -5692,11 +5691,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Fatehpur Sikri",
-    "state": "Uttar Pradesh",
     "tags": [
       "heritage"
     ],
@@ -5714,11 +5713,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "High"
+    "popularity": "High",
+    "country": "India"
   },
   {
     "place": "Jhansi",
-    "state": "Uttar Pradesh",
     "tags": [
       "heritage",
       "history",
@@ -5738,11 +5737,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Naimisharanya",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual",
       "peaceful"
@@ -5761,11 +5760,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Vindhyachal",
-    "state": "Uttar Pradesh",
     "tags": [
       "spiritual"
     ],
@@ -5783,11 +5782,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Ganpatipule",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -5807,11 +5806,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Ratnagiri",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "heritage",
@@ -5831,11 +5830,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Marari Beach",
-    "state": "Kerala",
     "tags": [
       "beach",
       "peaceful",
@@ -5855,11 +5854,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Cherai Beach",
-    "state": "Kerala",
     "tags": [
       "beach",
       "peaceful"
@@ -5878,11 +5877,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Beypore",
-    "state": "Kerala",
     "tags": [
       "beach",
       "heritage",
@@ -5902,11 +5901,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kappad Beach",
-    "state": "Kerala",
     "tags": [
       "beach",
       "heritage",
@@ -5926,11 +5925,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Kashid Beach",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -5950,11 +5949,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Diveagar",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -5974,11 +5973,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Srivardhan",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "peaceful",
@@ -5998,11 +5997,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Harihareshwar",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "spiritual",
@@ -6022,11 +6021,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Velas",
-    "state": "Maharashtra",
     "tags": [
       "beach",
       "nature",
@@ -6043,11 +6042,11 @@
       "apr"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bastar",
-    "state": "Chhattisgarh",
     "tags": [
       "culture",
       "nature",
@@ -6069,11 +6068,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Jagdalpur",
-    "state": "Chhattisgarh",
     "tags": [
       "waterfalls",
       "nature",
@@ -6095,11 +6094,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Dantewada",
-    "state": "Chhattisgarh",
     "tags": [
       "culture",
       "offbeat"
@@ -6120,11 +6119,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Gopalpur",
-    "state": "Odisha",
     "tags": [
       "beach",
       "peaceful",
@@ -6147,11 +6146,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chandipur",
-    "state": "Odisha",
     "tags": [
       "beach",
       "offbeat",
@@ -6173,11 +6172,11 @@
       "mar"
     ],
     "climate": "Tropical",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Bhitarkanika",
-    "state": "Odisha",
     "tags": [
       "nature"
     ],
@@ -6196,11 +6195,11 @@
       "feb"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Simlipal",
-    "state": "Odisha",
     "tags": [
       "nature",
       "waterfalls"
@@ -6220,11 +6219,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Dehradun",
-    "state": "Uttarakhand",
     "tags": [
       "mountains",
       "nature"
@@ -6244,11 +6243,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Netarhat",
-    "state": "Jharkhand",
     "tags": [
       "mountains",
       "nature",
@@ -6269,11 +6268,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Betla National Park",
-    "state": "Jharkhand",
     "tags": [
       "nature",
       "safari",
@@ -6292,11 +6291,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Mainpat",
-    "state": "Chhattisgarh",
     "tags": [
       "mountains",
       "offbeat",
@@ -6317,11 +6316,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Chitrakote Falls",
-    "state": "Chhattisgarh",
     "tags": [
       "waterfalls",
       "nature"
@@ -6339,11 +6338,11 @@
       "dec"
     ],
     "climate": "Moderate",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Gandikota",
-    "state": "Andhra Pradesh",
     "tags": [
       "nature",
       "canyon",
@@ -6363,11 +6362,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Horsley Hills",
-    "state": "Andhra Pradesh",
     "tags": [
       "mountains",
       "nature",
@@ -6388,11 +6387,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Medium"
+    "popularity": "Medium",
+    "country": "India"
   },
   {
     "place": "Lambasingi",
-    "state": "Andhra Pradesh",
     "tags": [
       "mountains",
       "offbeat",
@@ -6410,11 +6409,11 @@
       "feb"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Daringbadi",
-    "state": "Odisha",
     "tags": [
       "mountains",
       "nature",
@@ -6434,11 +6433,11 @@
       "mar"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Sitamani Wildlife Sanctuary",
-    "state": "Odisha",
     "tags": [
       "nature",
       "safari",
@@ -6457,11 +6456,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Aizawl",
-    "state": "North East",
     "tags": [
       "mountains",
       "culture",
@@ -6481,11 +6480,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Haflong",
-    "state": "North East",
     "tags": [
       "mountains",
       "nature",
@@ -6506,11 +6505,11 @@
       "nov"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Dzukou Valley",
-    "state": "North East",
     "tags": [
       "mountains",
       "trekking",
@@ -6530,11 +6529,11 @@
       "sep"
     ],
     "climate": "Cold",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Lonar Crater Lake",
-    "state": "Maharashtra",
     "tags": [
       "nature",
       "offbeat",
@@ -6554,11 +6553,11 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   },
   {
     "place": "Gandikota Camping",
-    "state": "Andhra Pradesh",
     "tags": [
       "adventure",
       "camping",
@@ -6579,6 +6578,7 @@
       "mar"
     ],
     "climate": "Moderate",
-    "popularity": "Offbeat"
+    "popularity": "Offbeat",
+    "country": "India"
   }
 ]
