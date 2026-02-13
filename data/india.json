@@ -6246,820 +6246,339 @@
     "climate": "Cold",
     "popularity": "Medium"
   },
-  [
-    {
-      "place": "Dhanaulti",
-      "state": "Uttarakhand",
-      "tags": [
-        "mountains",
-        "peaceful",
-        "nature",
-        "camping"
-      ],
-      "avg_cost_per_day": 1300,
-      "trip_duration": 2,
-      "best_for": [
-        "couples",
-        "friends",
-        "family"
-      ],
-      "season": [
-        "mar",
-        "apr",
-        "may",
-        "jun",
-        "sep",
-        "oct",
-        "nov"
-      ],
-      "climate": "Cold",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Bhimtal",
-      "state": "Uttarakhand",
-      "tags": [
-        "lakes",
-        "nature",
-        "peaceful"
-      ],
-      "avg_cost_per_day": 1400,
-      "trip_duration": 3,
-      "best_for": [
-        "family",
-        "couples"
-      ],
-      "season": [
-        "mar",
-        "apr",
-        "may",
-        "jun",
-        "sep",
-        "oct",
-        "nov"
-      ],
-      "climate": "Cold",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Hogenakkal",
-      "state": "Tamil Nadu",
-      "tags": [
-        "waterfalls",
-        "nature",
-        "boating"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 1,
-      "best_for": [
-        "friends",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Tropical",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Jog Falls",
-      "state": "Karnataka",
-      "tags": [
-        "waterfalls",
-        "nature"
-      ],
-      "avg_cost_per_day": 1100,
-      "trip_duration": 2,
-      "best_for": [
-        "family",
-        "friends"
-      ],
-      "season": [
-        "jul",
-        "aug",
-        "sep",
-        "oct",
-        "nov"
-      ],
-      "climate": "Tropical",
-      "popularity": "High"
-    },
-    {
-      "place": "Belur",
-      "state": "Karnataka",
-      "tags": [
-        "heritage",
-        "history",
-        "architecture"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 1,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Halebidu",
-      "state": "Karnataka",
-      "tags": [
-        "heritage",
-        "history",
-        "architecture"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 1,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Lepakshi",
-      "state": "Andhra Pradesh",
-      "tags": [
-        "heritage",
-        "spiritual",
-        "architecture"
-      ],
-      "avg_cost_per_day": 900,
-      "trip_duration": 1,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb"
-      ],
-      "climate": "Hot",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Modhera",
-      "state": "Gujarat",
-      "tags": [
-        "heritage",
-        "history",
-        "architecture"
-      ],
-      "avg_cost_per_day": 1100,
-      "trip_duration": 1,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Srisailam",
-      "state": "Andhra Pradesh",
-      "tags": [
-        "spiritual",
-        "nature",
-        "forest"
-      ],
-      "avg_cost_per_day": 1200,
-      "trip_duration": 2,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "sep",
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb"
-      ],
-      "climate": "Moderate",
-      "popularity": "High"
-    },
-    {
-      "place": "Warangal",
-      "state": "Telangana",
-      "tags": [
-        "heritage",
-        "history",
-        "lakes"
-      ],
-      "avg_cost_per_day": 1100,
-      "trip_duration": 2,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Doodhpathri",
-      "state": "J&K",
-      "tags": [
-        "mountains",
-        "nature",
-        "meadows",
-        "offbeat"
-      ],
-      "avg_cost_per_day": 1800,
-      "trip_duration": 3,
-      "best_for": [
-        "family",
-        "couples"
-      ],
-      "season": [
-        "apr",
-        "may",
-        "jun",
-        "jul",
-        "aug",
-        "sep"
-      ],
-      "climate": "Cold",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Tso Moriri",
-      "state": "Ladakh",
-      "tags": [
-        "lakes",
-        "nature",
-        "offbeat",
-        "adventure"
-      ],
-      "avg_cost_per_day": 2200,
-      "trip_duration": 4,
-      "best_for": [
-        "friends",
-        "solo"
-      ],
-      "season": [
-        "jun",
-        "jul",
-        "aug",
-        "sep"
-      ],
-      "climate": "Cold",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Hanle",
-      "state": "Ladakh",
-      "tags": [
-        "stargazing",
-        "offbeat",
-        "adventure"
-      ],
-      "avg_cost_per_day": 2000,
-      "trip_duration": 3,
-      "best_for": [
-        "friends",
-        "solo"
-      ],
-      "season": [
-        "may",
-        "jun",
-        "jul",
-        "aug",
-        "sep"
-      ],
-      "climate": "Cold",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Sissu",
-      "state": "Himachal Pradesh",
-      "tags": [
-        "mountains",
-        "waterfalls",
-        "nature"
-      ],
-      "avg_cost_per_day": 1500,
-      "trip_duration": 2,
-      "best_for": [
-        "friends",
-        "couples"
-      ],
-      "season": [
-        "may",
-        "jun",
-        "jul",
-        "aug",
-        "sep",
-        "oct"
-      ],
-      "climate": "Cold",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Narkanda",
-      "state": "Himachal Pradesh",
-      "tags": [
-        "mountains",
-        "skiing",
-        "nature"
-      ],
-      "avg_cost_per_day": 1400,
-      "trip_duration": 2,
-      "best_for": [
-        "family",
-        "friends"
-      ],
-      "season": [
-        "dec",
-        "jan",
-        "feb",
-        "apr",
-        "may",
-        "jun"
-      ],
-      "climate": "Cold",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Sandakphu",
-      "state": "West Bengal",
-      "tags": [
-        "mountains",
-        "trekking",
-        "adventure"
-      ],
-      "avg_cost_per_day": 1200,
-      "trip_duration": 5,
-      "best_for": [
-        "friends",
-        "solo"
-      ],
-      "season": [
-        "mar",
-        "apr",
-        "may",
-        "oct",
-        "nov",
-        "dec"
-      ],
-      "climate": "Cold",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Lava",
-      "state": "West Bengal",
-      "tags": [
-        "mountains",
-        "nature",
-        "peaceful"
-      ],
-      "avg_cost_per_day": 1100,
-      "trip_duration": 3,
-      "best_for": [
-        "family",
-        "couples"
-      ],
-      "season": [
-        "mar",
-        "apr",
-        "may",
-        "oct",
-        "nov",
-        "dec"
-      ],
-      "climate": "Cold",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Unakoti",
-      "state": "Tripura",
-      "tags": [
-        "heritage",
-        "offbeat",
-        "culture"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 2,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Loktak Lake",
-      "state": "Manipur",
-      "tags": [
-        "lakes",
-        "nature",
-        "offbeat"
-      ],
-      "avg_cost_per_day": 1300,
-      "trip_duration": 2,
-      "best_for": [
-        "friends",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Mechuka",
-      "state": "Arunachal Pradesh",
-      "tags": [
-        "mountains",
-        "offbeat",
-        "valley"
-      ],
-      "avg_cost_per_day": 1500,
-      "trip_duration": 5,
-      "best_for": [
-        "friends",
-        "solo"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar",
-        "apr"
-      ],
-      "climate": "Cold",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Nongriat",
-      "state": "Meghalaya",
-      "tags": [
-        "nature",
-        "trekking",
-        "offbeat"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 3,
-      "best_for": [
-        "friends",
-        "solo"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Dudhsagar Falls",
-      "state": "Goa",
-      "tags": [
-        "waterfalls",
-        "adventure",
-        "nature"
-      ],
-      "avg_cost_per_day": 1500,
-      "trip_duration": 1,
-      "best_for": [
-        "friends",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Tropical",
-      "popularity": "High"
-    },
-    {
-      "place": "Malshej Ghat",
-      "state": "Maharashtra",
-      "tags": [
-        "mountains",
-        "waterfalls",
-        "nature"
-      ],
-      "avg_cost_per_day": 1400,
-      "trip_duration": 2,
-      "best_for": [
-        "family",
-        "friends"
-      ],
-      "season": [
-        "jun",
-        "jul",
-        "aug",
-        "sep"
-      ],
-      "climate": "Cool",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Shirdi",
-      "state": "Maharashtra",
-      "tags": [
-        "spiritual"
-      ],
-      "avg_cost_per_day": 1200,
-      "trip_duration": 2,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "High"
-    },
-    {
-      "place": "Bhedaghat",
-      "state": "Madhya Pradesh",
-      "tags": [
-        "nature",
-        "waterfalls",
-        "boating"
-      ],
-      "avg_cost_per_day": 1100,
-      "trip_duration": 2,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Satkosia",
-      "state": "Odisha",
-      "tags": [
-        "nature",
-        "wildlife",
-        "river"
-      ],
-      "avg_cost_per_day": 1600,
-      "trip_duration": 3,
-      "best_for": [
-        "friends",
-        "family"
-      ],
-      "season": [
-        "nov",
-        "dec",
-        "jan",
-        "feb"
-      ],
-      "climate": "Moderate",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Chettinad",
-      "state": "Tamil Nadu",
-      "tags": [
-        "heritage",
-        "culture",
-        "food"
-      ],
-      "avg_cost_per_day": 1500,
-      "trip_duration": 2,
-      "best_for": [
-        "family",
-        "culture_vultures"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Tropical",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Thiruvananthapuram",
-      "state": "Kerala",
-      "tags": [
-        "heritage",
-        "spiritual",
-        "city"
-      ],
-      "avg_cost_per_day": 1400,
-      "trip_duration": 2,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Tropical",
-      "popularity": "High"
-    },
-    {
-      "place": "Poovar",
-      "state": "Kerala",
-      "tags": [
-        "beach",
-        "backwaters",
-        "peaceful"
-      ],
-      "avg_cost_per_day": 2000,
-      "trip_duration": 2,
-      "best_for": [
-        "couples",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Tropical",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Kadmat Island",
-      "state": "Lakshadweep",
-      "tags": [
-        "islands",
-        "beach",
-        "water-sports"
-      ],
-      "avg_cost_per_day": 3500,
-      "trip_duration": 5,
-      "best_for": [
-        "couples",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar",
-        "apr"
-      ],
-      "climate": "Tropical",
-      "popularity": "Offbeat"
-    },
-    {
-      "place": "Baratang Island",
-      "state": "Andaman & Nicobar",
-      "tags": [
-        "caves",
-        "nature",
-        "adventure"
-      ],
-      "avg_cost_per_day": 2000,
-      "trip_duration": 1,
-      "best_for": [
-        "friends",
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar",
-        "apr"
-      ],
-      "climate": "Tropical",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Kurukshetra",
-      "state": "Haryana",
-      "tags": [
-        "spiritual",
-        "history",
-        "heritage"
-      ],
-      "avg_cost_per_day": 1000,
-      "trip_duration": 1,
-      "best_for": [
-        "family",
-        "history_buffs"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    },
-    {
-      "place": "Anandpur Sahib",
-      "state": "Punjab",
-      "tags": [
-        "spiritual",
-        "heritage"
-      ],
-      "avg_cost_per_day": 900,
-      "trip_duration": 1,
-      "best_for": [
-        "family"
-      ],
-      "season": [
-        "oct",
-        "nov",
-        "dec",
-        "jan",
-        "feb",
-        "mar"
-      ],
-      "climate": "Moderate",
-      "popularity": "Medium"
-    }
-  ]
+  {
+    "place": "Netarhat",
+    "state": "Jharkhand",
+    "tags": [
+      "mountains",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Betla National Park",
+    "state": "Jharkhand",
+    "tags": [
+      "nature",
+      "safari",
+      "forest"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Moderate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mainpat",
+    "state": "Chhattisgarh",
+    "tags": [
+      "mountains",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 1300,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "couples"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Chitrakote Falls",
+    "state": "Chhattisgarh",
+    "tags": [
+      "waterfalls",
+      "nature"
+    ],
+    "avg_cost_per_day": 1100,
+    "trip_duration": 2,
+    "best_for": [
+      "family"
+    ],
+    "season": [
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Moderate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gandikota",
+    "state": "Andhra Pradesh",
+    "tags": [
+      "nature",
+      "canyon",
+      "adventure",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1000,
+    "trip_duration": 2,
+    "best_for": [
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Moderate",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Horsley Hills",
+    "state": "Andhra Pradesh",
+    "tags": [
+      "mountains",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1300,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Cold",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lambasingi",
+    "state": "Andhra Pradesh",
+    "tags": [
+      "mountains",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 1200,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Daringbadi",
+    "state": "Odisha",
+    "tags": [
+      "mountains",
+      "nature",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1100,
+    "trip_duration": 3,
+    "best_for": [
+      "family"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Sitamani Wildlife Sanctuary",
+    "state": "Odisha",
+    "tags": [
+      "nature",
+      "safari",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Moderate",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Aizawl",
+    "state": "North East",
+    "tags": [
+      "mountains",
+      "culture",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1400,
+    "trip_duration": 4,
+    "best_for": [
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Haflong",
+    "state": "North East",
+    "tags": [
+      "mountains",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1200,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Dzukou Valley",
+    "state": "North East",
+    "tags": [
+      "mountains",
+      "trekking",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 1300,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Cold",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Lonar Crater Lake",
+    "state": "Maharashtra",
+    "tags": [
+      "nature",
+      "offbeat",
+      "lakes"
+    ],
+    "avg_cost_per_day": 1100,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Moderate",
+    "popularity": "Offbeat"
+  },
+  {
+    "place": "Gandikota Camping",
+    "state": "Andhra Pradesh",
+    "tags": [
+      "adventure",
+      "camping",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 1500,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Moderate",
+    "popularity": "Offbeat"
+  }
 ]
