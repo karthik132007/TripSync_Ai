@@ -1,0 +1,402 @@
+[
+  {
+    "place": "Samarkand",
+    "country": "Uzbekistan",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "spiritual",
+      "architecture",
+      "markets",
+      "silk-road",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["solo", "couples", "history"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Continental",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Bukhara",
+    "country": "Uzbekistan",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "spiritual",
+      "markets",
+      "old-city",
+      "food",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": ["solo", "friends", "culture"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Khiva",
+    "country": "Uzbekistan",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "walled-city",
+      "spiritual",
+      "offbeat",
+      "architecture",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": ["solo", "couples", "photographers"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Almaty",
+    "country": "Kazakhstan",
+    "tags": [
+      "culture",
+      "mountains",
+      "nature",
+      "food",
+      "nightlife",
+      "skiing",
+      "markets",
+      "modern"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["jun", "jul", "aug", "sep"],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Issyk-Kul Lake",
+    "country": "Kyrgyzstan",
+    "tags": [
+      "lakes",
+      "mountains",
+      "nature",
+      "beach",
+      "camping",
+      "peaceful",
+      "trekking",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 4,
+    "best_for": ["family", "friends", "nature"],
+    "season": ["jun", "jul", "aug"],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Song-Kul Lake",
+    "country": "Kyrgyzstan",
+    "tags": [
+      "lakes",
+      "mountains",
+      "nature",
+      "camping",
+      "horse-trekking",
+      "offbeat",
+      "peaceful",
+      "yurts"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": ["solo", "adventure", "nature"],
+    "season": ["jun", "jul", "aug"],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pamir Highway",
+    "country": "Tajikistan",
+    "tags": [
+      "mountains",
+      "adventure",
+      "road-trip",
+      "nature",
+      "offbeat",
+      "trekking",
+      "remote",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 7,
+    "best_for": ["adventure", "solo", "friends"],
+    "season": ["jun", "jul", "aug"],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ashgabat",
+    "country": "Turkmenistan",
+    "tags": [
+      "culture",
+      "architecture",
+      "modern",
+      "history",
+      "offbeat",
+      "markets",
+      "desert",
+      "unique"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": ["solo", "photographers", "culture"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Desert",
+    "popularity": "Low"
+  },
+  {
+    "place": "Dubai",
+    "country": "UAE",
+    "tags": [
+      "luxury",
+      "modern",
+      "nightlife",
+      "shopping",
+      "desert",
+      "food",
+      "beach",
+      "skyscrapers"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["friends", "family", "luxury"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Desert",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Abu Dhabi",
+    "country": "UAE",
+    "tags": [
+      "culture",
+      "luxury",
+      "modern",
+      "mosques",
+      "beach",
+      "food",
+      "nightlife",
+      "theme-parks"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": ["family", "couples", "friends"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Istanbul",
+    "country": "Turkey",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "food",
+      "nightlife",
+      "markets",
+      "romantic",
+      "spiritual"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": ["friends", "couples", "solo"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Cappadocia",
+    "country": "Turkey",
+    "tags": [
+      "nature",
+      "hot-air-balloon",
+      "caves",
+      "history",
+      "romantic",
+      "offbeat",
+      "trekking",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["couples", "friends", "photographers"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Continental",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Jerusalem",
+    "country": "Israel",
+    "tags": [
+      "heritage",
+      "history",
+      "spiritual",
+      "culture",
+      "old-city",
+      "markets",
+      "peaceful",
+      "holy-sites"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": ["solo", "family", "spiritual"],
+    "season": ["mar", "apr", "oct", "nov"],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Petra",
+    "country": "Jordan",
+    "tags": [
+      "heritage",
+      "history",
+      "canyons",
+      "culture",
+      "trekking",
+      "adventure",
+      "desert",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": ["friends", "solo", "history"],
+    "season": ["mar", "apr", "oct", "nov"],
+    "climate": "Desert",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Dead Sea",
+    "country": "Jordan",
+    "tags": [
+      "nature",
+      "spa",
+      "beach",
+      "luxury",
+      "peaceful",
+      "romantic",
+      "floating",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": ["couples", "family", "relaxation"],
+    "season": ["apr", "may", "oct"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Tokyo",
+    "country": "Japan",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "modern",
+      "shopping",
+      "heritage",
+      "nature",
+      "technology"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["mar", "apr", "oct", "nov"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Kyoto",
+    "country": "Japan",
+    "tags": [
+      "heritage",
+      "culture",
+      "spiritual",
+      "temples",
+      "history",
+      "food",
+      "romantic",
+      "gardens"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": ["couples", "solo", "culture"],
+    "season": ["mar", "apr", "nov"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Seoul",
+    "country": "South Korea",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "modern",
+      "shopping",
+      "history",
+      "mountains",
+      "K-pop"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Beijing",
+    "country": "China",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "great-wall",
+      "food",
+      "nightlife",
+      "modern",
+      "forbidden-city"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": ["family", "friends", "history"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Continental",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Shanghai",
+    "country": "China",
+    "tags": [
+      "modern",
+      "nightlife",
+      "food",
+      "shopping",
+      "culture",
+      "skyscrapers",
+      "river",
+      "luxury"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "business"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  }
+]

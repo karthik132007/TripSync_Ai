@@ -1,0 +1,382 @@
+[
+  {
+    "place": "Sydney",
+    "country": "Australia",
+    "tags": [
+      "culture",
+      "nightlife",
+      "beach",
+      "heritage",
+      "food",
+      "modern",
+      "harbour",
+      "opera"
+    ],
+    "avg_cost_per_day": 7800,
+    "trip_duration": 5,
+    "best_for": ["friends", "couples", "family", "solo"],
+    "season": ["sep", "oct", "nov", "mar", "apr"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Melbourne",
+    "country": "Australia",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "art",
+      "coffee",
+      "sport",
+      "modern",
+      "festivals"
+    ],
+    "avg_cost_per_day": 7800,
+    "trip_duration": 4,
+    "best_for": ["friends", "food-lovers", "culture"],
+    "season": ["mar", "apr", "oct", "nov"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Great Barrier Reef",
+    "country": "Australia",
+    "tags": [
+      "coral-reefs",
+      "diving",
+      "nature",
+      "water-sports",
+      "islands",
+      "marine-life",
+      "adventure",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["divers", "nature", "family"],
+    "season": ["jun", "jul", "aug", "sep"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Uluru (Ayers Rock)",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "culture",
+      "spiritual",
+      "desert",
+      "sunrise",
+      "aboriginal",
+      "offbeat",
+      "rock"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": ["solo", "couples", "culture"],
+    "season": ["may", "jun", "jul", "aug"],
+    "climate": "Desert",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Blue Mountains",
+    "country": "Australia",
+    "tags": [
+      "mountains",
+      "nature",
+      "trekking",
+      "canyons",
+      "waterfalls",
+      "rainforest",
+      "adventure",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": ["family", "friends", "nature"],
+    "season": ["sep", "oct", "nov", "mar"],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Fraser Island",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "nature",
+      "lakes",
+      "rainforest",
+      "4x4",
+      "camping",
+      "wildlife",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": ["friends", "adventure", "nature"],
+    "season": ["jun", "jul", "sep", "oct"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Byron Bay",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "surfing",
+      "nature",
+      "hippie",
+      "wellness",
+      "lighthouse",
+      "peaceful",
+      "festivals"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["couples", "solo", "wellness"],
+    "season": ["sep", "oct", "nov", "mar"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Gold Coast",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "theme-parks",
+      "nightlife",
+      "surfing",
+      "water-sports",
+      "family",
+      "shopping",
+      "modern"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 4,
+    "best_for": ["family", "friends", "thrill-seekers"],
+    "season": ["sep", "oct", "nov"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kangaroo Island",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "wildlife",
+      "beach",
+      "adventure",
+      "seals",
+      "koalas",
+      "camping",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["family", "nature", "wildlife"],
+    "season": ["sep", "oct", "nov", "mar"],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Tasmania (Cradle Mountain)",
+    "country": "Australia",
+    "tags": [
+      "mountains",
+      "nature",
+      "trekking",
+      "lakes",
+      "wildlife",
+      "rainforest",
+      "adventure",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["nature", "hikers", "solo"],
+    "season": ["dec", "jan", "feb"],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Auckland",
+    "country": "New Zealand",
+    "tags": [
+      "culture",
+      "nature",
+      "food",
+      "nightlife",
+      "harbour",
+      "volcanoes",
+      "modern",
+      "wine"
+    ],
+    "avg_cost_per_day": 7800,
+    "trip_duration": 3,
+    "best_for": ["friends", "couples", "food"],
+    "season": ["feb", "mar", "apr"],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Queenstown",
+    "country": "New Zealand",
+    "tags": [
+      "adventure",
+      "mountains",
+      "lakes",
+      "bungee",
+      "skiing",
+      "nature",
+      "rafting",
+      "luxury"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 4,
+    "best_for": ["friends", "adventure", "thrill"],
+    "season": ["jun", "jul", "aug", "dec"],
+    "climate": "Alpine",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "tags": [
+      "fjords",
+      "nature",
+      "waterfalls",
+      "boating",
+      "mountains",
+      "wildlife",
+      "peaceful",
+      "scenic"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": ["family", "nature", "couples"],
+    "season": ["dec", "jan", "feb", "mar"],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Rotorua",
+    "country": "New Zealand",
+    "tags": [
+      "geothermal",
+      "culture",
+      "adventure",
+      "hot-springs",
+      "maori",
+      "nature",
+      "ziplining",
+      "lakes"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": ["family", "culture", "adventure"],
+    "season": ["jan", "feb", "mar"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Wellington",
+    "country": "New Zealand",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "museums",
+      "windy",
+      "harbour",
+      "coffee",
+      "modern"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": ["friends", "culture", "food"],
+    "season": ["feb", "mar", "apr"],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Fiordland National Park",
+    "country": "New Zealand",
+    "tags": [
+      "nature",
+      "fjords",
+      "mountains",
+      "trekking",
+      "waterfalls",
+      "wildlife",
+      "camping",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["nature", "hikers", "solo"],
+    "season": ["dec", "jan", "feb"],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Bay of Islands",
+    "country": "New Zealand",
+    "tags": [
+      "beach",
+      "islands",
+      "boating",
+      "dolphins",
+      "history",
+      "nature",
+      "fishing",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": ["family", "nature", "boating"],
+    "season": ["jan", "feb", "mar"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Bora Bora",
+    "country": "French Polynesia",
+    "tags": [
+      "beach",
+      "islands",
+      "overwater",
+      "luxury",
+      "romantic",
+      "lagoon",
+      "snorkeling",
+      "mountains"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 5,
+    "best_for": ["couples", "honeymoon", "luxury"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Fiji (Nadi & Islands)",
+    "country": "Fiji",
+    "tags": [
+      "beach",
+      "islands",
+      "water-sports",
+      "culture",
+      "diving",
+      "romantic",
+      "village",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 5,
+    "best_for": ["family", "couples", "relaxation"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "High"
+  }
+]

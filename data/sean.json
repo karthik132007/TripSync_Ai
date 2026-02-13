@@ -1,0 +1,762 @@
+[
+  {
+    "place": "Bangkok",
+    "country": "Thailand",
+    "tags": [
+      "culture",
+      "nightlife",
+      "food",
+      "heritage",
+      "river",
+      "romantic",
+      "offbeat",
+      "spiritual"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["friends", "couples", "solo", "family"],
+    "season": ["nov", "dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Chiang Mai",
+    "country": "Thailand",
+    "tags": [
+      "culture",
+      "mountains",
+      "nature",
+      "spiritual",
+      "food",
+      "trekking",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 4,
+    "best_for": ["solo", "friends", "couples"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical highland",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Phuket",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "water-sports",
+      "nightlife",
+      "islands",
+      "food",
+      "romantic",
+      "nature",
+      "boating"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 5,
+    "best_for": ["friends", "couples", "family"],
+    "season": ["nov", "dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Krabi",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "canyon",
+      "water-sports",
+      "nature",
+      "adventure",
+      "islands",
+      "rock-climbing",
+      "boating"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["friends", "couples", "solo"],
+    "season": ["nov", "dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Koh Phi Phi",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "islands",
+      "water-sports",
+      "nature",
+      "romantic",
+      "boating",
+      "peaceful",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": ["couples", "friends"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Koh Samui",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "islands",
+      "waterfalls",
+      "water-sports",
+      "nature",
+      "romantic",
+      "nightlife",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": ["couples", "family", "friends"],
+    "season": ["jan", "feb", "mar", "dec"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Pai",
+    "country": "Thailand",
+    "tags": [
+      "mountains",
+      "nature",
+      "offbeat",
+      "peaceful",
+      "trekking",
+      "hot-springs",
+      "culture",
+      "canyons"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["solo", "couples", "friends"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Ayutthaya",
+    "country": "Thailand",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "spiritual",
+      "ruins",
+      "river",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": ["family", "couples", "solo"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Siem Reap",
+    "country": "Cambodia",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "spiritual",
+      "nightlife",
+      "food",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "couples"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Phnom Penh",
+    "country": "Cambodia",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "river",
+      "food",
+      "nightlife",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": ["solo", "friends", "couples"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sihanoukville",
+    "country": "Cambodia",
+    "tags": [
+      "beach",
+      "islands",
+      "water-sports",
+      "nightlife",
+      "offbeat",
+      "nature",
+      "boating",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Koh Rong",
+    "country": "Cambodia",
+    "tags": [
+      "beach",
+      "islands",
+      "nature",
+      "water-sports",
+      "offbeat",
+      "peaceful",
+      "party",
+      "diving"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 4,
+    "best_for": ["friends", "solo", "couples"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Hanoi",
+    "country": "Vietnam",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "food",
+      "nightlife",
+      "lake",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "couples"],
+    "season": ["sep", "oct", "nov", "dec"],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Ha Long Bay",
+    "country": "Vietnam",
+    "tags": [
+      "nature",
+      "caves",
+      "boating",
+      "islands",
+      "kayaking",
+      "peaceful",
+      "adventure",
+      "waterfalls"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["family", "couples", "friends"],
+    "season": ["sep", "oct", "nov", "dec"],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Hoi An",
+    "country": "Vietnam",
+    "tags": [
+      "heritage",
+      "culture",
+      "romantic",
+      "river",
+      "food",
+      "beach",
+      "peaceful",
+      "lanterns"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": ["couples", "family", "friends"],
+    "season": ["feb", "mar", "apr"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "tags": [
+      "culture",
+      "history",
+      "nightlife",
+      "food",
+      "river",
+      "offbeat",
+      "heritage",
+      "markets"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "couples"],
+    "season": ["dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Da Nang",
+    "country": "Vietnam",
+    "tags": [
+      "beach",
+      "culture",
+      "mountains",
+      "bridge",
+      "food",
+      "nightlife",
+      "nature",
+      "water-sports"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": ["friends", "family", "couples"],
+    "season": ["feb", "mar", "apr"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Phu Quoc",
+    "country": "Vietnam",
+    "tags": [
+      "beach",
+      "islands",
+      "nature",
+      "water-sports",
+      "peaceful",
+      "nightlife",
+      "boating",
+      "pepper-farms"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["family", "couples", "friends"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Sapa",
+    "country": "Vietnam",
+    "tags": [
+      "mountains",
+      "trekking",
+      "rice-terraces",
+      "culture",
+      "nature",
+      "adventure",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["solo", "friends", "couples"],
+    "season": ["sep", "oct", "nov"],
+    "climate": "Subtropical highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Bali (Ubud)",
+    "country": "Indonesia",
+    "tags": [
+      "culture",
+      "nature",
+      "rice-terraces",
+      "spiritual",
+      "romantic",
+      "trekking",
+      "peaceful",
+      "waterfalls"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": ["couples", "solo", "friends"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Bali (Seminyak/Kuta)",
+    "country": "Indonesia",
+    "tags": [
+      "beach",
+      "nightlife",
+      "water-sports",
+      "surfing",
+      "food",
+      "shopping",
+      "romantic",
+      "sunsets"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": ["friends", "couples"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Gili Islands",
+    "country": "Indonesia",
+    "tags": [
+      "beach",
+      "islands",
+      "water-sports",
+      "diving",
+      "party",
+      "peaceful",
+      "no-cars",
+      "sunsets"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["friends", "couples", "solo"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Yogyakarta",
+    "country": "Indonesia",
+    "tags": [
+      "culture",
+      "heritage",
+      "history",
+      "spiritual",
+      "food",
+      "nightlife",
+      "volcanoes",
+      "temples"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["may", "jun", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Komodo National Park",
+    "country": "Indonesia",
+    "tags": [
+      "islands",
+      "nature",
+      "adventure",
+      "diving",
+      "dragons",
+      "hiking",
+      "boating",
+      "pink-beach"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "adventure"],
+    "season": ["apr", "may", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Singapore",
+    "country": "Singapore",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "luxury",
+      "modern",
+      "gardens",
+      "shopping",
+      "nature"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["family", "friends", "couples"],
+    "season": ["feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Kuala Lumpur",
+    "country": "Malaysia",
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "modern",
+      "heritage",
+      "shopping",
+      "towers",
+      "rainforest"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["friends", "family", "couples"],
+    "season": ["mar", "apr"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Penang (George Town)",
+    "country": "Malaysia",
+    "tags": [
+      "heritage",
+      "culture",
+      "food",
+      "street-art",
+      "beach",
+      "history",
+      "nightlife",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": ["food-lovers", "friends", "family"],
+    "season": ["jan", "feb", "dec"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Langkawi",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "islands",
+      "nature",
+      "waterfalls",
+      "cable-car",
+      "duty-free",
+      "peaceful",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["family", "couples", "friends"],
+    "season": ["jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Luang Prabang",
+    "country": "Laos",
+    "tags": [
+      "heritage",
+      "culture",
+      "spiritual",
+      "waterfalls",
+      "river",
+      "peaceful",
+      "food",
+      "night-market"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["couples", "solo", "family"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Vang Vieng",
+    "country": "Laos",
+    "tags": [
+      "canyons",
+      "river",
+      "tubing",
+      "nature",
+      "adventure",
+      "caves",
+      "trekking",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "adventure"],
+    "season": ["nov", "dec", "jan"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Vientiane",
+    "country": "Laos",
+    "tags": [
+      "culture",
+      "heritage",
+      "history",
+      "river",
+      "spiritual",
+      "food",
+      "nightlife",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": ["solo", "friends", "couples"],
+    "season": ["nov", "dec", "jan", "feb"],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Manila",
+    "country": "Philippines",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "nightlife",
+      "food",
+      "traffic",
+      "shopping",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Boracay",
+    "country": "Philippines",
+    "tags": [
+      "beach",
+      "water-sports",
+      "nightlife",
+      "party",
+      "white-sand",
+      "sunsets",
+      "islands",
+      "diving"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": ["friends", "couples"],
+    "season": ["dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Palawan (El Nido)",
+    "country": "Philippines",
+    "tags": [
+      "islands",
+      "beach",
+      "kayaking",
+      "lagoons",
+      "nature",
+      "adventure",
+      "boating",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": ["friends", "solo", "couples"],
+    "season": ["dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Cebu",
+    "country": "Philippines",
+    "tags": [
+      "beach",
+      "diving",
+      "waterfalls",
+      "history",
+      "nightlife",
+      "islands",
+      "adventure",
+      "whale-sharks"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["friends", "family", "divers"],
+    "season": ["dec", "jan", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Bagan",
+    "country": "Myanmar",
+    "tags": [
+      "heritage",
+      "history",
+      "spiritual",
+      "temples",
+      "balloons",
+      "culture",
+      "sunrise",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["solo", "couples", "photographers"],
+    "season": ["oct", "nov", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Yangon",
+    "country": "Myanmar",
+    "tags": [
+      "culture",
+      "heritage",
+      "spiritual",
+      "food",
+      "markets",
+      "colonial",
+      "nightlife",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": ["solo", "friends"],
+    "season": ["oct", "nov", "feb", "mar"],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Inle Lake",
+    "country": "Myanmar",
+    "tags": [
+      "lakes",
+      "culture",
+      "floating-villages",
+      "nature",
+      "peaceful",
+      "boating",
+      "spiritual",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": ["couples", "family", "solo"],
+    "season": ["oct", "nov", "feb", "mar"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  }
+]

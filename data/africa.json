@@ -1,0 +1,582 @@
+[
+  {
+    "place": "Cape Town",
+    "country": "South Africa",
+    "tags": [
+      "culture",
+      "nature",
+      "beach",
+      "mountains",
+      "food",
+      "nightlife",
+      "heritage",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": ["friends", "couples", "family", "solo"],
+    "season": ["sep", "oct", "nov", "mar", "apr"],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Kruger National Park",
+    "country": "South Africa",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "adventure",
+      "camping",
+      "offbeat",
+      "peaceful",
+      "river"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["family", "friends", "couples"],
+    "season": ["may", "jun", "jul", "aug", "sep"],
+    "climate": "Savanna",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Garden Route",
+    "country": "South Africa",
+    "tags": [
+      "nature",
+      "beach",
+      "adventure",
+      "forest",
+      "lakes",
+      "whale-watching",
+      "peaceful",
+      "boating"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 5,
+    "best_for": ["family", "couples", "friends"],
+    "season": ["jun", "jul", "aug", "sep", "oct"],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Durban",
+    "country": "South Africa",
+    "tags": [
+      "beach",
+      "culture",
+      "food",
+      "nightlife",
+      "water-sports",
+      "heritage",
+      "offbeat",
+      "surfing"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": ["friends", "family", "couples"],
+    "season": ["jun", "jul", "dec", "jan"],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Cairo",
+    "country": "Egypt",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "spiritual",
+      "nightlife",
+      "food",
+      "river",
+      "markets"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["oct", "nov", "feb", "mar", "apr"],
+    "climate": "Desert",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Pyramids of Giza",
+    "country": "Egypt",
+    "tags": [
+      "heritage",
+      "history",
+      "spiritual",
+      "culture",
+      "desert",
+      "adventure",
+      "offbeat",
+      "canyons"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": ["family", "friends", "solo"],
+    "season": ["oct", "nov", "feb", "mar"],
+    "climate": "Desert",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Luxor",
+    "country": "Egypt",
+    "tags": [
+      "history",
+      "heritage",
+      "spiritual",
+      "culture",
+      "river",
+      "temples",
+      "balloons",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": ["solo", "couples", "history-buffs"],
+    "season": ["oct", "nov", "feb", "mar"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Hurghada",
+    "country": "Egypt",
+    "tags": [
+      "beach",
+      "water-sports",
+      "diving",
+      "coral-reefs",
+      "luxury",
+      "romantic",
+      "nature",
+      "desert"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": ["couples", "family", "divers"],
+    "season": ["apr", "may", "oct", "nov"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Marrakech",
+    "country": "Morocco",
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "heritage",
+      "nightlife",
+      "markets",
+      "desert",
+      "romantic"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": ["friends", "couples", "solo"],
+    "season": ["mar", "apr", "may", "sep", "oct"],
+    "climate": "Semi-arid",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Sahara Desert (Merzouga)",
+    "country": "Morocco",
+    "tags": [
+      "desert",
+      "adventure",
+      "camping",
+      "nature",
+      "camel-treks",
+      "stargazing",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "adventure"],
+    "season": ["mar", "apr", "oct", "nov"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Maasai Mara",
+    "country": "Kenya",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "migration",
+      "adventure",
+      "camping",
+      "balloon-safaris",
+      "river"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["family", "friends", "luxury"],
+    "season": ["jul", "aug", "sep", "oct"],
+    "climate": "Savanna",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Nairobi",
+    "country": "Kenya",
+    "tags": [
+      "culture",
+      "nature",
+      "wildlife",
+      "food",
+      "nightlife",
+      "safari",
+      "offbeat",
+      "markets"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "family"],
+    "season": ["jan", "feb", "jun", "jul"],
+    "climate": "Savanna",
+    "popularity": "High"
+  },
+  {
+    "place": "Diani Beach",
+    "country": "Kenya",
+    "tags": [
+      "beach",
+      "water-sports",
+      "diving",
+      "culture",
+      "nature",
+      "romantic",
+      "kitesurfing",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": ["couples", "family", "friends"],
+    "season": ["jun", "jul", "dec", "jan"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Serengeti National Park",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "migration",
+      "adventure",
+      "camping",
+      "hot-air-balloon",
+      "savanna"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 5,
+    "best_for": ["family", "friends", "luxury"],
+    "season": ["jun", "jul", "aug", "sep"],
+    "climate": "Savanna",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Zanzibar",
+    "country": "Tanzania",
+    "tags": [
+      "beach",
+      "islands",
+      "culture",
+      "water-sports",
+      "spice-tours",
+      "history",
+      "romantic",
+      "diving"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": ["couples", "family", "friends"],
+    "season": ["jun", "jul", "aug", "sep"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Mount Kilimanjaro",
+    "country": "Tanzania",
+    "tags": [
+      "mountains",
+      "trekking",
+      "adventure",
+      "nature",
+      "camping",
+      "offbeat",
+      "spiritual",
+      "summit"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 7,
+    "best_for": ["adventure", "solo", "friends"],
+    "season": ["jan", "feb", "jul", "aug", "sep"],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Ngorongoro Crater",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "crater",
+      "adventure",
+      "camping",
+      "offbeat",
+      "volcanic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": ["family", "friends"],
+    "season": ["jun", "jul", "aug", "sep"],
+    "climate": "Savanna",
+    "popularity": "High"
+  },
+  {
+    "place": "Okavango Delta",
+    "country": "Botswana",
+    "tags": [
+      "safari",
+      "nature",
+      "river",
+      "mokoro-canoe",
+      "wildlife",
+      "camping",
+      "luxury",
+      "bird-watching"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["luxury", "family", "couples"],
+    "season": ["may", "jun", "jul", "oct"],
+    "climate": "Savanna",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Chobe National Park",
+    "country": "Botswana",
+    "tags": [
+      "safari",
+      "river",
+      "elephants",
+      "nature",
+      "boating",
+      "wildlife",
+      "camping",
+      "sunsets"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": ["family", "friends", "nature"],
+    "season": ["may", "jun", "jul", "oct"],
+    "climate": "Savanna",
+    "popularity": "High"
+  },
+  {
+    "place": "Victoria Falls",
+    "country": "Zambia/Zimbabwe",
+    "tags": [
+      "waterfalls",
+      "adventure",
+      "rafting",
+      "bungee",
+      "nature",
+      "helicopter",
+      "rainbow",
+      "mist"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["friends", "adventure", "couples"],
+    "season": ["feb", "mar", "apr", "may"],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Etosha National Park",
+    "country": "Namibia",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "waterhole",
+      "camping",
+      "self-drive",
+      "offbeat",
+      "desert"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": ["family", "friends", "self-drive"],
+    "season": ["may", "jun", "jul"],
+    "climate": "Savanna",
+    "popularity": "High"
+  },
+  {
+    "place": "Sossusvlei",
+    "country": "Namibia",
+    "tags": [
+      "desert",
+      "dunes",
+      "nature",
+      "trekking",
+      "camping",
+      "sunrise",
+      "offbeat",
+      "climbing"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": ["friends", "solo", "photographers"],
+    "season": ["may", "jun", "jul"],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Swakopmund",
+    "country": "Namibia",
+    "tags": [
+      "desert",
+      "adventure",
+      "sandboarding",
+      "ocean",
+      "german-culture",
+      "quad-biking",
+      "skydiving",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": ["friends", "adventure", "solo"],
+    "season": ["may", "jun", "jul"],
+    "climate": "Desert coastal",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gorilla Trekking (Bwindi)",
+    "country": "Uganda",
+    "tags": [
+      "nature",
+      "trekking",
+      "wildlife",
+      "forest",
+      "adventure",
+      "gorillas",
+      "offbeat",
+      "rainforest"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["adventure", "nature", "solo"],
+    "season": ["jun", "jul", "sep", "oct"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Rwanda Gorilla Trekking (Volcanoes NP)",
+    "country": "Rwanda",
+    "tags": [
+      "nature",
+      "trekking",
+      "gorillas",
+      "volcanoes",
+      "forest",
+      "adventure",
+      "offbeat",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": ["luxury", "adventure", "nature"],
+    "season": ["jun", "jul", "sep", "oct"],
+    "climate": "Montane",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Seychelles (Mahe)",
+    "country": "Seychelles",
+    "tags": [
+      "beach",
+      "islands",
+      "nature",
+      "water-sports",
+      "luxury",
+      "romantic",
+      "granite-boulders",
+      "diving"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 5,
+    "best_for": ["couples", "luxury", "family"],
+    "season": ["apr", "may", "oct", "nov"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Mauritius",
+    "country": "Mauritius",
+    "tags": [
+      "beach",
+      "water-sports",
+      "luxury",
+      "culture",
+      "nature",
+      "romantic",
+      "hiking",
+      "coral-reefs"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": ["family", "couples", "honeymoon"],
+    "season": ["may", "jun", "sep", "oct", "nov"],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Stone Town (Zanzibar)",
+    "country": "Tanzania",
+    "tags": [
+      "heritage",
+      "culture",
+      "history",
+      "spice-tours",
+      "markets",
+      "romantic",
+      "nightlife",
+      "food"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": ["couples", "friends", "culture"],
+    "season": ["jun", "jul", "aug"],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Nairobi National Park",
+    "country": "Kenya",
+    "tags": [
+      "safari",
+      "wildlife",
+      "nature",
+      "city-safari",
+      "rhinos",
+      "adventure",
+      "offbeat",
+      "black-rhino"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": ["family", "friends", "short-trip"],
+    "season": ["jan", "feb", "jun", "jul"],
+    "climate": "Savanna",
+    "popularity": "High"
+  }
+]
