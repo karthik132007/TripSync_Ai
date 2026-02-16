@@ -14,8 +14,19 @@
     ],
     "avg_cost_per_day": 7800,
     "trip_duration": 5,
-    "best_for": ["friends", "couples", "family", "solo"],
-    "season": ["sep", "oct", "nov", "mar", "apr"],
+    "best_for": [
+      "friends",
+      "couples",
+      "family",
+      "solo"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -34,8 +45,17 @@
     ],
     "avg_cost_per_day": 7800,
     "trip_duration": 4,
-    "best_for": ["friends", "food-lovers", "culture"],
-    "season": ["mar", "apr", "oct", "nov"],
+    "best_for": [
+      "friends",
+      "food-lovers",
+      "culture"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -54,8 +74,17 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["divers", "nature", "family"],
-    "season": ["jun", "jul", "aug", "sep"],
+    "best_for": [
+      "divers",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Tropical",
     "popularity": "Very High"
   },
@@ -74,8 +103,17 @@
     ],
     "avg_cost_per_day": 6500,
     "trip_duration": 3,
-    "best_for": ["solo", "couples", "culture"],
-    "season": ["may", "jun", "jul", "aug"],
+    "best_for": [
+      "solo",
+      "couples",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
     "climate": "Desert",
     "popularity": "Very High"
   },
@@ -94,8 +132,17 @@
     ],
     "avg_cost_per_day": 6500,
     "trip_duration": 3,
-    "best_for": ["family", "friends", "nature"],
-    "season": ["sep", "oct", "nov", "mar"],
+    "best_for": [
+      "family",
+      "friends",
+      "nature"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
     "climate": "Temperate",
     "popularity": "High"
   },
@@ -114,8 +161,17 @@
     ],
     "avg_cost_per_day": 6500,
     "trip_duration": 3,
-    "best_for": ["friends", "adventure", "nature"],
-    "season": ["jun", "jul", "sep", "oct"],
+    "best_for": [
+      "friends",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -134,8 +190,17 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["couples", "solo", "wellness"],
-    "season": ["sep", "oct", "nov", "mar"],
+    "best_for": [
+      "couples",
+      "solo",
+      "wellness"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -154,8 +219,16 @@
     ],
     "avg_cost_per_day": 6500,
     "trip_duration": 4,
-    "best_for": ["family", "friends", "thrill-seekers"],
-    "season": ["sep", "oct", "nov"],
+    "best_for": [
+      "family",
+      "friends",
+      "thrill-seekers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -174,8 +247,17 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["family", "nature", "wildlife"],
-    "season": ["sep", "oct", "nov", "mar"],
+    "best_for": [
+      "family",
+      "nature",
+      "wildlife"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
     "climate": "Mediterranean",
     "popularity": "High"
   },
@@ -194,8 +276,16 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["nature", "hikers", "solo"],
-    "season": ["dec", "jan", "feb"],
+    "best_for": [
+      "nature",
+      "hikers",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
     "climate": "Temperate",
     "popularity": "High"
   },
@@ -214,8 +304,16 @@
     ],
     "avg_cost_per_day": 7800,
     "trip_duration": 3,
-    "best_for": ["friends", "couples", "food"],
-    "season": ["feb", "mar", "apr"],
+    "best_for": [
+      "friends",
+      "couples",
+      "food"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
     "climate": "Subtropical",
     "popularity": "Very High"
   },
@@ -234,8 +332,17 @@
     ],
     "avg_cost_per_day": 8000,
     "trip_duration": 4,
-    "best_for": ["friends", "adventure", "thrill"],
-    "season": ["jun", "jul", "aug", "dec"],
+    "best_for": [
+      "friends",
+      "adventure",
+      "thrill"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "dec"
+    ],
     "climate": "Alpine",
     "popularity": "Very High"
   },
@@ -254,8 +361,17 @@
     ],
     "avg_cost_per_day": 7500,
     "trip_duration": 2,
-    "best_for": ["family", "nature", "couples"],
-    "season": ["dec", "jan", "feb", "mar"],
+    "best_for": [
+      "family",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -274,8 +390,16 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 3,
-    "best_for": ["family", "culture", "adventure"],
-    "season": ["jan", "feb", "mar"],
+    "best_for": [
+      "family",
+      "culture",
+      "adventure"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -294,8 +418,16 @@
     ],
     "avg_cost_per_day": 7500,
     "trip_duration": 3,
-    "best_for": ["friends", "culture", "food"],
-    "season": ["feb", "mar", "apr"],
+    "best_for": [
+      "friends",
+      "culture",
+      "food"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
     "climate": "Oceanic",
     "popularity": "High"
   },
@@ -314,8 +446,16 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["nature", "hikers", "solo"],
-    "season": ["dec", "jan", "feb"],
+    "best_for": [
+      "nature",
+      "hikers",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
     "climate": "Temperate",
     "popularity": "High"
   },
@@ -334,8 +474,16 @@
     ],
     "avg_cost_per_day": 7000,
     "trip_duration": 4,
-    "best_for": ["family", "nature", "boating"],
-    "season": ["jan", "feb", "mar"],
+    "best_for": [
+      "family",
+      "nature",
+      "boating"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -354,8 +502,17 @@
     ],
     "avg_cost_per_day": 8500,
     "trip_duration": 5,
-    "best_for": ["couples", "honeymoon", "luxury"],
-    "season": ["may", "jun", "sep", "oct"],
+    "best_for": [
+      "couples",
+      "honeymoon",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
     "climate": "Tropical",
     "popularity": "Very High"
   },
@@ -374,9 +531,2825 @@
     ],
     "avg_cost_per_day": 6500,
     "trip_duration": 5,
-    "best_for": ["family", "couples", "relaxation"],
-    "season": ["may", "jun", "sep", "oct"],
+    "best_for": [
+      "family",
+      "couples",
+      "relaxation"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
     "climate": "Tropical",
     "popularity": "High"
+  },
+  {
+    "place": "Cairns",
+    "country": "Australia",
+    "tags": [
+      "adventure",
+      "waterfalls",
+      "nature",
+      "forest",
+      "rafting",
+      "wildlife",
+      "diving"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "family",
+      "adventure"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Whitsunday Islands",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "islands",
+      "luxury",
+      "romantic",
+      "boating",
+      "water-sports",
+      "nature"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "luxury",
+      "friends"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Kakadu National Park",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "culture",
+      "wildlife",
+      "waterfalls",
+      "trekking",
+      "camping",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "adventure",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Perth",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "city",
+      "nature",
+      "food",
+      "nightlife",
+      "river",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Rottnest Island",
+    "country": "Australia",
+    "tags": [
+      "islands",
+      "beach",
+      "wildlife",
+      "cycling",
+      "nature",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Margaret River",
+    "country": "Australia",
+    "tags": [
+      "food",
+      "beach",
+      "forest",
+      "caves",
+      "surfing",
+      "luxury",
+      "nature"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "food",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Broome",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "desert",
+      "history",
+      "nature",
+      "romantic",
+      "offbeat",
+      "adventure"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "adventure",
+      "peaceful"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ningaloo Reef",
+    "country": "Australia",
+    "tags": [
+      "water-sports",
+      "diving",
+      "nature",
+      "wildlife",
+      "beach",
+      "adventure",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7200,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "nature",
+      "diving"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Adelaide",
+    "country": "Australia",
+    "tags": [
+      "culture",
+      "food",
+      "festivals",
+      "history",
+      "heritage",
+      "city",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "food",
+      "family"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Barossa Valley",
+    "country": "Australia",
+    "tags": [
+      "food",
+      "luxury",
+      "heritage",
+      "peaceful",
+      "romantic",
+      "nature",
+      "countryside"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Canberra",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "culture",
+      "museums",
+      "nature",
+      "lakes",
+      "family",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "mar",
+      "apr"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Hobart",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "food",
+      "art",
+      "market",
+      "mountains",
+      "harbour",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "food",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Wineglass Bay",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "nature",
+      "trekking",
+      "camping",
+      "scenic",
+      "peaceful",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "hikers",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Noosa",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "luxury",
+      "nature",
+      "surfing",
+      "forest",
+      "food",
+      "romantic"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "family",
+      "luxury"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Daintree Rainforest",
+    "country": "Australia",
+    "tags": [
+      "forest",
+      "nature",
+      "adventure",
+      "river",
+      "wildlife",
+      "offbeat",
+      "culture"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "adventure",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Port Douglas",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "luxury",
+      "reef",
+      "nature",
+      "food",
+      "romantic",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 3,
+    "best_for": [
+      "luxury",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Magnetic Island",
+    "country": "Australia",
+    "tags": [
+      "islands",
+      "wildlife",
+      "beach",
+      "trekking",
+      "adventure",
+      "nature",
+      "koalas"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lord Howe Island",
+    "country": "Australia",
+    "tags": [
+      "islands",
+      "nature",
+      "trekking",
+      "luxury",
+      "peaceful",
+      "bird-watching",
+      "beach"
+    ],
+    "avg_cost_per_day": 9500,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "luxury",
+      "peaceful"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "The Kimberleys",
+    "country": "Australia",
+    "tags": [
+      "adventure",
+      "nature",
+      "waterfalls",
+      "canyon",
+      "offbeat",
+      "4x4",
+      "remote"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Hunter Valley",
+    "country": "Australia",
+    "tags": [
+      "food",
+      "countryside",
+      "luxury",
+      "romantic",
+      "peaceful",
+      "gardens",
+      "concerts"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Philip Island",
+    "country": "Australia",
+    "tags": [
+      "wildlife",
+      "nature",
+      "beach",
+      "family",
+      "penguins",
+      "motor-sports",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "nature",
+      "kids"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Great Ocean Road",
+    "country": "Australia",
+    "tags": [
+      "scenic",
+      "beach",
+      "nature",
+      "road-trip",
+      "rock",
+      "forest",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "family",
+      "road-trip"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Lake Tekapo",
+    "country": "New Zealand",
+    "tags": [
+      "lakes",
+      "mountains",
+      "stargazing",
+      "nature",
+      "peaceful",
+      "photography",
+      "scenic"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "nature",
+      "photography"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Wanaka",
+    "country": "New Zealand",
+    "tags": [
+      "lakes",
+      "mountains",
+      "skiing",
+      "trekking",
+      "adventure",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "dec"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Franz Josef Glacier",
+    "country": "New Zealand",
+    "tags": [
+      "glacier",
+      "adventure",
+      "trekking",
+      "nature",
+      "helicopter",
+      "cold",
+      "forest"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Mount Cook (Aoraki)",
+    "country": "New Zealand",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "adventure",
+      "scenic",
+      "glacier",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Christchurch",
+    "country": "New Zealand",
+    "tags": [
+      "city",
+      "heritage",
+      "gardens",
+      "culture",
+      "peaceful",
+      "river",
+      "modern"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "culture",
+      "friends"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Dunedin",
+    "country": "New Zealand",
+    "tags": [
+      "heritage",
+      "history",
+      "wildlife",
+      "culture",
+      "architecture",
+      "university",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "nature",
+      "students"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Cold",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kaikoura",
+    "country": "New Zealand",
+    "tags": [
+      "wildlife",
+      "ocean",
+      "nature",
+      "mountains",
+      "food",
+      "whales",
+      "seals"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "wildlife",
+      "food"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Taupo",
+    "country": "New Zealand",
+    "tags": [
+      "lakes",
+      "adventure",
+      "skydiving",
+      "nature",
+      "water-sports",
+      "volcano",
+      "fishing"
+    ],
+    "avg_cost_per_day": 7200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "friends",
+      "family"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Hobbiton (Matamata)",
+    "country": "New Zealand",
+    "tags": [
+      "culture",
+      "movie-set",
+      "countryside",
+      "history",
+      "family",
+      "scenic",
+      "unique"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 1,
+    "best_for": [
+      "family",
+      "fans",
+      "friends"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Waitomo Caves",
+    "country": "New Zealand",
+    "tags": [
+      "caves",
+      "glowworms",
+      "adventure",
+      "nature",
+      "rafting",
+      "offbeat",
+      "underground"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 1,
+    "best_for": [
+      "family",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Coromandel Peninsula",
+    "country": "New Zealand",
+    "tags": [
+      "beach",
+      "nature",
+      "forest",
+      "trekking",
+      "hot-springs",
+      "peaceful",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "family",
+      "beach"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Abel Tasman National Park",
+    "country": "New Zealand",
+    "tags": [
+      "beach",
+      "nature",
+      "kayaking",
+      "trekking",
+      "camping",
+      "wildlife",
+      "sunny"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "active"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "tags": [
+      "nature",
+      "wildlife",
+      "offbeat",
+      "bird-watching",
+      "peaceful",
+      "trekking",
+      "aurora"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "solo",
+      "bird-watchers"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Cold",
+    "popularity": "Low"
+  },
+  {
+    "place": "Napier",
+    "country": "New Zealand",
+    "tags": [
+      "architecture",
+      "history",
+      "food",
+      "beach",
+      "culture",
+      "art-deco",
+      "city"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "couples"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rarotonga",
+    "country": "Cook Islands",
+    "tags": [
+      "beach",
+      "islands",
+      "culture",
+      "nature",
+      "romantic",
+      "water-sports",
+      "relax"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 5,
+    "best_for": [
+      "couples",
+      "family",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Aitutaki",
+    "country": "Cook Islands",
+    "tags": [
+      "lagoon",
+      "luxury",
+      "beach",
+      "romantic",
+      "boating",
+      "peaceful",
+      "islands"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "honeymoon",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Samoa (Upolu)",
+    "country": "Samoa",
+    "tags": [
+      "culture",
+      "waterfalls",
+      "beach",
+      "nature",
+      "pools",
+      "offbeat",
+      "relax"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 4,
+    "best_for": [
+      "culture",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Vanuatu (Efate)",
+    "country": "Vanuatu",
+    "tags": [
+      "culture",
+      "adventure",
+      "waterfalls",
+      "beach",
+      "diving",
+      "nature",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "culture",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tanna Island",
+    "country": "Vanuatu",
+    "tags": [
+      "volcano",
+      "adventure",
+      "nature",
+      "culture",
+      "offbeat",
+      "primitive",
+      "unique"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "offbeat",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "New Caledonia (Noumea)",
+    "country": "New Caledonia",
+    "tags": [
+      "beach",
+      "culture",
+      "food",
+      "lagoon",
+      "french",
+      "luxury",
+      "islands"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Isle of Pines",
+    "country": "New Caledonia",
+    "tags": [
+      "beach",
+      "nature",
+      "peaceful",
+      "romantic",
+      "snorkeling",
+      "luxury",
+      "forest"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tonga (Tongatapu)",
+    "country": "Tonga",
+    "tags": [
+      "culture",
+      "history",
+      "beach",
+      "nature",
+      "whales",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "wildlife"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Palau",
+    "country": "Palau",
+    "tags": [
+      "diving",
+      "nature",
+      "islands",
+      "jellyfish",
+      "marine-life",
+      "adventure",
+      "luxury"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 5,
+    "best_for": [
+      "divers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tahiti",
+    "country": "French Polynesia",
+    "tags": [
+      "culture",
+      "nature",
+      "waterfalls",
+      "surfing",
+      "beach",
+      "mountains",
+      "luxury"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "transit"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Moorea",
+    "country": "French Polynesia",
+    "tags": [
+      "nature",
+      "mountains",
+      "lagoon",
+      "adventure",
+      "romantic",
+      "scenic",
+      "beach"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Guam",
+    "country": "Guam",
+    "tags": [
+      "beach",
+      "history",
+      "shopping",
+      "diving",
+      "american",
+      "culture",
+      "resorts"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "shopping",
+      "family",
+      "beach"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Papua New Guinea (Kokoda Track)",
+    "country": "Papua New Guinea",
+    "tags": [
+      "adventure",
+      "trekking",
+      "history",
+      "nature",
+      "forest",
+      "challenge",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 8,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Solomon Islands",
+    "country": "Solomon Islands",
+    "tags": [
+      "diving",
+      "history",
+      "nature",
+      "offbeat",
+      "wrecks",
+      "marine-life",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 5,
+    "best_for": [
+      "divers",
+      "history",
+      "adventure"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Norfolk Island",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "nature",
+      "peaceful",
+      "beach",
+      "offbeat",
+      "heritage",
+      "pine"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "history",
+      "seniors",
+      "peaceful"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Christmas Island",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "wildlife",
+      "crabs",
+      "diving",
+      "forest",
+      "offbeat",
+      "adventure"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "divers",
+      "offbeat"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "islands",
+      "snorkeling",
+      "peaceful",
+      "remote",
+      "nature",
+      "relax"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 5,
+    "best_for": [
+      "beach",
+      "relax",
+      "couples"
+    ],
+    "season": [
+      "aug",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Esperance",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "nature",
+      "wildlife",
+      "scenic",
+      "white-sand",
+      "kangaroos",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "beach",
+      "nature",
+      "photography"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Exmouth",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "diving",
+      "snorkeling",
+      "marine-life",
+      "adventure",
+      "nature",
+      "remote"
+    ],
+    "avg_cost_per_day": 7200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "water-sports"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Darwin",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "culture",
+      "market",
+      "nature",
+      "wildlife",
+      "war-history",
+      "tropical"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "adventure"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Litchfield National Park",
+    "country": "Australia",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "swimming",
+      "adventure",
+      "forest",
+      "termite-mounds",
+      "camping"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Alice Springs",
+    "country": "Australia",
+    "tags": [
+      "desert",
+      "culture",
+      "history",
+      "adventure",
+      "outback",
+      "art",
+      "nature"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kings Canyon",
+    "country": "Australia",
+    "tags": [
+      "canyon",
+      "trekking",
+      "nature",
+      "scenic",
+      "adventure",
+      "remote",
+      "geology"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Coober Pedy",
+    "country": "Australia",
+    "tags": [
+      "desert",
+      "underground",
+      "opal",
+      "offbeat",
+      "history",
+      "unique",
+      "hot"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "offbeat",
+      "history",
+      "curious"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Port Arthur",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "heritage",
+      "convict",
+      "ghosts",
+      "nature",
+      "scenic",
+      "museums"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "family",
+      "culture"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Bruny Island",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "food",
+      "wildlife",
+      "beach",
+      "boating",
+      "scenic",
+      "island"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Freycinet National Park",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "beach",
+      "trekking",
+      "scenic",
+      "mountains",
+      "peaceful",
+      "camping"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "hikers",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Geelong",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "city",
+      "waterfront",
+      "family",
+      "culture",
+      "art",
+      "gateway"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "relax",
+      "transit"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ballarat",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "gold-rush",
+      "heritage",
+      "family",
+      "museums",
+      "architecture",
+      "cold"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "family",
+      "culture"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bendigo",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "art",
+      "culture",
+      "gold",
+      "heritage",
+      "food",
+      "architecture"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "art"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mornington Peninsula",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "wine",
+      "hot-springs",
+      "food",
+      "nature",
+      "luxury",
+      "relax"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Yarra Valley",
+    "country": "Australia",
+    "tags": [
+      "wine",
+      "food",
+      "scenic",
+      "nature",
+      "luxury",
+      "ballooning",
+      "romantic"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Snowy Mountains",
+    "country": "Australia",
+    "tags": [
+      "skiing",
+      "mountains",
+      "adventure",
+      "nature",
+      "trekking",
+      "snow",
+      "scenic"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "skiing",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Jervis Bay",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "nature",
+      "white-sand",
+      "dolphins",
+      "camping",
+      "peaceful",
+      "family"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "beach",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Coffs Harbour",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "family",
+      "nature",
+      "big-banana",
+      "wildlife",
+      "relax",
+      "coast"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "beach",
+      "kids"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Newcastle",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "city",
+      "history",
+      "surf",
+      "culture",
+      "nightlife",
+      "coastal"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "surf",
+      "culture"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Port Macquarie",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "koalas",
+      "family",
+      "nature",
+      "river",
+      "relax",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Sunshine Coast",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "nature",
+      "family",
+      "mountains",
+      "relax",
+      "markets",
+      "zoo"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "beach",
+      "relax"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Hervey Bay",
+    "country": "Australia",
+    "tags": [
+      "whales",
+      "beach",
+      "nature",
+      "gateway",
+      "family",
+      "calm",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "family",
+      "wildlife"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Bundaberg",
+    "country": "Australia",
+    "tags": [
+      "turtles",
+      "food",
+      "rum",
+      "beach",
+      "nature",
+      "reef",
+      "farming"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "nature",
+      "food"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Townsville",
+    "country": "Australia",
+    "tags": [
+      "city",
+      "reef",
+      "history",
+      "nature",
+      "aquarium",
+      "island",
+      "tropical"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "transit",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rockhampton",
+    "country": "Australia",
+    "tags": [
+      "beef",
+      "history",
+      "river",
+      "caves",
+      "nature",
+      "heritage",
+      "country"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "transit",
+      "food"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Mackay",
+    "country": "Australia",
+    "tags": [
+      "sugar",
+      "nature",
+      "beach",
+      "rainforest",
+      "wildlife",
+      "relax",
+      "regional"
+    ],
+    "avg_cost_per_day": 5800,
+    "trip_duration": 1,
+    "best_for": [
+      "nature",
+      "transit",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Mount Maunganui",
+    "country": "New Zealand",
+    "tags": [
+      "beach",
+      "surf",
+      "trekking",
+      "nature",
+      "cafe",
+      "relax",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "beach",
+      "active",
+      "family"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Whangarei",
+    "country": "New Zealand",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "boating",
+      "caves",
+      "diving",
+      "coast",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "adventure",
+      "family"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Hamilton",
+    "country": "New Zealand",
+    "tags": [
+      "gardens",
+      "river",
+      "city",
+      "family",
+      "events",
+      "central",
+      "shopping"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "gardens",
+      "transit"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "New Plymouth",
+    "country": "New Zealand",
+    "tags": [
+      "volcano",
+      "art",
+      "nature",
+      "gardens",
+      "coast",
+      "trekking",
+      "museums"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 2,
+    "best_for": [
+      "art",
+      "nature",
+      "culture"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Palmerston North",
+    "country": "New Zealand",
+    "tags": [
+      "museums",
+      "gardens",
+      "student",
+      "nature",
+      "river",
+      "city",
+      "central"
+    ],
+    "avg_cost_per_day": 5800,
+    "trip_duration": 1,
+    "best_for": [
+      "museums",
+      "transit",
+      "culture"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Low"
+  },
+  {
+    "place": "Nelson",
+    "country": "New Zealand",
+    "tags": [
+      "art",
+      "crafts",
+      "beach",
+      "sunshine",
+      "nature",
+      "wine",
+      "food"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "art",
+      "relax",
+      "food"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Picton",
+    "country": "New Zealand",
+    "tags": [
+      "boating",
+      "scenic",
+      "sounds",
+      "nature",
+      "wine",
+      "ferry",
+      "trekking"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "boating",
+      "wine"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Blenheim",
+    "country": "New Zealand",
+    "tags": [
+      "wine",
+      "food",
+      "vineyards",
+      "sunshine",
+      "relax",
+      "aviation",
+      "history"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "wine",
+      "food",
+      "couples"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Westport",
+    "country": "New Zealand",
+    "tags": [
+      "coast",
+      "nature",
+      "history",
+      "mining",
+      "seals",
+      "adventure",
+      "caving"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 1,
+    "best_for": [
+      "nature",
+      "history",
+      "adventure"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Low"
+  },
+  {
+    "place": "Greymouth",
+    "country": "New Zealand",
+    "tags": [
+      "history",
+      "nature",
+      "river",
+      "rain",
+      "jade",
+      "beer",
+      "coast"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "transit",
+      "beer"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Hokitika",
+    "country": "New Zealand",
+    "tags": [
+      "jade",
+      "beach",
+      "gorge",
+      "nature",
+      "art",
+      "sunset",
+      "history"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 1,
+    "best_for": [
+      "art",
+      "nature",
+      "souvenirs"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Te Anau",
+    "country": "New Zealand",
+    "tags": [
+      "lakes",
+      "caves",
+      "glowworms",
+      "nature",
+      "gateway",
+      "trekking",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "family",
+      "base"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Invercargill",
+    "country": "New Zealand",
+    "tags": [
+      "city",
+      "history",
+      "motors",
+      "nature",
+      "parks",
+      "southern",
+      "food"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "motors",
+      "transit"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Cold",
+    "popularity": "Low"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "tags": [
+      "diving",
+      "caves",
+      "nature",
+      "offbeat",
+      "peaceful",
+      "whales",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Apia",
+    "country": "Samoa",
+    "tags": [
+      "culture",
+      "history",
+      "market",
+      "food",
+      "harbour",
+      "friendly",
+      "city"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "food"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Savai'i",
+    "country": "Samoa",
+    "tags": [
+      "volcano",
+      "nature",
+      "traditional",
+      "beach",
+      "blowholes",
+      "peaceful",
+      "slow"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Espiritu Santo",
+    "country": "Vanuatu",
+    "tags": [
+      "diving",
+      "wrecks",
+      "beach",
+      "nature",
+      "blue-holes",
+      "adventure",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 4,
+    "best_for": [
+      "diving",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Yasawa Islands",
+    "country": "Fiji",
+    "tags": [
+      "beach",
+      "islands",
+      "resorts",
+      "snorkeling",
+      "scenic",
+      "relax",
+      "sun"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "beach",
+      "relax",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Mamanuca Islands",
+    "country": "Fiji",
+    "tags": [
+      "beach",
+      "resorts",
+      "surfing",
+      "diving",
+      "party",
+      "family",
+      "fun"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "party",
+      "surf"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Taveuni",
+    "country": "Fiji",
+    "tags": [
+      "nature",
+      "garden",
+      "waterfalls",
+      "diving",
+      "trekking",
+      "offbeat",
+      "lush"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "trekking",
+      "divers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Huahine",
+    "country": "French Polynesia",
+    "tags": [
+      "nature",
+      "culture",
+      "archaeology",
+      "peaceful",
+      "garden",
+      "offbeat",
+      "lagoon"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Raiatea",
+    "country": "French Polynesia",
+    "tags": [
+      "sailing",
+      "culture",
+      "history",
+      "nature",
+      "river",
+      "sacred",
+      "boating"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "sailing",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
   }
 ]

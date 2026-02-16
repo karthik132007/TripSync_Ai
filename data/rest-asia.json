@@ -14,8 +14,17 @@
     ],
     "avg_cost_per_day": 2500,
     "trip_duration": 3,
-    "best_for": ["solo", "couples", "history"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "solo",
+      "couples",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Continental",
     "popularity": "Very High"
   },
@@ -34,8 +43,17 @@
     ],
     "avg_cost_per_day": 2200,
     "trip_duration": 3,
-    "best_for": ["solo", "friends", "culture"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "solo",
+      "friends",
+      "culture"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Continental",
     "popularity": "High"
   },
@@ -54,8 +72,17 @@
     ],
     "avg_cost_per_day": 2200,
     "trip_duration": 2,
-    "best_for": ["solo", "couples", "photographers"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "solo",
+      "couples",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -74,8 +101,17 @@
     ],
     "avg_cost_per_day": 2800,
     "trip_duration": 4,
-    "best_for": ["friends", "solo", "family"],
-    "season": ["jun", "jul", "aug", "sep"],
+    "best_for": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Continental",
     "popularity": "High"
   },
@@ -94,8 +130,16 @@
     ],
     "avg_cost_per_day": 2000,
     "trip_duration": 4,
-    "best_for": ["family", "friends", "nature"],
-    "season": ["jun", "jul", "aug"],
+    "best_for": [
+      "family",
+      "friends",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
     "climate": "Alpine",
     "popularity": "High"
   },
@@ -114,8 +158,16 @@
     ],
     "avg_cost_per_day": 1800,
     "trip_duration": 3,
-    "best_for": ["solo", "adventure", "nature"],
-    "season": ["jun", "jul", "aug"],
+    "best_for": [
+      "solo",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
     "climate": "Alpine",
     "popularity": "Medium"
   },
@@ -134,8 +186,16 @@
     ],
     "avg_cost_per_day": 2500,
     "trip_duration": 7,
-    "best_for": ["adventure", "solo", "friends"],
-    "season": ["jun", "jul", "aug"],
+    "best_for": [
+      "adventure",
+      "solo",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
     "climate": "Alpine",
     "popularity": "Medium"
   },
@@ -154,8 +214,17 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 2,
-    "best_for": ["solo", "photographers", "culture"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "solo",
+      "photographers",
+      "culture"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Desert",
     "popularity": "Low"
   },
@@ -174,8 +243,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["friends", "family", "luxury"],
-    "season": ["nov", "dec", "jan", "feb"],
+    "best_for": [
+      "friends",
+      "family",
+      "luxury"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
     "climate": "Desert",
     "popularity": "Very High"
   },
@@ -194,8 +272,17 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 3,
-    "best_for": ["family", "couples", "friends"],
-    "season": ["nov", "dec", "jan", "feb"],
+    "best_for": [
+      "family",
+      "couples",
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -214,8 +301,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 4,
-    "best_for": ["friends", "couples", "solo"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "friends",
+      "couples",
+      "solo"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Mediterranean",
     "popularity": "Very High"
   },
@@ -234,8 +330,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 3,
-    "best_for": ["couples", "friends", "photographers"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "couples",
+      "friends",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Continental",
     "popularity": "Very High"
   },
@@ -254,8 +359,17 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 3,
-    "best_for": ["solo", "family", "spiritual"],
-    "season": ["mar", "apr", "oct", "nov"],
+    "best_for": [
+      "solo",
+      "family",
+      "spiritual"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
     "climate": "Mediterranean",
     "popularity": "High"
   },
@@ -274,8 +388,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 2,
-    "best_for": ["friends", "solo", "history"],
-    "season": ["mar", "apr", "oct", "nov"],
+    "best_for": [
+      "friends",
+      "solo",
+      "history"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
     "climate": "Desert",
     "popularity": "Very High"
   },
@@ -294,8 +417,16 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 2,
-    "best_for": ["couples", "family", "relaxation"],
-    "season": ["apr", "may", "oct"],
+    "best_for": [
+      "couples",
+      "family",
+      "relaxation"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -314,8 +445,17 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 5,
-    "best_for": ["friends", "solo", "family"],
-    "season": ["mar", "apr", "oct", "nov"],
+    "best_for": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -334,8 +474,16 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 4,
-    "best_for": ["couples", "solo", "culture"],
-    "season": ["mar", "apr", "nov"],
+    "best_for": [
+      "couples",
+      "solo",
+      "culture"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -354,8 +502,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 4,
-    "best_for": ["friends", "solo", "family"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Temperate",
     "popularity": "Very High"
   },
@@ -374,8 +531,17 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 4,
-    "best_for": ["family", "friends", "history"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "family",
+      "friends",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Continental",
     "popularity": "Very High"
   },
@@ -394,9 +560,3147 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 3,
-    "best_for": ["friends", "solo", "business"],
-    "season": ["apr", "may", "sep", "oct"],
+    "best_for": [
+      "friends",
+      "solo",
+      "business"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Subtropical",
     "popularity": "Very High"
+  },
+  {
+    "place": "Osaka",
+    "country": "Japan",
+    "tags": [
+      "food",
+      "nightlife",
+      "culture",
+      "modern",
+      "shopping",
+      "history",
+      "city"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "food",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Nara",
+    "country": "Japan",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "nature",
+      "spiritual",
+      "parks",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "culture",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Hiroshima",
+    "country": "Japan",
+    "tags": [
+      "history",
+      "heritage",
+      "peaceful",
+      "culture",
+      "islands",
+      "museums",
+      "food"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Miyajima",
+    "country": "Japan",
+    "tags": [
+      "islands",
+      "spiritual",
+      "nature",
+      "heritage",
+      "trekking",
+      "scenic",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "couples",
+      "culture",
+      "photographers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Sapporo",
+    "country": "Japan",
+    "tags": [
+      "food",
+      "winter",
+      "skiing",
+      "city",
+      "parks",
+      "beer",
+      "culture"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "food",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "jul"
+    ],
+    "climate": "Cold",
+    "popularity": "High"
+  },
+  {
+    "place": "Niseko",
+    "country": "Japan",
+    "tags": [
+      "skiing",
+      "snow",
+      "adventure",
+      "mountains",
+      "luxury",
+      "nature",
+      "winter"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "friends",
+      "luxury"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Cold",
+    "popularity": "High"
+  },
+  {
+    "place": "Okinawa (Naha)",
+    "country": "Japan",
+    "tags": [
+      "beach",
+      "islands",
+      "diving",
+      "culture",
+      "history",
+      "food",
+      "nature"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "beach",
+      "divers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Hakone",
+    "country": "Japan",
+    "tags": [
+      "mountains",
+      "hot-springs",
+      "nature",
+      "lakes",
+      "views",
+      "relax",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "relax",
+      "nature"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov",
+      "dec"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Takayama",
+    "country": "Japan",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "mountains",
+      "food",
+      "old-town",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Nikko",
+    "country": "Japan",
+    "tags": [
+      "heritage",
+      "history",
+      "nature",
+      "forest",
+      "waterfalls",
+      "temples",
+      "spiritual"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "nature",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Kanazawa",
+    "country": "Japan",
+    "tags": [
+      "culture",
+      "gardens",
+      "history",
+      "art",
+      "food",
+      "heritage",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "art",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Koyasan",
+    "country": "Japan",
+    "tags": [
+      "spiritual",
+      "mountains",
+      "heritage",
+      "history",
+      "nature",
+      "temples",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 1,
+    "best_for": [
+      "spiritual",
+      "history",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Fukuoka",
+    "country": "Japan",
+    "tags": [
+      "food",
+      "city",
+      "nightlife",
+      "shopping",
+      "culture",
+      "ramen",
+      "history"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "friends",
+      "city"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Busan",
+    "country": "South Korea",
+    "tags": [
+      "beach",
+      "food",
+      "culture",
+      "market",
+      "temples",
+      "nightlife",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "food",
+      "beach"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Jeju Island",
+    "country": "South Korea",
+    "tags": [
+      "nature",
+      "beach",
+      "volcano",
+      "hiking",
+      "waterfalls",
+      "romantic",
+      "islands"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Gyeongju",
+    "country": "South Korea",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "ruins",
+      "museums",
+      "peaceful",
+      "cycling"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Jeonju",
+    "country": "South Korea",
+    "tags": [
+      "food",
+      "heritage",
+      "culture",
+      "history",
+      "village",
+      "hanok",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "culture",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Xi'an",
+    "country": "China",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "food",
+      "city",
+      "museums",
+      "ancient"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Chengdu",
+    "country": "China",
+    "tags": [
+      "food",
+      "pandas",
+      "culture",
+      "history",
+      "spicy",
+      "city",
+      "relax"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "food",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Guilin & Yangshuo",
+    "country": "China",
+    "tags": [
+      "nature",
+      "river",
+      "mountains",
+      "scenic",
+      "boating",
+      "cycling",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "adventure",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Zhangjiajie",
+    "country": "China",
+    "tags": [
+      "mountains",
+      "nature",
+      "scenic",
+      "hiking",
+      "forest",
+      "adventure",
+      "views"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Lhasa",
+    "country": "China",
+    "tags": [
+      "spiritual",
+      "mountains",
+      "culture",
+      "heritage",
+      "history",
+      "palace",
+      "high-altitude"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "culture",
+      "spiritual",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Hong Kong",
+    "country": "China",
+    "tags": [
+      "city",
+      "food",
+      "shopping",
+      "nightlife",
+      "harbour",
+      "modern",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 4,
+    "best_for": [
+      "city",
+      "shopping",
+      "food"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Lijiang",
+    "country": "China",
+    "tags": [
+      "heritage",
+      "culture",
+      "old-town",
+      "history",
+      "mountains",
+      "scenic",
+      "romantic"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "couples",
+      "history"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Huangshan",
+    "country": "China",
+    "tags": [
+      "mountains",
+      "nature",
+      "trekking",
+      "sunrise",
+      "scenic",
+      "clouds",
+      "heritage"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "hikers",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Hangzhou",
+    "country": "China",
+    "tags": [
+      "nature",
+      "lake",
+      "history",
+      "culture",
+      "tea",
+      "romantic",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Taipei",
+    "country": "Taiwan",
+    "tags": [
+      "food",
+      "city",
+      "culture",
+      "night-market",
+      "modern",
+      "museums",
+      "shopping"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "food",
+      "friends",
+      "city"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Taroko Gorge",
+    "country": "Taiwan",
+    "tags": [
+      "nature",
+      "canyon",
+      "trekking",
+      "scenic",
+      "mountains",
+      "river",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "adventure",
+      "hikers"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Sun Moon Lake",
+    "country": "Taiwan",
+    "tags": [
+      "lake",
+      "nature",
+      "cycling",
+      "peaceful",
+      "scenic",
+      "culture",
+      "relax"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "relax",
+      "family"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Jiufen",
+    "country": "Taiwan",
+    "tags": [
+      "culture",
+      "history",
+      "food",
+      "scenic",
+      "tea",
+      "mountains",
+      "romantic"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 1,
+    "best_for": [
+      "food",
+      "couples",
+      "culture"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Ulaanbaatar",
+    "country": "Mongolia",
+    "tags": [
+      "culture",
+      "history",
+      "city",
+      "museums",
+      "monastery",
+      "gateway",
+      "cold"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "transit"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gobi Desert",
+    "country": "Mongolia",
+    "tags": [
+      "desert",
+      "adventure",
+      "nature",
+      "offbeat",
+      "camels",
+      "camping",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Tashkent",
+    "country": "Uzbekistan",
+    "tags": [
+      "city",
+      "history",
+      "culture",
+      "museums",
+      "modern",
+      "markets",
+      "food"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "transit"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bishkek",
+    "country": "Kyrgyzstan",
+    "tags": [
+      "city",
+      "mountains",
+      "parks",
+      "culture",
+      "food",
+      "markets",
+      "gateway"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "trekking",
+      "transit",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Karakol",
+    "country": "Kyrgyzstan",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "adventure",
+      "skiing",
+      "culture",
+      "lakes"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Astana",
+    "country": "Kazakhstan",
+    "tags": [
+      "modern",
+      "architecture",
+      "city",
+      "cold",
+      "luxury",
+      "shopping",
+      "business"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "architecture",
+      "business",
+      "city"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Charyn Canyon",
+    "country": "Kazakhstan",
+    "tags": [
+      "canyon",
+      "nature",
+      "scenic",
+      "adventure",
+      "offbeat",
+      "trekking",
+      "desert"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "nature",
+      "adventure",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Dushanbe",
+    "country": "Tajikistan",
+    "tags": [
+      "city",
+      "parks",
+      "museums",
+      "culture",
+      "peaceful",
+      "history",
+      "gateway"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "transit",
+      "history"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Low"
+  },
+  {
+    "place": "Fann Mountains",
+    "country": "Tajikistan",
+    "tags": [
+      "mountains",
+      "lakes",
+      "trekking",
+      "adventure",
+      "nature",
+      "camping",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tbilisi",
+    "country": "Georgia",
+    "tags": [
+      "culture",
+      "history",
+      "food",
+      "wine",
+      "architecture",
+      "nightlife",
+      "old-town"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "food",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Kazbegi",
+    "country": "Georgia",
+    "tags": [
+      "mountains",
+      "nature",
+      "trekking",
+      "scenic",
+      "adventure",
+      "church",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "adventure",
+      "photographers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Batumi",
+    "country": "Georgia",
+    "tags": [
+      "beach",
+      "nightlife",
+      "modern",
+      "casino",
+      "food",
+      "sea",
+      "city"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "party",
+      "beach",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Yerevan",
+    "country": "Armenia",
+    "tags": [
+      "culture",
+      "history",
+      "food",
+      "city",
+      "museums",
+      "brandy",
+      "art"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "history",
+      "food"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lake Sevan",
+    "country": "Armenia",
+    "tags": [
+      "lake",
+      "nature",
+      "relax",
+      "monastery",
+      "history",
+      "scenic",
+      "beach"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "relax",
+      "nature",
+      "history"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Baku",
+    "country": "Azerbaijan",
+    "tags": [
+      "modern",
+      "history",
+      "architecture",
+      "luxury",
+      "food",
+      "old-city",
+      "windy"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "city",
+      "culture",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Semi-arid",
+    "popularity": "High"
+  },
+  {
+    "place": "Antalya",
+    "country": "Turkey",
+    "tags": [
+      "beach",
+      "history",
+      "resorts",
+      "ruins",
+      "luxury",
+      "family",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "beach",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Bodrum",
+    "country": "Turkey",
+    "tags": [
+      "beach",
+      "nightlife",
+      "luxury",
+      "boating",
+      "history",
+      "party",
+      "sea"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "party",
+      "friends",
+      "luxury"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Pamukkale",
+    "country": "Turkey",
+    "tags": [
+      "nature",
+      "history",
+      "thermal",
+      "ruins",
+      "scenic",
+      "unique",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "nature",
+      "history",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Ephesus (Selcuk)",
+    "country": "Turkey",
+    "tags": [
+      "history",
+      "heritage",
+      "ruins",
+      "culture",
+      "archaeology",
+      "ancient",
+      "educational"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Fethiye",
+    "country": "Turkey",
+    "tags": [
+      "beach",
+      "paragliding",
+      "nature",
+      "boating",
+      "sea",
+      "adventure",
+      "tombs"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "beach",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Oludeniz",
+    "country": "Turkey",
+    "tags": [
+      "beach",
+      "paragliding",
+      "scenic",
+      "nature",
+      "relax",
+      "blue-lagoon",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "beach",
+      "adventure",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Kas",
+    "country": "Turkey",
+    "tags": [
+      "diving",
+      "boating",
+      "history",
+      "relax",
+      "charming",
+      "offbeat",
+      "romantic"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "divers",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Ankara",
+    "country": "Turkey",
+    "tags": [
+      "city",
+      "history",
+      "museums",
+      "capital",
+      "culture",
+      "mausoleum",
+      "modern"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "business",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tel Aviv",
+    "country": "Israel",
+    "tags": [
+      "beach",
+      "nightlife",
+      "food",
+      "modern",
+      "culture",
+      "art",
+      "city"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "party",
+      "friends",
+      "food"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Eilat",
+    "country": "Israel",
+    "tags": [
+      "beach",
+      "diving",
+      "coral-reef",
+      "resorts",
+      "desert",
+      "relax",
+      "family"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "beach",
+      "divers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Haifa",
+    "country": "Israel",
+    "tags": [
+      "gardens",
+      "culture",
+      "views",
+      "history",
+      "port",
+      "peaceful",
+      "bahai"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "relax",
+      "views"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Wadi Rum",
+    "country": "Jordan",
+    "tags": [
+      "desert",
+      "adventure",
+      "camping",
+      "scenic",
+      "jeep",
+      "nature",
+      "stars"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "friends",
+      "photographers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Amman",
+    "country": "Jordan",
+    "tags": [
+      "city",
+      "history",
+      "food",
+      "ruins",
+      "culture",
+      "markets",
+      "hills"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "food"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Aqaba",
+    "country": "Jordan",
+    "tags": [
+      "beach",
+      "diving",
+      "red-sea",
+      "relax",
+      "water-sports",
+      "history",
+      "resorts"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "relax",
+      "beach"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Muscat",
+    "country": "Oman",
+    "tags": [
+      "culture",
+      "architecture",
+      "market",
+      "sea",
+      "history",
+      "peaceful",
+      "clean"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "couples",
+      "history"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Wahiba Sands",
+    "country": "Oman",
+    "tags": [
+      "desert",
+      "camping",
+      "adventure",
+      "dunes",
+      "nature",
+      "offbeat",
+      "stars"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Nizwa",
+    "country": "Oman",
+    "tags": [
+      "history",
+      "fort",
+      "market",
+      "culture",
+      "mountains",
+      "heritage",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Salalah",
+    "country": "Oman",
+    "tags": [
+      "nature",
+      "monsoon",
+      "green",
+      "waterfalls",
+      "beach",
+      "offbeat",
+      "unique"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "family",
+      "unique"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Doha",
+    "country": "Qatar",
+    "tags": [
+      "luxury",
+      "modern",
+      "museums",
+      "culture",
+      "shopping",
+      "desert",
+      "food"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "transit",
+      "luxury",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Riyadh",
+    "country": "Saudi Arabia",
+    "tags": [
+      "city",
+      "modern",
+      "history",
+      "culture",
+      "desert",
+      "shopping",
+      "business"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "business",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "AlUla",
+    "country": "Saudi Arabia",
+    "tags": [
+      "history",
+      "heritage",
+      "desert",
+      "ruins",
+      "luxury",
+      "scenic",
+      "adventure"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "luxury",
+      "photographers"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Jeddah",
+    "country": "Saudi Arabia",
+    "tags": [
+      "history",
+      "old-town",
+      "red-sea",
+      "diving",
+      "culture",
+      "food",
+      "modern"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "sea"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Beirut",
+    "country": "Lebanon",
+    "tags": [
+      "history",
+      "food",
+      "nightlife",
+      "culture",
+      "sea",
+      "city",
+      "modern"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "food",
+      "party",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Byblos",
+    "country": "Lebanon",
+    "tags": [
+      "history",
+      "ancient",
+      "port",
+      "culture",
+      "sea",
+      "romantic",
+      "ruins"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "couples",
+      "culture"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Manama",
+    "country": "Bahrain",
+    "tags": [
+      "history",
+      "culture",
+      "food",
+      "shopping",
+      "modern",
+      "islands",
+      "pearls"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kuwait City",
+    "country": "Kuwait",
+    "tags": [
+      "modern",
+      "shopping",
+      "food",
+      "towers",
+      "museums",
+      "luxury",
+      "hot"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "business",
+      "shopping",
+      "food"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Low"
+  },
+  {
+    "place": "Shiraz",
+    "country": "Iran",
+    "tags": [
+      "history",
+      "culture",
+      "gardens",
+      "poetry",
+      "architecture",
+      "ruins",
+      "ancient"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "poetry"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Semi-arid",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Isfahan",
+    "country": "Iran",
+    "tags": [
+      "architecture",
+      "history",
+      "culture",
+      "square",
+      "mosques",
+      "bridge",
+      "art"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "architecture"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Semi-arid",
+    "popularity": "High"
+  },
+  {
+    "place": "Tehran",
+    "country": "Iran",
+    "tags": [
+      "city",
+      "museums",
+      "mountains",
+      "traffic",
+      "history",
+      "culture",
+      "palace"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "city"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Semi-arid",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Yazd",
+    "country": "Iran",
+    "tags": [
+      "desert",
+      "history",
+      "culture",
+      "architecture",
+      "windtowers",
+      "offbeat",
+      "ancient"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kobe",
+    "country": "Japan",
+    "tags": [
+      "food",
+      "beef",
+      "harbour",
+      "mountains",
+      "city",
+      "modern",
+      "scenic"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 1,
+    "best_for": [
+      "food",
+      "couples",
+      "city"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Himeji",
+    "country": "Japan",
+    "tags": [
+      "castle",
+      "history",
+      "heritage",
+      "garden",
+      "culture",
+      "architecture",
+      "scenic"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "photographers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Nagoya",
+    "country": "Japan",
+    "tags": [
+      "city",
+      "history",
+      "castle",
+      "museums",
+      "food",
+      "industry",
+      "transit"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "transit",
+      "food"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Shirakawa-go",
+    "country": "Japan",
+    "tags": [
+      "heritage",
+      "village",
+      "snow",
+      "traditional",
+      "scenic",
+      "rural",
+      "history"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "culture",
+      "photographers",
+      "history"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "may",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Beppu",
+    "country": "Japan",
+    "tags": [
+      "hot-springs",
+      "nature",
+      "steam",
+      "relax",
+      "unique",
+      "culture",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "relax",
+      "culture",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "nov",
+      "dec"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Incheon",
+    "country": "South Korea",
+    "tags": [
+      "city",
+      "airport",
+      "food",
+      "chinatown",
+      "modern",
+      "parks",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "transit",
+      "food",
+      "city"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Suwon",
+    "country": "South Korea",
+    "tags": [
+      "history",
+      "fortress",
+      "heritage",
+      "culture",
+      "city",
+      "walking",
+      "day-trip"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "walking"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pyeongchang",
+    "country": "South Korea",
+    "tags": [
+      "mountains",
+      "skiing",
+      "nature",
+      "winter",
+      "sports",
+      "resort",
+      "clean"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "skiing",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Suzhou",
+    "country": "China",
+    "tags": [
+      "gardens",
+      "canals",
+      "history",
+      "culture",
+      "romantic",
+      "peaceful",
+      "silk"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "romantic"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Nanjing",
+    "country": "China",
+    "tags": [
+      "history",
+      "city",
+      "culture",
+      "monuments",
+      "heritage",
+      "museums",
+      "river"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "educational"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Harbin",
+    "country": "China",
+    "tags": [
+      "ice",
+      "snow",
+      "festival",
+      "winter",
+      "Russian",
+      "architecture",
+      "cold"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "winter",
+      "family",
+      "unique"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Cold",
+    "popularity": "High"
+  },
+  {
+    "place": "Kunming",
+    "country": "China",
+    "tags": [
+      "spring",
+      "nature",
+      "flowers",
+      "lakes",
+      "culture",
+      "relax",
+      "city"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "relax",
+      "transit"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Dali",
+    "country": "China",
+    "tags": [
+      "culture",
+      "lake",
+      "mountains",
+      "history",
+      "relax",
+      "backpacking",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "culture",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Shangri-La",
+    "country": "China",
+    "tags": [
+      "mountains",
+      "culture",
+      "nature",
+      "spiritual",
+      "monastery",
+      "scenic",
+      "remote"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Sanya",
+    "country": "China",
+    "tags": [
+      "beach",
+      "resorts",
+      "tropical",
+      "relax",
+      "sun",
+      "luxury",
+      "family"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "beach",
+      "family",
+      "relax"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Macau",
+    "country": "China",
+    "tags": [
+      "casino",
+      "history",
+      "Portuguese",
+      "food",
+      "luxury",
+      "nightlife",
+      "heritage"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "luxury",
+      "food",
+      "history"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kaohsiung",
+    "country": "Taiwan",
+    "tags": [
+      "city",
+      "art",
+      "harbour",
+      "night-market",
+      "temples",
+      "modern",
+      "food"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "city",
+      "art",
+      "food"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Tainan",
+    "country": "Taiwan",
+    "tags": [
+      "history",
+      "food",
+      "culture",
+      "temples",
+      "heritage",
+      "traditional",
+      "slow"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kenting",
+    "country": "Taiwan",
+    "tags": [
+      "beach",
+      "nature",
+      "park",
+      "sunny",
+      "relax",
+      "water-sports",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "beach",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Alishan",
+    "country": "Taiwan",
+    "tags": [
+      "mountains",
+      "forest",
+      "sunrise",
+      "train",
+      "tea",
+      "scenic",
+      "nature"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "scenic",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Sharjah",
+    "country": "UAE",
+    "tags": [
+      "culture",
+      "museums",
+      "history",
+      "family",
+      "art",
+      "conservative",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "family",
+      "art"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ras Al Khaimah",
+    "country": "UAE",
+    "tags": [
+      "mountains",
+      "adventure",
+      "zipline",
+      "beach",
+      "luxury",
+      "desert",
+      "nature"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "luxury",
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Fujairah",
+    "country": "UAE",
+    "tags": [
+      "diving",
+      "beach",
+      "mountains",
+      "history",
+      "fort",
+      "relax",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "relax",
+      "beach"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Jerash",
+    "country": "Jordan",
+    "tags": [
+      "history",
+      "ruins",
+      "Roman",
+      "ancient",
+      "culture",
+      "archaeology",
+      "walking"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Madaba",
+    "country": "Jordan",
+    "tags": [
+      "history",
+      "mosaics",
+      "culture",
+      "religious",
+      "small-town",
+      "friendly",
+      "art"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "art"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mardin",
+    "country": "Turkey",
+    "tags": [
+      "history",
+      "architecture",
+      "culture",
+      "views",
+      "ancient",
+      "offbeat",
+      "food"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Semi-arid",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Konya",
+    "country": "Turkey",
+    "tags": [
+      "spiritual",
+      "history",
+      "Rumi",
+      "culture",
+      "museums",
+      "conservative",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "spiritual",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Trabzon",
+    "country": "Turkey",
+    "tags": [
+      "nature",
+      "mountains",
+      "monastery",
+      "black-sea",
+      "green",
+      "history",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "history",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bursa",
+    "country": "Turkey",
+    "tags": [
+      "history",
+      "mountains",
+      "silk",
+      "food",
+      "ottoman",
+      "green",
+      "cable-car"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "food",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Nazareth",
+    "country": "Israel",
+    "tags": [
+      "history",
+      "religious",
+      "culture",
+      "food",
+      "market",
+      "ancient",
+      "hills"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "religious",
+      "culture"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Masada",
+    "country": "Israel",
+    "tags": [
+      "history",
+      "fortress",
+      "desert",
+      "views",
+      "hiking",
+      "sunrise",
+      "ancient"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "hiking",
+      "views"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Desert",
+    "popularity": "High"
+  },
+  {
+    "place": "Sheki",
+    "country": "Azerbaijan",
+    "tags": [
+      "history",
+      "palace",
+      "mountains",
+      "culture",
+      "silk-road",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gabala",
+    "country": "Azerbaijan",
+    "tags": [
+      "nature",
+      "mountains",
+      "resort",
+      "waterfalls",
+      "family",
+      "relax",
+      "green"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "family",
+      "relax"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Dilijan",
+    "country": "Armenia",
+    "tags": [
+      "nature",
+      "forest",
+      "mountains",
+      "peaceful",
+      "hiking",
+      "monastery",
+      "green"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "relax",
+      "hiking"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kutaisi",
+    "country": "Georgia",
+    "tags": [
+      "history",
+      "caves",
+      "canyons",
+      "monastery",
+      "gateway",
+      "nature",
+      "budget"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "nature",
+      "transit"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Svaneti (Mestia)",
+    "country": "Georgia",
+    "tags": [
+      "mountains",
+      "trekking",
+      "towers",
+      "remote",
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "hiking",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Kakheti",
+    "country": "Georgia",
+    "tags": [
+      "wine",
+      "food",
+      "vineyards",
+      "history",
+      "scenic",
+      "relax",
+      "culture"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "wine",
+      "couples"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "may",
+      "jun"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
   }
 ]

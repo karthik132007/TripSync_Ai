@@ -1,5 +1,5 @@
-flask
-gunicorn
+numpy
+scikit-learn
 pandas
 requests
-python-dotenv
+tensorflow

@@ -14,8 +14,19 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 5,
-    "best_for": ["friends", "couples", "family", "solo"],
-    "season": ["sep", "oct", "nov", "mar", "apr"],
+    "best_for": [
+      "friends",
+      "couples",
+      "family",
+      "solo"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar",
+      "apr"
+    ],
     "climate": "Mediterranean",
     "popularity": "Very High"
   },
@@ -34,8 +45,18 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["family", "friends", "couples"],
-    "season": ["may", "jun", "jul", "aug", "sep"],
+    "best_for": [
+      "family",
+      "friends",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Savanna",
     "popularity": "Very High"
   },
@@ -54,8 +75,18 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 5,
-    "best_for": ["family", "couples", "friends"],
-    "season": ["jun", "jul", "aug", "sep", "oct"],
+    "best_for": [
+      "family",
+      "couples",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
     "climate": "Oceanic",
     "popularity": "High"
   },
@@ -74,8 +105,17 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 3,
-    "best_for": ["friends", "family", "couples"],
-    "season": ["jun", "jul", "dec", "jan"],
+    "best_for": [
+      "friends",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "dec",
+      "jan"
+    ],
     "climate": "Subtropical",
     "popularity": "High"
   },
@@ -94,8 +134,18 @@
     ],
     "avg_cost_per_day": 2500,
     "trip_duration": 4,
-    "best_for": ["friends", "solo", "family"],
-    "season": ["oct", "nov", "feb", "mar", "apr"],
+    "best_for": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "feb",
+      "mar",
+      "apr"
+    ],
     "climate": "Desert",
     "popularity": "Very High"
   },
@@ -114,8 +164,17 @@
     ],
     "avg_cost_per_day": 2800,
     "trip_duration": 2,
-    "best_for": ["family", "friends", "solo"],
-    "season": ["oct", "nov", "feb", "mar"],
+    "best_for": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "feb",
+      "mar"
+    ],
     "climate": "Desert",
     "popularity": "Very High"
   },
@@ -134,8 +193,17 @@
     ],
     "avg_cost_per_day": 2500,
     "trip_duration": 3,
-    "best_for": ["solo", "couples", "history-buffs"],
-    "season": ["oct", "nov", "feb", "mar"],
+    "best_for": [
+      "solo",
+      "couples",
+      "history-buffs"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "feb",
+      "mar"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -154,8 +222,17 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 4,
-    "best_for": ["couples", "family", "divers"],
-    "season": ["apr", "may", "oct", "nov"],
+    "best_for": [
+      "couples",
+      "family",
+      "divers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -174,8 +251,18 @@
     ],
     "avg_cost_per_day": 2800,
     "trip_duration": 3,
-    "best_for": ["friends", "couples", "solo"],
-    "season": ["mar", "apr", "may", "sep", "oct"],
+    "best_for": [
+      "friends",
+      "couples",
+      "solo"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
     "climate": "Semi-arid",
     "popularity": "Very High"
   },
@@ -194,8 +281,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 3,
-    "best_for": ["friends", "solo", "adventure"],
-    "season": ["mar", "apr", "oct", "nov"],
+    "best_for": [
+      "friends",
+      "solo",
+      "adventure"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -214,8 +310,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["family", "friends", "luxury"],
-    "season": ["jul", "aug", "sep", "oct"],
+    "best_for": [
+      "family",
+      "friends",
+      "luxury"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
     "climate": "Savanna",
     "popularity": "Very High"
   },
@@ -234,8 +339,17 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 3,
-    "best_for": ["friends", "solo", "family"],
-    "season": ["jan", "feb", "jun", "jul"],
+    "best_for": [
+      "friends",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
     "climate": "Savanna",
     "popularity": "High"
   },
@@ -254,8 +368,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 4,
-    "best_for": ["couples", "family", "friends"],
-    "season": ["jun", "jul", "dec", "jan"],
+    "best_for": [
+      "couples",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "dec",
+      "jan"
+    ],
     "climate": "Tropical",
     "popularity": "High"
   },
@@ -274,8 +397,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 5,
-    "best_for": ["family", "friends", "luxury"],
-    "season": ["jun", "jul", "aug", "sep"],
+    "best_for": [
+      "family",
+      "friends",
+      "luxury"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Savanna",
     "popularity": "Very High"
   },
@@ -294,8 +426,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 4,
-    "best_for": ["couples", "family", "friends"],
-    "season": ["jun", "jul", "aug", "sep"],
+    "best_for": [
+      "couples",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Tropical",
     "popularity": "Very High"
   },
@@ -314,8 +455,18 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 7,
-    "best_for": ["adventure", "solo", "friends"],
-    "season": ["jan", "feb", "jul", "aug", "sep"],
+    "best_for": [
+      "adventure",
+      "solo",
+      "friends"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Alpine",
     "popularity": "High"
   },
@@ -334,8 +485,16 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 2,
-    "best_for": ["family", "friends"],
-    "season": ["jun", "jul", "aug", "sep"],
+    "best_for": [
+      "family",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
     "climate": "Savanna",
     "popularity": "High"
   },
@@ -354,8 +513,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["luxury", "family", "couples"],
-    "season": ["may", "jun", "jul", "oct"],
+    "best_for": [
+      "luxury",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "oct"
+    ],
     "climate": "Savanna",
     "popularity": "Very High"
   },
@@ -374,8 +542,17 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 3,
-    "best_for": ["family", "friends", "nature"],
-    "season": ["may", "jun", "jul", "oct"],
+    "best_for": [
+      "family",
+      "friends",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "oct"
+    ],
     "climate": "Savanna",
     "popularity": "High"
   },
@@ -394,8 +571,17 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 3,
-    "best_for": ["friends", "adventure", "couples"],
-    "season": ["feb", "mar", "apr", "may"],
+    "best_for": [
+      "friends",
+      "adventure",
+      "couples"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
     "climate": "Subtropical",
     "popularity": "Very High"
   },
@@ -414,8 +600,16 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 3,
-    "best_for": ["family", "friends", "self-drive"],
-    "season": ["may", "jun", "jul"],
+    "best_for": [
+      "family",
+      "friends",
+      "self-drive"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul"
+    ],
     "climate": "Savanna",
     "popularity": "High"
   },
@@ -434,8 +628,16 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 3,
-    "best_for": ["friends", "solo", "photographers"],
-    "season": ["may", "jun", "jul"],
+    "best_for": [
+      "friends",
+      "solo",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul"
+    ],
     "climate": "Desert",
     "popularity": "High"
   },
@@ -454,8 +656,16 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 3,
-    "best_for": ["friends", "adventure", "solo"],
-    "season": ["may", "jun", "jul"],
+    "best_for": [
+      "friends",
+      "adventure",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul"
+    ],
     "climate": "Desert coastal",
     "popularity": "Medium"
   },
@@ -474,8 +684,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["adventure", "nature", "solo"],
-    "season": ["jun", "jul", "sep", "oct"],
+    "best_for": [
+      "adventure",
+      "nature",
+      "solo"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
     "climate": "Tropical",
     "popularity": "Very High"
   },
@@ -494,8 +713,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 4,
-    "best_for": ["luxury", "adventure", "nature"],
-    "season": ["jun", "jul", "sep", "oct"],
+    "best_for": [
+      "luxury",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
     "climate": "Montane",
     "popularity": "Very High"
   },
@@ -514,8 +742,17 @@
     ],
     "avg_cost_per_day": 4500,
     "trip_duration": 5,
-    "best_for": ["couples", "luxury", "family"],
-    "season": ["apr", "may", "oct", "nov"],
+    "best_for": [
+      "couples",
+      "luxury",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
     "climate": "Tropical",
     "popularity": "High"
   },
@@ -534,8 +771,18 @@
     ],
     "avg_cost_per_day": 4000,
     "trip_duration": 5,
-    "best_for": ["family", "couples", "honeymoon"],
-    "season": ["may", "jun", "sep", "oct", "nov"],
+    "best_for": [
+      "family",
+      "couples",
+      "honeymoon"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct",
+      "nov"
+    ],
     "climate": "Tropical",
     "popularity": "Very High"
   },
@@ -554,8 +801,16 @@
     ],
     "avg_cost_per_day": 3000,
     "trip_duration": 2,
-    "best_for": ["couples", "friends", "culture"],
-    "season": ["jun", "jul", "aug"],
+    "best_for": [
+      "couples",
+      "friends",
+      "culture"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
     "climate": "Tropical",
     "popularity": "High"
   },
@@ -574,9 +829,3005 @@
     ],
     "avg_cost_per_day": 3500,
     "trip_duration": 1,
-    "best_for": ["family", "friends", "short-trip"],
-    "season": ["jan", "feb", "jun", "jul"],
+    "best_for": [
+      "family",
+      "friends",
+      "short-trip"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
     "climate": "Savanna",
     "popularity": "High"
+  },
+  {
+    "place": "Johannesburg",
+    "country": "South Africa",
+    "tags": [
+      "culture",
+      "history",
+      "nightlife",
+      "food",
+      "shopping",
+      "heritage",
+      "luxury"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "history",
+      "business"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Stellenbosch",
+    "country": "South Africa",
+    "tags": [
+      "food",
+      "nature",
+      "heritage",
+      "peaceful",
+      "romantic",
+      "mountains",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Drakensberg",
+    "country": "South Africa",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "adventure",
+      "camping",
+      "peaceful",
+      "scenic"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Hermanus",
+    "country": "South Africa",
+    "tags": [
+      "nature",
+      "beach",
+      "boating",
+      "peaceful",
+      "romantic",
+      "coastal",
+      "food"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Knysna",
+    "country": "South Africa",
+    "tags": [
+      "nature",
+      "boating",
+      "forest",
+      "food",
+      "romantic",
+      "peaceful",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Blyde River Canyon",
+    "country": "South Africa",
+    "tags": [
+      "canyon",
+      "nature",
+      "scenic",
+      "trekking",
+      "adventure",
+      "mountains",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "adventure",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "iSimangaliso Wetland Park",
+    "country": "South Africa",
+    "tags": [
+      "nature",
+      "beach",
+      "safari",
+      "bird-watching",
+      "boating",
+      "diving",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "family",
+      "divers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tsitsikamma National Park",
+    "country": "South Africa",
+    "tags": [
+      "forest",
+      "adventure",
+      "trekking",
+      "nature",
+      "camping",
+      "water-sports",
+      "scenic"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Pilanesberg National Park",
+    "country": "South Africa",
+    "tags": [
+      "safari",
+      "nature",
+      "camping",
+      "luxury",
+      "family",
+      "adventure",
+      "hot-air-balloon"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "safari",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Port Elizabeth",
+    "country": "South Africa",
+    "tags": [
+      "beach",
+      "history",
+      "water-sports",
+      "nature",
+      "family",
+      "coastal",
+      "relax"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "beach",
+      "transit"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Chefchaouen",
+    "country": "Morocco",
+    "tags": [
+      "culture",
+      "mountains",
+      "history",
+      "peaceful",
+      "blue-city",
+      "photographers",
+      "romantic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "friends",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Fes",
+    "country": "Morocco",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "markets",
+      "crafts",
+      "spiritual",
+      "old-town"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "history",
+      "solo"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Essaouira",
+    "country": "Morocco",
+    "tags": [
+      "beach",
+      "heritage",
+      "history",
+      "windy",
+      "water-sports",
+      "food",
+      "relax"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "water-sports",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Atlas Mountains",
+    "country": "Morocco",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "adventure",
+      "culture",
+      "scenic",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Casablanca",
+    "country": "Morocco",
+    "tags": [
+      "city",
+      "mosque",
+      "modern",
+      "history",
+      "business",
+      "food",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "transit",
+      "business",
+      "history"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Tangier",
+    "country": "Morocco",
+    "tags": [
+      "history",
+      "beach",
+      "culture",
+      "gateway",
+      "food",
+      "markets",
+      "port"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "transit"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Aswan",
+    "country": "Egypt",
+    "tags": [
+      "history",
+      "river",
+      "temples",
+      "peaceful",
+      "heritage",
+      "culture",
+      "island"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Sharm El Sheikh",
+    "country": "Egypt",
+    "tags": [
+      "beach",
+      "diving",
+      "luxury",
+      "water-sports",
+      "nightlife",
+      "resorts",
+      "coral-reefs"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "divers",
+      "luxury"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Dahab",
+    "country": "Egypt",
+    "tags": [
+      "diving",
+      "beach",
+      "offbeat",
+      "relax",
+      "backpacking",
+      "water-sports",
+      "nature"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "backpackers",
+      "solo"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Alexandria",
+    "country": "Egypt",
+    "tags": [
+      "history",
+      "sea",
+      "culture",
+      "food",
+      "heritage",
+      "library",
+      "city"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Siwa Oasis",
+    "country": "Egypt",
+    "tags": [
+      "desert",
+      "offbeat",
+      "nature",
+      "springs",
+      "history",
+      "peaceful",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "offbeat",
+      "solo"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "feb",
+      "mar"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tunis",
+    "country": "Tunisia",
+    "tags": [
+      "history",
+      "culture",
+      "medina",
+      "ruins",
+      "food",
+      "heritage",
+      "city"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "culture",
+      "solo"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sidi Bou Said",
+    "country": "Tunisia",
+    "tags": [
+      "culture",
+      "scenic",
+      "blue-and-white",
+      "romantic",
+      "history",
+      "art",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 1,
+    "best_for": [
+      "couples",
+      "photographers",
+      "relax"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Djerba",
+    "country": "Tunisia",
+    "tags": [
+      "beach",
+      "islands",
+      "culture",
+      "history",
+      "relax",
+      "markets",
+      "sunny"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "beach",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Amboseli National Park",
+    "country": "Kenya",
+    "tags": [
+      "safari",
+      "nature",
+      "elephants",
+      "mountains",
+      "views",
+      "wildlife",
+      "photography"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "safari",
+      "nature",
+      "photographers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Lake Nakuru",
+    "country": "Kenya",
+    "tags": [
+      "nature",
+      "bird-watching",
+      "safari",
+      "lakes",
+      "rhinos",
+      "flamingos",
+      "scenic"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "bird-watching",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "tags": [
+      "safari",
+      "adventure",
+      "nature",
+      "wildlife",
+      "large",
+      "scenic",
+      "camping"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "safari",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lamu Island",
+    "country": "Kenya",
+    "tags": [
+      "culture",
+      "heritage",
+      "beach",
+      "history",
+      "no-cars",
+      "peaceful",
+      "islands"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "history",
+      "relax"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Watamu",
+    "country": "Kenya",
+    "tags": [
+      "beach",
+      "marine-park",
+      "diving",
+      "nature",
+      "peaceful",
+      "ruins",
+      "luxury"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "beach",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lake Manyara",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "nature",
+      "lakes",
+      "bird-watching",
+      "lions",
+      "scenic",
+      "compact"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 1,
+    "best_for": [
+      "safari",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Tarangire National Park",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "nature",
+      "elephants",
+      "baobabs",
+      "wildlife",
+      "camping",
+      "adventure"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "safari",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Pemba Island",
+    "country": "Tanzania",
+    "tags": [
+      "islands",
+      "diving",
+      "offbeat",
+      "nature",
+      "lush",
+      "peaceful",
+      "cloves"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "divers",
+      "offbeat",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mafia Island",
+    "country": "Tanzania",
+    "tags": [
+      "diving",
+      "islands",
+      "marine-park",
+      "peaceful",
+      "whale-sharks",
+      "beach",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Praslin",
+    "country": "Seychelles",
+    "tags": [
+      "beach",
+      "nature",
+      "luxury",
+      "palm-forest",
+      "islands",
+      "romantic",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "luxury",
+      "beach"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "La Digue",
+    "country": "Seychelles",
+    "tags": [
+      "beach",
+      "nature",
+      "cycling",
+      "peaceful",
+      "scenic",
+      "islands",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "relax",
+      "photographers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Nosy Be",
+    "country": "Madagascar",
+    "tags": [
+      "beach",
+      "islands",
+      "diving",
+      "nature",
+      "lemurs",
+      "scenic",
+      "relax"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 5,
+    "best_for": [
+      "beach",
+      "nature",
+      "divers"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Avenue of the Baobabs",
+    "country": "Madagascar",
+    "tags": [
+      "nature",
+      "scenic",
+      "trees",
+      "offbeat",
+      "sunset",
+      "adventure",
+      "iconic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "photographers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Isalo National Park",
+    "country": "Madagascar",
+    "tags": [
+      "nature",
+      "trekking",
+      "canyon",
+      "scenic",
+      "lemurs",
+      "adventure",
+      "rock"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Andasibe-Mantadia",
+    "country": "Madagascar",
+    "tags": [
+      "nature",
+      "forest",
+      "lemurs",
+      "wildlife",
+      "trekking",
+      "rainforest",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "wildlife",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Windhoek",
+    "country": "Namibia",
+    "tags": [
+      "city",
+      "history",
+      "culture",
+      "clean",
+      "gateway",
+      "peaceful",
+      "architecture"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "transit",
+      "history",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Fish River Canyon",
+    "country": "Namibia",
+    "tags": [
+      "canyon",
+      "trekking",
+      "scenic",
+      "adventure",
+      "nature",
+      "camping",
+      "challenging"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "hikers",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Skeleton Coast",
+    "country": "Namibia",
+    "tags": [
+      "adventure",
+      "offbeat",
+      "nature",
+      "shipwrecks",
+      "remote",
+      "scenic",
+      "coastal"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "offbeat",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Damaraland",
+    "country": "Namibia",
+    "tags": [
+      "nature",
+      "adventure",
+      "rock-art",
+      "elephants",
+      "scenic",
+      "mountains",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Maputo",
+    "country": "Mozambique",
+    "tags": [
+      "city",
+      "culture",
+      "architecture",
+      "food",
+      "nightlife",
+      "history",
+      "coastal"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "food",
+      "city"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bazaruto Archipelago",
+    "country": "Mozambique",
+    "tags": [
+      "beach",
+      "islands",
+      "diving",
+      "luxury",
+      "nature",
+      "dunes",
+      "marine-life"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 4,
+    "best_for": [
+      "luxury",
+      "divers",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Tofo Beach",
+    "country": "Mozambique",
+    "tags": [
+      "beach",
+      "diving",
+      "whale-sharks",
+      "adventure",
+      "relax",
+      "backpacking",
+      "ocean"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "backpackers",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "South Luangwa",
+    "country": "Zambia",
+    "tags": [
+      "safari",
+      "nature",
+      "walking-safari",
+      "wildlife",
+      "adventure",
+      "river",
+      "leopards"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 4,
+    "best_for": [
+      "safari",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Lower Zambezi",
+    "country": "Zambia",
+    "tags": [
+      "safari",
+      "river",
+      "canoeing",
+      "fishing",
+      "wildlife",
+      "adventure",
+      "scenic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "fishing",
+      "safari"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kafue National Park",
+    "country": "Zambia",
+    "tags": [
+      "safari",
+      "nature",
+      "offbeat",
+      "wildlife",
+      "huge",
+      "river",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "safari",
+      "offbeat",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Harare",
+    "country": "Zimbabwe",
+    "tags": [
+      "city",
+      "culture",
+      "gardens",
+      "art",
+      "history",
+      "friendly",
+      "museums"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "art",
+      "city"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Hwange National Park",
+    "country": "Zimbabwe",
+    "tags": [
+      "safari",
+      "nature",
+      "elephants",
+      "wildlife",
+      "adventure",
+      "camping",
+      "walking"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "safari",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Mana Pools",
+    "country": "Zimbabwe",
+    "tags": [
+      "safari",
+      "adventure",
+      "canoe",
+      "wildlife",
+      "river",
+      "nature",
+      "camping"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "safari",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Makgadikgadi Pans",
+    "country": "Botswana",
+    "tags": [
+      "desert",
+      "nature",
+      "salt-flats",
+      "offbeat",
+      "quad-biking",
+      "adventure",
+      "meerkats"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "offbeat",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Jinja",
+    "country": "Uganda",
+    "tags": [
+      "adventure",
+      "rafting",
+      "river",
+      "source-of-nile",
+      "nature",
+      "kayaking",
+      "fun"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "friends",
+      "backpackers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Queen Elizabeth National Park",
+    "country": "Uganda",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "lions",
+      "boating",
+      "scenic",
+      "chimps"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "safari",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Murchison Falls",
+    "country": "Uganda",
+    "tags": [
+      "waterfalls",
+      "safari",
+      "river",
+      "nature",
+      "wildlife",
+      "boating",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "safari",
+      "nature"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kigali",
+    "country": "Rwanda",
+    "tags": [
+      "city",
+      "history",
+      "clean",
+      "culture",
+      "memorial",
+      "art",
+      "safe"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "city"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lake Kivu",
+    "country": "Rwanda",
+    "tags": [
+      "lakes",
+      "relax",
+      "scenic",
+      "boating",
+      "nature",
+      "peaceful",
+      "hills"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "relax",
+      "couples",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Nyungwe Forest",
+    "country": "Rwanda",
+    "tags": [
+      "forest",
+      "trekking",
+      "chimps",
+      "canopy",
+      "nature",
+      "adventure",
+      "rainforest"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "trekking"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Addis Ababa",
+    "country": "Ethiopia",
+    "tags": [
+      "city",
+      "culture",
+      "museums",
+      "food",
+      "history",
+      "markets",
+      "coffee"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "food"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Lalibela",
+    "country": "Ethiopia",
+    "tags": [
+      "heritage",
+      "history",
+      "spiritual",
+      "churches",
+      "architecture",
+      "culture",
+      "unique"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "spiritual"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Simien Mountains",
+    "country": "Ethiopia",
+    "tags": [
+      "mountains",
+      "trekking",
+      "scenic",
+      "nature",
+      "wildlife",
+      "adventure",
+      "views"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": [
+      "hikers",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "tags": [
+      "adventure",
+      "desert",
+      "volcano",
+      "offbeat",
+      "extreme",
+      "landscape",
+      "unique"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "extreme",
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lake Malawi",
+    "country": "Malawi",
+    "tags": [
+      "lakes",
+      "beach",
+      "snorkeling",
+      "relax",
+      "nature",
+      "kayaking",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 4,
+    "best_for": [
+      "relax",
+      "nature",
+      "backpackers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Dakar",
+    "country": "Senegal",
+    "tags": [
+      "city",
+      "culture",
+      "music",
+      "history",
+      "markets",
+      "beach",
+      "vibrant"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "music",
+      "history"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Goree Island",
+    "country": "Senegal",
+    "tags": [
+      "history",
+      "heritage",
+      "peaceful",
+      "island",
+      "culture",
+      "museums",
+      "walking"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "reflection"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Sal",
+    "country": "Cape Verde",
+    "tags": [
+      "beach",
+      "water-sports",
+      "relax",
+      "sun",
+      "diving",
+      "kitesurfing",
+      "resorts"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 5,
+    "best_for": [
+      "beach",
+      "relax",
+      "water-sports"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Boa Vista",
+    "country": "Cape Verde",
+    "tags": [
+      "beach",
+      "dunes",
+      "relax",
+      "nature",
+      "peaceful",
+      "offbeat",
+      "turtles"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "relax",
+      "beach",
+      "nature"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Accra",
+    "country": "Ghana",
+    "tags": [
+      "city",
+      "culture",
+      "history",
+      "markets",
+      "food",
+      "nightlife",
+      "beach"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "history",
+      "friends"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Cape Coast",
+    "country": "Ghana",
+    "tags": [
+      "history",
+      "heritage",
+      "castle",
+      "culture",
+      "beach",
+      "educational",
+      "coastal"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "students"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kakum National Park",
+    "country": "Ghana",
+    "tags": [
+      "nature",
+      "forest",
+      "canopy",
+      "trekking",
+      "adventure",
+      "rainforest",
+      "birds"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "adventure",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Lagos",
+    "country": "Nigeria",
+    "tags": [
+      "city",
+      "culture",
+      "nightlife",
+      "music",
+      "business",
+      "beach",
+      "food"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "business",
+      "nightlife",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Reunion Island",
+    "country": "Reunion",
+    "tags": [
+      "mountains",
+      "adventure",
+      "trekking",
+      "volcano",
+      "nature",
+      "scenic",
+      "beach"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sao Tome",
+    "country": "Sao Tome and Principe",
+    "tags": [
+      "islands",
+      "nature",
+      "beach",
+      "offbeat",
+      "peaceful",
+      "chocolate",
+      "diving"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "offbeat",
+      "couples",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Banjul",
+    "country": "The Gambia",
+    "tags": [
+      "beach",
+      "river",
+      "bird-watching",
+      "relax",
+      "culture",
+      "markets",
+      "sun"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "bird-watching",
+      "beach"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Abidjan",
+    "country": "Ivory Coast",
+    "tags": [
+      "city",
+      "culture",
+      "nightlife",
+      "lagoon",
+      "food",
+      "modern",
+      "business"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "business",
+      "culture",
+      "nightlife"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Grand-Bassam",
+    "country": "Ivory Coast",
+    "tags": [
+      "heritage",
+      "history",
+      "beach",
+      "colonial",
+      "culture",
+      "relax",
+      "art"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "beach",
+      "culture"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lome",
+    "country": "Togo",
+    "tags": [
+      "beach",
+      "market",
+      "culture",
+      "voodoo",
+      "history",
+      "peaceful",
+      "city"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "offbeat",
+      "history"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Cotonou",
+    "country": "Benin",
+    "tags": [
+      "city",
+      "culture",
+      "market",
+      "beach",
+      "busy",
+      "art",
+      "gateway"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "transit",
+      "art"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Ganvie",
+    "country": "Benin",
+    "tags": [
+      "culture",
+      "river",
+      "village",
+      "offbeat",
+      "history",
+      "unique",
+      "boat"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "culture",
+      "offbeat",
+      "photographers"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ouidah",
+    "country": "Benin",
+    "tags": [
+      "history",
+      "heritage",
+      "voodoo",
+      "culture",
+      "beach",
+      "spiritual",
+      "museums"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "spiritual"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kribi",
+    "country": "Cameroon",
+    "tags": [
+      "beach",
+      "waterfalls",
+      "relax",
+      "seafood",
+      "nature",
+      "peaceful",
+      "coastal"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "beach",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mount Cameroon",
+    "country": "Cameroon",
+    "tags": [
+      "mountains",
+      "trekking",
+      "adventure",
+      "volcano",
+      "nature",
+      "challenge",
+      "views"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "challenge"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Luanda",
+    "country": "Angola",
+    "tags": [
+      "city",
+      "beach",
+      "history",
+      "modern",
+      "expensive",
+      "culture",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "business",
+      "culture",
+      "city"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "scenic",
+      "adventure",
+      "offbeat",
+      "massive",
+      "views"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Djibouti City",
+    "country": "Djibouti",
+    "tags": [
+      "city",
+      "culture",
+      "diving",
+      "history",
+      "food",
+      "gateway",
+      "heat"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "transit",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Dry",
+    "popularity": "Low"
+  },
+  {
+    "place": "Lake Assal",
+    "country": "Djibouti",
+    "tags": [
+      "nature",
+      "salt",
+      "lake",
+      "scenic",
+      "offbeat",
+      "lowest-point",
+      "hot"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "nature",
+      "offbeat",
+      "photographers"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Dry",
+    "popularity": "Low"
+  },
+  {
+    "place": "Ruaha National Park",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "nature",
+      "wildlife",
+      "remote",
+      "adventure",
+      "offbeat",
+      "lions"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "safari",
+      "adventure",
+      "offbeat"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Selous Game Reserve",
+    "country": "Tanzania",
+    "tags": [
+      "safari",
+      "river",
+      "boating",
+      "wildlife",
+      "nature",
+      "huge",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "safari",
+      "river",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gombe Stream",
+    "country": "Tanzania",
+    "tags": [
+      "nature",
+      "chimps",
+      "trekking",
+      "lake",
+      "adventure",
+      "remote",
+      "research"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "wildlife",
+      "adventure"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Liwonde National Park",
+    "country": "Malawi",
+    "tags": [
+      "safari",
+      "river",
+      "nature",
+      "elephants",
+      "boating",
+      "wildlife",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "safari",
+      "nature",
+      "river"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mulanje Mountain",
+    "country": "Malawi",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "adventure",
+      "scenic",
+      "tea",
+      "climbing"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Matobo National Park",
+    "country": "Zimbabwe",
+    "tags": [
+      "nature",
+      "history",
+      "rocks",
+      "rhinos",
+      "scenic",
+      "spiritual",
+      "hiking"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "nature",
+      "hikers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Great Zimbabwe",
+    "country": "Zimbabwe",
+    "tags": [
+      "heritage",
+      "history",
+      "ruins",
+      "culture",
+      "ancient",
+      "educational",
+      "stone"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sodwana Bay",
+    "country": "South Africa",
+    "tags": [
+      "diving",
+      "beach",
+      "nature",
+      "fishing",
+      "adventure",
+      "turtles",
+      "coastal"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "divers",
+      "adventure",
+      "family"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Coffee Bay",
+    "country": "South Africa",
+    "tags": [
+      "beach",
+      "nature",
+      "scenic",
+      "hiking",
+      "peaceful",
+      "offbeat",
+      "hole-in-the-wall"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "backpackers",
+      "nature",
+      "hikers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Luderitz",
+    "country": "Namibia",
+    "tags": [
+      "history",
+      "coastal",
+      "architecture",
+      "windy",
+      "offbeat",
+      "seafood",
+      "colonial"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "offbeat",
+      "seafood"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kolmanskop",
+    "country": "Namibia",
+    "tags": [
+      "history",
+      "ghost-town",
+      "desert",
+      "photography",
+      "offbeat",
+      "sand",
+      "abandoned"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "photographers",
+      "history",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Maseru",
+    "country": "Lesotho",
+    "tags": [
+      "city",
+      "culture",
+      "mountains",
+      "gateway",
+      "peaceful",
+      "small",
+      "friendly"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "transit",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
+  },
+  {
+    "place": "Semonkong",
+    "country": "Lesotho",
+    "tags": [
+      "waterfalls",
+      "mountains",
+      "trekking",
+      "adventure",
+      "nature",
+      "abseiling",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mbabane",
+    "country": "Eswatini",
+    "tags": [
+      "city",
+      "culture",
+      "hills",
+      "scenic",
+      "cool",
+      "market",
+      "gateway"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "transit",
+      "culture",
+      "scenic"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Mlilwane Wildlife Sanctuary",
+    "country": "Eswatini",
+    "tags": [
+      "nature",
+      "walking",
+      "cycling",
+      "peaceful",
+      "wildlife",
+      "scenic",
+      "family"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "nature",
+      "active"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Augrabies Falls",
+    "country": "South Africa",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "desert",
+      "scenic",
+      "adventure",
+      "river",
+      "parks"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "photographers",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kgalagadi Transfrontier Park",
+    "country": "South Africa",
+    "tags": [
+      "safari",
+      "desert",
+      "wildlife",
+      "lions",
+      "camping",
+      "remote",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "safari",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Saly",
+    "country": "Senegal",
+    "tags": [
+      "beach",
+      "resorts",
+      "relax",
+      "sun",
+      "water-sports",
+      "tourist",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "beach",
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Lake Bunyonyi",
+    "country": "Uganda",
+    "tags": [
+      "lake",
+      "scenic",
+      "relax",
+      "swimming",
+      "islands",
+      "peaceful",
+      "nature"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "relax",
+      "couples",
+      "backpackers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "tags": [
+      "architecture",
+      "history",
+      "heritage",
+      "city",
+      "art-deco",
+      "culture",
+      "coffee"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "architecture",
+      "offbeat"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
   }
 ]
