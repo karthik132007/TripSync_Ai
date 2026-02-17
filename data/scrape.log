@@ -1,0 +1,56 @@
+2026-02-16 14:51:02,556 [INFO] Loaded 2 places to scrape (start=0)
+2026-02-16 14:51:02,556 [INFO] Already scraped: 0 place(s)
+2026-02-16 14:51:02,556 [INFO] ====== WebDriver manager ======
+2026-02-16 14:51:02,601 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:51:04,053 [INFO] About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2026-02-16 14:51:04,562 [INFO] Driver downloading response is 200
+2026-02-16 14:51:05,147 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:51:05,574 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:51:05,777 [INFO] Driver has been saved in cache [/home/electron/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2026-02-16 14:53:18,226 [INFO] Loaded 2 places to scrape (start=0)
+2026-02-16 14:53:18,226 [INFO] Already scraped: 0 place(s)
+2026-02-16 14:53:18,227 [INFO] Using browser binary: /usr/bin/brave
+2026-02-16 14:53:18,227 [INFO] ====== WebDriver manager ======
+2026-02-16 14:53:18,270 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:53:18,694 [INFO] About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2026-02-16 14:53:18,837 [INFO] Driver downloading response is 200
+2026-02-16 14:53:19,284 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:53:19,644 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-16 14:53:19,786 [INFO] Driver has been saved in cache [/home/electron/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2026-02-16 14:54:24,961 [INFO] Loaded 2 places to scrape (start=0)
+2026-02-16 14:54:24,961 [INFO] Already scraped: 0 place(s)
+2026-02-16 14:54:24,962 [INFO] Using browser binary: /usr/bin/brave
+2026-02-16 14:54:31,034 [INFO] [1/2] >>> Cape Town, South Africa
+2026-02-16 14:54:31,034 [INFO] Scraping hotels for: Cape Town, South Africa
+2026-02-16 14:55:23,536 [INFO]   Found 25 cards with selector: [data-testid="property-card"]
+2026-02-16 14:57:53,352 [INFO] 
+Interrupted! Saving progress …
+2026-02-16 14:57:53,355 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/bb850b27beff971048d9839a26118090
+2026-02-16 14:57:53,357 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50481): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bb850b27beff971048d9839a26118090
+2026-02-16 14:57:53,358 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50481): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bb850b27beff971048d9839a26118090
+2026-02-16 14:57:53,360 [INFO] Done. 0 hotels saved to /home/electron/Documents/GitHub/TripSync_Ai/data/hotels.json
+2026-02-16 15:00:04,157 [INFO] Loaded 2 places to scrape (start=0)
+2026-02-16 15:00:04,157 [INFO] Already scraped: 0 place(s)
+2026-02-16 15:00:04,158 [INFO] Using browser binary: /usr/bin/brave
+2026-02-16 15:00:04,914 [INFO] [1/2] >>> Cape Town, South Africa
+2026-02-16 15:00:04,914 [INFO] Scraping hotels for: Cape Town, South Africa
+2026-02-16 15:00:57,291 [INFO]   Found 25 cards with selector: [data-testid="property-card"]
+2026-02-16 15:00:59,272 [INFO]   Extracted 15 hotels for Cape Town, South Africa
+2026-02-16 15:01:04,240 [INFO] [2/2] >>> Kruger National Park, South Africa
+2026-02-16 15:01:04,240 [INFO] Scraping hotels for: Kruger National Park, South Africa
+2026-02-16 15:02:07,303 [INFO]   Found 25 cards with selector: [data-testid="property-card"]
+2026-02-16 15:02:09,262 [INFO]   Extracted 15 hotels for Kruger National Park, South Africa
+2026-02-16 15:02:09,263 [INFO]   ✓ Progress saved — 30 hotels total
+2026-02-16 15:02:15,823 [INFO] Done. 30 hotels saved to /home/electron/Documents/GitHub/TripSync_Ai/data/hotels.json
+2026-02-16 15:11:01,922 [INFO] Loaded 1 places to scrape (start=0)
+2026-02-16 15:11:01,923 [INFO] Already scraped: 0 place(s)
+2026-02-16 15:11:01,923 [INFO] Using browser binary: /usr/bin/brave
+2026-02-16 15:11:02,584 [INFO] [1/1] >>> Cape Town, South Africa
+2026-02-16 15:11:02,585 [INFO] Scraping hotels for: Cape Town, South Africa
+2026-02-16 15:11:56,930 [INFO]   Found 25 cards with selector: [data-testid="property-card"]
+2026-02-16 15:11:59,325 [INFO]     [1/15] Fetching amenities for: Howards Villas
+2026-02-16 15:13:03,617 [INFO]     [2/15] Fetching amenities for: DoubleTree by Hilton Cape Town Upper Eastside
+2026-02-16 15:14:10,858 [INFO]     [3/15] Fetching amenities for: Radisson Hotel Cape Town Foreshore
+2026-02-16 15:15:18,446 [INFO]     [4/15] Fetching amenities for: The Rockefeller Hotel by NEWMARK
+2026-02-16 15:16:23,737 [INFO]     [5/15] Fetching amenities for: Holiday Inn Express Cape Town City Centre by IHG
+2026-02-16 15:17:31,918 [INFO]     [6/15] Fetching amenities for: Vineyard Hotel
