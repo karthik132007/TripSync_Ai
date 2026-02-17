@@ -15,7 +15,7 @@ for item in data:
     places.append(place_entry)
 
 # Save new file
-with open("places.json", "w") as f:
+with open("data/places.json", "w") as f:
     json.dump(places, f, indent=4)
 
 print("places.json created successfully.")

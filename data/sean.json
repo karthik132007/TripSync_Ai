@@ -3804,5 +3804,2689 @@
     ],
     "climate": "Subtropical",
     "popularity": "Medium"
+  },
+  {
+    "place": "Koh Yao Yai",
+    "country": "Thailand",
+    "tags": [
+      "islands",
+      "beach",
+      "peaceful",
+      "nature",
+      "romantic",
+      "offbeat",
+      "water-sports"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "relax",
+      "family"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Koh Phayam",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "offbeat",
+      "peaceful",
+      "nature",
+      "islands",
+      "relax",
+      "rustic"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "backpackers",
+      "couples",
+      "solo"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Khao Lak",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "family",
+      "nature",
+      "diving",
+      "peaceful",
+      "luxury",
+      "waterfalls"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "couples",
+      "divers"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Nan",
+    "country": "Thailand",
+    "tags": [
+      "culture",
+      "mountains",
+      "offbeat",
+      "nature",
+      "peaceful",
+      "heritage",
+      "art"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "solo",
+      "history"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Chiang Khan",
+    "country": "Thailand",
+    "tags": [
+      "river",
+      "culture",
+      "peaceful",
+      "heritage",
+      "walking-street",
+      "offbeat",
+      "relax"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Koh Samet",
+    "country": "Thailand",
+    "tags": [
+      "beach",
+      "islands",
+      "weekend",
+      "water-sports",
+      "nightlife",
+      "nature",
+      "food"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "couples",
+      "locals"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Surin Islands",
+    "country": "Thailand",
+    "tags": [
+      "diving",
+      "snorkeling",
+      "nature",
+      "islands",
+      "beach",
+      "camping",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sangkhlaburi",
+    "country": "Thailand",
+    "tags": [
+      "culture",
+      "bridge",
+      "lake",
+      "offbeat",
+      "peaceful",
+      "history",
+      "nature"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "photographers",
+      "offbeat"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Udon Thani",
+    "country": "Thailand",
+    "tags": [
+      "culture",
+      "lakes",
+      "history",
+      "lotus",
+      "offbeat",
+      "food",
+      "temples"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "nature"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Chanthaburi",
+    "country": "Thailand",
+    "tags": [
+      "history",
+      "gems",
+      "food",
+      "culture",
+      "river",
+      "offbeat",
+      "cathedral"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "food",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Cat Ba Island",
+    "country": "Vietnam",
+    "tags": [
+      "nature",
+      "adventure",
+      "beach",
+      "trekking",
+      "islands",
+      "boating",
+      "climbing"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "friends",
+      "backpackers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Mu Cang Chai",
+    "country": "Vietnam",
+    "tags": [
+      "rice-terraces",
+      "scenic",
+      "nature",
+      "trekking",
+      "photography",
+      "offbeat",
+      "culture"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "photographers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "sep",
+      "oct"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cao Bang",
+    "country": "Vietnam",
+    "tags": [
+      "nature",
+      "geopark",
+      "trekking",
+      "mountains",
+      "offbeat",
+      "scenic",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Dong Hoi",
+    "country": "Vietnam",
+    "tags": [
+      "beach",
+      "caves",
+      "history",
+      "river",
+      "offbeat",
+      "peaceful",
+      "gateway"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "relax",
+      "friends"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Buon Ma Thuot",
+    "country": "Vietnam",
+    "tags": [
+      "coffee",
+      "waterfalls",
+      "culture",
+      "nature",
+      "offbeat",
+      "adventure",
+      "highlands"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "coffee-lovers",
+      "offbeat"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
+  },
+  {
+    "place": "Vung Tau",
+    "country": "Vietnam",
+    "tags": [
+      "beach",
+      "weekend",
+      "history",
+      "statue",
+      "seafood",
+      "relax",
+      "coastal"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "family",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Chau Doc",
+    "country": "Vietnam",
+    "tags": [
+      "river",
+      "culture",
+      "floating-village",
+      "temples",
+      "border",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "offbeat",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ly Son Island",
+    "country": "Vietnam",
+    "tags": [
+      "volcanic",
+      "islands",
+      "garlic",
+      "offbeat",
+      "nature",
+      "scenic",
+      "beach"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "offbeat",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Bukit Lawang",
+    "country": "Indonesia",
+    "tags": [
+      "orangutans",
+      "jungle",
+      "trekking",
+      "river",
+      "nature",
+      "adventure",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "wildlife",
+      "backpackers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Berastagi",
+    "country": "Indonesia",
+    "tags": [
+      "volcano",
+      "cool",
+      "market",
+      "trekking",
+      "nature",
+      "fruit",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "hikers",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pulau Weh",
+    "country": "Indonesia",
+    "tags": [
+      "diving",
+      "islands",
+      "beach",
+      "peaceful",
+      "nature",
+      "snorkeling",
+      "volcanic"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "relax",
+      "backpackers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bukittinggi",
+    "country": "Indonesia",
+    "tags": [
+      "culture",
+      "canyon",
+      "history",
+      "cool",
+      "nature",
+      "food",
+      "heritage"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "history",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Padang",
+    "country": "Indonesia",
+    "tags": [
+      "food",
+      "beach",
+      "history",
+      "culture",
+      "sunset",
+      "gateway",
+      "spicy"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "culture",
+      "transit"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mentawai Islands",
+    "country": "Indonesia",
+    "tags": [
+      "surfing",
+      "culture",
+      "tribes",
+      "adventure",
+      "islands",
+      "nature",
+      "remote"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 5,
+    "best_for": [
+      "surfers",
+      "adventure",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bangka Island",
+    "country": "Indonesia",
+    "tags": [
+      "beach",
+      "rocks",
+      "history",
+      "food",
+      "offbeat",
+      "nature",
+      "relax"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "offbeat",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pangandaran",
+    "country": "Indonesia",
+    "tags": [
+      "beach",
+      "surfing",
+      "nature",
+      "canyon",
+      "family",
+      "relax",
+      "weekend"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "surfers",
+      "locals"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Solo (Surakarta)",
+    "country": "Indonesia",
+    "tags": [
+      "culture",
+      "batik",
+      "history",
+      "heritage",
+      "food",
+      "palace",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "shopping"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Karimunjawa",
+    "country": "Indonesia",
+    "tags": [
+      "islands",
+      "beach",
+      "snorkeling",
+      "peaceful",
+      "nature",
+      "marine-life",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Malang",
+    "country": "Indonesia",
+    "tags": [
+      "history",
+      "cool",
+      "colonial",
+      "nature",
+      "villages",
+      "color",
+      "temples"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "friends",
+      "history"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Banyuwangi",
+    "country": "Indonesia",
+    "tags": [
+      "nature",
+      "national-park",
+      "safari",
+      "surfing",
+      "adventure",
+      "scenic",
+      "culture"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "surfers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pontianak",
+    "country": "Indonesia",
+    "tags": [
+      "equator",
+      "river",
+      "food",
+      "culture",
+      "city",
+      "history",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "offbeat",
+      "culture"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Derawan Islands",
+    "country": "Indonesia",
+    "tags": [
+      "diving",
+      "turtles",
+      "jellyfish",
+      "islands",
+      "beach",
+      "nature",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Makassar",
+    "country": "Indonesia",
+    "tags": [
+      "food",
+      "history",
+      "fort",
+      "gateway",
+      "beach",
+      "sunset",
+      "city"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "transit",
+      "history"
+    ],
+    "season": [
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Wakatobi",
+    "country": "Indonesia",
+    "tags": [
+      "diving",
+      "marine-life",
+      "luxury",
+      "islands",
+      "nature",
+      "pristine",
+      "remote"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": [
+      "divers",
+      "luxury",
+      "nature"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ambon",
+    "country": "Indonesia",
+    "tags": [
+      "history",
+      "beach",
+      "music",
+      "offbeat",
+      "gateway",
+      "diving",
+      "culture"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "offbeat",
+      "music"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Banda Islands",
+    "country": "Indonesia",
+    "tags": [
+      "history",
+      "spice",
+      "diving",
+      "remote",
+      "islands",
+      "colonial",
+      "nature"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 5,
+    "best_for": [
+      "history",
+      "divers",
+      "adventure"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kei Islands",
+    "country": "Indonesia",
+    "tags": [
+      "beach",
+      "white-sand",
+      "offbeat",
+      "peaceful",
+      "nature",
+      "islands",
+      "remote"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 4,
+    "best_for": [
+      "beach",
+      "offbeat",
+      "relax"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Wamena",
+    "country": "Indonesia",
+    "tags": [
+      "tribes",
+      "culture",
+      "trekking",
+      "valley",
+      "remote",
+      "adventure",
+      "nature"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "culture",
+      "hikers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
+  },
+  {
+    "place": "Sumba",
+    "country": "Indonesia",
+    "tags": [
+      "culture",
+      "villages",
+      "nature",
+      "waterfalls",
+      "beaches",
+      "resorts",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 4,
+    "best_for": [
+      "culture",
+      "adventure",
+      "luxury"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Moyo Island",
+    "country": "Indonesia",
+    "tags": [
+      "waterfalls",
+      "luxury",
+      "nature",
+      "snorkeling",
+      "peaceful",
+      "offbeat",
+      "islands"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "luxury",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Johor Bahru",
+    "country": "Malaysia",
+    "tags": [
+      "shopping",
+      "theme-parks",
+      "food",
+      "city",
+      "border",
+      "family",
+      "modern"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "shopping",
+      "transit"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Desaru",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "resorts",
+      "family",
+      "waterpark",
+      "fruit-farm",
+      "relax",
+      "coast"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "relax",
+      "friends"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pangkor Island",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "history",
+      "fort",
+      "nature",
+      "relax",
+      "fishing",
+      "local"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "relax",
+      "history"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Genting Highlands",
+    "country": "Malaysia",
+    "tags": [
+      "entertainment",
+      "theme-parks",
+      "casino",
+      "cool",
+      "shopping",
+      "mountain",
+      "resort"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "friends",
+      "fun"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "jun",
+      "jul"
+    ],
+    "climate": "Highland",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Kuala Terengganu",
+    "country": "Malaysia",
+    "tags": [
+      "culture",
+      "heritage",
+      "mosque",
+      "boat-making",
+      "food",
+      "coast",
+      "islamic"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "food",
+      "history"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kapas Island",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "snorkeling",
+      "relax",
+      "peaceful",
+      "nature",
+      "simple",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "couples",
+      "backpackers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kota Bharu",
+    "country": "Malaysia",
+    "tags": [
+      "culture",
+      "market",
+      "food",
+      "history",
+      "museums",
+      "tradition",
+      "gateway"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "food",
+      "history"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cherating",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "surfing",
+      "turtles",
+      "village",
+      "relax",
+      "nature",
+      "crafts"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "surfers",
+      "relax",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kuantan",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "city",
+      "nature",
+      "waterfalls",
+      "food",
+      "mining",
+      "coast"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "food",
+      "transit"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Alor Setar",
+    "country": "Malaysia",
+    "tags": [
+      "history",
+      "tower",
+      "mosque",
+      "paddy",
+      "culture",
+      "food",
+      "royal"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "culture",
+      "transit"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Sipadan",
+    "country": "Malaysia",
+    "tags": [
+      "diving",
+      "marine-life",
+      "sharks",
+      "turtles",
+      "pristine",
+      "world-class",
+      "islands"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "divers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kudat",
+    "country": "Malaysia",
+    "tags": [
+      "beach",
+      "tip-of-borneo",
+      "culture",
+      "longhouse",
+      "sunset",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "culture",
+      "road-trip"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Labuan",
+    "country": "Malaysia",
+    "tags": [
+      "history",
+      "duty-free",
+      "diving",
+      "wrecks",
+      "beach",
+      "memorial",
+      "island"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "divers",
+      "shopping"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Miri",
+    "country": "Malaysia",
+    "tags": [
+      "oil",
+      "nature",
+      "gateway",
+      "beach",
+      "sunset",
+      "caves",
+      "food"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "transit",
+      "nature",
+      "business"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bario (Kelabit Highlands)",
+    "country": "Malaysia",
+    "tags": [
+      "trekking",
+      "cool",
+      "culture",
+      "remote",
+      "rice",
+      "nature",
+      "hospitality"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "culture",
+      "hikers"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
+  },
+  {
+    "place": "Puerto Galera",
+    "country": "Philippines",
+    "tags": [
+      "beach",
+      "diving",
+      "nightlife",
+      "nature",
+      "waterfalls",
+      "weekend",
+      "accessible"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "divers",
+      "party"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Apo Island",
+    "country": "Philippines",
+    "tags": [
+      "diving",
+      "turtles",
+      "nature",
+      "sanctuary",
+      "islands",
+      "peaceful",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "nature",
+      "day-trip"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Batanes",
+    "country": "Philippines",
+    "tags": [
+      "scenic",
+      "hills",
+      "coast",
+      "culture",
+      "peaceful",
+      "nature",
+      "unique"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "photographers",
+      "couples"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tagaytay",
+    "country": "Philippines",
+    "tags": [
+      "volcano",
+      "lake",
+      "cool",
+      "food",
+      "scenic",
+      "weekend",
+      "relax"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "couples",
+      "food"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Subic Bay",
+    "country": "Philippines",
+    "tags": [
+      "beach",
+      "adventure",
+      "theme-parks",
+      "wrecks",
+      "diving",
+      "family",
+      "shopping"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "adventure",
+      "divers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Baguio",
+    "country": "Philippines",
+    "tags": [
+      "mountains",
+      "cool",
+      "city",
+      "parks",
+      "culture",
+      "strawberries",
+      "art"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "friends",
+      "escape"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "San Juan (La Union)",
+    "country": "Philippines",
+    "tags": [
+      "surfing",
+      "beach",
+      "food",
+      "nightlife",
+      "youth",
+      "cool",
+      "sunset"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "surfers",
+      "friends",
+      "food"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Baler",
+    "country": "Philippines",
+    "tags": [
+      "surfing",
+      "beach",
+      "history",
+      "nature",
+      "waterfalls",
+      "rugged",
+      "road-trip"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "surfers",
+      "adventure",
+      "history"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Caramoan",
+    "country": "Philippines",
+    "tags": [
+      "islands",
+      "beach",
+      "rugged",
+      "nature",
+      "adventure",
+      "survivor",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "friends",
+      "nature"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Catanduanes",
+    "country": "Philippines",
+    "tags": [
+      "surfing",
+      "nature",
+      "scenic",
+      "hills",
+      "offbeat",
+      "beach",
+      "rugged"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "surfers",
+      "adventure",
+      "nature"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tacloban",
+    "country": "Philippines",
+    "tags": [
+      "history",
+      "bridge",
+      "nature",
+      "gateway",
+      "resilience",
+      "memorial",
+      "city"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "transit",
+      "family"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kalanggaman Island",
+    "country": "Philippines",
+    "tags": [
+      "sandbar",
+      "beach",
+      "clear-water",
+      "islands",
+      "day-trip",
+      "scenic",
+      "relax"
+    ],
+    "avg_cost_per_day": 1500,
+    "trip_duration": 1,
+    "best_for": [
+      "beach lovers",
+      "friends",
+      "photographers"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Bantayan Island",
+    "country": "Philippines",
+    "tags": [
+      "beach",
+      "relax",
+      "peaceful",
+      "white-sand",
+      "food",
+      "nature",
+      "friendly"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "couples",
+      "friends"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Malapascua",
+    "country": "Philippines",
+    "tags": [
+      "diving",
+      "sharks",
+      "beach",
+      "islands",
+      "relax",
+      "small",
+      "nature"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "divers",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Zamboanga City",
+    "country": "Philippines",
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "pink-beach",
+      "colorful",
+      "offbeat",
+      "heritage"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "food",
+      "adventure"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Surigao",
+    "country": "Philippines",
+    "tags": [
+      "adventure",
+      "river",
+      "nature",
+      "islands",
+      "whirlpool",
+      "offbeat",
+      "mining"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "General Santos",
+    "country": "Philippines",
+    "tags": [
+      "tuna",
+      "food",
+      "gateway",
+      "business",
+      "culture",
+      "nature",
+      "city"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "business",
+      "transit"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sen Monorom (Mondulkiri)",
+    "country": "Cambodia",
+    "tags": [
+      "elephants",
+      "nature",
+      "hills",
+      "cool",
+      "waterfalls",
+      "trekking",
+      "adventure"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "wildlife",
+      "adventure"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Banlung (Ratanakiri)",
+    "country": "Cambodia",
+    "tags": [
+      "lakes",
+      "nature",
+      "forest",
+      "waterfalls",
+      "offbeat",
+      "remote",
+      "trekking"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "offbeat",
+      "nature"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kratie",
+    "country": "Cambodia",
+    "tags": [
+      "dolphins",
+      "river",
+      "nature",
+      "relax",
+      "colonial",
+      "sunset",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "wildlife",
+      "relax"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Koh Ker",
+    "country": "Cambodia",
+    "tags": [
+      "ruins",
+      "history",
+      "pyramid",
+      "jungle",
+      "offbeat",
+      "adventure",
+      "ancient"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "adventure",
+      "day-trip"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Preah Vihear",
+    "country": "Cambodia",
+    "tags": [
+      "temples",
+      "history",
+      "views",
+      "mountains",
+      "offbeat",
+      "border",
+      "heritage"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 1,
+    "best_for": [
+      "history",
+      "adventure",
+      "views"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kampong Cham",
+    "country": "Cambodia",
+    "tags": [
+      "river",
+      "bridge",
+      "culture",
+      "local",
+      "temples",
+      "peaceful",
+      "cycling"
+    ],
+    "avg_cost_per_day": 1600,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "relax",
+      "slow-travel"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Luang Namtha",
+    "country": "Laos",
+    "tags": [
+      "trekking",
+      "nature",
+      "forest",
+      "eco-tourism",
+      "adventure",
+      "tribes",
+      "remote"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "nature"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Huay Xai",
+    "country": "Laos",
+    "tags": [
+      "gateway",
+      "river",
+      "adventure",
+      "zipline",
+      "gibbons",
+      "nature",
+      "border"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "transit"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Muang Ngoi",
+    "country": "Laos",
+    "tags": [
+      "river",
+      "remote",
+      "peaceful",
+      "mountains",
+      "trekking",
+      "nature",
+      "rustic"
+    ],
+    "avg_cost_per_day": 1600,
+    "trip_duration": 3,
+    "best_for": [
+      "backpackers",
+      "relax",
+      "offbeat"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Savannakhet",
+    "country": "Laos",
+    "tags": [
+      "colonial",
+      "history",
+      "river",
+      "quiet",
+      "culture",
+      "architecture",
+      "food"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "relax",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Champasak",
+    "country": "Laos",
+    "tags": [
+      "heritage",
+      "ruins",
+      "history",
+      "river",
+      "peaceful",
+      "culture",
+      "temples"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "couples"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Oudomxay",
+    "country": "Laos",
+    "tags": [
+      "transit",
+      "mountains",
+      "culture",
+      "waterfalls",
+      "offbeat",
+      "nature",
+      "local"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 1,
+    "best_for": [
+      "transit",
+      "offbeat",
+      "adventure"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Mount Popa",
+    "country": "Myanmar",
+    "tags": [
+      "spiritual",
+      "monastery",
+      "volcano",
+      "views",
+      "day-trip",
+      "culture",
+      "monkeys"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "culture",
+      "day-trip",
+      "photographers"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mrauk U",
+    "country": "Myanmar",
+    "tags": [
+      "history",
+      "ruins",
+      "temples",
+      "offbeat",
+      "culture",
+      "remote",
+      "adventure"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "adventure",
+      "offbeat"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Ngwe Saung",
+    "country": "Myanmar",
+    "tags": [
+      "beach",
+      "relax",
+      "sea",
+      "local",
+      "peaceful",
+      "family",
+      "sunsets"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "family",
+      "locals"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mawlamyine",
+    "country": "Myanmar",
+    "tags": [
+      "colonial",
+      "history",
+      "pagoda",
+      "river",
+      "offbeat",
+      "culture",
+      "scenic"
+    ],
+    "avg_cost_per_day": 1800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Dawei",
+    "country": "Myanmar",
+    "tags": [
+      "beach",
+      "offbeat",
+      "untouched",
+      "adventure",
+      "colonial",
+      "relax",
+      "scenic"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "beach lovers",
+      "offbeat"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Myeik Archipelago",
+    "country": "Myanmar",
+    "tags": [
+      "islands",
+      "diving",
+      "remote",
+      "adventure",
+      "sailing",
+      "pristine",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "divers",
+      "luxury"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Naypyidaw",
+    "country": "Myanmar",
+    "tags": [
+      "city",
+      "capital",
+      "empty",
+      "architecture",
+      "offbeat",
+      "pagoda",
+      "bizarre"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 1,
+    "best_for": [
+      "curious",
+      "offbeat",
+      "transit"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Jaco Island",
+    "country": "Timor-Leste",
+    "tags": [
+      "beach",
+      "pristine",
+      "nature",
+      "remote",
+      "day-trip",
+      "sacred",
+      "clear-water"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 1,
+    "best_for": [
+      "adventure",
+      "nature",
+      "day-trippers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Baucau",
+    "country": "Timor-Leste",
+    "tags": [
+      "colonial",
+      "history",
+      "pool",
+      "culture",
+      "nature",
+      "peaceful",
+      "old-town"
+    ],
+    "avg_cost_per_day": 2000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kuala Belait",
+    "country": "Brunei",
+    "tags": [
+      "oil",
+      "monument",
+      "river",
+      "quiet",
+      "local",
+      "offbeat",
+      "sunset"
+    ],
+    "avg_cost_per_day": 2200,
+    "trip_duration": 1,
+    "best_for": [
+      "transit",
+      "offbeat",
+      "history"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
   }
+
 ]

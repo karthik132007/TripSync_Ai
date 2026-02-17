@@ -2923,5 +2923,3340 @@
     ],
     "climate": "Mediterranean",
     "popularity": "Very High"
+  },
+  
+  {
+    "place": "Strasbourg",
+    "country": "France",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "river",
+      "food",
+      "romantic",
+      "peaceful",
+      "boating"
+    ],
+    "avg_cost_per_day": 4850,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct",
+      "dec"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Colmar",
+    "country": "France",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "romantic",
+      "food",
+      "peaceful",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 4700,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep",
+      "dec"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Avignon",
+    "country": "France",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "river",
+      "food",
+      "romantic",
+      "peaceful",
+      "nature"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Loire Valley (Tours)",
+    "country": "France",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "nature",
+      "romantic",
+      "luxury",
+      "peaceful",
+      "food"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "family",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Biarritz",
+    "country": "France",
+    "tags": [
+      "beach",
+      "luxury",
+      "water-sports",
+      "food",
+      "nature",
+      "romantic",
+      "nightlife",
+      "culture"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "friends",
+      "luxury travelers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Corsica (Ajaccio)",
+    "country": "France",
+    "tags": [
+      "islands",
+      "beach",
+      "mountains",
+      "nature",
+      "trekking",
+      "adventure",
+      "food",
+      "culture"
+    ],
+    "avg_cost_per_day": 5400,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure seekers",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Carcassonne",
+    "country": "France",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "romantic",
+      "food",
+      "peaceful",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Verona",
+    "country": "Italy",
+    "tags": [
+      "romantic",
+      "history",
+      "culture",
+      "heritage",
+      "food",
+      "river",
+      "peaceful",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Siena",
+    "country": "Italy",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "food",
+      "romantic",
+      "peaceful",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Bologna",
+    "country": "Italy",
+    "tags": [
+      "food",
+      "culture",
+      "history",
+      "nightlife",
+      "heritage",
+      "offbeat",
+      "friends",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4300,
+    "trip_duration": 3,
+    "best_for": [
+      "foodies",
+      "friends",
+      "students"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Turin",
+    "country": "Italy",
+    "tags": [
+      "culture",
+      "history",
+      "luxury",
+      "food",
+      "museums",
+      "mountains",
+      "river",
+      "heritage"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 3,
+    "best_for": [
+      "culture vultures",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pisa",
+    "country": "Italy",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "food",
+      "river",
+      "offbeat",
+      "peaceful",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 1,
+    "best_for": [
+      "family",
+      "friends",
+      "short stay"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Genoa",
+    "country": "Italy",
+    "tags": [
+      "history",
+      "culture",
+      "food",
+      "boating",
+      "heritage",
+      "offbeat",
+      "river",
+      "nature"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 2,
+    "best_for": [
+      "explorers",
+      "foodies",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Matera",
+    "country": "Italy",
+    "tags": [
+      "heritage",
+      "history",
+      "caves",
+      "culture",
+      "offbeat",
+      "romantic",
+      "peaceful",
+      "spiritual"
+    ],
+    "avg_cost_per_day": 4400,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Portofino",
+    "country": "Italy",
+    "tags": [
+      "luxury",
+      "boating",
+      "romantic",
+      "beach",
+      "nature",
+      "food",
+      "peaceful",
+      "heritage"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 2,
+    "best_for": [
+      "luxury travelers",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "San Sebastian",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "food",
+      "luxury",
+      "culture",
+      "romantic",
+      "nature",
+      "water-sports",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 6100,
+    "trip_duration": 3,
+    "best_for": [
+      "foodies",
+      "couples",
+      "beach lovers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Santiago de Compostela",
+    "country": "Spain",
+    "tags": [
+      "spiritual",
+      "heritage",
+      "history",
+      "culture",
+      "trekking",
+      "peaceful",
+      "offbeat",
+      "food"
+    ],
+    "avg_cost_per_day": 3900,
+    "trip_duration": 2,
+    "best_for": [
+      "pilgrims",
+      "history buffs",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cordoba",
+    "country": "Spain",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "food",
+      "romantic",
+      "peaceful",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 4300,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Toledo",
+    "country": "Spain",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "offbeat",
+      "peaceful",
+      "spiritual",
+      "romantic",
+      "food"
+    ],
+    "avg_cost_per_day": 4100,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "day trippers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Salamanca",
+    "country": "Spain",
+    "tags": [
+      "culture",
+      "history",
+      "nightlife",
+      "heritage",
+      "food",
+      "offbeat",
+      "peaceful",
+      "youth"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "history buffs",
+      "friends"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Menorca",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "nature",
+      "peaceful",
+      "islands",
+      "family",
+      "water-sports",
+      "offbeat",
+      "food"
+    ],
+    "avg_cost_per_day": 5200,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "couples",
+      "nature lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cologne",
+    "country": "Germany",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "river",
+      "nightlife",
+      "food",
+      "christmas",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "dec"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Frankfurt",
+    "country": "Germany",
+    "tags": [
+      "culture",
+      "history",
+      "nightlife",
+      "modern",
+      "luxury",
+      "food",
+      "river",
+      "museums"
+    ],
+    "avg_cost_per_day": 5600,
+    "trip_duration": 2,
+    "best_for": [
+      "business",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Heidelberg",
+    "country": "Germany",
+    "tags": [
+      "romantic",
+      "history",
+      "heritage",
+      "culture",
+      "river",
+      "nature",
+      "peaceful",
+      "food"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Nuremberg",
+    "country": "Germany",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "food",
+      "christmas",
+      "offbeat",
+      "peaceful",
+      "market"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "dec"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Black Forest (Baden-Baden)",
+    "country": "Germany",
+    "tags": [
+      "nature",
+      "forest",
+      "mountains",
+      "trekking",
+      "luxury",
+      "wellness",
+      "peaceful",
+      "romantic"
+    ],
+    "avg_cost_per_day": 5900,
+    "trip_duration": 3,
+    "best_for": [
+      "nature lovers",
+      "couples",
+      "wellness seekers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bath",
+    "country": "United Kingdom",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "luxury",
+      "romantic",
+      "peaceful",
+      "offbeat",
+      "wellness"
+    ],
+    "avg_cost_per_day": 6300,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "luxury travelers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Oxford",
+    "country": "United Kingdom",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "offbeat",
+      "peaceful",
+      "river",
+      "boating",
+      "food"
+    ],
+    "avg_cost_per_day": 6100,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "history buffs",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "York",
+    "country": "United Kingdom",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "offbeat",
+      "peaceful",
+      "food",
+      "family",
+      "romantic"
+    ],
+    "avg_cost_per_day": 5800,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "family",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Brighton",
+    "country": "United Kingdom",
+    "tags": [
+      "beach",
+      "nightlife",
+      "culture",
+      "food",
+      "water-sports",
+      "offbeat",
+      "friends",
+      "heritage"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "couples",
+      "party goers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Cornwall (St Ives)",
+    "country": "United Kingdom",
+    "tags": [
+      "beach",
+      "nature",
+      "water-sports",
+      "peaceful",
+      "family",
+      "food",
+      "offbeat",
+      "romantic"
+    ],
+    "avg_cost_per_day": 5700,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "nature lovers",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Belfast",
+    "country": "United Kingdom",
+    "tags": [
+      "history",
+      "culture",
+      "nightlife",
+      "offbeat",
+      "heritage",
+      "food",
+      "museums",
+      "nature"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sintra",
+    "country": "Portugal",
+    "tags": [
+      "heritage",
+      "history",
+      "romantic",
+      "nature",
+      "mountains",
+      "culture",
+      "forest",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "nature lovers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Lagos",
+    "country": "Portugal",
+    "tags": [
+      "beach",
+      "nightlife",
+      "caves",
+      "water-sports",
+      "boating",
+      "nature",
+      "offbeat",
+      "adventure"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "beach lovers",
+      "adventure seekers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Coimbra",
+    "country": "Portugal",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "students",
+      "river",
+      "offbeat",
+      "peaceful",
+      "food"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "history buffs",
+      "solo"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Corfu",
+    "country": "Greece",
+    "tags": [
+      "islands",
+      "beach",
+      "nature",
+      "history",
+      "heritage",
+      "water-sports",
+      "family",
+      "food"
+    ],
+    "avg_cost_per_day": 4700,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "couples",
+      "nature lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Zakynthos",
+    "country": "Greece",
+    "tags": [
+      "islands",
+      "beach",
+      "caves",
+      "nature",
+      "water-sports",
+      "nightlife",
+      "adventure",
+      "romantic"
+    ],
+    "avg_cost_per_day": 5200,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "couples",
+      "party goers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Naxos",
+    "country": "Greece",
+    "tags": [
+      "islands",
+      "beach",
+      "culture",
+      "food",
+      "nature",
+      "peaceful",
+      "family",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4400,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples",
+      "foodies"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Meteora",
+    "country": "Greece",
+    "tags": [
+      "nature",
+      "spiritual",
+      "mountains",
+      "trekking",
+      "heritage",
+      "history",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3600,
+    "trip_duration": 2,
+    "best_for": [
+      "nature lovers",
+      "history buffs",
+      "spiritual seekers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Thessaloniki",
+    "country": "Greece",
+    "tags": [
+      "culture",
+      "history",
+      "nightlife",
+      "food",
+      "heritage",
+      "offbeat",
+      "students",
+      "sea"
+    ],
+    "avg_cost_per_day": 3900,
+    "trip_duration": 3,
+    "best_for": [
+      "students",
+      "foodies",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bern",
+    "country": "Switzerland",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "river",
+      "peaceful",
+      "offbeat",
+      "nature",
+      "food"
+    ],
+    "avg_cost_per_day": 9500,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Basel",
+    "country": "Switzerland",
+    "tags": [
+      "culture",
+      "art",
+      "river",
+      "museums",
+      "history",
+      "peaceful",
+      "luxury",
+      "food"
+    ],
+    "avg_cost_per_day": 9800,
+    "trip_duration": 2,
+    "best_for": [
+      "art lovers",
+      "culture vultures",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lugano",
+    "country": "Switzerland",
+    "tags": [
+      "lakes",
+      "mountains",
+      "luxury",
+      "nature",
+      "peaceful",
+      "romantic",
+      "boating",
+      "culture"
+    ],
+    "avg_cost_per_day": 10200,
+    "trip_duration": 3,
+    "best_for": [
+      "luxury travelers",
+      "couples",
+      "nature lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Graz",
+    "country": "Austria",
+    "tags": [
+      "culture",
+      "history",
+      "heritage",
+      "food",
+      "offbeat",
+      "peaceful",
+      "students",
+      "design"
+    ],
+    "avg_cost_per_day": 4100,
+    "trip_duration": 2,
+    "best_for": [
+      "culture vultures",
+      "students",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Galway",
+    "country": "Ireland",
+    "tags": [
+      "culture",
+      "music",
+      "nightlife",
+      "food",
+      "offbeat",
+      "friendly",
+      "river",
+      "heritage"
+    ],
+    "avg_cost_per_day": 5300,
+    "trip_duration": 2,
+    "best_for": [
+      "friends",
+      "music lovers",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Cork",
+    "country": "Ireland",
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "heritage",
+      "river",
+      "offbeat",
+      "peaceful",
+      "friendly"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 2,
+    "best_for": [
+      "foodies",
+      "couples",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Antwerp",
+    "country": "Belgium",
+    "tags": [
+      "culture",
+      "fashion",
+      "history",
+      "food",
+      "nightlife",
+      "luxury",
+      "heritage",
+      "art"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 2,
+    "best_for": [
+      "fashionistas",
+      "friends",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Rotterdam",
+    "country": "Netherlands",
+    "tags": [
+      "modern",
+      "architecture",
+      "culture",
+      "food",
+      "river",
+      "nightlife",
+      "boating",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 5300,
+    "trip_duration": 2,
+    "best_for": [
+      "architecture lovers",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "The Hague",
+    "country": "Netherlands",
+    "tags": [
+      "beach",
+      "culture",
+      "history",
+      "museums",
+      "peaceful",
+      "luxury",
+      "food",
+      "politics"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "couples",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Utrecht",
+    "country": "Netherlands",
+    "tags": [
+      "canals",
+      "history",
+      "culture",
+      "students",
+      "nightlife",
+      "food",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Zagreb",
+    "country": "Croatia",
+    "tags": [
+      "culture",
+      "history",
+      "museums",
+      "food",
+      "offbeat",
+      "peaceful",
+      "heritage",
+      "christmas"
+    ],
+    "avg_cost_per_day": 3400,
+    "trip_duration": 2,
+    "best_for": [
+      "culture vultures",
+      "family",
+      "budget travelers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct",
+      "dec"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rovinj",
+    "country": "Croatia",
+    "tags": [
+      "beach",
+      "romantic",
+      "heritage",
+      "history",
+      "food",
+      "nature",
+      "peaceful",
+      "boating"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "family",
+      "photographers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Zadar",
+    "country": "Croatia",
+    "tags": [
+      "history",
+      "heritage",
+      "beach",
+      "sunset",
+      "nature",
+      "offbeat",
+      "food",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3900,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "couples",
+      "sunset lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Bergen",
+    "country": "Norway",
+    "tags": [
+      "nature",
+      "mountains",
+      "heritage",
+      "fjords",
+      "boating",
+      "rain",
+      "culture",
+      "food"
+    ],
+    "avg_cost_per_day": 9200,
+    "trip_duration": 3,
+    "best_for": [
+      "nature lovers",
+      "family",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Tromsø",
+    "country": "Norway",
+    "tags": [
+      "northern-lights",
+      "adventure",
+      "nature",
+      "snow",
+      "culture",
+      "offbeat",
+      "wildlife",
+      "boating"
+    ],
+    "avg_cost_per_day": 9800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure seekers",
+      "nature lovers",
+      "couples"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "nov",
+      "dec"
+    ],
+    "climate": "Subarctic",
+    "popularity": "High"
+  },
+  {
+    "place": "Gothenburg",
+    "country": "Sweden",
+    "tags": [
+      "culture",
+      "food",
+      "archipelago",
+      "nature",
+      "family",
+      "amusement",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "foodies",
+      "nature lovers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rovaniemi (Lapland)",
+    "country": "Finland",
+    "tags": [
+      "adventure",
+      "nature",
+      "snow",
+      "christmas",
+      "family",
+      "northern-lights",
+      "offbeat",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 9500,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "kids",
+      "adventure seekers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "dec"
+    ],
+    "climate": "Subarctic",
+    "popularity": "High"
+  },
+  {
+    "place": "Bratislava",
+    "country": "Slovakia",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "river",
+      "food",
+      "nightlife",
+      "offbeat",
+      "budget"
+    ],
+    "avg_cost_per_day": 2900,
+    "trip_duration": 2,
+    "best_for": [
+      "budget travelers",
+      "students",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cesky Krumlov",
+    "country": "Czech Republic",
+    "tags": [
+      "heritage",
+      "history",
+      "romantic",
+      "river",
+      "culture",
+      "peaceful",
+      "nature",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3300,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "history buffs",
+      "day trippers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Brno",
+    "country": "Czech Republic",
+    "tags": [
+      "culture",
+      "students",
+      "modern",
+      "history",
+      "offbeat",
+      "nightlife",
+      "food",
+      "budget"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "budget travelers",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Zakopane",
+    "country": "Poland",
+    "tags": [
+      "mountains",
+      "trekking",
+      "skiing",
+      "nature",
+      "adventure",
+      "culture",
+      "food",
+      "family"
+    ],
+    "avg_cost_per_day": 3100,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "family",
+      "adventure seekers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Poznan",
+    "country": "Poland",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "students",
+      "food",
+      "offbeat",
+      "nightlife",
+      "colorful"
+    ],
+    "avg_cost_per_day": 2900,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "students",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Plovdiv",
+    "country": "Bulgaria",
+    "tags": [
+      "history",
+      "ancient",
+      "culture",
+      "heritage",
+      "offbeat",
+      "art",
+      "food",
+      "budget"
+    ],
+    "avg_cost_per_day": 2600,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "art lovers",
+      "budget travelers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Varna",
+    "country": "Bulgaria",
+    "tags": [
+      "beach",
+      "sea",
+      "nightlife",
+      "history",
+      "culture",
+      "summer",
+      "offbeat",
+      "budget"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 3,
+    "best_for": [
+      "beach lovers",
+      "friends",
+      "budget travelers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cluj-Napoca",
+    "country": "Romania",
+    "tags": [
+      "culture",
+      "students",
+      "nightlife",
+      "music",
+      "history",
+      "offbeat",
+      "art",
+      "festivals"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "music lovers",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sibiu",
+    "country": "Romania",
+    "tags": [
+      "heritage",
+      "history",
+      "culture",
+      "medieval",
+      "peaceful",
+      "romantic",
+      "offbeat",
+      "food"
+    ],
+    "avg_cost_per_day": 2900,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ohrid",
+    "country": "North Macedonia",
+    "tags": [
+      "lakes",
+      "nature",
+      "heritage",
+      "history",
+      "peaceful",
+      "cheap",
+      "offbeat",
+      "views"
+    ],
+    "avg_cost_per_day": 2500,
+    "trip_duration": 3,
+    "best_for": [
+      "budget travelers",
+      "nature lovers",
+      "peace seekers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Skopje",
+    "country": "North Macedonia",
+    "tags": [
+      "history",
+      "statues",
+      "quirky",
+      "offbeat",
+      "budget",
+      "culture",
+      "food",
+      "urban"
+    ],
+    "avg_cost_per_day": 2400,
+    "trip_duration": 2,
+    "best_for": [
+      "curious travelers",
+      "budget travelers",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tirana",
+    "country": "Albania",
+    "tags": [
+      "colorful",
+      "history",
+      "culture",
+      "offbeat",
+      "budget",
+      "food",
+      "nightlife",
+      "mountains"
+    ],
+    "avg_cost_per_day": 2700,
+    "trip_duration": 2,
+    "best_for": [
+      "backpackers",
+      "budget travelers",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Luxembourg City",
+    "country": "Luxembourg",
+    "tags": [
+      "heritage",
+      "history",
+      "fortress",
+      "luxury",
+      "peaceful",
+      "clean",
+      "nature",
+      "valley"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "couples",
+      "short stay"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Valletta",
+    "country": "Malta",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "sea",
+      "fortress",
+      "sunny",
+      "food",
+      "architecture"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 3,
+    "best_for": [
+      "history buffs",
+      "culture vultures",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Andorra la Vella",
+    "country": "Andorra",
+    "tags": [
+      "mountains",
+      "skiing",
+      "shopping",
+      "nature",
+      "trekking",
+      "offbeat",
+      "luxury",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5600,
+    "trip_duration": 2,
+    "best_for": [
+      "shoppers",
+      "skiers",
+      "nature lovers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jul",
+      "aug"
+    ],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "San Marino",
+    "country": "San Marino",
+    "tags": [
+      "history",
+      "heritage",
+      "views",
+      "castle",
+      "offbeat",
+      "peaceful",
+      "daytrip",
+      "culture"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 1,
+    "best_for": [
+      "day trippers",
+      "history buffs",
+      "collectors"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Low"
+  },
+  {
+    "place": "Paphos",
+    "country": "Cyprus",
+    "tags": [
+      "history",
+      "beach",
+      "archaeology",
+      "sun",
+      "culture",
+      "family",
+      "relax",
+      "food"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 4,
+    "best_for": [
+      "history buffs",
+      "family",
+      "sun seekers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ayia Napa",
+    "country": "Cyprus",
+    "tags": [
+      "beach",
+      "nightlife",
+      "party",
+      "water-sports",
+      "sun",
+      "youth",
+      "sea",
+      "fun"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 4,
+    "best_for": [
+      "party goers",
+      "friends",
+      "beach lovers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Stuttgart",
+    "country": "Germany",
+    "tags": [
+      "cars",
+      "museums",
+      "culture",
+      "vineyards",
+      "industry",
+      "shopping",
+      "modern",
+      "green"
+    ],
+    "avg_cost_per_day": 5200,
+    "trip_duration": 2,
+    "best_for": [
+      "car enthusiasts",
+      "business",
+      "shoppers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Leipzig",
+    "country": "Germany",
+    "tags": [
+      "music",
+      "culture",
+      "history",
+      "art",
+      "students",
+      "cool",
+      "offbeat",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 4400,
+    "trip_duration": 2,
+    "best_for": [
+      "music lovers",
+      "students",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Liverpool",
+    "country": "United Kingdom",
+    "tags": [
+      "music",
+      "football",
+      "culture",
+      "nightlife",
+      "museums",
+      "history",
+      "maritime",
+      "friendly"
+    ],
+    "avg_cost_per_day": 5400,
+    "trip_duration": 2,
+    "best_for": [
+      "music lovers",
+      "sports fans",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Manchester",
+    "country": "United Kingdom",
+    "tags": [
+      "music",
+      "football",
+      "industrial",
+      "shopping",
+      "nightlife",
+      "culture",
+      "modern",
+      "art"
+    ],
+    "avg_cost_per_day": 5600,
+    "trip_duration": 2,
+    "best_for": [
+      "sports fans",
+      "shoppers",
+      "party goers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Cardiff",
+    "country": "United Kingdom",
+    "tags": [
+      "castle",
+      "history",
+      "culture",
+      "sport",
+      "nightlife",
+      "friendly",
+      "bay",
+      "compact"
+    ],
+    "avg_cost_per_day": 5100,
+    "trip_duration": 2,
+    "best_for": [
+      "sports fans",
+      "history buffs",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Inverness",
+    "country": "United Kingdom",
+    "tags": [
+      "highlands",
+      "nature",
+      "lochs",
+      "history",
+      "peaceful",
+      "gateway",
+      "culture",
+      "green"
+    ],
+    "avg_cost_per_day": 5300,
+    "trip_duration": 2,
+    "best_for": [
+      "nature lovers",
+      "explorers",
+      "peace seekers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Reims",
+    "country": "France",
+    "tags": [
+      "champagne",
+      "history",
+      "cathedral",
+      "luxury",
+      "food",
+      "culture",
+      "vineyards",
+      "romantic"
+    ],
+    "avg_cost_per_day": 5800,
+    "trip_duration": 2,
+    "best_for": [
+      "wine lovers",
+      "couples",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Montpellier",
+    "country": "France",
+    "tags": [
+      "students",
+      "sunny",
+      "culture",
+      "history",
+      "youth",
+      "nightlife",
+      "food",
+      "relaxed"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "youth",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Parma",
+    "country": "Italy",
+    "tags": [
+      "food",
+      "cheese",
+      "ham",
+      "culture",
+      "opera",
+      "history",
+      "peaceful",
+      "elegant"
+    ],
+    "avg_cost_per_day": 4400,
+    "trip_duration": 2,
+    "best_for": [
+      "foodies",
+      "culture vultures",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Trieste",
+    "country": "Italy",
+    "tags": [
+      "coffee",
+      "culture",
+      "literary",
+      "history",
+      "sea",
+      "windy",
+      "border",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4100,
+    "trip_duration": 2,
+    "best_for": [
+      "writers",
+      "coffee lovers",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Alicante",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "castle",
+      "sun",
+      "nightlife",
+      "promenade",
+      "food",
+      "relax",
+      "family"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "sun seekers",
+      "family",
+      "retirees"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Lanzarote",
+    "country": "Spain",
+    "tags": [
+      "volcanic",
+      "nature",
+      "beach",
+      "unique",
+      "art",
+      "cycling",
+      "sun",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 5,
+    "best_for": [
+      "nature lovers",
+      "cyclists",
+      "families"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "nov",
+      "dec"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Fuerteventura",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "windsurfing",
+      "nature",
+      "dunes",
+      "relax",
+      "sun",
+      "water-sports",
+      "quiet"
+    ],
+    "avg_cost_per_day": 4700,
+    "trip_duration": 5,
+    "best_for": [
+      "surfers",
+      "beach lovers",
+      "peace seekers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "nov",
+      "dec"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Gran Canaria",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "diverse",
+      "mountains",
+      "nightlife",
+      "nature",
+      "family",
+      "sun",
+      "trekking"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 5,
+    "best_for": [
+      "families",
+      "hikers",
+      "sun seekers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "nov",
+      "dec"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Cascais",
+    "country": "Portugal",
+    "tags": [
+      "beach",
+      "luxury",
+      "relax",
+      "coastal",
+      "food",
+      "sun",
+      "chic",
+      "nearby"
+    ],
+    "avg_cost_per_day": 5400,
+    "trip_duration": 2,
+    "best_for": [
+      "luxury travelers",
+      "beach lovers",
+      "day trippers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Braga",
+    "country": "Portugal",
+    "tags": [
+      "religious",
+      "history",
+      "baroque",
+      "students",
+      "food",
+      "culture",
+      "offbeat",
+      "ancient"
+    ],
+    "avg_cost_per_day": 3700,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "pilgrims",
+      "budget travelers"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kos",
+    "country": "Greece",
+    "tags": [
+      "beach",
+      "cycling",
+      "history",
+      "ruins",
+      "nightlife",
+      "family",
+      "sun",
+      "food"
+    ],
+    "avg_cost_per_day": 4300,
+    "trip_duration": 4,
+    "best_for": [
+      "families",
+      "cyclists",
+      "history buffs"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Paros",
+    "country": "Greece",
+    "tags": [
+      "islands",
+      "beach",
+      "traditional",
+      "nightlife",
+      "windsurfing",
+      "white",
+      "food",
+      "chic"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "couples",
+      "beach lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "St. Moritz",
+    "country": "Switzerland",
+    "tags": [
+      "luxury",
+      "skiing",
+      "mountains",
+      "glamour",
+      "winter",
+      "lakes",
+      "nature",
+      "exclusive"
+    ],
+    "avg_cost_per_day": 12000,
+    "trip_duration": 3,
+    "best_for": [
+      "luxury travelers",
+      "skiers",
+      "celebrities"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "jul",
+      "aug",
+      "dec"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Grindelwald",
+    "country": "Switzerland",
+    "tags": [
+      "mountains",
+      "adventure",
+      "views",
+      "trekking",
+      "skiing",
+      "nature",
+      "village",
+      "scenic"
+    ],
+    "avg_cost_per_day": 10500,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "skiers",
+      "nature lovers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "jun",
+      "jul",
+      "aug",
+      "dec"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Giethoorn",
+    "country": "Netherlands",
+    "tags": [
+      "village",
+      "boating",
+      "peaceful",
+      "canals",
+      "nature",
+      "picturesque",
+      "fairytale",
+      "daytrip"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 1,
+    "best_for": [
+      "day trippers",
+      "couples",
+      "photographers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Maastricht",
+    "country": "Netherlands",
+    "tags": [
+      "history",
+      "culture",
+      "shopping",
+      "food",
+      "cobblestone",
+      "ancient",
+      "river",
+      "cosy"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "shoppers",
+      "couples",
+      "foodies"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pula",
+    "country": "Croatia",
+    "tags": [
+      "history",
+      "roman",
+      "arena",
+      "beach",
+      "culture",
+      "summer",
+      "family",
+      "festival"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "family",
+      "festival goers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Korcula",
+    "country": "Croatia",
+    "tags": [
+      "island",
+      "history",
+      "wine",
+      "beach",
+      "walled",
+      "peaceful",
+      "romantic",
+      "food"
+    ],
+    "avg_cost_per_day": 4100,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "wine lovers",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Novi Sad",
+    "country": "Serbia",
+    "tags": [
+      "fortress",
+      "festival",
+      "river",
+      "relaxed",
+      "culture",
+      "budget",
+      "youth",
+      "music"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "youth",
+      "festival goers",
+      "budget travelers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kaunas",
+    "country": "Lithuania",
+    "tags": [
+      "modernist",
+      "art",
+      "culture",
+      "students",
+      "river",
+      "basketball",
+      "offbeat",
+      "history"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "art lovers",
+      "students",
+      "history buffs"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tartu",
+    "country": "Estonia",
+    "tags": [
+      "university",
+      "culture",
+      "intellectual",
+      "museums",
+      "river",
+      "peaceful",
+      "offbeat",
+      "smart"
+    ],
+    "avg_cost_per_day": 3100,
+    "trip_duration": 2,
+    "best_for": [
+      "intellectuals",
+      "students",
+      "culture vultures"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Low"
+  },
+  {
+    "place": "Rouen",
+    "country": "France",
+    "tags": [
+      "medieval",
+      "history",
+      "cathedral",
+      "joan-of-arc",
+      "culture",
+      "art",
+      "river",
+      "timber"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "art lovers",
+      "couples"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Saint-Malo",
+    "country": "France",
+    "tags": [
+      "walled",
+      "sea",
+      "history",
+      "beach",
+      "tides",
+      "food",
+      "windy",
+      "unique"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "families",
+      "sea lovers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Dinant",
+    "country": "Belgium",
+    "tags": [
+      "river",
+      "cliffs",
+      "music",
+      "sax",
+      "scenic",
+      "citadel",
+      "small",
+      "daytrip"
+    ],
+    "avg_cost_per_day": 4600,
+    "trip_duration": 1,
+    "best_for": [
+      "photographers",
+      "day trippers",
+      "music lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Leuven",
+    "country": "Belgium",
+    "tags": [
+      "university",
+      "beer",
+      "history",
+      "architecture",
+      "youth",
+      "lively",
+      "square",
+      "culture"
+    ],
+    "avg_cost_per_day": 4300,
+    "trip_duration": 2,
+    "best_for": [
+      "students",
+      "beer lovers",
+      "friends"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Delft",
+    "country": "Netherlands",
+    "tags": [
+      "history",
+      "pottery",
+      "canals",
+      "vermeer",
+      "peaceful",
+      "charming",
+      "market",
+      "culture"
+    ],
+    "avg_cost_per_day": 4900,
+    "trip_duration": 1,
+    "best_for": [
+      "art lovers",
+      "couples",
+      "day trippers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Killarney",
+    "country": "Ireland",
+    "tags": [
+      "nature",
+      "park",
+      "lakes",
+      "history",
+      "tourist",
+      "drive",
+      "green",
+      "music"
+    ],
+    "avg_cost_per_day": 5200,
+    "trip_duration": 3,
+    "best_for": [
+      "nature lovers",
+      "tourists",
+      "families"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Doolin",
+    "country": "Ireland",
+    "tags": [
+      "music",
+      "cliffs",
+      "pub",
+      "coastal",
+      "traditional",
+      "village",
+      "friendly",
+      "nature"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "music lovers",
+      "hikers",
+      "culture seekers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Girona",
+    "country": "Spain",
+    "tags": [
+      "medieval",
+      "history",
+      "got",
+      "culture",
+      "river",
+      "food",
+      "colorful",
+      "walkable"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "tv fans",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Nerja",
+    "country": "Spain",
+    "tags": [
+      "beach",
+      "caves",
+      "views",
+      "balcony",
+      "sun",
+      "relax",
+      "family",
+      "white"
+    ],
+    "avg_cost_per_day": 4400,
+    "trip_duration": 3,
+    "best_for": [
+      "families",
+      "sun seekers",
+      "relaxers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ronda",
+    "country": "Spain",
+    "tags": [
+      "views",
+      "bridge",
+      "history",
+      "bullring",
+      "dramatic",
+      "mountains",
+      "romance",
+      "daytrip"
+    ],
+    "avg_cost_per_day": 4100,
+    "trip_duration": 2,
+    "best_for": [
+      "photographers",
+      "couples",
+      "history buffs"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Cadiz",
+    "country": "Spain",
+    "tags": [
+      "ancient",
+      "sea",
+      "beach",
+      "history",
+      "food",
+      "narrow",
+      "light",
+      "friendly"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "history buffs",
+      "beach lovers",
+      "foodies"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "Medium"
   }
 ]

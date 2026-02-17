@@ -3351,5 +3351,1736 @@
     ],
     "climate": "Tropical",
     "popularity": "Medium"
+  },
+
+  
+  {
+    "place": "Suva",
+    "country": "Fiji",
+    "tags": [
+      "city",
+      "culture",
+      "history",
+      "market",
+      "museums",
+      "rain",
+      "food"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "transit"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Savusavu",
+    "country": "Fiji",
+    "tags": [
+      "nature",
+      "boating",
+      "hot-springs",
+      "pearls",
+      "diving",
+      "relax",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "couples",
+      "divers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Levuka",
+    "country": "Fiji",
+    "tags": [
+      "history",
+      "heritage",
+      "colonial",
+      "offbeat",
+      "culture",
+      "peaceful",
+      "island"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kadavu",
+    "country": "Fiji",
+    "tags": [
+      "diving",
+      "nature",
+      "bird-watching",
+      "eco-tourism",
+      "remote",
+      "culture",
+      "reef"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "nature",
+      "bird-watchers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Pacific Harbour",
+    "country": "Fiji",
+    "tags": [
+      "adventure",
+      "sharks",
+      "diving",
+      "rafting",
+      "zip-line",
+      "nature",
+      "river"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "divers",
+      "thrill-seekers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Rangiroa",
+    "country": "French Polynesia",
+    "tags": [
+      "diving",
+      "lagoon",
+      "nature",
+      "sharks",
+      "wine",
+      "luxury",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 9000,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "luxury",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Fakarava",
+    "country": "French Polynesia",
+    "tags": [
+      "diving",
+      "nature",
+      "sharks",
+      "pristine",
+      "biosphere",
+      "offbeat",
+      "coral"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Nuku Hiva",
+    "country": "French Polynesia",
+    "tags": [
+      "mountains",
+      "nature",
+      "waterfalls",
+      "culture",
+      "remote",
+      "trekking",
+      "horses"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "culture",
+      "nature"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Hiva Oa",
+    "country": "French Polynesia",
+    "tags": [
+      "history",
+      "art",
+      "culture",
+      "nature",
+      "mountains",
+      "remote",
+      "gauguin"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "art-lovers",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Maupiti",
+    "country": "French Polynesia",
+    "tags": [
+      "beach",
+      "peaceful",
+      "lagoon",
+      "offbeat",
+      "nature",
+      "mountains",
+      "authentic"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "relax",
+      "couples",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Vava'u",
+    "country": "Tonga",
+    "tags": [
+      "sailing",
+      "whales",
+      "nature",
+      "islands",
+      "caves",
+      "adventure",
+      "swimming"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 5,
+    "best_for": [
+      "sailing",
+      "wildlife",
+      "adventure"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ha'apai",
+    "country": "Tonga",
+    "tags": [
+      "beach",
+      "peaceful",
+      "snorkeling",
+      "offbeat",
+      "nature",
+      "relax",
+      "remote"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 4,
+    "best_for": [
+      "relax",
+      "couples",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Atiu",
+    "country": "Cook Islands",
+    "tags": [
+      "caves",
+      "nature",
+      "birds",
+      "coffee",
+      "offbeat",
+      "eco",
+      "jungle"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "bird-watchers",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Lifou",
+    "country": "New Caledonia",
+    "tags": [
+      "beach",
+      "cliffs",
+      "nature",
+      "caves",
+      "snorkeling",
+      "peaceful",
+      "culture"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "relax",
+      "couples"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ouvéa",
+    "country": "New Caledonia",
+    "tags": [
+      "beach",
+      "lagoon",
+      "paradise",
+      "peaceful",
+      "nature",
+      "unesco",
+      "relax"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 3,
+    "best_for": [
+      "beach lovers",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Ambrym",
+    "country": "Vanuatu",
+    "tags": [
+      "volcano",
+      "adventure",
+      "trekking",
+      "lava",
+      "culture",
+      "magic",
+      "remote"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "hikers",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Malekula",
+    "country": "Vanuatu",
+    "tags": [
+      "culture",
+      "tribes",
+      "history",
+      "trekking",
+      "nature",
+      "offbeat",
+      "cannibal-sites"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "adventure",
+      "history"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Pentecost Island",
+    "country": "Vanuatu",
+    "tags": [
+      "culture",
+      "festival",
+      "tradition",
+      "land-diving",
+      "offbeat",
+      "nature",
+      "remote"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "adventure",
+      "unique"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Honiara",
+    "country": "Solomon Islands",
+    "tags": [
+      "history",
+      "war-history",
+      "culture",
+      "market",
+      "museum",
+      "city",
+      "wrecks"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "transit"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Gizo",
+    "country": "Solomon Islands",
+    "tags": [
+      "diving",
+      "wrecks",
+      "islands",
+      "history",
+      "nature",
+      "beach",
+      "kennedy"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "history",
+      "adventure"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Madang",
+    "country": "Papua New Guinea",
+    "tags": [
+      "diving",
+      "culture",
+      "nature",
+      "reef",
+      "volcano",
+      "scenic",
+      "harbour"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "divers",
+      "culture",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mount Hagen",
+    "country": "Papua New Guinea",
+    "tags": [
+      "culture",
+      "tribes",
+      "festival",
+      "mountains",
+      "coffee",
+      "nature",
+      "highlands"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "adventure",
+      "photography"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rabaul",
+    "country": "Papua New Guinea",
+    "tags": [
+      "volcano",
+      "history",
+      "war-history",
+      "diving",
+      "wrecks",
+      "nature",
+      "ash"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "adventure",
+      "divers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tufi",
+    "country": "Papua New Guinea",
+    "tags": [
+      "fjords",
+      "diving",
+      "culture",
+      "nature",
+      "reef",
+      "scenic",
+      "canoeing"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "culture",
+      "nature"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Sepik River",
+    "country": "Papua New Guinea",
+    "tags": [
+      "river",
+      "culture",
+      "tribes",
+      "art",
+      "adventure",
+      "remote",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "culture",
+      "art-lovers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Yap",
+    "country": "Micronesia",
+    "tags": [
+      "manta-rays",
+      "culture",
+      "stone-money",
+      "diving",
+      "history",
+      "tradition",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "culture",
+      "history"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Pohnpei",
+    "country": "Micronesia",
+    "tags": [
+      "ruins",
+      "history",
+      "nature",
+      "waterfalls",
+      "surfing",
+      "mystery",
+      "nan-madol"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "history",
+      "adventure",
+      "surfers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "tags": [
+      "diving",
+      "wrecks",
+      "history",
+      "war-history",
+      "adventure",
+      "lagoon",
+      "marine-life"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 5,
+    "best_for": [
+      "divers",
+      "history",
+      "adventure"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Majuro",
+    "country": "Marshall Islands",
+    "tags": [
+      "atoll",
+      "history",
+      "peaceful",
+      "ocean",
+      "diving",
+      "offbeat",
+      "fishing"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "offbeat",
+      "divers",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Saipan",
+    "country": "Northern Mariana Islands",
+    "tags": [
+      "history",
+      "beach",
+      "war-history",
+      "diving",
+      "nature",
+      "cliffs",
+      "memorial"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "history",
+      "family",
+      "divers"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tinian",
+    "country": "Northern Mariana Islands",
+    "tags": [
+      "history",
+      "war-history",
+      "beach",
+      "casino",
+      "peaceful",
+      "offbeat",
+      "nature"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "gambling",
+      "offbeat"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Pago Pago",
+    "country": "American Samoa",
+    "tags": [
+      "mountains",
+      "harbour",
+      "nature",
+      "culture",
+      "park",
+      "trekking",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "culture",
+      "hikers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Ofu Beach",
+    "country": "American Samoa",
+    "tags": [
+      "beach",
+      "nature",
+      "remote",
+      "pristine",
+      "snorkeling",
+      "peaceful",
+      "park"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "beach lovers",
+      "nature",
+      "solitude"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "tags": [
+      "history",
+      "war-history",
+      "culture",
+      "atoll",
+      "lagoon",
+      "offbeat",
+      "ocean"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Kiritimati (Christmas Island)",
+    "country": "Kiribati",
+    "tags": [
+      "fishing",
+      "bird-watching",
+      "nature",
+      "remote",
+      "atoll",
+      "offbeat",
+      "salt"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "fishing",
+      "nature",
+      "bird-watchers"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "tags": [
+      "atoll",
+      "lagoon",
+      "peaceful",
+      "conservation",
+      "remote",
+      "culture",
+      "fragile"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "offbeat",
+      "culture",
+      "collectors"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Yaren",
+    "country": "Nauru",
+    "tags": [
+      "history",
+      "mining",
+      "offbeat",
+      "ocean",
+      "remote",
+      "driving",
+      "unique"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 1,
+    "best_for": [
+      "curious",
+      "collectors",
+      "offbeat"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "jun"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Waiheke Island",
+    "country": "New Zealand",
+    "tags": [
+      "wine",
+      "beach",
+      "food",
+      "art",
+      "luxury",
+      "relax",
+      "scenic"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "wine"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Tongariro National Park",
+    "country": "New Zealand",
+    "tags": [
+      "volcano",
+      "trekking",
+      "adventure",
+      "nature",
+      "movies",
+      "snow",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "hikers",
+      "adventure",
+      "fans"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "dec"
+    ],
+    "climate": "Alpine",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Raglan",
+    "country": "New Zealand",
+    "tags": [
+      "surfing",
+      "beach",
+      "nature",
+      "relaxed",
+      "artsy",
+      "coast",
+      "sunset"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "surfers",
+      "relax",
+      "youth"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Akaroa",
+    "country": "New Zealand",
+    "tags": [
+      "history",
+      "french",
+      "dolphins",
+      "harbour",
+      "nature",
+      "peaceful",
+      "charming"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "nature",
+      "relax"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "The Catlins",
+    "country": "New Zealand",
+    "tags": [
+      "wildlife",
+      "nature",
+      "waterfalls",
+      "coast",
+      "offbeat",
+      "penguins",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "road-trip",
+      "wildlife"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Cold",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Russell",
+    "country": "New Zealand",
+    "tags": [
+      "history",
+      "colonial",
+      "boating",
+      "bay",
+      "peaceful",
+      "heritage",
+      "seafood"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Great Barrier Island",
+    "country": "New Zealand",
+    "tags": [
+      "nature",
+      "offbeat",
+      "dark-sky",
+      "beach",
+      "forest",
+      "peaceful",
+      "remote"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "stargazing",
+      "offbeat"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tutukaka",
+    "country": "New Zealand",
+    "tags": [
+      "diving",
+      "coast",
+      "nature",
+      "beach",
+      "scenic",
+      "marine-life",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "divers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tiwi Islands",
+    "country": "Australia",
+    "tags": [
+      "culture",
+      "aboriginal",
+      "art",
+      "fishing",
+      "football",
+      "remote",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "art",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Thursday Island",
+    "country": "Australia",
+    "tags": [
+      "culture",
+      "history",
+      "pearls",
+      "war-history",
+      "torres-strait",
+      "offbeat",
+      "remote"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "King Island",
+    "country": "Australia",
+    "tags": [
+      "food",
+      "cheese",
+      "beef",
+      "golf",
+      "rugged",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 2,
+    "best_for": [
+      "food",
+      "golf",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Flinders Island",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "mountains",
+      "beach",
+      "trekking",
+      "remote",
+      "offbeat",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "hikers",
+      "solitude"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Low"
+  },
+  {
+    "place": "Broken Hill",
+    "country": "Australia",
+    "tags": [
+      "outback",
+      "mining",
+      "history",
+      "art",
+      "film",
+      "desert",
+      "remote"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "film-buffs",
+      "adventure"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Sapphire Coast (Merimbula)",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "oysters",
+      "nature",
+      "whales",
+      "family",
+      "relax",
+      "coast"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "food",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Grampians National Park",
+    "country": "Australia",
+    "tags": [
+      "mountains",
+      "trekking",
+      "nature",
+      "wildlife",
+      "rock-art",
+      "views",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 3,
+    "best_for": [
+      "hikers",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Wilsons Promontory",
+    "country": "Australia",
+    "tags": [
+      "nature",
+      "beach",
+      "camping",
+      "trekking",
+      "wildlife",
+      "scenic",
+      "coast"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "camping",
+      "hikers"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Kalgoorlie",
+    "country": "Australia",
+    "tags": [
+      "mining",
+      "history",
+      "outback",
+      "gold",
+      "pubs",
+      "remote",
+      "heritage"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "mining",
+      "adventure"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Albany",
+    "country": "Australia",
+    "tags": [
+      "history",
+      "coast",
+      "whales",
+      "nature",
+      "heritage",
+      "anzac",
+      "scenic"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Coral Bay",
+    "country": "Australia",
+    "tags": [
+      "beach",
+      "reef",
+      "snorkeling",
+      "manta-rays",
+      "nature",
+      "relax",
+      "remote"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "water-sports",
+      "family"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "jul"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Kununurra",
+    "country": "Australia",
+    "tags": [
+      "adventure",
+      "nature",
+      "river",
+      "kimberley",
+      "waterfalls",
+      "remote",
+      "scenic"
+    ],
+    "avg_cost_per_day": 7200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Qamea",
+    "country": "Fiji",
+    "tags": [
+      "luxury",
+      "beach",
+      "nature",
+      "private",
+      "romantic",
+      "diving",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 4,
+    "best_for": [
+      "luxury",
+      "couples",
+      "honeymoon"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Manono Island",
+    "country": "Samoa",
+    "tags": [
+      "culture",
+      "peaceful",
+      "no-cars",
+      "tradition",
+      "nature",
+      "walk",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 1,
+    "best_for": [
+      "culture",
+      "peaceful",
+      "day-trip"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Tubuai",
+    "country": "French Polynesia",
+    "tags": [
+      "lagoon",
+      "offbeat",
+      "nature",
+      "agriculture",
+      "peaceful",
+      "culture",
+      "remote"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "offbeat",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "tags": [
+      "fishing",
+      "culture",
+      "remote",
+      "nature",
+      "mining",
+      "adventure",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 7800,
+    "trip_duration": 3,
+    "best_for": [
+      "fishing",
+      "adventure",
+      "culture"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
   }
+
 ]

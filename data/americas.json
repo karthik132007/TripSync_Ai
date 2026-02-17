@@ -4162,5 +4162,2820 @@
     "season": ["dec", "jan", "jul", "aug"],
     "climate": "Highland",
     "popularity": "Medium"
+  },
+  
+  {
+    "place": "Fairbanks",
+    "country": "United States",
+    "tags": [
+      "nature",
+      "adventure",
+      "offbeat",
+      "forest",
+      "mountains",
+      "river",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "solo",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "jun",
+      "jul"
+    ],
+    "climate": "Subarctic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Juneau",
+    "country": "United States",
+    "tags": [
+      "nature",
+      "mountains",
+      "water-sports",
+      "boating",
+      "adventure",
+      "wildlife",
+      "forest"
+    ],
+    "avg_cost_per_day": 7800,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Olympic National Park",
+    "country": "United States",
+    "tags": [
+      "forest",
+      "nature",
+      "beach",
+      "mountains",
+      "trekking",
+      "camping",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6200,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "family",
+      "solo"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Cannon Beach",
+    "country": "United States",
+    "tags": [
+      "beach",
+      "nature",
+      "romantic",
+      "peaceful",
+      "offbeat",
+      "water-sports",
+      "food"
+    ],
+    "avg_cost_per_day": 6800,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Oceanic",
+    "popularity": "High"
+  },
+  {
+    "place": "Crater Lake National Park",
+    "country": "United States",
+    "tags": [
+      "lakes",
+      "nature",
+      "volcano",
+      "trekking",
+      "camping",
+      "adventure",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Redwood National Park",
+    "country": "United States",
+    "tags": [
+      "forest",
+      "nature",
+      "trekking",
+      "camping",
+      "peaceful",
+      "offbeat",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "nature",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Temperate",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Lake Powell",
+    "country": "United States",
+    "tags": [
+      "lakes",
+      "boating",
+      "water-sports",
+      "adventure",
+      "canyon",
+      "nature",
+      "camping"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "friends",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Canyonlands National Park",
+    "country": "United States",
+    "tags": [
+      "canyon",
+      "adventure",
+      "trekking",
+      "nature",
+      "offbeat",
+      "desert",
+      "camping"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Capitol Reef National Park",
+    "country": "United States",
+    "tags": [
+      "canyon",
+      "nature",
+      "trekking",
+      "offbeat",
+      "camping",
+      "history",
+      "desert"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Telluride",
+    "country": "United States",
+    "tags": [
+      "mountains",
+      "skiing",
+      "luxury",
+      "adventure",
+      "nature",
+      "festivals",
+      "trekking"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "friends",
+      "luxury"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Colorado Springs",
+    "country": "United States",
+    "tags": [
+      "mountains",
+      "nature",
+      "adventure",
+      "family",
+      "trekking",
+      "culture",
+      "history"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "friends",
+      "adventure"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Badlands National Park",
+    "country": "United States",
+    "tags": [
+      "nature",
+      "desert",
+      "offbeat",
+      "camping",
+      "trekking",
+      "adventure",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "solo",
+      "family"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mount Rushmore",
+    "country": "United States",
+    "tags": [
+      "history",
+      "heritage",
+      "mountains",
+      "nature",
+      "family",
+      "culture",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "history",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Mackinac Island",
+    "country": "United States",
+    "tags": [
+      "islands",
+      "history",
+      "no-cars",
+      "romantic",
+      "family",
+      "nature",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Cape Cod",
+    "country": "United States",
+    "tags": [
+      "beach",
+      "luxury",
+      "food",
+      "history",
+      "boating",
+      "family",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 8000,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "couples",
+      "luxury"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Temperate",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Newport",
+    "country": "United States",
+    "tags": [
+      "luxury",
+      "history",
+      "ocean",
+      "boating",
+      "food",
+      "romantic",
+      "culture"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "luxury",
+      "history"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Shenandoah National Park",
+    "country": "United States",
+    "tags": [
+      "mountains",
+      "forest",
+      "trekking",
+      "nature",
+      "camping",
+      "peaceful",
+      "adventure"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "jun",
+      "sep",
+      "oct"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "St. Augustine",
+    "country": "United States",
+    "tags": [
+      "history",
+      "heritage",
+      "beach",
+      "culture",
+      "family",
+      "ghosts",
+      "food"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "history",
+      "couples"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "oct",
+      "nov"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Destin",
+    "country": "United States",
+    "tags": [
+      "beach",
+      "family",
+      "water-sports",
+      "boating",
+      "fishing",
+      "relax",
+      "nature"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "friends",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Kauai",
+    "country": "United States",
+    "tags": [
+      "islands",
+      "nature",
+      "adventure",
+      "trekking",
+      "canyon",
+      "beach",
+      "romantic"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 5,
+    "best_for": [
+      "couples",
+      "nature",
+      "adventure"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Big Island (Kona)",
+    "country": "United States",
+    "tags": [
+      "volcano",
+      "nature",
+      "adventure",
+      "beach",
+      "diving",
+      "offbeat",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 8200,
+    "trip_duration": 5,
+    "best_for": [
+      "adventure",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Yoho National Park",
+    "country": "Canada",
+    "tags": [
+      "mountains",
+      "waterfalls",
+      "nature",
+      "trekking",
+      "camping",
+      "adventure",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Kootenay National Park",
+    "country": "Canada",
+    "tags": [
+      "mountains",
+      "hot-springs",
+      "nature",
+      "trekking",
+      "camping",
+      "offbeat",
+      "adventure"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 2,
+    "best_for": [
+      "family",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Alpine",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Algonquin Provincial Park",
+    "country": "Canada",
+    "tags": [
+      "forest",
+      "lakes",
+      "camping",
+      "boating",
+      "nature",
+      "trekking",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "family",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "High"
+  },
+  {
+    "place": "Thousand Islands",
+    "country": "Canada",
+    "tags": [
+      "islands",
+      "boating",
+      "nature",
+      "peaceful",
+      "luxury",
+      "romantic",
+      "water-sports"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "family",
+      "relax"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Charlevoix",
+    "country": "Canada",
+    "tags": [
+      "nature",
+      "food",
+      "mountains",
+      "river",
+      "luxury",
+      "culture",
+      "romantic"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cape Breton Island",
+    "country": "Canada",
+    "tags": [
+      "nature",
+      "trekking",
+      "mountains",
+      "ocean",
+      "music",
+      "culture",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "couples",
+      "nature"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Saskatoon",
+    "country": "Canada",
+    "tags": [
+      "culture",
+      "river",
+      "offbeat",
+      "food",
+      "nature",
+      "history",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "solo",
+      "friends",
+      "culture"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Continental",
+    "popularity": "Low"
+  },
+  {
+    "place": "Winnipeg",
+    "country": "Canada",
+    "tags": [
+      "culture",
+      "history",
+      "museums",
+      "food",
+      "winter",
+      "offbeat",
+      "river"
+    ],
+    "avg_cost_per_day": 5800,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "family",
+      "history"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Continental",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Yellowknife",
+    "country": "Canada",
+    "tags": [
+      "northern-lights",
+      "adventure",
+      "offbeat",
+      "nature",
+      "lakes",
+      "winter",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 6500,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "couples",
+      "solo"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subarctic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Isla Mujeres",
+    "country": "Mexico",
+    "tags": [
+      "islands",
+      "beach",
+      "water-sports",
+      "peaceful",
+      "romantic",
+      "offbeat",
+      "luxury"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "friends",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Akumal",
+    "country": "Mexico",
+    "tags": [
+      "beach",
+      "water-sports",
+      "turtles",
+      "nature",
+      "peaceful",
+      "family",
+      "snorkeling"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "nature",
+      "couples"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mazatlán",
+    "country": "Mexico",
+    "tags": [
+      "beach",
+      "history",
+      "culture",
+      "food",
+      "nightlife",
+      "colonial",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "friends",
+      "culture"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Zihuatanejo",
+    "country": "Mexico",
+    "tags": [
+      "beach",
+      "fishing",
+      "romantic",
+      "peaceful",
+      "food",
+      "offbeat",
+      "culture"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "relax",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "La Paz (Baja California Sur)",
+    "country": "Mexico",
+    "tags": [
+      "beach",
+      "nature",
+      "water-sports",
+      "wildlife",
+      "peaceful",
+      "offbeat",
+      "desert"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "family",
+      "adventure"
+    ],
+    "season": [
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Todos Santos",
+    "country": "Mexico",
+    "tags": [
+      "culture",
+      "art",
+      "offbeat",
+      "peaceful",
+      "beach",
+      "food",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "culture",
+      "relax"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Taxco",
+    "country": "Mexico",
+    "tags": [
+      "history",
+      "heritage",
+      "silver",
+      "mountains",
+      "culture",
+      "offbeat",
+      "architecture"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "culture",
+      "couples"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Palenque",
+    "country": "Mexico",
+    "tags": [
+      "history",
+      "heritage",
+      "ruins",
+      "jungle",
+      "adventure",
+      "nature",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "adventure",
+      "solo"
+    ],
+    "season": [
+      "nov",
+      "dec",
+      "jan",
+      "feb"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Valle de Guadalupe",
+    "country": "Mexico",
+    "tags": [
+      "wine",
+      "food",
+      "luxury",
+      "romantic",
+      "mountains",
+      "peaceful",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "food",
+      "luxury"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Mediterranean",
+    "popularity": "High"
+  },
+  {
+    "place": "Ambergris Caye",
+    "country": "Belize",
+    "tags": [
+      "islands",
+      "beach",
+      "diving",
+      "nightlife",
+      "water-sports",
+      "luxury",
+      "adventure"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "divers",
+      "couples"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Hopkins",
+    "country": "Belize",
+    "tags": [
+      "culture",
+      "beach",
+      "offbeat",
+      "peaceful",
+      "nature",
+      "music",
+      "friendly"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rio Dulce",
+    "country": "Guatemala",
+    "tags": [
+      "river",
+      "nature",
+      "jungle",
+      "boating",
+      "offbeat",
+      "adventure",
+      "peaceful"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "solo"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Copan Ruinas",
+    "country": "Honduras",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "offbeat",
+      "nature",
+      "peaceful",
+      "birds"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "adventure",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Utila",
+    "country": "Honduras",
+    "tags": [
+      "islands",
+      "diving",
+      "backpackers",
+      "nightlife",
+      "offbeat",
+      "water-sports",
+      "budget"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Leon",
+    "country": "Nicaragua",
+    "tags": [
+      "history",
+      "culture",
+      "volcano",
+      "adventure",
+      "offbeat",
+      "architecture",
+      "students"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "history",
+      "adventure",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "San Juan del Sur",
+    "country": "Nicaragua",
+    "tags": [
+      "beach",
+      "surfing",
+      "nightlife",
+      "youth",
+      "water-sports",
+      "party",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "party",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Santa Teresa",
+    "country": "Costa Rica",
+    "tags": [
+      "beach",
+      "surfing",
+      "yoga",
+      "offbeat",
+      "nature",
+      "nightlife",
+      "cool"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "couples",
+      "wellness"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Nosara",
+    "country": "Costa Rica",
+    "tags": [
+      "beach",
+      "wellness",
+      "yoga",
+      "nature",
+      "peaceful",
+      "surfing",
+      "wildlife"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 4,
+    "best_for": [
+      "wellness",
+      "couples",
+      "families"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Tortuguero National Park",
+    "country": "Costa Rica",
+    "tags": [
+      "nature",
+      "wildlife",
+      "turtles",
+      "boating",
+      "adventure",
+      "offbeat",
+      "eco"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "family",
+      "adventure"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Rincon de la Vieja",
+    "country": "Costa Rica",
+    "tags": [
+      "volcano",
+      "adventure",
+      "trekking",
+      "nature",
+      "hot-springs",
+      "waterfalls",
+      "active"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "friends",
+      "family"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "El Valle de Anton",
+    "country": "Panama",
+    "tags": [
+      "mountains",
+      "volcano",
+      "market",
+      "nature",
+      "peaceful",
+      "trekking",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Santa Catalina",
+    "country": "Panama",
+    "tags": [
+      "surfing",
+      "diving",
+      "offbeat",
+      "beach",
+      "nature",
+      "peaceful",
+      "rustic"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 3,
+    "best_for": [
+      "surfers",
+      "divers",
+      "solo"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Low"
+  },
+  {
+    "place": "Vinales",
+    "country": "Cuba",
+    "tags": [
+      "mountains",
+      "nature",
+      "tobacco",
+      "offbeat",
+      "culture",
+      "peaceful",
+      "rural"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Trinidad",
+    "country": "Cuba",
+    "tags": [
+      "history",
+      "heritage",
+      "culture",
+      "music",
+      "cobblestone",
+      "colorful",
+      "nightlife"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Varadero",
+    "country": "Cuba",
+    "tags": [
+      "beach",
+      "luxury",
+      "water-sports",
+      "relax",
+      "family",
+      "sun",
+      "resort"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 4,
+    "best_for": [
+      "family",
+      "couples",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Exuma",
+    "country": "Bahamas",
+    "tags": [
+      "islands",
+      "beach",
+      "luxury",
+      "swimming-pigs",
+      "nature",
+      "boating",
+      "exclusive"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 4,
+    "best_for": [
+      "luxury",
+      "couples",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Puerto Plata",
+    "country": "Dominican Republic",
+    "tags": [
+      "beach",
+      "history",
+      "cable-car",
+      "nature",
+      "water-sports",
+      "culture",
+      "family"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "friends",
+      "value"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Las Terrenas",
+    "country": "Dominican Republic",
+    "tags": [
+      "beach",
+      "offbeat",
+      "european",
+      "food",
+      "nature",
+      "peaceful",
+      "romantic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "expats",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Rincon",
+    "country": "Puerto Rico",
+    "tags": [
+      "surfing",
+      "beach",
+      "sunset",
+      "relaxed",
+      "offbeat",
+      "water-sports",
+      "youth"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 3,
+    "best_for": [
+      "surfers",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Culebra",
+    "country": "Puerto Rico",
+    "tags": [
+      "islands",
+      "beach",
+      "nature",
+      "offbeat",
+      "peaceful",
+      "water-sports",
+      "rustic"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 2,
+    "best_for": [
+      "beach lovers",
+      "couples",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "St. Thomas",
+    "country": "US Virgin Islands",
+    "tags": [
+      "beach",
+      "shopping",
+      "luxury",
+      "water-sports",
+      "islands",
+      "nightlife",
+      "views"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "shoppers",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "St. John",
+    "country": "US Virgin Islands",
+    "tags": [
+      "nature",
+      "beach",
+      "park",
+      "peaceful",
+      "trekking",
+      "water-sports",
+      "islands"
+    ],
+    "avg_cost_per_day": 8500,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Tortola",
+    "country": "British Virgin Islands",
+    "tags": [
+      "boating",
+      "islands",
+      "beach",
+      "luxury",
+      "sailing",
+      "mountains",
+      "nature"
+    ],
+    "avg_cost_per_day": 9000,
+    "trip_duration": 3,
+    "best_for": [
+      "sailors",
+      "luxury",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "St. Martin",
+    "country": "St. Martin / Sint Maarten",
+    "tags": [
+      "beach",
+      "food",
+      "nightlife",
+      "luxury",
+      "shopping",
+      "culture",
+      "planes"
+    ],
+    "avg_cost_per_day": 7000,
+    "trip_duration": 4,
+    "best_for": [
+      "friends",
+      "food",
+      "party"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "St. Barts",
+    "country": "St. Barthelemy",
+    "tags": [
+      "luxury",
+      "beach",
+      "exclusive",
+      "food",
+      "shopping",
+      "romantic",
+      "chic"
+    ],
+    "avg_cost_per_day": 12000,
+    "trip_duration": 3,
+    "best_for": [
+      "luxury",
+      "couples",
+      "celebrities"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Antigua",
+    "country": "Antigua & Barbuda",
+    "tags": [
+      "beach",
+      "sailing",
+      "history",
+      "luxury",
+      "islands",
+      "water-sports",
+      "romantic"
+    ],
+    "avg_cost_per_day": 7500,
+    "trip_duration": 4,
+    "best_for": [
+      "couples",
+      "beach lovers",
+      "sailors"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Curacao",
+    "country": "Curacao",
+    "tags": [
+      "beach",
+      "diving",
+      "culture",
+      "colorful",
+      "history",
+      "offbeat",
+      "sunny"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "couples",
+      "family"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun"
+    ],
+    "climate": "Dry",
+    "popularity": "High"
+  },
+  {
+    "place": "Bonaire",
+    "country": "Bonaire",
+    "tags": [
+      "diving",
+      "nature",
+      "offbeat",
+      "water-sports",
+      "peaceful",
+      "marine",
+      "rustic"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 4,
+    "best_for": [
+      "divers",
+      "nature",
+      "solo"
+    ],
+    "season": [
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Grenada",
+    "country": "Grenada",
+    "tags": [
+      "spice",
+      "beach",
+      "nature",
+      "waterfalls",
+      "offbeat",
+      "food",
+      "romantic"
+    ],
+    "avg_cost_per_day": 6000,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "food",
+      "nature"
+    ],
+    "season": [
+      "jan",
+      "feb",
+      "mar",
+      "apr"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Minca",
+    "country": "Colombia",
+    "tags": [
+      "mountains",
+      "nature",
+      "bird-watching",
+      "waterfalls",
+      "coffee",
+      "peaceful",
+      "trekking"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "backpackers",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "San Gil",
+    "country": "Colombia",
+    "tags": [
+      "adventure",
+      "rafting",
+      "nature",
+      "trekking",
+      "caves",
+      "offbeat",
+      "active"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "friends",
+      "solo"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "jul"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Guatape",
+    "country": "Colombia",
+    "tags": [
+      "lakes",
+      "colorful",
+      "rock",
+      "views",
+      "boating",
+      "daytrip",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 1,
+    "best_for": [
+      "friends",
+      "family",
+      "day trippers"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Leticia",
+    "country": "Colombia",
+    "tags": [
+      "jungle",
+      "river",
+      "nature",
+      "adventure",
+      "wildlife",
+      "offbeat",
+      "remote"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "solo"
+    ],
+    "season": [
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Cotopaxi National Park",
+    "country": "Ecuador",
+    "tags": [
+      "volcano",
+      "trekking",
+      "nature",
+      "mountains",
+      "adventure",
+      "cold",
+      "views"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "trekking",
+      "friends"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Quilotoa Loop",
+    "country": "Ecuador",
+    "tags": [
+      "trekking",
+      "lakes",
+      "mountains",
+      "offbeat",
+      "nature",
+      "culture",
+      "adventure"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "trekking",
+      "adventure",
+      "backpackers"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Mindo",
+    "country": "Ecuador",
+    "tags": [
+      "forest",
+      "bird-watching",
+      "nature",
+      "waterfalls",
+      "peaceful",
+      "offbeat",
+      "cloud-forest"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "bird-watchers",
+      "couples"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Montanita",
+    "country": "Ecuador",
+    "tags": [
+      "beach",
+      "surfing",
+      "party",
+      "nightlife",
+      "youth",
+      "offbeat",
+      "water-sports"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "party",
+      "friends",
+      "surfers"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Paracas",
+    "country": "Peru",
+    "tags": [
+      "desert",
+      "ocean",
+      "wildlife",
+      "boating",
+      "offbeat",
+      "nature",
+      "views"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "nature",
+      "family",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Desert",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Chachapoyas",
+    "country": "Peru",
+    "tags": [
+      "history",
+      "waterfalls",
+      "ruins",
+      "offbeat",
+      "adventure",
+      "nature",
+      "mountains"
+    ],
+    "avg_cost_per_day": 3200,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "history",
+      "solo"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "Low"
+  },
+  {
+    "place": "Colca Canyon",
+    "country": "Peru",
+    "tags": [
+      "canyon",
+      "trekking",
+      "nature",
+      "birds",
+      "adventure",
+      "views",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Highland",
+    "popularity": "High"
+  },
+  {
+    "place": "Rurrenabaque",
+    "country": "Bolivia",
+    "tags": [
+      "jungle",
+      "wildlife",
+      "river",
+      "adventure",
+      "nature",
+      "offbeat",
+      "safari"
+    ],
+    "avg_cost_per_day": 3000,
+    "trip_duration": 3,
+    "best_for": [
+      "adventure",
+      "nature",
+      "backpackers"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Copacabana",
+    "country": "Bolivia",
+    "tags": [
+      "lakes",
+      "culture",
+      "views",
+      "peaceful",
+      "offbeat",
+      "trekking",
+      "islands"
+    ],
+    "avg_cost_per_day": 2800,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "backpackers",
+      "relax"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "climate": "Highland",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Elqui Valley",
+    "country": "Chile",
+    "tags": [
+      "stargazing",
+      "wine",
+      "nature",
+      "peaceful",
+      "spiritual",
+      "mountains",
+      "offbeat"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "relax",
+      "astronomy"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Chiloe Island",
+    "country": "Chile",
+    "tags": [
+      "culture",
+      "islands",
+      "nature",
+      "heritage",
+      "offbeat",
+      "peaceful",
+      "food"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 3,
+    "best_for": [
+      "culture",
+      "nature",
+      "family"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Oceanic",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Puerto Varas",
+    "country": "Chile",
+    "tags": [
+      "lakes",
+      "volcano",
+      "nature",
+      "german",
+      "food",
+      "adventure",
+      "views"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples",
+      "adventure"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Purmamarca & Tilcara",
+    "country": "Argentina",
+    "tags": [
+      "mountains",
+      "culture",
+      "desert",
+      "heritage",
+      "offbeat",
+      "colorful",
+      "views"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "photographers",
+      "friends"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Dry",
+    "popularity": "Medium"
+  },
+  {
+    "place": "San Martin de los Andes",
+    "country": "Argentina",
+    "tags": [
+      "lakes",
+      "mountains",
+      "nature",
+      "peaceful",
+      "scenic",
+      "road-trip",
+      "adventure"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples",
+      "nature"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Villa La Angostura",
+    "country": "Argentina",
+    "tags": [
+      "lakes",
+      "luxury",
+      "nature",
+      "forest",
+      "romantic",
+      "peaceful",
+      "mountains"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 2,
+    "best_for": [
+      "couples",
+      "luxury",
+      "relax"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Alpine",
+    "popularity": "High"
+  },
+  {
+    "place": "Tigre",
+    "country": "Argentina",
+    "tags": [
+      "river",
+      "delta",
+      "boating",
+      "peaceful",
+      "daytrip",
+      "nature",
+      "relax"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 1,
+    "best_for": [
+      "family",
+      "couples",
+      "day trippers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "mar",
+      "apr"
+    ],
+    "climate": "Temperate",
+    "popularity": "High"
+  },
+  {
+    "place": "Buzios",
+    "country": "Brazil",
+    "tags": [
+      "beach",
+      "luxury",
+      "nightlife",
+      "boating",
+      "chic",
+      "romantic",
+      "food"
+    ],
+    "avg_cost_per_day": 5500,
+    "trip_duration": 3,
+    "best_for": [
+      "couples",
+      "luxury",
+      "friends"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Gramado",
+    "country": "Brazil",
+    "tags": [
+      "mountains",
+      "european",
+      "romantic",
+      "family",
+      "chocolate",
+      "christmas",
+      "cool"
+    ],
+    "avg_cost_per_day": 5000,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "couples",
+      "winter"
+    ],
+    "season": [
+      "jun",
+      "jul",
+      "aug",
+      "dec"
+    ],
+    "climate": "Subtropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Chapada dos Veadeiros",
+    "country": "Brazil",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "trekking",
+      "crystals",
+      "adventure",
+      "offbeat",
+      "spiritual"
+    ],
+    "avg_cost_per_day": 4000,
+    "trip_duration": 4,
+    "best_for": [
+      "nature",
+      "adventure",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Alter do Chao",
+    "country": "Brazil",
+    "tags": [
+      "river",
+      "beach",
+      "amazon",
+      "nature",
+      "offbeat",
+      "peaceful",
+      "culture"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 3,
+    "best_for": [
+      "nature",
+      "relax",
+      "adventure"
+    ],
+    "season": [
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Pipa",
+    "country": "Brazil",
+    "tags": [
+      "beach",
+      "dolphins",
+      "nightlife",
+      "youth",
+      "nature",
+      "cliffs",
+      "cool"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "youth",
+      "couples"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Morro de Sao Paulo",
+    "country": "Brazil",
+    "tags": [
+      "islands",
+      "beach",
+      "no-cars",
+      "party",
+      "relax",
+      "nature",
+      "pools"
+    ],
+    "avg_cost_per_day": 4500,
+    "trip_duration": 3,
+    "best_for": [
+      "friends",
+      "couples",
+      "party"
+    ],
+    "season": [
+      "dec",
+      "jan",
+      "feb",
+      "mar"
+    ],
+    "climate": "Tropical",
+    "popularity": "High"
+  },
+  {
+    "place": "Curitiba",
+    "country": "Brazil",
+    "tags": [
+      "city",
+      "parks",
+      "culture",
+      "organized",
+      "offbeat",
+      "architecture",
+      "green"
+    ],
+    "avg_cost_per_day": 3800,
+    "trip_duration": 2,
+    "best_for": [
+      "urban",
+      "culture",
+      "business"
+    ],
+    "season": [
+      "mar",
+      "apr",
+      "may",
+      "sep",
+      "oct"
+    ],
+    "climate": "Subtropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Olinda",
+    "country": "Brazil",
+    "tags": [
+      "history",
+      "culture",
+      "heritage",
+      "art",
+      "colorful",
+      "carnival",
+      "views"
+    ],
+    "avg_cost_per_day": 3500,
+    "trip_duration": 2,
+    "best_for": [
+      "culture",
+      "history",
+      "photographers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
+  },
+  {
+    "place": "Porto de Galinhas",
+    "country": "Brazil",
+    "tags": [
+      "beach",
+      "pools",
+      "family",
+      "snorkeling",
+      "popular",
+      "resort",
+      "sun"
+    ],
+    "avg_cost_per_day": 4800,
+    "trip_duration": 3,
+    "best_for": [
+      "family",
+      "relax",
+      "beach lovers"
+    ],
+    "season": [
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+      "jan"
+    ],
+    "climate": "Tropical",
+    "popularity": "Very High"
+  },
+  {
+    "place": "Jalapao",
+    "country": "Brazil",
+    "tags": [
+      "adventure",
+      "offbeat",
+      "nature",
+      "dunes",
+      "springs",
+      "trekking",
+      "remote"
+    ],
+    "avg_cost_per_day": 4200,
+    "trip_duration": 4,
+    "best_for": [
+      "adventure",
+      "nature",
+      "friends"
+    ],
+    "season": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "climate": "Tropical",
+    "popularity": "Medium"
   }
+
 ]

@@ -544,6 +544,374 @@
         "country": "Eritrea"
     },
     {
+        "place": "Rabat",
+        "country": "Morocco"
+    },
+    {
+        "place": "Ouarzazate",
+        "country": "Morocco"
+    },
+    {
+        "place": "Meknes",
+        "country": "Morocco"
+    },
+    {
+        "place": "Todra Gorge",
+        "country": "Morocco"
+    },
+    {
+        "place": "Agadir",
+        "country": "Morocco"
+    },
+    {
+        "place": "Taghazout",
+        "country": "Morocco"
+    },
+    {
+        "place": "Volubilis",
+        "country": "Morocco"
+    },
+    {
+        "place": "Marsa Alam",
+        "country": "Egypt"
+    },
+    {
+        "place": "Abu Simbel",
+        "country": "Egypt"
+    },
+    {
+        "place": "White Desert",
+        "country": "Egypt"
+    },
+    {
+        "place": "Sousse",
+        "country": "Tunisia"
+    },
+    {
+        "place": "Hammamet",
+        "country": "Tunisia"
+    },
+    {
+        "place": "El Jem",
+        "country": "Tunisia"
+    },
+    {
+        "place": "Tozeur",
+        "country": "Tunisia"
+    },
+    {
+        "place": "Addo Elephant National Park",
+        "country": "South Africa"
+    },
+    {
+        "place": "Cederberg",
+        "country": "South Africa"
+    },
+    {
+        "place": "West Coast National Park",
+        "country": "South Africa"
+    },
+    {
+        "place": "Kimberley",
+        "country": "South Africa"
+    },
+    {
+        "place": "Wild Coast (Port St Johns)",
+        "country": "South Africa"
+    },
+    {
+        "place": "Waterberg Plateau",
+        "country": "Namibia"
+    },
+    {
+        "place": "Caprivi Strip",
+        "country": "Namibia"
+    },
+    {
+        "place": "Epupa Falls",
+        "country": "Namibia"
+    },
+    {
+        "place": "Spitzkoppe",
+        "country": "Namibia"
+    },
+    {
+        "place": "Moremi Game Reserve",
+        "country": "Botswana"
+    },
+    {
+        "place": "Central Kalahari Game Reserve",
+        "country": "Botswana"
+    },
+    {
+        "place": "Bulawayo",
+        "country": "Zimbabwe"
+    },
+    {
+        "place": "Eastern Highlands (Nyanga)",
+        "country": "Zimbabwe"
+    },
+    {
+        "place": "Lake Kariba",
+        "country": "Zimbabwe"
+    },
+    {
+        "place": "Livingstone",
+        "country": "Zambia"
+    },
+    {
+        "place": "Liuwa Plain National Park",
+        "country": "Zambia"
+    },
+    {
+        "place": "Vilanculos",
+        "country": "Mozambique"
+    },
+    {
+        "place": "Ilha de Mo\u00e7ambique",
+        "country": "Mozambique"
+    },
+    {
+        "place": "Gorongosa National Park",
+        "country": "Mozambique"
+    },
+    {
+        "place": "Arusha",
+        "country": "Tanzania"
+    },
+    {
+        "place": "Mahale Mountains",
+        "country": "Tanzania"
+    },
+    {
+        "place": "Pangani",
+        "country": "Tanzania"
+    },
+    {
+        "place": "Samburu National Reserve",
+        "country": "Kenya"
+    },
+    {
+        "place": "Hell's Gate National Park",
+        "country": "Kenya"
+    },
+    {
+        "place": "Mount Kenya",
+        "country": "Kenya"
+    },
+    {
+        "place": "Malindi",
+        "country": "Kenya"
+    },
+    {
+        "place": "Naivasha",
+        "country": "Kenya"
+    },
+    {
+        "place": "Kibale National Park",
+        "country": "Uganda"
+    },
+    {
+        "place": "Kidepo Valley",
+        "country": "Uganda"
+    },
+    {
+        "place": "Akagera National Park",
+        "country": "Rwanda"
+    },
+    {
+        "place": "Gondar",
+        "country": "Ethiopia"
+    },
+    {
+        "place": "Axum",
+        "country": "Ethiopia"
+    },
+    {
+        "place": "Bahir Dar",
+        "country": "Ethiopia"
+    },
+    {
+        "place": "Omo Valley",
+        "country": "Ethiopia"
+    },
+    {
+        "place": "Tsingy de Bemaraha",
+        "country": "Madagascar"
+    },
+    {
+        "place": "Ile Sainte Marie",
+        "country": "Madagascar"
+    },
+    {
+        "place": "Ranomafana",
+        "country": "Madagascar"
+    },
+    {
+        "place": "Silhouette Island",
+        "country": "Seychelles"
+    },
+    {
+        "place": "Le Morne",
+        "country": "Mauritius"
+    },
+    {
+        "place": "Grand Baie",
+        "country": "Mauritius"
+    },
+    {
+        "place": "Rodrigues Island",
+        "country": "Mauritius"
+    },
+    {
+        "place": "Saint-Louis",
+        "country": "Senegal"
+    },
+    {
+        "place": "Casamance",
+        "country": "Senegal"
+    },
+    {
+        "place": "Kumasi",
+        "country": "Ghana"
+    },
+    {
+        "place": "Mole National Park",
+        "country": "Ghana"
+    },
+    {
+        "place": "Volta Region",
+        "country": "Ghana"
+    },
+    {
+        "place": "Abuja",
+        "country": "Nigeria"
+    },
+    {
+        "place": "Yamoussoukro",
+        "country": "Ivory Coast"
+    },
+    {
+        "place": "Limbe",
+        "country": "Cameroon"
+    },
+    {
+        "place": "Loango National Park",
+        "country": "Gabon"
+    },
+    {
+        "place": "Zomba Plateau",
+        "country": "Malawi"
+    },
+    {
+        "place": "Nkhata Bay",
+        "country": "Malawi"
+    },
+    {
+        "place": "Hlane Royal National Park",
+        "country": "Eswatini"
+    },
+    {
+        "place": "Principe Island",
+        "country": "Sao Tome and Principe"
+    },
+    {
+        "place": "Sao Vicente (Mindelo)",
+        "country": "Cape Verde"
+    },
+    {
+        "place": "Santo Antao",
+        "country": "Cape Verde"
+    },
+    {
+        "place": "Fogo",
+        "country": "Cape Verde"
+    },
+    {
+        "place": "Moroni",
+        "country": "Comoros"
+    },
+    {
+        "place": "Algiers",
+        "country": "Algeria"
+    },
+    {
+        "place": "Oran",
+        "country": "Algeria"
+    },
+    {
+        "place": "Constantine",
+        "country": "Algeria"
+    },
+    {
+        "place": "Timgad",
+        "country": "Algeria"
+    },
+    {
+        "place": "Ghardaia",
+        "country": "Algeria"
+    },
+    {
+        "place": "Chinguetti",
+        "country": "Mauritania"
+    },
+    {
+        "place": "Nouakchott",
+        "country": "Mauritania"
+    },
+    {
+        "place": "Bissau",
+        "country": "Guinea-Bissau"
+    },
+    {
+        "place": "Bijagos Islands",
+        "country": "Guinea-Bissau"
+    },
+    {
+        "place": "Conakry",
+        "country": "Guinea"
+    },
+    {
+        "place": "Freetown",
+        "country": "Sierra Leone"
+    },
+    {
+        "place": "Monrovia",
+        "country": "Liberia"
+    },
+    {
+        "place": "Yankari National Park",
+        "country": "Nigeria"
+    },
+    {
+        "place": "Obudu Mountain Resort",
+        "country": "Nigeria"
+    },
+    {
+        "place": "Malabo",
+        "country": "Equatorial Guinea"
+    },
+    {
+        "place": "Lope National Park",
+        "country": "Gabon"
+    },
+    {
+        "place": "Pointe-Noire",
+        "country": "Republic of the Congo"
+    },
+    {
+        "place": "Kinshasa",
+        "country": "DR Congo"
+    },
+    {
+        "place": "Lubumbashi",
+        "country": "DR Congo"
+    },
+    {
+        "place": "Lusaka",
+        "country": "Zambia"
+    },
+    {
         "place": "New York City",
         "country": "United States"
     },
@@ -1360,6 +1728,402 @@
         "country": "Colombia"
     },
     {
+        "place": "Fairbanks",
+        "country": "United States"
+    },
+    {
+        "place": "Juneau",
+        "country": "United States"
+    },
+    {
+        "place": "Olympic National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Cannon Beach",
+        "country": "United States"
+    },
+    {
+        "place": "Crater Lake National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Redwood National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Lake Powell",
+        "country": "United States"
+    },
+    {
+        "place": "Canyonlands National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Capitol Reef National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Telluride",
+        "country": "United States"
+    },
+    {
+        "place": "Colorado Springs",
+        "country": "United States"
+    },
+    {
+        "place": "Badlands National Park",
+        "country": "United States"
+    },
+    {
+        "place": "Mount Rushmore",
+        "country": "United States"
+    },
+    {
+        "place": "Mackinac Island",
+        "country": "United States"
+    },
+    {
+        "place": "Cape Cod",
+        "country": "United States"
+    },
+    {
+        "place": "Newport",
+        "country": "United States"
+    },
+    {
+        "place": "Shenandoah National Park",
+        "country": "United States"
+    },
+    {
+        "place": "St. Augustine",
+        "country": "United States"
+    },
+    {
+        "place": "Destin",
+        "country": "United States"
+    },
+    {
+        "place": "Kauai",
+        "country": "United States"
+    },
+    {
+        "place": "Big Island (Kona)",
+        "country": "United States"
+    },
+    {
+        "place": "Yoho National Park",
+        "country": "Canada"
+    },
+    {
+        "place": "Kootenay National Park",
+        "country": "Canada"
+    },
+    {
+        "place": "Algonquin Provincial Park",
+        "country": "Canada"
+    },
+    {
+        "place": "Thousand Islands",
+        "country": "Canada"
+    },
+    {
+        "place": "Charlevoix",
+        "country": "Canada"
+    },
+    {
+        "place": "Cape Breton Island",
+        "country": "Canada"
+    },
+    {
+        "place": "Saskatoon",
+        "country": "Canada"
+    },
+    {
+        "place": "Winnipeg",
+        "country": "Canada"
+    },
+    {
+        "place": "Yellowknife",
+        "country": "Canada"
+    },
+    {
+        "place": "Isla Mujeres",
+        "country": "Mexico"
+    },
+    {
+        "place": "Akumal",
+        "country": "Mexico"
+    },
+    {
+        "place": "Mazatl\u00e1n",
+        "country": "Mexico"
+    },
+    {
+        "place": "Zihuatanejo",
+        "country": "Mexico"
+    },
+    {
+        "place": "La Paz (Baja California Sur)",
+        "country": "Mexico"
+    },
+    {
+        "place": "Todos Santos",
+        "country": "Mexico"
+    },
+    {
+        "place": "Taxco",
+        "country": "Mexico"
+    },
+    {
+        "place": "Palenque",
+        "country": "Mexico"
+    },
+    {
+        "place": "Valle de Guadalupe",
+        "country": "Mexico"
+    },
+    {
+        "place": "Ambergris Caye",
+        "country": "Belize"
+    },
+    {
+        "place": "Hopkins",
+        "country": "Belize"
+    },
+    {
+        "place": "Rio Dulce",
+        "country": "Guatemala"
+    },
+    {
+        "place": "Copan Ruinas",
+        "country": "Honduras"
+    },
+    {
+        "place": "Utila",
+        "country": "Honduras"
+    },
+    {
+        "place": "Leon",
+        "country": "Nicaragua"
+    },
+    {
+        "place": "San Juan del Sur",
+        "country": "Nicaragua"
+    },
+    {
+        "place": "Santa Teresa",
+        "country": "Costa Rica"
+    },
+    {
+        "place": "Nosara",
+        "country": "Costa Rica"
+    },
+    {
+        "place": "Tortuguero National Park",
+        "country": "Costa Rica"
+    },
+    {
+        "place": "Rincon de la Vieja",
+        "country": "Costa Rica"
+    },
+    {
+        "place": "El Valle de Anton",
+        "country": "Panama"
+    },
+    {
+        "place": "Santa Catalina",
+        "country": "Panama"
+    },
+    {
+        "place": "Vinales",
+        "country": "Cuba"
+    },
+    {
+        "place": "Trinidad",
+        "country": "Cuba"
+    },
+    {
+        "place": "Varadero",
+        "country": "Cuba"
+    },
+    {
+        "place": "Exuma",
+        "country": "Bahamas"
+    },
+    {
+        "place": "Puerto Plata",
+        "country": "Dominican Republic"
+    },
+    {
+        "place": "Las Terrenas",
+        "country": "Dominican Republic"
+    },
+    {
+        "place": "Rincon",
+        "country": "Puerto Rico"
+    },
+    {
+        "place": "Culebra",
+        "country": "Puerto Rico"
+    },
+    {
+        "place": "St. Thomas",
+        "country": "US Virgin Islands"
+    },
+    {
+        "place": "St. John",
+        "country": "US Virgin Islands"
+    },
+    {
+        "place": "Tortola",
+        "country": "British Virgin Islands"
+    },
+    {
+        "place": "St. Martin",
+        "country": "St. Martin / Sint Maarten"
+    },
+    {
+        "place": "St. Barts",
+        "country": "St. Barthelemy"
+    },
+    {
+        "place": "Antigua",
+        "country": "Antigua & Barbuda"
+    },
+    {
+        "place": "Curacao",
+        "country": "Curacao"
+    },
+    {
+        "place": "Bonaire",
+        "country": "Bonaire"
+    },
+    {
+        "place": "Grenada",
+        "country": "Grenada"
+    },
+    {
+        "place": "Minca",
+        "country": "Colombia"
+    },
+    {
+        "place": "San Gil",
+        "country": "Colombia"
+    },
+    {
+        "place": "Guatape",
+        "country": "Colombia"
+    },
+    {
+        "place": "Leticia",
+        "country": "Colombia"
+    },
+    {
+        "place": "Cotopaxi National Park",
+        "country": "Ecuador"
+    },
+    {
+        "place": "Quilotoa Loop",
+        "country": "Ecuador"
+    },
+    {
+        "place": "Mindo",
+        "country": "Ecuador"
+    },
+    {
+        "place": "Montanita",
+        "country": "Ecuador"
+    },
+    {
+        "place": "Paracas",
+        "country": "Peru"
+    },
+    {
+        "place": "Chachapoyas",
+        "country": "Peru"
+    },
+    {
+        "place": "Colca Canyon",
+        "country": "Peru"
+    },
+    {
+        "place": "Rurrenabaque",
+        "country": "Bolivia"
+    },
+    {
+        "place": "Copacabana",
+        "country": "Bolivia"
+    },
+    {
+        "place": "Elqui Valley",
+        "country": "Chile"
+    },
+    {
+        "place": "Chiloe Island",
+        "country": "Chile"
+    },
+    {
+        "place": "Puerto Varas",
+        "country": "Chile"
+    },
+    {
+        "place": "Purmamarca & Tilcara",
+        "country": "Argentina"
+    },
+    {
+        "place": "San Martin de los Andes",
+        "country": "Argentina"
+    },
+    {
+        "place": "Villa La Angostura",
+        "country": "Argentina"
+    },
+    {
+        "place": "Tigre",
+        "country": "Argentina"
+    },
+    {
+        "place": "Buzios",
+        "country": "Brazil"
+    },
+    {
+        "place": "Gramado",
+        "country": "Brazil"
+    },
+    {
+        "place": "Chapada dos Veadeiros",
+        "country": "Brazil"
+    },
+    {
+        "place": "Alter do Chao",
+        "country": "Brazil"
+    },
+    {
+        "place": "Pipa",
+        "country": "Brazil"
+    },
+    {
+        "place": "Morro de Sao Paulo",
+        "country": "Brazil"
+    },
+    {
+        "place": "Curitiba",
+        "country": "Brazil"
+    },
+    {
+        "place": "Olinda",
+        "country": "Brazil"
+    },
+    {
+        "place": "Porto de Galinhas",
+        "country": "Brazil"
+    },
+    {
+        "place": "Jalapao",
+        "country": "Brazil"
+    },
+    {
         "place": "Sydney",
         "country": "Australia"
     },
@@ -1840,6 +2604,250 @@
         "country": "French Polynesia"
     },
     {
+        "place": "Suva",
+        "country": "Fiji"
+    },
+    {
+        "place": "Savusavu",
+        "country": "Fiji"
+    },
+    {
+        "place": "Levuka",
+        "country": "Fiji"
+    },
+    {
+        "place": "Kadavu",
+        "country": "Fiji"
+    },
+    {
+        "place": "Pacific Harbour",
+        "country": "Fiji"
+    },
+    {
+        "place": "Rangiroa",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Fakarava",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Nuku Hiva",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Hiva Oa",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Maupiti",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Vava'u",
+        "country": "Tonga"
+    },
+    {
+        "place": "Ha'apai",
+        "country": "Tonga"
+    },
+    {
+        "place": "Atiu",
+        "country": "Cook Islands"
+    },
+    {
+        "place": "Lifou",
+        "country": "New Caledonia"
+    },
+    {
+        "place": "Ouv\u00e9a",
+        "country": "New Caledonia"
+    },
+    {
+        "place": "Ambrym",
+        "country": "Vanuatu"
+    },
+    {
+        "place": "Malekula",
+        "country": "Vanuatu"
+    },
+    {
+        "place": "Pentecost Island",
+        "country": "Vanuatu"
+    },
+    {
+        "place": "Honiara",
+        "country": "Solomon Islands"
+    },
+    {
+        "place": "Gizo",
+        "country": "Solomon Islands"
+    },
+    {
+        "place": "Madang",
+        "country": "Papua New Guinea"
+    },
+    {
+        "place": "Mount Hagen",
+        "country": "Papua New Guinea"
+    },
+    {
+        "place": "Rabaul",
+        "country": "Papua New Guinea"
+    },
+    {
+        "place": "Tufi",
+        "country": "Papua New Guinea"
+    },
+    {
+        "place": "Sepik River",
+        "country": "Papua New Guinea"
+    },
+    {
+        "place": "Yap",
+        "country": "Micronesia"
+    },
+    {
+        "place": "Pohnpei",
+        "country": "Micronesia"
+    },
+    {
+        "place": "Chuuk (Truk Lagoon)",
+        "country": "Micronesia"
+    },
+    {
+        "place": "Majuro",
+        "country": "Marshall Islands"
+    },
+    {
+        "place": "Saipan",
+        "country": "Northern Mariana Islands"
+    },
+    {
+        "place": "Tinian",
+        "country": "Northern Mariana Islands"
+    },
+    {
+        "place": "Pago Pago",
+        "country": "American Samoa"
+    },
+    {
+        "place": "Ofu Beach",
+        "country": "American Samoa"
+    },
+    {
+        "place": "South Tarawa",
+        "country": "Kiribati"
+    },
+    {
+        "place": "Kiritimati (Christmas Island)",
+        "country": "Kiribati"
+    },
+    {
+        "place": "Funafuti",
+        "country": "Tuvalu"
+    },
+    {
+        "place": "Yaren",
+        "country": "Nauru"
+    },
+    {
+        "place": "Waiheke Island",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Tongariro National Park",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Raglan",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Akaroa",
+        "country": "New Zealand"
+    },
+    {
+        "place": "The Catlins",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Russell",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Great Barrier Island",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Tutukaka",
+        "country": "New Zealand"
+    },
+    {
+        "place": "Tiwi Islands",
+        "country": "Australia"
+    },
+    {
+        "place": "Thursday Island",
+        "country": "Australia"
+    },
+    {
+        "place": "King Island",
+        "country": "Australia"
+    },
+    {
+        "place": "Flinders Island",
+        "country": "Australia"
+    },
+    {
+        "place": "Broken Hill",
+        "country": "Australia"
+    },
+    {
+        "place": "Sapphire Coast (Merimbula)",
+        "country": "Australia"
+    },
+    {
+        "place": "Grampians National Park",
+        "country": "Australia"
+    },
+    {
+        "place": "Wilsons Promontory",
+        "country": "Australia"
+    },
+    {
+        "place": "Kalgoorlie",
+        "country": "Australia"
+    },
+    {
+        "place": "Albany",
+        "country": "Australia"
+    },
+    {
+        "place": "Coral Bay",
+        "country": "Australia"
+    },
+    {
+        "place": "Kununurra",
+        "country": "Australia"
+    },
+    {
+        "place": "Qamea",
+        "country": "Fiji"
+    },
+    {
+        "place": "Manono Island",
+        "country": "Samoa"
+    },
+    {
+        "place": "Tubuai",
+        "country": "French Polynesia"
+    },
+    {
+        "place": "Groote Eylandt",
+        "country": "Australia"
+    },
+    {
         "place": "Paris",
         "country": "France"
     },
@@ -2234,6 +3242,458 @@
     {
         "place": "Istanbul",
         "country": "Turkey"
+    },
+    {
+        "place": "Strasbourg",
+        "country": "France"
+    },
+    {
+        "place": "Colmar",
+        "country": "France"
+    },
+    {
+        "place": "Avignon",
+        "country": "France"
+    },
+    {
+        "place": "Loire Valley (Tours)",
+        "country": "France"
+    },
+    {
+        "place": "Biarritz",
+        "country": "France"
+    },
+    {
+        "place": "Corsica (Ajaccio)",
+        "country": "France"
+    },
+    {
+        "place": "Carcassonne",
+        "country": "France"
+    },
+    {
+        "place": "Verona",
+        "country": "Italy"
+    },
+    {
+        "place": "Siena",
+        "country": "Italy"
+    },
+    {
+        "place": "Bologna",
+        "country": "Italy"
+    },
+    {
+        "place": "Turin",
+        "country": "Italy"
+    },
+    {
+        "place": "Pisa",
+        "country": "Italy"
+    },
+    {
+        "place": "Genoa",
+        "country": "Italy"
+    },
+    {
+        "place": "Matera",
+        "country": "Italy"
+    },
+    {
+        "place": "Portofino",
+        "country": "Italy"
+    },
+    {
+        "place": "San Sebastian",
+        "country": "Spain"
+    },
+    {
+        "place": "Santiago de Compostela",
+        "country": "Spain"
+    },
+    {
+        "place": "Cordoba",
+        "country": "Spain"
+    },
+    {
+        "place": "Toledo",
+        "country": "Spain"
+    },
+    {
+        "place": "Salamanca",
+        "country": "Spain"
+    },
+    {
+        "place": "Menorca",
+        "country": "Spain"
+    },
+    {
+        "place": "Cologne",
+        "country": "Germany"
+    },
+    {
+        "place": "Frankfurt",
+        "country": "Germany"
+    },
+    {
+        "place": "Heidelberg",
+        "country": "Germany"
+    },
+    {
+        "place": "Nuremberg",
+        "country": "Germany"
+    },
+    {
+        "place": "Black Forest (Baden-Baden)",
+        "country": "Germany"
+    },
+    {
+        "place": "Bath",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Oxford",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "York",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Brighton",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Cornwall (St Ives)",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Belfast",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Sintra",
+        "country": "Portugal"
+    },
+    {
+        "place": "Lagos",
+        "country": "Portugal"
+    },
+    {
+        "place": "Coimbra",
+        "country": "Portugal"
+    },
+    {
+        "place": "Corfu",
+        "country": "Greece"
+    },
+    {
+        "place": "Zakynthos",
+        "country": "Greece"
+    },
+    {
+        "place": "Naxos",
+        "country": "Greece"
+    },
+    {
+        "place": "Meteora",
+        "country": "Greece"
+    },
+    {
+        "place": "Thessaloniki",
+        "country": "Greece"
+    },
+    {
+        "place": "Bern",
+        "country": "Switzerland"
+    },
+    {
+        "place": "Basel",
+        "country": "Switzerland"
+    },
+    {
+        "place": "Lugano",
+        "country": "Switzerland"
+    },
+    {
+        "place": "Graz",
+        "country": "Austria"
+    },
+    {
+        "place": "Galway",
+        "country": "Ireland"
+    },
+    {
+        "place": "Cork",
+        "country": "Ireland"
+    },
+    {
+        "place": "Antwerp",
+        "country": "Belgium"
+    },
+    {
+        "place": "Rotterdam",
+        "country": "Netherlands"
+    },
+    {
+        "place": "The Hague",
+        "country": "Netherlands"
+    },
+    {
+        "place": "Utrecht",
+        "country": "Netherlands"
+    },
+    {
+        "place": "Zagreb",
+        "country": "Croatia"
+    },
+    {
+        "place": "Rovinj",
+        "country": "Croatia"
+    },
+    {
+        "place": "Zadar",
+        "country": "Croatia"
+    },
+    {
+        "place": "Bergen",
+        "country": "Norway"
+    },
+    {
+        "place": "Troms\u00f8",
+        "country": "Norway"
+    },
+    {
+        "place": "Gothenburg",
+        "country": "Sweden"
+    },
+    {
+        "place": "Rovaniemi (Lapland)",
+        "country": "Finland"
+    },
+    {
+        "place": "Bratislava",
+        "country": "Slovakia"
+    },
+    {
+        "place": "Cesky Krumlov",
+        "country": "Czech Republic"
+    },
+    {
+        "place": "Brno",
+        "country": "Czech Republic"
+    },
+    {
+        "place": "Zakopane",
+        "country": "Poland"
+    },
+    {
+        "place": "Poznan",
+        "country": "Poland"
+    },
+    {
+        "place": "Plovdiv",
+        "country": "Bulgaria"
+    },
+    {
+        "place": "Varna",
+        "country": "Bulgaria"
+    },
+    {
+        "place": "Cluj-Napoca",
+        "country": "Romania"
+    },
+    {
+        "place": "Sibiu",
+        "country": "Romania"
+    },
+    {
+        "place": "Ohrid",
+        "country": "North Macedonia"
+    },
+    {
+        "place": "Skopje",
+        "country": "North Macedonia"
+    },
+    {
+        "place": "Tirana",
+        "country": "Albania"
+    },
+    {
+        "place": "Luxembourg City",
+        "country": "Luxembourg"
+    },
+    {
+        "place": "Valletta",
+        "country": "Malta"
+    },
+    {
+        "place": "Andorra la Vella",
+        "country": "Andorra"
+    },
+    {
+        "place": "San Marino",
+        "country": "San Marino"
+    },
+    {
+        "place": "Paphos",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Ayia Napa",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Stuttgart",
+        "country": "Germany"
+    },
+    {
+        "place": "Leipzig",
+        "country": "Germany"
+    },
+    {
+        "place": "Liverpool",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Manchester",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Cardiff",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Inverness",
+        "country": "United Kingdom"
+    },
+    {
+        "place": "Reims",
+        "country": "France"
+    },
+    {
+        "place": "Montpellier",
+        "country": "France"
+    },
+    {
+        "place": "Parma",
+        "country": "Italy"
+    },
+    {
+        "place": "Trieste",
+        "country": "Italy"
+    },
+    {
+        "place": "Alicante",
+        "country": "Spain"
+    },
+    {
+        "place": "Lanzarote",
+        "country": "Spain"
+    },
+    {
+        "place": "Fuerteventura",
+        "country": "Spain"
+    },
+    {
+        "place": "Gran Canaria",
+        "country": "Spain"
+    },
+    {
+        "place": "Cascais",
+        "country": "Portugal"
+    },
+    {
+        "place": "Braga",
+        "country": "Portugal"
+    },
+    {
+        "place": "Kos",
+        "country": "Greece"
+    },
+    {
+        "place": "Paros",
+        "country": "Greece"
+    },
+    {
+        "place": "St. Moritz",
+        "country": "Switzerland"
+    },
+    {
+        "place": "Grindelwald",
+        "country": "Switzerland"
+    },
+    {
+        "place": "Giethoorn",
+        "country": "Netherlands"
+    },
+    {
+        "place": "Maastricht",
+        "country": "Netherlands"
+    },
+    {
+        "place": "Pula",
+        "country": "Croatia"
+    },
+    {
+        "place": "Korcula",
+        "country": "Croatia"
+    },
+    {
+        "place": "Novi Sad",
+        "country": "Serbia"
+    },
+    {
+        "place": "Kaunas",
+        "country": "Lithuania"
+    },
+    {
+        "place": "Tartu",
+        "country": "Estonia"
+    },
+    {
+        "place": "Rouen",
+        "country": "France"
+    },
+    {
+        "place": "Saint-Malo",
+        "country": "France"
+    },
+    {
+        "place": "Dinant",
+        "country": "Belgium"
+    },
+    {
+        "place": "Leuven",
+        "country": "Belgium"
+    },
+    {
+        "place": "Delft",
+        "country": "Netherlands"
+    },
+    {
+        "place": "Killarney",
+        "country": "Ireland"
+    },
+    {
+        "place": "Doolin",
+        "country": "Ireland"
+    },
+    {
+        "place": "Girona",
+        "country": "Spain"
+    },
+    {
+        "place": "Nerja",
+        "country": "Spain"
+    },
+    {
+        "place": "Ronda",
+        "country": "Spain"
+    },
+    {
+        "place": "Cadiz",
+        "country": "Spain"
     },
     {
         "place": "Manali",
@@ -3880,6 +5340,426 @@
         "country": "Georgia"
     },
     {
+        "place": "Kathmandu",
+        "country": "Nepal"
+    },
+    {
+        "place": "Pokhara",
+        "country": "Nepal"
+    },
+    {
+        "place": "Chitwan National Park",
+        "country": "Nepal"
+    },
+    {
+        "place": "Everest Base Camp",
+        "country": "Nepal"
+    },
+    {
+        "place": "Bhaktapur",
+        "country": "Nepal"
+    },
+    {
+        "place": "Nagarkot",
+        "country": "Nepal"
+    },
+    {
+        "place": "Lumbini",
+        "country": "Nepal"
+    },
+    {
+        "place": "Sigiriya",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Kandy",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Ella",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Galle",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Mirissa",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Nuwara Eliya",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Yala National Park",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Colombo",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Mal\u00e9",
+        "country": "Maldives"
+    },
+    {
+        "place": "Maafushi",
+        "country": "Maldives"
+    },
+    {
+        "place": "Ari Atoll",
+        "country": "Maldives"
+    },
+    {
+        "place": "Baa Atoll",
+        "country": "Maldives"
+    },
+    {
+        "place": "Paro",
+        "country": "Bhutan"
+    },
+    {
+        "place": "Thimphu",
+        "country": "Bhutan"
+    },
+    {
+        "place": "Punakha",
+        "country": "Bhutan"
+    },
+    {
+        "place": "Hunza Valley",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Skardu",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Lahore",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Islamabad",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Cox's Bazar",
+        "country": "Bangladesh"
+    },
+    {
+        "place": "Sundarbans",
+        "country": "Bangladesh"
+    },
+    {
+        "place": "Sylhet",
+        "country": "Bangladesh"
+    },
+    {
+        "place": "Dhaka",
+        "country": "Bangladesh"
+    },
+    {
+        "place": "Nagasaki",
+        "country": "Japan"
+    },
+    {
+        "place": "Yokohama",
+        "country": "Japan"
+    },
+    {
+        "place": "Kamakura",
+        "country": "Japan"
+    },
+    {
+        "place": "Sendai",
+        "country": "Japan"
+    },
+    {
+        "place": "Naoshima",
+        "country": "Japan"
+    },
+    {
+        "place": "Aomori",
+        "country": "Japan"
+    },
+    {
+        "place": "Ishigaki",
+        "country": "Japan"
+    },
+    {
+        "place": "Kumamoto",
+        "country": "Japan"
+    },
+    {
+        "place": "Daegu",
+        "country": "South Korea"
+    },
+    {
+        "place": "Daejeon",
+        "country": "South Korea"
+    },
+    {
+        "place": "Sokcho",
+        "country": "South Korea"
+    },
+    {
+        "place": "Yeosu",
+        "country": "South Korea"
+    },
+    {
+        "place": "Andong",
+        "country": "South Korea"
+    },
+    {
+        "place": "Chongqing",
+        "country": "China"
+    },
+    {
+        "place": "Shenzhen",
+        "country": "China"
+    },
+    {
+        "place": "Qingdao",
+        "country": "China"
+    },
+    {
+        "place": "Wuzhen",
+        "country": "China"
+    },
+    {
+        "place": "Taichung",
+        "country": "Taiwan"
+    },
+    {
+        "place": "Hualien",
+        "country": "Taiwan"
+    },
+    {
+        "place": "Penghu",
+        "country": "Taiwan"
+    },
+    {
+        "place": "Khovsgol Lake",
+        "country": "Mongolia"
+    },
+    {
+        "place": "Orkhon Valley",
+        "country": "Mongolia"
+    },
+    {
+        "place": "Izmir",
+        "country": "Turkey"
+    },
+    {
+        "place": "Goreme",
+        "country": "Turkey"
+    },
+    {
+        "place": "Alanya",
+        "country": "Turkey"
+    },
+    {
+        "place": "Akko (Acre)",
+        "country": "Israel"
+    },
+    {
+        "place": "Tiberias",
+        "country": "Israel"
+    },
+    {
+        "place": "Dana Biosphere Reserve",
+        "country": "Jordan"
+    },
+    {
+        "place": "Medina",
+        "country": "Saudi Arabia"
+    },
+    {
+        "place": "Dammam",
+        "country": "Saudi Arabia"
+    },
+    {
+        "place": "Abha",
+        "country": "Saudi Arabia"
+    },
+    {
+        "place": "Sur",
+        "country": "Oman"
+    },
+    {
+        "place": "Jebel Shams",
+        "country": "Oman"
+    },
+    {
+        "place": "Al Ain",
+        "country": "UAE"
+    },
+    {
+        "place": "Kashan",
+        "country": "Iran"
+    },
+    {
+        "place": "Tabriz",
+        "country": "Iran"
+    },
+    {
+        "place": "Qeshm Island",
+        "country": "Iran"
+    },
+    {
+        "place": "Borjomi",
+        "country": "Georgia"
+    },
+    {
+        "place": "Sighnaghi",
+        "country": "Georgia"
+    },
+    {
+        "place": "Gudauri",
+        "country": "Georgia"
+    },
+    {
+        "place": "Tatev",
+        "country": "Armenia"
+    },
+    {
+        "place": "Garni",
+        "country": "Armenia"
+    },
+    {
+        "place": "Gobustan",
+        "country": "Azerbaijan"
+    },
+    {
+        "place": "Fergana Valley",
+        "country": "Uzbekistan"
+    },
+    {
+        "place": "Nukus",
+        "country": "Uzbekistan"
+    },
+    {
+        "place": "Shymkent",
+        "country": "Kazakhstan"
+    },
+    {
+        "place": "Turkistan",
+        "country": "Kazakhstan"
+    },
+    {
+        "place": "Osh",
+        "country": "Kyrgyzstan"
+    },
+    {
+        "place": "Khujand",
+        "country": "Tajikistan"
+    },
+    {
+        "place": "Khorog",
+        "country": "Tajikistan"
+    },
+    {
+        "place": "Erbil",
+        "country": "Iraq"
+    },
+    {
+        "place": "Larnaca",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Nicosia",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Limassol",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Ayia Napa",
+        "country": "Cyprus"
+    },
+    {
+        "place": "Baalbek",
+        "country": "Lebanon"
+    },
+    {
+        "place": "Jeita Grotto",
+        "country": "Lebanon"
+    },
+    {
+        "place": "Salalah",
+        "country": "Oman"
+    },
+    {
+        "place": "Musandam",
+        "country": "Oman"
+    },
+    {
+        "place": "Dushanbe",
+        "country": "Tajikistan"
+    },
+    {
+        "place": "Swat Valley",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Fairy Meadows",
+        "country": "Pakistan"
+    },
+    {
+        "place": "Phobjikha Valley",
+        "country": "Bhutan"
+    },
+    {
+        "place": "Haa Valley",
+        "country": "Bhutan"
+    },
+    {
+        "place": "Trincomalee",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Polonnaruwa",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Anuradhapura",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Vaadhoo Island",
+        "country": "Maldives"
+    },
+    {
+        "place": "Dambulla",
+        "country": "Sri Lanka"
+    },
+    {
+        "place": "Urumqi",
+        "country": "China"
+    },
+    {
+        "place": "Dunhuang",
+        "country": "China"
+    },
+    {
+        "place": "Turpan",
+        "country": "China"
+    },
+    {
+        "place": "Lake Baikal (Irkutsk)",
+        "country": "Russia"
+    },
+    {
+        "place": "Vladivostok",
+        "country": "Russia"
+    },
+    {
+        "place": "Kamchatka",
+        "country": "Russia"
+    },
+    {
         "place": "Bangkok",
         "country": "Thailand"
     },
@@ -4414,5 +6294,381 @@
     {
         "place": "Kalaw",
         "country": "Myanmar"
+    },
+    {
+        "place": "Koh Yao Yai",
+        "country": "Thailand"
+    },
+    {
+        "place": "Koh Phayam",
+        "country": "Thailand"
+    },
+    {
+        "place": "Khao Lak",
+        "country": "Thailand"
+    },
+    {
+        "place": "Nan",
+        "country": "Thailand"
+    },
+    {
+        "place": "Chiang Khan",
+        "country": "Thailand"
+    },
+    {
+        "place": "Koh Samet",
+        "country": "Thailand"
+    },
+    {
+        "place": "Surin Islands",
+        "country": "Thailand"
+    },
+    {
+        "place": "Sangkhlaburi",
+        "country": "Thailand"
+    },
+    {
+        "place": "Udon Thani",
+        "country": "Thailand"
+    },
+    {
+        "place": "Chanthaburi",
+        "country": "Thailand"
+    },
+    {
+        "place": "Cat Ba Island",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Mu Cang Chai",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Cao Bang",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Dong Hoi",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Buon Ma Thuot",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Vung Tau",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Chau Doc",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Ly Son Island",
+        "country": "Vietnam"
+    },
+    {
+        "place": "Bukit Lawang",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Berastagi",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Pulau Weh",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Bukittinggi",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Padang",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Mentawai Islands",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Bangka Island",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Pangandaran",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Solo (Surakarta)",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Karimunjawa",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Malang",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Banyuwangi",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Pontianak",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Derawan Islands",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Makassar",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Wakatobi",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Ambon",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Banda Islands",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Kei Islands",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Wamena",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Sumba",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Moyo Island",
+        "country": "Indonesia"
+    },
+    {
+        "place": "Johor Bahru",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Desaru",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Pangkor Island",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Genting Highlands",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Kuala Terengganu",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Kapas Island",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Kota Bharu",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Cherating",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Kuantan",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Alor Setar",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Sipadan",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Kudat",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Labuan",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Miri",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Bario (Kelabit Highlands)",
+        "country": "Malaysia"
+    },
+    {
+        "place": "Puerto Galera",
+        "country": "Philippines"
+    },
+    {
+        "place": "Apo Island",
+        "country": "Philippines"
+    },
+    {
+        "place": "Batanes",
+        "country": "Philippines"
+    },
+    {
+        "place": "Tagaytay",
+        "country": "Philippines"
+    },
+    {
+        "place": "Subic Bay",
+        "country": "Philippines"
+    },
+    {
+        "place": "Baguio",
+        "country": "Philippines"
+    },
+    {
+        "place": "San Juan (La Union)",
+        "country": "Philippines"
+    },
+    {
+        "place": "Baler",
+        "country": "Philippines"
+    },
+    {
+        "place": "Caramoan",
+        "country": "Philippines"
+    },
+    {
+        "place": "Catanduanes",
+        "country": "Philippines"
+    },
+    {
+        "place": "Tacloban",
+        "country": "Philippines"
+    },
+    {
+        "place": "Kalanggaman Island",
+        "country": "Philippines"
+    },
+    {
+        "place": "Bantayan Island",
+        "country": "Philippines"
+    },
+    {
+        "place": "Malapascua",
+        "country": "Philippines"
+    },
+    {
+        "place": "Zamboanga City",
+        "country": "Philippines"
+    },
+    {
+        "place": "Surigao",
+        "country": "Philippines"
+    },
+    {
+        "place": "General Santos",
+        "country": "Philippines"
+    },
+    {
+        "place": "Sen Monorom (Mondulkiri)",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Banlung (Ratanakiri)",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Kratie",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Koh Ker",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Preah Vihear",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Kampong Cham",
+        "country": "Cambodia"
+    },
+    {
+        "place": "Luang Namtha",
+        "country": "Laos"
+    },
+    {
+        "place": "Huay Xai",
+        "country": "Laos"
+    },
+    {
+        "place": "Muang Ngoi",
+        "country": "Laos"
+    },
+    {
+        "place": "Savannakhet",
+        "country": "Laos"
+    },
+    {
+        "place": "Champasak",
+        "country": "Laos"
+    },
+    {
+        "place": "Oudomxay",
+        "country": "Laos"
+    },
+    {
+        "place": "Mount Popa",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Mrauk U",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Ngwe Saung",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Mawlamyine",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Dawei",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Myeik Archipelago",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Naypyidaw",
+        "country": "Myanmar"
+    },
+    {
+        "place": "Jaco Island",
+        "country": "Timor-Leste"
+    },
+    {
+        "place": "Baucau",
+        "country": "Timor-Leste"
+    },
+    {
+        "place": "Kuala Belait",
+        "country": "Brunei"
     }
 ]
