@@ -1,0 +1,807 @@
+[
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Spitzkoppe",
+    "country": "Namibia",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Spitzkoppe",
+    "country": "Namibia",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Medellín",
+    "country": "Colombia",
+    "error": "no_results"
+  },
+  {
+    "place": "Cartagena",
+    "country": "Colombia",
+    "error": "no_results"
+  },
+  {
+    "place": "Mont-Tremblant",
+    "country": "Canada",
+    "error": "no_results"
+  },
+  {
+    "place": "Santa Marta",
+    "country": "Colombia",
+    "error": "no_results"
+  },
+  {
+    "place": "Rincon",
+    "country": "Puerto Rico",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Lord Howe Island",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kings Canyon",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Mallorca",
+    "country": "Spain",
+    "error": "no_results"
+  },
+  {
+    "place": "Krka National Park",
+    "country": "Croatia",
+    "error": "no_results"
+  },
+  {
+    "place": "Lofoten Islands",
+    "country": "Norway",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Lord Howe Island",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Amarkantak",
+    "country": "India",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Amarkantak",
+    "country": "India",
+    "error": "no_results"
+  },
+  {
+    "place": "Ashgabat",
+    "country": "Turkmenistan",
+    "error": "no_results"
+  },
+  {
+    "place": "Shiraz",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Isfahan",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Tehran",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Yazd",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Tabriz",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsavo National Park",
+    "country": "Kenya",
+    "error": "no_results"
+  },
+  {
+    "place": "Danakil Depression",
+    "country": "Ethiopia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kalandula Falls",
+    "country": "Angola",
+    "error": "no_results"
+  },
+  {
+    "place": "Asmara",
+    "country": "Eritrea",
+    "error": "no_results"
+  },
+  {
+    "place": "Mahale Mountains",
+    "country": "Tanzania",
+    "error": "no_results"
+  },
+  {
+    "place": "Tsingy de Bemaraha",
+    "country": "Madagascar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mole National Park",
+    "country": "Ghana",
+    "error": "no_results"
+  },
+  {
+    "place": "Timgad",
+    "country": "Algeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Yankari National Park",
+    "country": "Nigeria",
+    "error": "no_results"
+  },
+  {
+    "place": "Tikal",
+    "country": "Guatemala",
+    "error": "no_results"
+  },
+  {
+    "place": "Milford Sound",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Stewart Island",
+    "country": "New Zealand",
+    "error": "no_results"
+  },
+  {
+    "place": "Cocos (Keeling) Islands",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Niue",
+    "country": "Niue",
+    "error": "no_results"
+  },
+  {
+    "place": "Chuuk (Truk Lagoon)",
+    "country": "Micronesia",
+    "error": "no_results"
+  },
+  {
+    "place": "South Tarawa",
+    "country": "Kiribati",
+    "error": "no_results"
+  },
+  {
+    "place": "Funafuti",
+    "country": "Tuvalu",
+    "error": "no_results"
+  },
+  {
+    "place": "Groote Eylandt",
+    "country": "Australia",
+    "error": "no_results"
+  },
+  {
+    "place": "Amarkantak",
+    "country": "India",
+    "error": "no_results"
+  },
+  {
+    "place": "Ashgabat",
+    "country": "Turkmenistan",
+    "error": "no_results"
+  },
+  {
+    "place": "Shiraz",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Isfahan",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Tehran",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Yazd",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Tabriz",
+    "country": "Iran",
+    "error": "no_results"
+  },
+  {
+    "place": "Musandam",
+    "country": "Oman",
+    "error": "no_results"
+  },
+  {
+    "place": "Turpan",
+    "country": "China",
+    "error": "no_results"
+  },
+  {
+    "place": "Lake Baikal (Irkutsk)",
+    "country": "Russia",
+    "error": "no_results"
+  },
+  {
+    "place": "Vladivostok",
+    "country": "Russia",
+    "error": "no_results"
+  },
+  {
+    "place": "Kamchatka",
+    "country": "Russia",
+    "error": "no_results"
+  },
+  {
+    "place": "Gili Islands",
+    "country": "Indonesia",
+    "error": "no_results"
+  },
+  {
+    "place": "Lombok",
+    "country": "Indonesia",
+    "error": "no_results"
+  },
+  {
+    "place": "Tanjung Puting",
+    "country": "Indonesia",
+    "error": "no_results"
+  },
+  {
+    "place": "Hsipaw",
+    "country": "Myanmar",
+    "error": "no_results"
+  },
+  {
+    "place": "Hpa-An",
+    "country": "Myanmar",
+    "error": "no_results"
+  },
+  {
+    "place": "Pyin Oo Lwin",
+    "country": "Myanmar",
+    "error": "no_results"
+  },
+  {
+    "place": "Koh Yao Yai",
+    "country": "Thailand",
+    "error": "no_results"
+  },
+  {
+    "place": "Ngwe Saung",
+    "country": "Myanmar",
+    "error": "no_results"
+  },
+  {
+    "place": "Mawlamyine",
+    "country": "Myanmar",
+    "error": "no_results"
+  },
+  {
+    "place": "Dawei",
+    "country": "Myanmar",
+    "error": "no_results"
+  }
+]
