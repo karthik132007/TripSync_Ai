@@ -1,15 +1,12 @@
 CREATE TABLE place_features (
     id SERIAL PRIMARY KEY,
     place TEXT,
-
     avg_cost_per_day FLOAT,
     trip_duration FLOAT,
-
     popularity_high SMALLINT,
     popularity_medium SMALLINT,
     popularity_offbeat SMALLINT,
     popularity_very_high SMALLINT,
-
     adventure SMALLINT,
     beach SMALLINT,
     bird_watching SMALLINT,
@@ -41,7 +38,6 @@ CREATE TABLE place_features (
     trekking SMALLINT,
     water_sports SMALLINT,
     waterfalls SMALLINT,
-
     apr SMALLINT,
     aug SMALLINT,
     dec SMALLINT,
@@ -54,14 +50,11 @@ CREATE TABLE place_features (
     nov SMALLINT,
     oct SMALLINT,
     sep SMALLINT,
-
     couple SMALLINT,
     family SMALLINT,
     friends SMALLINT,
     solo SMALLINT,
-
     total_cost_log FLOAT,
-
     region_africa SMALLINT,
     region_europe SMALLINT,
     region_middle_east SMALLINT,
@@ -70,7 +63,6 @@ CREATE TABLE place_features (
     region_south_asia SMALLINT,
     region_southeast_asia SMALLINT,
     region_nan SMALLINT,
-
     climate_alpine SMALLINT,
     climate_cold SMALLINT,
     climate_continental SMALLINT,
@@ -81,4 +73,36 @@ CREATE TABLE place_features (
     climate_temperate SMALLINT,
     climate_tropical SMALLINT,
     climate_nan SMALLINT
+);
+
+CREATE TABLE hotel_features (
+    id SERIAL PRIMARY KEY,
+    place_id INTEGER NOT NULL REFERENCES place_features (id),
+    hotel_name TEXT,
+    price_per_night FLOAT,
+    rating FLOAT,
+    distance_from_downtown_km FLOAT,
+    hotel_link TEXT,
+    front_desk_24hr SMALLINT,
+    air_conditioning SMALLINT,
+    bar SMALLINT,
+    breakfast SMALLINT,
+    concierge SMALLINT,
+    garden SMALLINT,
+    gym SMALLINT,
+    kitchen SMALLINT,
+    laundry SMALLINT,
+    non_smoking SMALLINT,
+    parking SMALLINT,
+    pool SMALLINT,
+    restaurant SMALLINT,
+    spa SMALLINT,
+    tv SMALLINT,
+    wifi SMALLINT,
+    hotel_type_boutique SMALLINT,
+    hotel_type_budget SMALLINT,
+    hotel_type_hostel SMALLINT,
+    hotel_type_luxury SMALLINT,
+    hotel_type_mid_range SMALLINT,
+    hotel_type_resort SMALLINT
 );
