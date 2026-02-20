@@ -14,7 +14,7 @@ cur = conn.cursor()
 
 def get_hotels():
     try:
-        rows=cur.execute("select * from hotel_features;")
+        rows=cur.execute("select * from hotels;")
         rows = cur.fetchall()
         rows = pd.DataFrame(rows)
         return rows
@@ -25,7 +25,7 @@ def get_hotels():
 def get_places():
 
     try:
-        rows=cur.execute("select * from place_features;")
+        rows=cur.execute("select * from places;")
         rows = cur.fetchall()
         rows = pd.DataFrame(rows)
         return rows

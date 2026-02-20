@@ -1,4 +1,4 @@
-CREATE TABLE place_features (
+CREATE TABLE places (
     id SERIAL PRIMARY KEY,
     place TEXT,
     avg_cost_per_day FLOAT,
@@ -75,9 +75,9 @@ CREATE TABLE place_features (
     climate_nan SMALLINT
 );
 
-CREATE TABLE hotel_features (
+CREATE TABLE hotels (
     id SERIAL PRIMARY KEY,
-    place_id INTEGER NOT NULL REFERENCES place_features (id),
+    place_id INTEGER NOT NULL REFERENCES places (id),
     hotel_name TEXT,
     price_per_night FLOAT,
     rating FLOAT,
