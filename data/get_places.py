@@ -1,7 +1,7 @@
 import json
 
 # Load original data
-with open("data/data.json", "r") as f:
+with open("data/raw/data.json", "r") as f:
     data = json.load(f)
 
 # Extract only place and country
