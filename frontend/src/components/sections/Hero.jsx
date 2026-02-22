@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Sparkles, ArrowRight, Map } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { useParallax } from '../../hooks/useScrollAnimations';
@@ -39,10 +40,11 @@ const generateParticles = (count) => {
 const particles = generateParticles(35);
 
 export const Hero = () => {
+    const navigate = useNavigate();
     const { ref: parallaxRef, offset } = useParallax(0.2);
 
     const handleStartPlanning = () => {
-        console.log('Navigating to planning page...');
+        navigate('/plan');
     };
 
     const handleHowItWorks = () => {

@@ -4,3 +4,5 @@ pandas
 requests
 tensorflow
 psycopg2
+fastapi
+uvicorn

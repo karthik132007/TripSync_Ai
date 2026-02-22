@@ -1,11 +1,9 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
-import { Hero } from './components/sections/Hero';
-import { HowItWorks } from './components/sections/HowItWorks';
-import { FeaturedDestinations } from './components/sections/FeaturedDestinations';
-import { WhyTripSync } from './components/sections/WhyTripSync';
-import { Stats } from './components/sections/Stats';
+import { LandingPage } from './components/pages/LandingPage';
+import { PlanTrip } from './components/pages/PlanTrip';
 
 function App() {
   return (
@@ -14,11 +12,10 @@ function App() {
       <Navbar />
 
       <main className="flex-grow">
-        <Hero />
-        <Stats />
-        <HowItWorks />
-        <FeaturedDestinations />
-        <WhyTripSync />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/plan" element={<PlanTrip />} />
+        </Routes>
       </main>
 
       <Footer />
