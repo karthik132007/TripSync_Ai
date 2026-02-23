@@ -3,6 +3,6 @@ scikit-learn
 pandas
 requests
 tensorflow
-psycopg2
+psycopg2-binary
 fastapi
 uvicorn

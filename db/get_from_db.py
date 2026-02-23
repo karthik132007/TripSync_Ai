@@ -32,3 +32,25 @@ def get_places():
     except Exception as e:
         print(e)
         conn.rollback()
+
+def get_place_id(place_name):
+    try:
+        cur.execute(
+            "select id from places where trim(lower(place)) = trim(lower(%s))",
+            (place_name,),
+        )
+        row = cur.fetchone()
+        place_id = row[0] if row else None
+    except Exception as e:
+        print(e)
+        conn.rollback()
+    return place_id
+
+# def get_hotel_id(hotel_name):
+#     try:
+#         cur.execute("select id from hotels where hotel_name = %s", (hotel_name,))
+#         Id = cur.fetchone()
+#     except Exception as e:
+#         print(e)
+#         conn.rollback()
+#     return Id
