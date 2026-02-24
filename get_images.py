@@ -134,6 +134,9 @@ def fetch_from_unsplash(
 
     try:
         resp = requests.get(UNSPLASH_API, params=params, headers=headers, timeout=10)
+        if resp.status_code in (403, 429):
+            print(f"🛑 Unsplash API Rate Limit hit for '{query}' (50 req/hr). Falling back to placeholder.")
+            return []
         resp.raise_for_status()
         data = resp.json()
     except Exception as e:
