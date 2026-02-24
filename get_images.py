@@ -2,8 +2,14 @@
 Unsplash Image Fetcher for TripSync
 Fetches place images from Unsplash API and caches them in data/image_cache.json
 Supports multiple images per place.
+
+De-duplication strategy:
+  1. Within a single fetch, the same photo ID is never returned twice.
+  2. Across ALL cached places, a photo ID that already appears in the cache
+     is never re-used for a new place (global dedup pool).
 """
 
+import re
 import requests
 import json
 import time
@@ -57,13 +63,42 @@ def _cache_key(place_name: str, state: str = "") -> str:
     return place_name.strip().lower()
 
 
+# --------------- dedup helpers ---------------
+
+def _extract_photo_id(url: str) -> str | None:
+    """Extract the Unsplash photo ID (photo-XXXX) from any Unsplash URL."""
+    m = re.search(r"photo-([a-f0-9\-]+)", url)
+    return m.group(0) if m else None
+
+
+def _build_used_ids(cache: dict) -> set[str]:
+    """
+    Return the set of all Unsplash photo IDs that are already stored in
+    the cache across every place.  Used to prevent cross-place duplicates.
+    """
+    used: set[str] = set()
+    for entry in cache.values():
+        for img in entry.get("images", []):
+            pid = _extract_photo_id(img.get("url_raw", ""))
+            if pid:
+                used.add(pid)
+    return used
+
+
 # --------------- Unsplash fetch ---------------
 
 
-def fetch_from_unsplash(query: str, place_name: str = "", per_page: int = 3) -> list[dict]:
+def fetch_from_unsplash(
+    query: str,
+    place_name: str = "",
+    per_page: int = 3,
+    exclude_ids: set[str] | None = None,
+) -> list[dict]:
     """
     Search Unsplash for images matching *query*.
     Prioritises photos whose alt/description mentions the place name.
+
+    *exclude_ids* – set of Unsplash photo-XXXX strings to skip (global dedup).
 
     Returns a list of dicts:
         {
@@ -82,8 +117,12 @@ def fetch_from_unsplash(query: str, place_name: str = "", per_page: int = 3) -> 
         print("ERROR: UNSPLASH_ACCESS_KEY not set in .env")
         return []
 
-    # Request more results so we have room to filter
-    fetch_count = max(per_page * 3, 9)
+    if exclude_ids is None:
+        exclude_ids = set()
+
+    # Request significantly more results so we have room to filter out
+    # duplicates AND irrelevant results and still fill the quota.
+    fetch_count = max(per_page * 5, 15)
 
     params = {
         "query": query,
@@ -142,12 +181,26 @@ def fetch_from_unsplash(query: str, place_name: str = "", per_page: int = 3) -> 
     relevant: list[dict] = []
     fallback: list[dict] = []
 
+    # Track photo IDs seen *within this single fetch* to dedup intra-result too
+    seen_in_result: set[str] = set()
+
     for photo in data.get("results", []):
+        pid = f"photo-{photo.get('id', '')}"
+
+        # --- Skip if already used globally or already seen in this batch ---
+        if pid in exclude_ids or pid in seen_in_result:
+            continue
+        seen_in_result.add(pid)
+
         entry = _build_photo(photo)
         if _is_relevant(photo):
             relevant.append(entry)
         else:
             fallback.append(entry)
+
+        # Stop early once we have enough candidates
+        if len(relevant) + len(fallback) >= per_page * 2:
+            break
 
     # Prefer relevant photos; fill remaining slots from fallback
     combined = (relevant + fallback)[:per_page]
@@ -163,6 +216,9 @@ def get_place_images(
     """
     Return a list of image dicts for *place_name*.
     Checks cache first; fetches from Unsplash if missing or *force=True*.
+
+    A global pool of already-used photo IDs (collected from the whole cache)
+    is passed to the fetcher so no image is reused across different places.
     """
     key = _cache_key(place_name, state)
     cache = load_cache()
@@ -171,10 +227,18 @@ def get_place_images(
         print(f"✓ Cache hit for '{place_name}'")
         return cache[key]["images"]
 
+    # Build the global exclusion pool (all photo IDs already in cache)
+    used_ids = _build_used_ids(cache)
+
     # Build a search query that gives better travel photos
     search_query = f"{place_name} {state} travel".strip() if state else f"{place_name} travel"
     print(f"⏳ Fetching images for '{place_name}' from Unsplash …")
-    images = fetch_from_unsplash(search_query, place_name=place_name, per_page=per_page)
+    images = fetch_from_unsplash(
+        search_query,
+        place_name=place_name,
+        per_page=per_page,
+        exclude_ids=used_ids,
+    )
 
     if images:
         cache[key] = {"place": place_name, "state": state, "images": images}
@@ -186,12 +250,61 @@ def get_place_images(
     return images
 
 
-def get_first_image(place_name: str, state: str = "") -> Optional[str]:
-    """Return the *url_regular* of the first cached/fetched image, or None."""
+def get_unique_image(
+    place_name: str,
+    state: str = "",
+    used_urls: set[str] | None = None,
+) -> Optional[str]:
+    """
+    Return a *url_regular* for *place_name* that is NOT already in *used_urls*.
+
+    Strategy:
+      1. Pull cached images for the place.
+      2. Return the first cached URL not in *used_urls*.
+      3. If every cached image is already taken, do a fresh Unsplash fetch
+         that excludes both the global cache pool AND every URL in *used_urls*.
+      4. Absolute fallback: return the first cached image even if repeated.
+    """
+    if used_urls is None:
+        used_urls = set()
+
     images = get_place_images(place_name, state, per_page=3)
+
+    # --- Step 1: find a cached image not yet used this response ---
+    for img in images:
+        url = img.get("url_regular") or img.get("url_small")
+        if url and url not in used_urls:
+            return url
+
+    # --- Step 2: all cached images already used — fetch a fresh unique one ---
+    print(f"⚠️  All cached images for '{place_name}' already used this request — fetching fresh…")
+    cache = load_cache()
+    # Build exclusion pool: all IDs in cache + IDs from used_urls
+    exclude_ids = _build_used_ids(cache)
+    for u in used_urls:
+        pid = _extract_photo_id(u)
+        if pid:
+            exclude_ids.add(pid)
+
+    search_query = f"{place_name} {state} travel".strip() if state else f"{place_name} travel"
+    fresh = fetch_from_unsplash(
+        search_query,
+        place_name=place_name,
+        per_page=1,
+        exclude_ids=exclude_ids,
+    )
+    if fresh:
+        return fresh[0].get("url_regular") or fresh[0].get("url_small")
+
+    # --- Absolute fallback ---
     if images:
         return images[0].get("url_regular") or images[0].get("url_small")
     return None
+
+
+def get_first_image(place_name: str, state: str = "") -> Optional[str]:
+    """Backward-compat wrapper — prefer get_unique_image in new code."""
+    return get_unique_image(place_name, state)
 
 
 # --------------- batch helper ---------------

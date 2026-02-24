@@ -10,46 +10,59 @@ from engine import user_tower
 from engine.recommendations import get_top_10
 from db.search_in_json import search_place
 
-# Add get_images import
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
-from get_images import get_first_image
+from get_images import get_unique_image   # per-request dedup helper
 
 app = FastAPI()
 
 # Add CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Since frontend runs on port 5173 or others
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 @app.post("/plan")
-def get_user_prefrences(prefrences : Preferences):
+def get_user_prefrences(prefrences: Preferences):
     user_embeddings = user_tower.get_user_embeddings(prefrences)
-    
+
     top_10_idx = get_top_10(user_embeddings)
-    place_names= get_with_place_id(top_10_idx)
-    places=[]
-    
+    raw_place_names = get_with_place_id(top_10_idx)
+
+    # --- Deduplicate place names while preserving recommendation order ---
+    seen_names: set[str] = set()
+    place_names: list[str] = []
+    for p in raw_place_names:
+        if p not in seen_names:
+            seen_names.add(p)
+            place_names.append(p)
+
+    places = []
+    # Per-request pool: every image_url handed out this response goes here
+    # so that get_unique_image can avoid repeating the same photo.
+    used_image_urls: set[str] = set()
+
     for place_name in place_names:
         place_data = search_place(place_name=place_name)
         if place_data:
-            # Try to fetch image URL from Unsplash using get_images.py
-            # Use place state if available to improve search relevance
             state = place_data.get("state", "")
-            image_url = get_first_image(place_name=place_name, state=state)
-            
-            # Attach image URL to place dictionary
+            image_url = get_unique_image(
+                place_name=place_name,
+                state=state,
+                used_urls=used_image_urls,
+            )
+            if image_url:
+                used_image_urls.add(image_url)   # mark as used for next iterations
             place_data["image_url"] = image_url
             places.append(place_data)
-        
+
     return {
         "message": "got it broo",
         "data": places,
-        "preferences": prefrences
+        "preferences": prefrences,
     }
 
 @app.get("/recommend")
