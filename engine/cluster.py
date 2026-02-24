@@ -9,9 +9,10 @@ class SimilarPlaces:
     def __init__(self):
         places = get_places()
 
-        places = places.drop(columns=[0,1])
+        places = places.drop(columns=[0, 1])
+        remaining_cols = places.columns.tolist()
         scale = StandardScaler()
-        scale_cols = [2, 55]
+        scale_cols = [remaining_cols[0], remaining_cols[-1]]
         places[scale_cols] = scale.fit_transform(places[scale_cols])
         places=places.to_numpy()
         self.similarity=cosine_similarity(places)
@@ -37,4 +38,11 @@ class SimilarPlaces:
             })
         return more_like_these
 
-similar_engine = SimilarPlaces()
+_similar_engine = None
+
+def get_similar_engine():
+    """Lazily initialize SimilarPlaces to avoid DB query at import time."""
+    global _similar_engine
+    if _similar_engine is None:
+        _similar_engine = SimilarPlaces()
+    return _similar_engine

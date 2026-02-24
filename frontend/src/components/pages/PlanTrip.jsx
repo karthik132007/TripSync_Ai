@@ -131,8 +131,8 @@ const JourneyStep = ({ number, question, hint, children, delay = 0 }) => {
         <div
             ref={ref}
             className={`transition-all duration-[900ms] ease-out ${isVisible
-                    ? 'opacity-100 translate-y-0'
-                    : 'opacity-0 translate-y-10'
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-10'
                 }`}
             style={{ transitionDelay: `${delay}ms` }}
         >
@@ -183,11 +183,11 @@ export const PlanTrip = () => {
         const payload = {
             month: month.map((m) => m.toLowerCase()),
             budget,
-            trip_duration: duration,
+            duration: duration,
             best_for: bestFor,
-            climate,
+            weather: climate,
             tags,
-            popularity,
+            popular: popularity,
         };
 
         console.log('🚀 Trip Preferences:', JSON.stringify(payload, null, 2));
@@ -202,6 +202,11 @@ export const PlanTrip = () => {
             if (!response.ok) throw new Error('Request failed');
             const data = await response.json();
             console.log('✅ Recommendations:', data);
+
+            // Navigate to recommendations page with data
+            if (data && data.data) {
+                navigate('/recommend', { state: { recommendations: data.data } });
+            }
         } catch (err) {
             console.log('⚠️ Backend not connected yet. Payload ready:', payload);
         } finally {

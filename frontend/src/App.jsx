@@ -4,6 +4,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { LandingPage } from './components/pages/LandingPage';
 import { PlanTrip } from './components/pages/PlanTrip';
+import { Recommend } from './components/pages/Recommend';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/plan" element={<PlanTrip />} />
+          <Route path="/recommend" element={<Recommend />} />
         </Routes>
       </main>
 
