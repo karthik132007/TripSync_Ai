@@ -4,12 +4,12 @@ sys.path.insert(0, os.path.abspath('..'))
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pref_model import Preferences
-from engine.cluster import *
+from engine.cluster import get_similar_engine
 from db.get_from_db import *
 from engine import user_tower
 from engine.recommendations import get_top_10
 from db.search_in_json import search_place
-
+from fastapi import Body
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
 from get_images import get_unique_image   # per-request dedup helper
@@ -65,10 +65,21 @@ def get_user_prefrences(prefrences: Preferences):
         "preferences": prefrences,
     }
 
-@app.get("/recommend")
-def show_recomendations(places):
-    pass
 
-@app.post("/recommend")
-def get_clicked_place(place_name):
-    get_place_id(place_name=place_name)
+@app.post("/recommend/place")
+def get_clicked_place(place_name:str=Body(...)):
+    clicked_place = get_place_id(place_name=place_name)
+    more_places = get_similar_engine().get_more(clicked_place)
+    ids = [item["id"] for item in more_places]
+
+    place_names=get_with_place_id(ids)
+    result = []
+    for item, name in zip(more_places, place_names):
+        result.append({
+            "name": name,
+            "score": round(item["score"]*100,3)
+        })
+    return{
+        "message":"similar places",
+        "data":result
+    }

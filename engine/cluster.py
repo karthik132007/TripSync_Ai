@@ -8,21 +8,25 @@ from db.get_from_db import get_places
 class SimilarPlaces:
     def __init__(self):
         places = get_places()
+        # store original DB ids
+        self.id_list = places[0].tolist()  # assuming column 0 is id
+        self.id_to_index = {db_id: i for i, db_id in enumerate(self.id_list)}
 
         places = places.drop(columns=[0, 1])
+
         remaining_cols = places.columns.tolist()
         scale = StandardScaler()
         scale_cols = [remaining_cols[0], remaining_cols[-1]]
         places[scale_cols] = scale.fit_transform(places[scale_cols])
-        places=places.to_numpy()
-        self.similarity=cosine_similarity(places)
-        del places
+
+        places = places.to_numpy()
+        self.similarity = cosine_similarity(places)
 
     def get_more(self,clicked_place):            #? clicked_place will be fetched from backend 
         """
         Returns top 10 similar destinations using cosine similarity.
         """
-        if clicked_place >= len(self.similarity):
+        if clicked_place not in self.id_to_index:
             return []
         score = self.similarity[clicked_place].copy()
         score[clicked_place] =-1
@@ -32,8 +36,9 @@ class SimilarPlaces:
 
         more_like_these=[]
         for index,sim_score in zip(top10,top10_scores):
+            db_id = self.id_list[index]
             more_like_these.append({
-                "index":int(index),
+                "id":int(db_id),
                 "score":float(sim_score)
             })
         return more_like_these

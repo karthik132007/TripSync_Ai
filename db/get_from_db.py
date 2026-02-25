@@ -34,13 +34,15 @@ def get_places():
         conn.rollback()
 
 def get_place_id(place_name):
+    place_id = None
     try:
         cur.execute(
-            "select id from places where trim(lower(place)) = trim(lower(%s))",
-            (place_name,),
+            "select id from places where lower(place) like lower(%s) limit 1",
+            (f"%{place_name}%",),
         )
         row = cur.fetchone()
-        place_id = row[0] if row else None
+        if row:
+            place_id = row[0]
     except Exception as e:
         print(e)
         conn.rollback()
