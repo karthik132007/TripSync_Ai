@@ -18,7 +18,7 @@ def get_top_10(user_embs, user_months=None):
         valid_months = [m.lower()[:3] for m in user_months if m.lower()[:3] in MONTHS]
         if valid_months:
             mask = df_places[valid_months].sum(axis=1) > 0
-            similarity[~mask] -= 100.0
+            similarity[~mask] -= 0.1
             
     top_50_idx = np.argsort(similarity)[-50:][::-1]
     top_50_embs = place_embs[top_50_idx]
