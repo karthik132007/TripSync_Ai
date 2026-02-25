@@ -10,8 +10,6 @@ from engine import user_tower
 from engine.recommendations import get_top_10
 from db.search_in_json import search_place
 from fastapi import Body
-import sys, os
-sys.path.insert(0, os.path.abspath('..'))
 from get_images import get_unique_image   # per-request dedup helper
 
 app = FastAPI()
@@ -45,8 +43,9 @@ def get_user_prefrences(prefrences: Preferences):
     # so that get_unique_image can avoid repeating the same photo.
     used_image_urls: set[str] = set()
 
-    for place_name in place_names:
+    for place_id, place_name in zip(top_10_idx, raw_place_names):
         place_data = search_place(place_name=place_name)
+
         if place_data:
             state = place_data.get("state", "")
             image_url = get_unique_image(
@@ -54,9 +53,10 @@ def get_user_prefrences(prefrences: Preferences):
                 state=state,
                 used_urls=used_image_urls,
             )
-            if image_url:
-                used_image_urls.add(image_url)   # mark as used for next iterations
+
+            place_data["id"] = int(place_id)   
             place_data["image_url"] = image_url
+
             places.append(place_data)
 
     return {
@@ -66,16 +66,27 @@ def get_user_prefrences(prefrences: Preferences):
     }
 
 
-@app.post("/recommend/place")
-def get_clicked_place(place_name:str=Body(...)):
-    clicked_place = get_place_id(place_name=place_name)
-    more_places = get_similar_engine().get_more(clicked_place)
+@app.get("/places/{place_id}")
+def view_about_place(place_id :int):
+    place_name = get_with_place_id([place_id])[0]
+    place_data = search_place(place_name=place_name)
+
+    return {
+        "message": "place info",
+        "data": place_data
+    }
+
+@app.get("/places/{place_id}/related")
+def get_clicked_place(place_id: int):
+    # clicked_place = get_place_id(place_name=place_name)
+    more_places = get_similar_engine().get_more(place_id)
     ids = [item["id"] for item in more_places]
 
     place_names=get_with_place_id(ids)
     result = []
     for item, name in zip(more_places, place_names):
         result.append({
+            "id":item["id"],
             "name": name,
             "score": round(item["score"]*100,3)
         })
