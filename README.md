@@ -22,3 +22,12 @@ pkill -f "python.*server.py" 2>/dev/null; sleep 2 && cd /home/electron/Documents
 6. select all tags that apply - [30 tags]
 7. what kind of places u like -[popular] 
 8. have u any favourate region [region]
+
+
+- __Replace normalization weights__ with correct ones (71 features)
+
+- __Add input validation__ for realistic budget/duration combinations
+
+- __Implement confidence scoring__ for recommendations
+
+- __Add season/month filtering__ logic

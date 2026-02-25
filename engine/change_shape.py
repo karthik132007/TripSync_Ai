@@ -129,6 +129,16 @@ POPULARITY_INDEX = {
     "no":  4,   # popular = "no"   →  offbeat preference
 }
 
+# climate string → db column index
+CLIMATE_INDEX = {
+    "alpine":       62, "cold":         63,
+    "continental":  64, "dry":          65,
+    "highland":     66, "mediterranean": 67,
+    "subtropical":  68, "temperate":    69,
+    "tropical":     70,
+    # climate_nan is 71, but we don't set it explicitly
+}
+
 # ── Encoder ────────────────────────────────────────────────────────────────
 
 def change_shape(preferences) -> np.ndarray:
@@ -141,7 +151,7 @@ def change_shape(preferences) -> np.ndarray:
         budget   : int         daily budget in USD (avg_cost_per_day proxy)
         duration : int         trip duration in days
         best_for : str         e.g. "couple"  / "solo"
-        weather  : list[str]   not used (no direct DB column) — reserved
+        weather  : list[str]   climate preferences e.g. ["tropical", "temperate"]
         tags     : list[str]   e.g. ["beach", "culture"]
         popular  : str         "yes" / "no"
     """
@@ -181,8 +191,14 @@ def change_shape(preferences) -> np.ndarray:
     vec[53] = float(log1p(preferences.budget * preferences.duration))
 
     # ── 54–61. region  (not user-supplied → leave as 0)
-    # ── 62–71. climate (not user-supplied → leave as 0)
-    # weather list is available but has no direct DB column counterpart
-    # (climate is a place-level property, not a user preference column)
+
+    # ── 62–70. climate preferences (multi-hot from weather field)
+    for climate_pref in (preferences.weather or []):
+        climate_key = str(climate_pref).strip().lower()
+        climate_idx = CLIMATE_INDEX.get(climate_key)
+        if climate_idx is not None:
+            vec[climate_idx] = 1.0
+
+    # ── 71. climate_nan (leave as 0 - not explicitly set)
 
     return vec.reshape(1, 72)

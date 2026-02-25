@@ -6,6 +6,8 @@ postgres-data
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 .myenv
 .vscode
+*.xml
+*.iml
 ### Node ###
 # Logs
 logs
