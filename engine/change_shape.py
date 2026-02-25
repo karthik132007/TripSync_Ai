@@ -65,17 +65,16 @@ DB column order (after dropping id & place, positions 0–71):
   58  region_oceania
   59  region_south_asia
   60  region_southeast_asia
-  61  region_nan
-  62  climate_alpine       (not user-supplied → 0)
-  63  climate_cold
-  64  climate_continental
-  65  climate_dry
-  66  climate_highland
-  67  climate_mediterranean
-  68  climate_subtropical
-  69  climate_temperate
-  70  climate_tropical
-  71  climate_nan
+  61  climate_alpine       (not user-supplied → 0)
+  62  climate_cold
+  63  climate_continental
+  64  climate_dry
+  65  climate_highland
+  66  climate_mediterranean
+  67  climate_subtropical
+  68  climate_temperate
+  69  climate_tropical
+  70  climate_nan
 """
 
 import numpy as np
@@ -131,19 +130,19 @@ POPULARITY_INDEX = {
 
 # climate string → db column index
 CLIMATE_INDEX = {
-    "alpine":       62, "cold":         63,
-    "continental":  64, "dry":          65,
-    "highland":     66, "mediterranean": 67,
-    "subtropical":  68, "temperate":    69,
-    "tropical":     70,
-    # climate_nan is 71, but we don't set it explicitly
+    "alpine":       61, "cold":         62,
+    "continental":  63, "dry":          64,
+    "highland":     65, "mediterranean": 66,
+    "subtropical":  67, "temperate":    68,
+    "tropical":     69,
+    # climate_nan is 70, but we don't set it explicitly
 }
 
 # ── Encoder ────────────────────────────────────────────────────────────────
 
 def change_shape(preferences) -> np.ndarray:
     """
-    Convert a Preferences pydantic object into a (1, 72) numpy float32 array
+    Convert a Preferences pydantic object into a (1, 71) numpy float32 array
     matching the places DB feature schema.
 
     preferences fields:
@@ -155,7 +154,7 @@ def change_shape(preferences) -> np.ndarray:
         tags     : list[str]   e.g. ["beach", "culture"]
         popular  : str         "yes" / "no"
     """
-    vec = np.zeros(72, dtype=np.float32)
+    vec = np.zeros(71, dtype=np.float32)
 
     # ── 0. avg_cost_per_day  (use budget directly)
     vec[0] = float(preferences.budget)
@@ -190,15 +189,15 @@ def change_shape(preferences) -> np.ndarray:
     # ── 53. total_cost_log  = log1p(budget * duration)
     vec[53] = float(log1p(preferences.budget * preferences.duration))
 
-    # ── 54–61. region  (not user-supplied → leave as 0)
+    # ── 54–60. region  (not user-supplied → leave as 0)
 
-    # ── 62–70. climate preferences (multi-hot from weather field)
+    # ── 61–69. climate preferences (multi-hot from weather field)
     for climate_pref in (preferences.weather or []):
         climate_key = str(climate_pref).strip().lower()
         climate_idx = CLIMATE_INDEX.get(climate_key)
         if climate_idx is not None:
             vec[climate_idx] = 1.0
 
-    # ── 71. climate_nan (leave as 0 - not explicitly set)
+    # ── 70. climate_nan (leave as 0 - not explicitly set)
 
-    return vec.reshape(1, 72)
+    return vec.reshape(1, 71)

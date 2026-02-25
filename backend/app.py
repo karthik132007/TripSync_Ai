@@ -27,7 +27,7 @@ app.add_middleware(
 def get_user_prefrences(prefrences: Preferences):
     user_embeddings = user_tower.get_user_embeddings(prefrences)
 
-    top_10_idx = get_top_10(user_embeddings)
+    top_10_idx, confidences = get_top_10(user_embeddings, user_months=prefrences.month)
     raw_place_names = get_with_place_id(top_10_idx)
 
     # --- Deduplicate place names while preserving recommendation order ---
@@ -43,7 +43,7 @@ def get_user_prefrences(prefrences: Preferences):
     # so that get_unique_image can avoid repeating the same photo.
     used_image_urls: set[str] = set()
 
-    for place_id, place_name in zip(top_10_idx, raw_place_names):
+    for place_id, place_name, confidence in zip(top_10_idx, raw_place_names, confidences):
         place_data = search_place(place_name=place_name)
 
         if place_data:
@@ -56,6 +56,7 @@ def get_user_prefrences(prefrences: Preferences):
 
             place_data["id"] = int(place_id)   
             place_data["image_url"] = image_url
+            place_data["confidence_score"] = f"{confidence:.1f}%"
 
             places.append(place_data)
 

@@ -4,6 +4,8 @@ sys.path.insert(0, os.path.abspath('..'))
 import numpy as np
 import tensorflow as tf
 from engine.change_shape import change_shape
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Normalization
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
@@ -16,18 +18,37 @@ _model = None
 def _get_model():
     global _model
     if _model is None:
-        _model = tf.keras.models.load_model(os.path.join(_dir, "user_tower.keras"))
+        # Load 71-feature normalization weights
+        norm_weights = np.load(os.path.join(_dir, "norm_weights_correct.npz"))
+        
+        normalizer = Normalization()
+        normalizer.build((None, 71))
+        
+        normalizer.set_weights([
+            norm_weights["mean"],
+            norm_weights["variance"],
+            norm_weights["count"]
+        ])
+        
+        _model = Sequential([
+            normalizer,
+            Dense(128, activation='relu'),
+            Dropout(0.2),
+            Dense(64)
+        ])
+        # Explicitly build the model for shape (None, 71)
+        _model.build((None, 71))
     return _model
 
 
 def get_user_embeddings(preferences):
     """
     Encode user preferences into a 64-dimensional embedding vector
-    using the trained user tower model.
+    using the user tower model.
 
-    preferences → change_shape (72D feature vector) → user_tower.keras → 64D embedding
+    preferences → change_shape (71D feature vector) → user_tower → 64D embedding
     """
-    feature_vec = change_shape(preferences)   # shape (1, 72), actual user data
+    feature_vec = change_shape(preferences)   # shape (1, 71), actual user data
     model = _get_model()
     embedding = model.predict(feature_vec, verbose=0)  # shape (1, 64)
     return embedding
