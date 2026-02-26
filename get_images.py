@@ -93,6 +93,7 @@ def fetch_from_unsplash(
     place_name: str = "",
     per_page: int = 3,
     exclude_ids: set[str] | None = None,
+    tags: list[str] = None,
 ) -> list[dict]:
     """
     Search Unsplash for images matching *query*.
@@ -152,6 +153,10 @@ def fetch_from_unsplash(
                     "beach", "hill", "city", "town", "village", "landscape",
                     "sunrise", "sunset", "snow", "forest", "bridge", "road",
                     "building", "architecture", "heritage", "view", "panorama"}
+
+    if isinstance(tags, list):
+        for tg in tags:
+            travel_words.add(tg.lower())
 
     def _build_photo(photo: dict) -> dict:
         urls = photo.get("urls", {})
@@ -214,7 +219,7 @@ def fetch_from_unsplash(
 
 
 def get_place_images(
-    place_name: str, state: str = "", per_page: int = 3, force: bool = False
+    place_name: str, state: str = "", per_page: int = 3, force: bool = False, tags: list[str] = None
 ) -> list[dict]:
     """
     Return a list of image dicts for *place_name*.
@@ -233,14 +238,28 @@ def get_place_images(
     # Build the global exclusion pool (all photo IDs already in cache)
     used_ids = _build_used_ids(cache)
 
-    # Build a search query that gives better travel photos
-    search_query = f"{place_name} {state} travel".strip() if state else f"{place_name} travel"
-    print(f"⏳ Fetching images for '{place_name}' from Unsplash …")
+    # Build a search query that gives better travel photos by injecting visual tags
+    visual_tags = {"beach", "mountain", "desert", "lake", "forest", "city", "snow", "island", "river", "temple", "safari", "wildlife", "ocean", "jungle", "history", "nature"}
+    query_addons = []
+    if isinstance(tags, list):
+        for t in tags:
+            if t.lower() in visual_tags:
+                query_addons.append(t.lower())
+    
+    addon_str = " ".join(query_addons)
+
+    if state:
+        search_query = f"{place_name} {state} {addon_str} travel".strip()
+    else:
+        search_query = f"{place_name} {addon_str} travel".strip()
+        
+    print(f"⏳ Fetching images for '{place_name}' from Unsplash (Query: '{search_query}') …")
     images = fetch_from_unsplash(
         search_query,
         place_name=place_name,
         per_page=per_page,
         exclude_ids=used_ids,
+        tags=tags,
     )
 
     if images:
@@ -257,6 +276,7 @@ def get_unique_image(
     place_name: str,
     state: str = "",
     used_urls: set[str] | None = None,
+    tags: list[str] = None,
 ) -> Optional[str]:
     """
     Return a *url_regular* for *place_name* that is NOT already in *used_urls*.
@@ -271,7 +291,7 @@ def get_unique_image(
     if used_urls is None:
         used_urls = set()
 
-    images = get_place_images(place_name, state, per_page=3)
+    images = get_place_images(place_name, state, per_page=3, tags=tags)
 
     # --- Step 1: find a cached image not yet used this response ---
     for img in images:
@@ -289,12 +309,25 @@ def get_unique_image(
         if pid:
             exclude_ids.add(pid)
 
-    search_query = f"{place_name} {state} travel".strip() if state else f"{place_name} travel"
+    visual_tags = {"beach", "mountain", "desert", "lake", "forest", "city", "snow", "island", "river", "temple", "safari", "wildlife", "ocean", "jungle", "history", "nature"}
+    query_addons = []
+    if isinstance(tags, list):
+        for t in tags:
+            if t.lower() in visual_tags:
+                query_addons.append(t.lower())
+    addon_str = " ".join(query_addons)
+    
+    if state:
+        search_query = f"{place_name} {state} {addon_str} travel".strip()
+    else:
+        search_query = f"{place_name} {addon_str} travel".strip()
+
     fresh = fetch_from_unsplash(
         search_query,
         place_name=place_name,
         per_page=1,
         exclude_ids=exclude_ids,
+        tags=tags,
     )
     if fresh:
         return fresh[0].get("url_regular") or fresh[0].get("url_small")
@@ -305,9 +338,9 @@ def get_unique_image(
     return None
 
 
-def get_first_image(place_name: str, state: str = "") -> Optional[str]:
+def get_first_image(place_name: str, state: str = "", tags: list[str] = None) -> Optional[str]:
     """Backward-compat wrapper — prefer get_unique_image in new code."""
-    return get_unique_image(place_name, state)
+    return get_unique_image(place_name, state, tags=tags)
 
 
 # --------------- batch helper ---------------

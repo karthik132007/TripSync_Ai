@@ -21,14 +21,12 @@ def _get_model():
         # Load 71-feature normalization weights
         norm_weights = np.load(os.path.join(_dir, "norm_weights_correct.npz"))
         
-        normalizer = Normalization()
-        normalizer.build((None, 71))
-        
-        normalizer.set_weights([
-            norm_weights["mean"],
-            norm_weights["variance"],
-            norm_weights["count"]
-        ])
+        # Explicitly initialize the layer with the pre-trained weights
+        # because normalizer.set_weights() silently fails to build inference state in some Keras versions
+        normalizer = Normalization(
+            mean=norm_weights["mean"],
+            variance=norm_weights["variance"]
+        )
         
         _model = Sequential([
             normalizer,

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Star, Compass, Info, CloudSun, Calendar } from 'lucide-react';
 
-const RecommendationCard = ({ place, index, delay = 0 }) => {
+const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
     const [isVisible, setIsVisible] = useState(false);
     const cardRef = useRef(null);
 
@@ -116,7 +116,13 @@ const RecommendationCard = ({ place, index, delay = 0 }) => {
 
                 {/* View More Button */}
                 <button
-                    onClick={() => console.log('Navigate to details for:', place.name)}
+                    onClick={() => {
+                        if (place.id) {
+                            navigate(`/places/${place.id}`);
+                        } else {
+                            console.log('No ID found for:', place.name);
+                        }
+                    }}
                     className="w-full py-4 rounded-xl bg-gradient-to-r from-space-900 to-space-800 hover:from-coral-500 hover:to-blush-500 text-white font-bold text-sm shadow-[0_4px_14px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_25px_rgba(255,148,148,0.4)] transition-all duration-500 flex items-center justify-center gap-2 group/btn cursor-pointer relative overflow-hidden transform hover:-translate-y-0.5"
                 >
                     <span className="relative z-10 tracking-wide">View Full Guide</span>
@@ -199,6 +205,7 @@ export const Recommend = () => {
                             place={place}
                             index={index}
                             delay={index % 4 * 100} // Staggered entrance animation
+                            navigate={navigate}
                         />
                     ))}
                 </div>

@@ -52,6 +52,7 @@ def get_user_prefrences(prefrences: Preferences):
                 place_name=place_name,
                 state=state,
                 used_urls=used_image_urls,
+                tags=place_data.get("tags", []),
             )
 
             place_data["id"] = int(place_id)   
@@ -71,6 +72,15 @@ def get_user_prefrences(prefrences: Preferences):
 def view_about_place(place_id :int):
     place_name = get_with_place_id([place_id])[0]
     place_data = search_place(place_name=place_name)
+    
+    # get image
+    image_url = get_unique_image(
+        place_name=place_name, 
+        state=place_data.get("state", ""),
+        tags=place_data.get("tags", [])
+    )
+    place_data["id"] = place_id
+    place_data["image_url"] = image_url
 
     return {
         "message": "place info",
@@ -79,17 +89,34 @@ def view_about_place(place_id :int):
 
 @app.get("/places/{place_id}/related")
 def get_clicked_place(place_id: int):
-    # clicked_place = get_place_id(place_name=place_name)
     more_places = get_similar_engine().get_more(place_id)
     ids = [item["id"] for item in more_places]
 
     place_names=get_with_place_id(ids)
     result = []
+    used_image_urls: set[str] = set()
+    
     for item, name in zip(more_places, place_names):
+        place_info = search_place(place_name=name)
+        state = place_info.get("state", "") if place_info else ""
+        tags = place_info.get("tags", []) if place_info else []
+        
+        image_url = get_unique_image(
+            place_name=name, 
+            state=state, 
+            used_urls=used_image_urls,
+            tags=tags
+        )
+        
+        if image_url:
+            used_image_urls.add(image_url)
+
         result.append({
             "id":item["id"],
             "name": name,
-            "score": round(item["score"]*100,3)
+            "score": round(item["score"]*100,3),
+            "image_url": image_url,
+            "state": state
         })
     return{
         "message":"similar places",

@@ -8,6 +8,7 @@ postgres-data
 .vscode
 *.xml
 *.iml
+.idea
 ### Node ###
 # Logs
 logs
