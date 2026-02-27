@@ -1,6 +1,6 @@
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
-
+from ask_gpt import ask_llm
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pref_model import Preferences
@@ -11,6 +11,8 @@ from engine.recommendations import get_top_10
 from db.search_in_json import search_place
 from fastapi import Body
 from get_images import get_unique_image   # per-request dedup helper
+from pydantic import BaseModel
+import json
 
 app = FastAPI()
 
@@ -32,18 +34,21 @@ def get_user_prefrences(prefrences: Preferences):
 
     # --- Deduplicate place names while preserving recommendation order ---
     seen_names: set[str] = set()
-    place_names: list[str] = []
-    for p in raw_place_names:
-        if p not in seen_names:
-            seen_names.add(p)
-            place_names.append(p)
+    unique_places_info = []
+
+    for place_id, place_name, confidence in zip(top_10_idx, raw_place_names, confidences):
+        if place_name not in seen_names:
+            seen_names.add(place_name)
+            unique_places_info.append((place_id, place_name, confidence))
+            if len(unique_places_info) == 12:
+                break
 
     places = []
     # Per-request pool: every image_url handed out this response goes here
     # so that get_unique_image can avoid repeating the same photo.
     used_image_urls: set[str] = set()
 
-    for place_id, place_name, confidence in zip(top_10_idx, raw_place_names, confidences):
+    for place_id, place_name, confidence in unique_places_info:
         place_data = search_place(place_name=place_name)
 
         if place_data:
@@ -73,14 +78,21 @@ def view_about_place(place_id :int):
     place_name = get_with_place_id([place_id])[0]
     place_data = search_place(place_name=place_name)
     
-    # get image
-    image_url = get_unique_image(
+    # get up to 3 images for the destination page
+    from get_images import get_place_images
+    images = get_place_images(
         place_name=place_name, 
         state=place_data.get("state", ""),
+        per_page=3,
         tags=place_data.get("tags", [])
     )
+    
     place_data["id"] = place_id
-    place_data["image_url"] = image_url
+    # Fallback to the first image for backward compatibility
+    place_data["image_url"] = images[0].get("url_regular") if images else None
+    
+    # Map out the regular URLs for the frontend
+    place_data["images"] = [img.get("url_regular") or img.get("url_full") for img in images]
 
     return {
         "message": "place info",
@@ -121,4 +133,28 @@ def get_clicked_place(place_id: int):
     return{
         "message":"similar places",
         "data":result
+    }
+class PlanRequest(BaseModel):
+    duration: int
+    place: str
+    best_for: str
+    budget: int
+    tags: str
+
+@app.post("/places/{place_id}/plan")
+def generate_plan(place_id: int, request: PlanRequest):
+    # Prepare preferences dict for ask_llm
+    preferences = {
+        "duration": request.duration,
+        "place": request.place,
+        "best_for": request.best_for,
+        "budget": request.budget,
+        "tags": request.tags
+    }
+    
+    plan_text = ask_llm(preferences=preferences)
+    
+    return {
+        "message": "Plan generated successfully",
+        "data": plan_text
     }

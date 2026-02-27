@@ -18,7 +18,7 @@ def get_top_10(user_embs, user_months=None):
         valid_months = [m.lower()[:3] for m in user_months if m.lower()[:3] in MONTHS]
         if valid_months:
             mask = df_places[valid_months].sum(axis=1) > 0
-            similarity[~mask] -= 0.1
+            similarity[~mask] += 0.1
             
     top_50_idx = np.argsort(similarity)[-50:][::-1]
     top_50_embs = place_embs[top_50_idx]
@@ -32,12 +32,19 @@ def get_top_10(user_embs, user_months=None):
     ], axis=1)
     
     scores = model.predict(interaction, verbose=0).flatten()
-    top_10 = np.argsort(scores)[-12:][::-1]
     
-    final_top_10 = top_50_idx[top_10]
-    final_scores = scores[top_10]
+    # Add a small amount of random noise to the scores to break ties and add variety
+    # to the top recommendations across different requests with the same preferences
+    noise = np.random.uniform(0, 0.05, size=scores.shape)
+    scores = scores + noise
+    
+    # Get top 20 instead of 12 to ensure we have enough unique places after deduplication
+    top_n = np.argsort(scores)[-20:][::-1]
+    
+    final_top_n = top_50_idx[top_n]
+    final_scores = scores[top_n]
     
     # Apply sigmoid-like normalization to translate raw reranker scores into pseudo-probabilities %
     confidences = 1 / (1 + np.exp(-final_scores)) * 100
     
-    return final_top_10, confidences
+    return final_top_n, confidences

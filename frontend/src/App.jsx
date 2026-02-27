@@ -6,6 +6,7 @@ import { LandingPage } from './components/pages/LandingPage';
 import { PlanTrip } from './components/pages/PlanTrip';
 import { Recommend } from './components/pages/Recommend';
 import { PlaceInfo } from './components/pages/PlaceInfo';
+import { TripPlan } from './components/pages/TripPlan';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/plan" element={<PlanTrip />} />
           <Route path="/recommend" element={<Recommend />} />
           <Route path="/places/:id" element={<PlaceInfo />} />
+          <Route path="/places/:id/plan" element={<TripPlan />} />
         </Routes>
       </main>
 
