@@ -29,7 +29,11 @@ app.add_middleware(
 def get_user_prefrences(prefrences: Preferences):
     user_embeddings = user_tower.get_user_embeddings(prefrences)
 
-    top_10_idx, confidences = get_top_10(user_embeddings, user_months=prefrences.month)
+    top_10_idx, confidences = get_top_10(
+        user_embeddings, 
+        user_months=prefrences.month,
+        user_tags=prefrences.tags
+    )
     raw_place_names = get_with_place_id(top_10_idx)
 
     # --- Deduplicate place names while preserving recommendation order ---

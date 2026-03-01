@@ -156,11 +156,14 @@ def change_shape(preferences) -> np.ndarray:
     """
     vec = np.zeros(71, dtype=np.float32)
 
-    # ── 0. avg_cost_per_day  (use budget directly)
-    vec[0] = float(preferences.budget)
+    # ── 0. avg_cost_per_day  (total budget / duration)
+    avg_cost = float(preferences.budget) / float(preferences.duration)
+    # Clip to training data range [800, 12000] to avoid dominating other features
+    vec[0] = np.clip(avg_cost, 800.0, 12000.0)
 
     # ── 1. trip_duration
-    vec[1] = float(preferences.duration)
+    # Clip to training range [1, 12]
+    vec[1] = np.clip(float(preferences.duration), 1.0, 12.0)
 
     # ── 2–5. popularity  (from the `popular` field)
     pop_key = str(preferences.popular).strip().lower()
@@ -186,8 +189,9 @@ def change_shape(preferences) -> np.ndarray:
     if role_idx is not None:
         vec[role_idx] = 1.0
 
-    # ── 53. total_cost_log  = log1p(budget * duration)
-    vec[53] = float(log1p(preferences.budget * preferences.duration))
+    # ── 53. total_cost_log  = log1p(total_budget)
+    # Clip to training range [log1p(800*1), log1p(12000*12)] -> [6.7, 11.9]
+    vec[53] = np.clip(float(log1p(preferences.budget)), 6.7, 11.9)
 
     # ── 54–60. region  (not user-supplied → leave as 0)
 

@@ -18,24 +18,35 @@ _model = None
 def _get_model():
     global _model
     if _model is None:
-        # Load 71-feature normalization weights
-        norm_weights = np.load(os.path.join(_dir, "norm_weights_correct.npz"))
+        weights_path = os.path.join(_dir, "user_tower.keras")
+        if os.path.exists(weights_path):
+            try:
+                from tensorflow.keras.models import load_model
+                _model = load_model(weights_path)
+                print(f"Successfully loaded model from {weights_path}")
+            except Exception as e:
+                print(f"Warning: Could not load model from {weights_path}: {e}")
         
-        # Explicitly initialize the layer with the pre-trained weights
-        # because normalizer.set_weights() silently fails to build inference state in some Keras versions
-        normalizer = Normalization(
-            mean=norm_weights["mean"],
-            variance=norm_weights["variance"]
-        )
-        
-        _model = Sequential([
-            normalizer,
-            Dense(128, activation='relu'),
-            Dropout(0.2),
-            Dense(64)
-        ])
-        # Explicitly build the model for shape (None, 71)
-        _model.build((None, 71))
+        if _model is None:
+            print("Falling back to manual model creation...")
+            normalizer = Normalization()
+            _model = Sequential([
+                normalizer,
+                Dense(128, activation='relu'),
+                Dropout(0.2),
+                Dense(64)
+            ])
+            _model.build((None, 72))
+            try:
+                norm_weights = np.load(os.path.join(_dir, "norm_weights.npz"))
+                normalizer.set_weights([
+                    norm_weights["mean"],
+                    norm_weights["variance"],
+                    norm_weights["count"]
+                ])
+            except Exception as e2:
+                print(f"Manual normalization initialization failed: {e2}")
+
     return _model
 
 
@@ -44,9 +55,14 @@ def get_user_embeddings(preferences):
     Encode user preferences into a 64-dimensional embedding vector
     using the user tower model.
 
-    preferences → change_shape (71D feature vector) → user_tower → 64D embedding
+    preferences → change_shape (71D) → padding (72D) → user_tower → 64D embedding
     """
-    feature_vec = change_shape(preferences)   # shape (1, 71), actual user data
+    feature_vec = change_shape(preferences)   # shape (1, 71)
+    
+    # Pad with one zero to match the 72-dimensional model input
+    feature_vec_72 = np.zeros((1, 72), dtype=np.float32)
+    feature_vec_72[0, :71] = feature_vec[0]
+    
     model = _get_model()
-    embedding = model.predict(feature_vec, verbose=0)  # shape (1, 64)
+    embedding = model.predict(feature_vec_72, verbose=0)  # shape (1, 64)
     return embedding
