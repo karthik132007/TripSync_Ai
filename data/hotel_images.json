@@ -1,0 +1,504 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=1",
+      "star_rating": 4
+    },
+    {
+      "id": 2,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=2",
+      "star_rating": 4
+    },
+    {
+      "id": 3,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=3",
+      "star_rating": 4
+    },
+    {
+      "id": 4,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=4",
+      "star_rating": 4
+    },
+    {
+      "id": 5,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=5",
+      "star_rating": 4
+    },
+    {
+      "id": 6,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=6",
+      "star_rating": 4
+    },
+    {
+      "id": 7,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=7",
+      "star_rating": 4
+    },
+    {
+      "id": 8,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=8",
+      "star_rating": 4
+    },
+    {
+      "id": 9,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=9",
+      "star_rating": 4
+    },
+    {
+      "id": 10,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=10",
+      "star_rating": 4
+    },
+    {
+      "id": 11,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=11",
+      "star_rating": 4
+    },
+    {
+      "id": 12,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=12",
+      "star_rating": 4
+    },
+    {
+      "id": 13,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=13",
+      "star_rating": 4
+    },
+    {
+      "id": 14,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=14",
+      "star_rating": 4
+    },
+    {
+      "id": 15,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=15",
+      "star_rating": 4
+    },
+    {
+      "id": 16,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=16",
+      "star_rating": 4
+    },
+    {
+      "id": 17,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=17",
+      "star_rating": 4
+    },
+    {
+      "id": 18,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=18",
+      "star_rating": 4
+    },
+    {
+      "id": 19,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=19",
+      "star_rating": 4
+    },
+    {
+      "id": 20,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=20",
+      "star_rating": 4
+    },
+    {
+      "id": 21,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=21",
+      "star_rating": 4
+    },
+    {
+      "id": 22,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=22",
+      "star_rating": 4
+    },
+    {
+      "id": 23,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=23",
+      "star_rating": 4
+    },
+    {
+      "id": 24,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=24",
+      "star_rating": 4
+    },
+    {
+      "id": 25,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=25",
+      "star_rating": 4
+    },
+    {
+      "id": 26,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=26",
+      "star_rating": 4
+    },
+    {
+      "id": 27,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=27",
+      "star_rating": 4
+    },
+    {
+      "id": 28,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=28",
+      "star_rating": 4
+    },
+    {
+      "id": 29,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=29",
+      "star_rating": 4
+    },
+    {
+      "id": 30,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=30",
+      "star_rating": 4
+    },
+    {
+      "id": 31,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=31",
+      "star_rating": 4
+    },
+    {
+      "id": 32,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=32",
+      "star_rating": 4
+    },
+    {
+      "id": 33,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=33",
+      "star_rating": 4
+    },
+    {
+      "id": 34,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=34",
+      "star_rating": 4
+    },
+    {
+      "id": 35,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=35",
+      "star_rating": 4
+    },
+    {
+      "id": 36,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=36",
+      "star_rating": 4
+    },
+    {
+      "id": 37,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=37",
+      "star_rating": 4
+    },
+    {
+      "id": 38,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=38",
+      "star_rating": 4
+    },
+    {
+      "id": 39,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=39",
+      "star_rating": 4
+    },
+    {
+      "id": 40,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=40",
+      "star_rating": 4
+    },
+    {
+      "id": 41,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=41",
+      "star_rating": 4
+    },
+    {
+      "id": 42,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=42",
+      "star_rating": 4
+    },
+    {
+      "id": 43,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=43",
+      "star_rating": 4
+    },
+    {
+      "id": 44,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=44",
+      "star_rating": 4
+    },
+    {
+      "id": 45,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=45",
+      "star_rating": 4
+    },
+    {
+      "id": 46,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=46",
+      "star_rating": 4
+    },
+    {
+      "id": 47,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=47",
+      "star_rating": 4
+    },
+    {
+      "id": 48,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=48",
+      "star_rating": 4
+    },
+    {
+      "id": 49,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=49",
+      "star_rating": 4
+    },
+    {
+      "id": 50,
+      "url": "https://loremflickr.com/640/480/hotel,room?lock=50",
+      "star_rating": 4
+    },
+    {
+      "id": 51,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=51",
+      "star_rating": 5
+    },
+    {
+      "id": 52,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=52",
+      "star_rating": 5
+    },
+    {
+      "id": 53,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=53",
+      "star_rating": 5
+    },
+    {
+      "id": 54,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=54",
+      "star_rating": 5
+    },
+    {
+      "id": 55,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=55",
+      "star_rating": 5
+    },
+    {
+      "id": 56,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=56",
+      "star_rating": 5
+    },
+    {
+      "id": 57,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=57",
+      "star_rating": 5
+    },
+    {
+      "id": 58,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=58",
+      "star_rating": 5
+    },
+    {
+      "id": 59,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=59",
+      "star_rating": 5
+    },
+    {
+      "id": 60,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=60",
+      "star_rating": 5
+    },
+    {
+      "id": 61,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=61",
+      "star_rating": 5
+    },
+    {
+      "id": 62,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=62",
+      "star_rating": 5
+    },
+    {
+      "id": 63,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=63",
+      "star_rating": 5
+    },
+    {
+      "id": 64,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=64",
+      "star_rating": 5
+    },
+    {
+      "id": 65,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=65",
+      "star_rating": 5
+    },
+    {
+      "id": 66,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=66",
+      "star_rating": 5
+    },
+    {
+      "id": 67,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=67",
+      "star_rating": 5
+    },
+    {
+      "id": 68,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=68",
+      "star_rating": 5
+    },
+    {
+      "id": 69,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=69",
+      "star_rating": 5
+    },
+    {
+      "id": 70,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=70",
+      "star_rating": 5
+    },
+    {
+      "id": 71,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=71",
+      "star_rating": 5
+    },
+    {
+      "id": 72,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=72",
+      "star_rating": 5
+    },
+    {
+      "id": 73,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=73",
+      "star_rating": 5
+    },
+    {
+      "id": 74,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=74",
+      "star_rating": 5
+    },
+    {
+      "id": 75,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=75",
+      "star_rating": 5
+    },
+    {
+      "id": 76,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=76",
+      "star_rating": 5
+    },
+    {
+      "id": 77,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=77",
+      "star_rating": 5
+    },
+    {
+      "id": 78,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=78",
+      "star_rating": 5
+    },
+    {
+      "id": 79,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=79",
+      "star_rating": 5
+    },
+    {
+      "id": 80,
+      "url": "https://loremflickr.com/640/480/hotel,resort,luxury?lock=80",
+      "star_rating": 5
+    },
+    {
+      "id": 81,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=81",
+      "star_rating": 3
+    },
+    {
+      "id": 82,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=82",
+      "star_rating": 3
+    },
+    {
+      "id": 83,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=83",
+      "star_rating": 3
+    },
+    {
+      "id": 84,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=84",
+      "star_rating": 3
+    },
+    {
+      "id": 85,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=85",
+      "star_rating": 3
+    },
+    {
+      "id": 86,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=86",
+      "star_rating": 3
+    },
+    {
+      "id": 87,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=87",
+      "star_rating": 3
+    },
+    {
+      "id": 88,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=88",
+      "star_rating": 3
+    },
+    {
+      "id": 89,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=89",
+      "star_rating": 3
+    },
+    {
+      "id": 90,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=90",
+      "star_rating": 3
+    },
+    {
+      "id": 91,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=91",
+      "star_rating": 3
+    },
+    {
+      "id": 92,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=92",
+      "star_rating": 3
+    },
+    {
+      "id": 93,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=93",
+      "star_rating": 3
+    },
+    {
+      "id": 94,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=94",
+      "star_rating": 3
+    },
+    {
+      "id": 95,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=95",
+      "star_rating": 3
+    },
+    {
+      "id": 96,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=96",
+      "star_rating": 3
+    },
+    {
+      "id": 97,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=97",
+      "star_rating": 3
+    },
+    {
+      "id": 98,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=98",
+      "star_rating": 3
+    },
+    {
+      "id": 99,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=99",
+      "star_rating": 3
+    },
+    {
+      "id": 100,
+      "url": "https://loremflickr.com/640/480/hotel,room,budget?lock=100",
+      "star_rating": 3
+    }
+  ]
+}

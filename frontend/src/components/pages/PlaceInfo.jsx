@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, MapPin, Building, CloudSun, Calendar, Tag, Sparkles, DollarSign, Clock, Users } from 'lucide-react';
+import { ArrowLeft, MapPin, Building, CloudSun, Calendar, Tag, Sparkles, DollarSign, Clock, Users, X, Bed, Coins, Star } from 'lucide-react';
 import { AmbientParticles } from '../ui/AmbientParticles';
 
 export const PlaceInfo = () => {
@@ -10,11 +10,55 @@ export const PlaceInfo = () => {
     const [placeData, setPlaceData] = useState(null);
     const [relatedPlaces, setRelatedPlaces] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     // AI Planner State
     const [planData, setPlanData] = useState(null);
     const [generatingPlan, setGeneratingPlan] = useState(false);
     const [isEditingPlan, setIsEditingPlan] = useState(false);
+
+    // Hotels State
+    const [showHotelModal, setShowHotelModal] = useState(false);
+    const [hotelPrefs, setHotelPrefs] = useState({
+        amenities: [],
+        price_per_night: 5000,
+        min_rating: 3,
+        distance_from_downtown: 5
+    });
+    const [hotels, setHotels] = useState(null);
+    const [loadingHotels, setLoadingHotels] = useState(false);
+
+    const availableAmenities = [
+        '24hr_front_desk', 'air_conditioning', 'bar', 'breakfast', 'concierge',
+        'garden', 'gym', 'kitchen', 'laundry', 'non_smoking', 'parking', 'pool',
+        'restaurant', 'spa', 'tv', 'wifi'
+    ];
+
+    const handleAmenityToggle = (amenity) => {
+        setHotelPrefs(prev => {
+            const newAmenities = prev.amenities.includes(amenity)
+                ? prev.amenities.filter(a => a !== amenity)
+                : [...prev.amenities, amenity];
+            return { ...prev, amenities: newAmenities };
+        });
+    };
+
+    const fetchHotels = async () => {
+        setLoadingHotels(true);
+        try {
+            const response = await fetch(`http://localhost:8000/places/${id}/hotels`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(hotelPrefs)
+            });
+            const data = await response.json();
+            setHotels(data.data);
+        } catch (error) {
+            console.error("Error fetching hotels:", error);
+        } finally {
+            setLoadingHotels(false);
+        }
+    };
 
     const [planParams, setPlanParams] = useState(() => {
         try {
@@ -77,19 +121,29 @@ export const PlaceInfo = () => {
         // Fetch place info and related places
         const fetchData = async () => {
             setLoading(true);
+            setError(null);
+
             try {
-                const [infoRes, relatedRes] = await Promise.all([
-                    fetch(`http://localhost:8000/places/${id}`),
-                    fetch(`http://localhost:8000/places/${id}/related`)
-                ]);
-
+                // Fetch main details first
+                const infoRes = await fetch(`http://localhost:8000/places/${id}`);
+                if (!infoRes.ok) throw new Error("Place not found");
                 const infoData = await infoRes.json();
-                const relatedData = await relatedRes.json();
-
                 setPlaceData(infoData.data);
-                setRelatedPlaces(relatedData.data);
+
+                // Fetch related places separately
+                try {
+                    const relatedRes = await fetch(`http://localhost:8000/places/${id}/related`);
+                    if (relatedRes.ok) {
+                        const relatedData = await relatedRes.json();
+                        setRelatedPlaces(relatedData.data || []);
+                    }
+                } catch (err) {
+                    console.warn("Could not fetch related places", err);
+                }
+
             } catch (error) {
                 console.error("Error fetching place data:", error);
+                setError(error.message);
             } finally {
                 setLoading(false);
             }
@@ -100,12 +154,26 @@ export const PlaceInfo = () => {
         window.scrollTo(0, 0);
     }, [id]);
 
-    if (loading || !placeData) {
+    if (loading) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-[#fafafc] text-space-500">
                 <div className="flex flex-col items-center gap-4">
                     <div className="w-8 h-8 border-2 border-coral-200 border-t-coral-500 rounded-full animate-spin" />
                     <p className="animate-pulse tracking-wide font-medium">Loading destination details...</p>
+                </div>
+            </div>
+        );
+    }
+
+    if (error || !placeData) {
+        return (
+            <div className="min-h-screen flex items-center justify-center bg-[#fafafc] text-space-500">
+                <div className="text-center space-y-4">
+                    <p className="text-xl font-bold text-space-900">Oops, something went wrong.</p>
+                    <p className="text-sm">{error || "Could not load place details."}</p>
+                    <button onClick={() => window.location.reload()} className="px-4 py-2 bg-space-900 text-white rounded-lg text-sm font-bold">
+                        Retry
+                    </button>
                 </div>
             </div>
         );
@@ -340,7 +408,7 @@ export const PlaceInfo = () => {
                                     Explore the finest accommodations handpicked to enhance your stay in {placeData.place || "this destination"}.
                                 </p>
 
-                                <button className="w-full py-4 rounded-xl bg-space-900 hover:bg-coral-500 text-white font-bold text-sm shadow-[0_8px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_25px_rgba(255,148,148,0.4)] transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-1 relative z-10">
+                                <button onClick={() => setShowHotelModal(true)} className="w-full py-4 rounded-xl bg-space-900 hover:bg-coral-500 text-white font-bold text-sm shadow-[0_8px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_25px_rgba(255,148,148,0.4)] transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-1 relative z-10">
                                     Show Hotels at this Place
                                 </button>
                             </div>
@@ -385,6 +453,193 @@ export const PlaceInfo = () => {
                                         </div>
                                     </div>
                                 ))}
+                            </div>
+                        </div>
+                    )}
+
+
+                    {/* Hotel Modal */}
+                    {showHotelModal && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-space-950/60 backdrop-blur-sm">
+                            <div className="bg-white rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-hidden shadow-2xl flex flex-col relative animate-in fade-in zoom-in-95 duration-200">
+                                {/* Header */}
+                                <div className="p-6 border-b border-space-100 flex items-center justify-between bg-white z-10">
+                                    <div>
+                                        <h2 className="text-2xl font-black font-mono text-space-900">Find Hotels</h2>
+                                        <p className="text-space-500 text-sm">Customize your stay in {placeData?.place}</p>
+                                    </div>
+                                    <button onClick={() => setShowHotelModal(false)} className="p-2 hover:bg-space-100 rounded-full transition-colors">
+                                        <X size={24} className="text-space-400" />
+                                    </button>
+                                </div>
+
+                                {/* Content */}
+                                <div className="overflow-y-auto flex-1 p-6 space-y-8">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                        {/* Price */}
+                                        <div className="space-y-3">
+                                            <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
+                                                <Coins size={16} className="text-coral-500" />
+                                                Max Price: ₹{hotelPrefs.price_per_night}
+                                            </label>
+                                            <input
+                                                type="range"
+                                                min="1000"
+                                                max="50000"
+                                                step="500"
+                                                value={hotelPrefs.price_per_night}
+                                                onChange={(e) => setHotelPrefs(prev => ({ ...prev, price_per_night: Number(e.target.value) }))}
+                                                className="w-full accent-coral-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
+                                            />
+                                        </div>
+                                        {/* Rating */}
+                                        <div className="space-y-3">
+                                            <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
+                                                <Star size={16} className="text-ice-500" />
+                                                Min Rating: {hotelPrefs.min_rating}+
+                                            </label>
+                                            <input
+                                                type="range"
+                                                min="1"
+                                                max="5"
+                                                step="0.5"
+                                                value={hotelPrefs.min_rating}
+                                                onChange={(e) => setHotelPrefs(prev => ({ ...prev, min_rating: Number(e.target.value) }))}
+                                                className="w-full accent-ice-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
+                                            />
+                                        </div>
+                                        {/* Distance */}
+                                        <div className="space-y-3">
+                                            <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
+                                                <MapPin size={16} className="text-blush-500" />
+                                                Max Dist: {hotelPrefs.distance_from_downtown} km
+                                            </label>
+                                            <input
+                                                type="range"
+                                                min="0.5"
+                                                max="20"
+                                                step="0.5"
+                                                value={hotelPrefs.distance_from_downtown}
+                                                onChange={(e) => setHotelPrefs(prev => ({ ...prev, distance_from_downtown: Number(e.target.value) }))}
+                                                className="w-full accent-blush-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    {/* Amenities */}
+                                    <div className="space-y-3">
+                                        <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
+                                            <Tag size={16} className="text-space-400" />
+                                            Amenities
+                                        </label>
+                                        <div className="flex flex-wrap gap-2">
+                                            {availableAmenities.map(amenity => (
+                                                <button
+                                                    key={amenity}
+                                                    onClick={() => handleAmenityToggle(amenity)}
+                                                    className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${hotelPrefs.amenities.includes(amenity)
+                                                            ? 'bg-space-900 text-white border-space-900 shadow-lg shadow-space-200'
+                                                            : 'bg-white text-space-500 border-space-200 hover:border-space-300 hover:bg-space-50'
+                                                        }`}
+                                                >
+                                                    {amenity.replace(/_/g, ' ')}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    <div className="flex justify-end pt-4">
+                                        <button
+                                            onClick={fetchHotels}
+                                            disabled={loadingHotels}
+                                            className="px-8 py-3 bg-gradient-to-r from-coral-500 to-blush-500 text-white font-bold rounded-xl shadow-lg shadow-coral-200 hover:shadow-xl hover:-translate-y-0.5 transition-all disabled:opacity-70 disabled:cursor-not-allowed flex items-center gap-2"
+                                        >
+                                            {loadingHotels ? (
+                                                <>
+                                                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                                                    Searching...
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <Sparkles size={18} />
+                                                    Find Hotels
+                                                </>
+                                            )}
+                                        </button>
+                                    </div>
+
+                                    {/* Results */}
+                                    {hotels && (
+                                        <div className="space-y-4 pt-4 border-t border-space-100">
+                                            <h3 className="text-lg font-bold text-space-900">Found {hotels.length} Hotels</h3>
+                                            <div className="grid grid-cols-1 gap-4">
+                                                {hotels.map((hotel, idx) => (
+                                                    <div key={idx} className="flex gap-4 p-4 rounded-xl border border-space-100 bg-space-50/50 hover:bg-white hover:shadow-md transition-all">
+                                                        <div className="w-24 h-24 bg-space-200 rounded-lg shrink-0 overflow-hidden relative">
+                                                            <img
+                                                                src={`https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=200&h=200&random=${idx}`}
+                                                                alt={hotel.hotel_name}
+                                                                className="w-full h-full object-cover"
+                                                                onError={(e) => {
+                                                                    e.target.src = 'https://placehold.co/200x200/e2e8f0/64748b?text=Hotel';
+                                                                }}
+                                                            />
+                                                        </div>
+                                                        <div className="flex-1 min-w-0">
+                                                            <div className="flex justify-between items-start">
+                                                                <h4 className="font-bold text-space-900 truncate pr-2" title={hotel.hotel_name}>
+                                                                    {hotel.hotel_name}
+                                                                </h4>
+                                                                <span className="text-xs font-bold px-2 py-1 bg-ice-100 text-ice-700 rounded-lg flex items-center gap-1 shrink-0">
+                                                                    <Star size={12} /> {hotel.rating}
+                                                                </span>
+                                                            </div>
+                                                            <p className="text-sm text-space-500 mt-1 flex items-center gap-1">
+                                                                <MapPin size={12} />
+                                                                {hotel.distance_from_downtown_km}km from center
+                                                            </p>
+                                                            <div className="flex flex-wrap gap-1 mt-2">
+                                                                {(hotel.amenities || hotel.aminities || []).slice(0, 3).map(a => (
+                                                                    <span key={a} className="text-[10px] px-1.5 py-0.5 bg-white border border-space-100 rounded text-space-400 capitalize">
+                                                                        {a.replace(/_/g, ' ')}
+                                                                    </span>
+                                                                ))}
+                                                                {(hotel.amenities || hotel.aminities || []).length > 3 && (
+                                                                    <span className="text-[10px] px-1.5 py-0.5 text-space-400">
+                                                                        +{(hotel.amenities || hotel.aminities).length - 3} more
+                                                                    </span>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                        <div className="text-right self-end flex flex-col items-end gap-2 shrink-0">
+                                                            <div className="text-right">
+                                                                <div className="text-lg font-black text-coral-500">
+                                                                    ₹{hotel.price_per_night || hotel.price_per_nigh}
+                                                                </div>
+                                                                <div className="text-[10px] text-space-400 uppercase font-bold">per night</div>
+                                                            </div>
+
+                                                            {hotel.hotel_link && (
+                                                                <a
+                                                                    href={hotel.hotel_link}
+                                                                    target="_blank"
+                                                                    rel="noreferrer"
+                                                                    className="px-3 py-1.5 bg-space-900 hover:bg-coral-500 text-white text-xs font-bold rounded-lg transition-colors flex items-center gap-1"
+                                                                >
+                                                                    View Deal
+                                                                    <ArrowLeft size={10} className="rotate-180" />
+                                                                </a>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                                {hotels.length === 0 && (
+                                                    <p className="text-center text-space-400 py-8">No hotels found matching your criteria.</p>
+                                                )}
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         </div>
                     )}

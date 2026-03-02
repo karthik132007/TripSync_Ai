@@ -3,7 +3,7 @@ sys.path.insert(0, os.path.abspath('..'))
 from ask_gpt import ask_llm
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pref_model import Preferences
+from pref_model import Preferences, HotelPreferences
 from engine.cluster import get_similar_engine
 from db.get_from_db import *
 from engine import user_tower
@@ -13,7 +13,7 @@ from fastapi import Body
 from get_images import get_unique_image   # per-request dedup helper
 from pydantic import BaseModel
 import json
-
+from engine.hotel import recommend_hotel
 app = FastAPI()
 
 # Add CORSMiddleware
@@ -161,4 +161,11 @@ def generate_plan(place_id: int, request: PlanRequest):
     return {
         "message": "Plan generated successfully",
         "data": plan_text
+    }
+@app.post("/places/{place_id}/hotels")
+def show_hotels(place_id: int, preferences: HotelPreferences = Body(...)):
+    hotels = recommend_hotel(place_id=place_id, user_preferences=preferences)
+    return {
+        "message": "top 5 hotels",
+        "data": hotels,
     }

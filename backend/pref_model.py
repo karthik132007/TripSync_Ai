@@ -19,3 +19,16 @@ class Preferences(BaseModel):
             # $15 per day is a minimal realistic check
             raise ValueError("Budget is too low for this duration. Please allow at least $15 per day.")
         return self
+
+class Hotel(BaseModel):
+    hotel_id : int
+    place_id:int
+    aminities :list
+    distance_from_downtown_km:int
+    rating :int
+    price_per_nigh:float
+class HotelPreferences(BaseModel):
+    amenities: list[str] = []
+    price_per_night: float
+    min_rating: float
+    distance_from_downtown: float
