@@ -1,15 +1,12 @@
 import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # ── DB connection ────────────────────────────────────────────────────────────
-conn = psycopg2.connect(
-    host="localhost",
-    port=5432,
-    dbname="travel_db",
-    user="admin",
-    password="root",
-)
+conn = psycopg2.connect(os.getenv("DB_URL"))
 cur = conn.cursor()
 
 # ── Load CSV ─────────────────────────────────────────────────────────────────

@@ -3,13 +3,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import os
 load_dotenv()
-conn = psycopg2.connect(
-        host=os.getenv("DB_HOST"),
-        database=os.getenv("DB_NAME"),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASS"),
-        port=os.getenv("DB_PORT")
-    )
+conn = psycopg2.connect(os.getenv("DB_URL"))
 cur = conn.cursor()
 
 def get_hotels():
