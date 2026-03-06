@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 _dir = os.path.dirname(os.path.abspath(__file__))
 place_embs = np.load(os.path.join(_dir, "item_embeddings.npy"))
-model = load_model(os.path.join(_dir, "reranker_model.keras"))
+model = load_model(os.path.join(_dir, "reranker_model.keras"), compile=False)
 df_places = pd.read_csv(os.path.join(_dir, "../data/places_processed.csv"))
 MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 
