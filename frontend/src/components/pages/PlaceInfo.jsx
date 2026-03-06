@@ -539,8 +539,8 @@ export const PlaceInfo = () => {
                                                     key={amenity}
                                                     onClick={() => handleAmenityToggle(amenity)}
                                                     className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${hotelPrefs.amenities.includes(amenity)
-                                                            ? 'bg-space-900 text-white border-space-900 shadow-lg shadow-space-200'
-                                                            : 'bg-white text-space-500 border-space-200 hover:border-space-300 hover:bg-space-50'
+                                                        ? 'bg-space-900 text-white border-space-900 shadow-lg shadow-space-200'
+                                                        : 'bg-white text-space-500 border-space-200 hover:border-space-300 hover:bg-space-50'
                                                         }`}
                                                 >
                                                     {amenity.replace(/_/g, ' ')}
