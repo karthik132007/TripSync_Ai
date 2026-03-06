@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Building, CloudSun, Calendar, Tag, Sparkles, DollarSign, Clock, Users, X, Bed, Coins, Star } from 'lucide-react';
 import { AmbientParticles } from '../ui/AmbientParticles';
+import { API_CONFIG } from '../../config/api';
 
 export const PlaceInfo = () => {
     const { id } = useParams();
@@ -46,7 +47,7 @@ export const PlaceInfo = () => {
     const fetchHotels = async () => {
         setLoadingHotels(true);
         try {
-            const response = await fetch(`http://localhost:8000/places/${id}/hotels`, {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/places/${id}/hotels`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(hotelPrefs)
@@ -91,7 +92,7 @@ export const PlaceInfo = () => {
     const handleGeneratePlan = async () => {
         setGeneratingPlan(true);
         try {
-            const res = await fetch(`http://localhost:8000/places/${id}/plan`, {
+            const res = await fetch(`${API_CONFIG.BASE_URL}/places/${id}/plan`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -125,14 +126,14 @@ export const PlaceInfo = () => {
 
             try {
                 // Fetch main details first
-                const infoRes = await fetch(`http://localhost:8000/places/${id}`);
+                const infoRes = await fetch(`${API_CONFIG.BASE_URL}/places/${id}`);
                 if (!infoRes.ok) throw new Error("Place not found");
                 const infoData = await infoRes.json();
                 setPlaceData(infoData.data);
 
                 // Fetch related places separately
                 try {
-                    const relatedRes = await fetch(`http://localhost:8000/places/${id}/related`);
+                    const relatedRes = await fetch(`${API_CONFIG.BASE_URL}/places/${id}/related`);
                     if (relatedRes.ok) {
                         const relatedData = await relatedRes.json();
                         setRelatedPlaces(relatedData.data || []);
