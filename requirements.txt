@@ -2,7 +2,10 @@ numpy
 scikit-learn
 pandas
 requests
-tensorflow
+tensorflow-cpu
 psycopg2-binary
 fastapi
 uvicorn
+openai
+python-dotenv
+pydantic
