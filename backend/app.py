@@ -1,9 +1,9 @@
-import sys, os
-sys.path.insert(0, os.path.abspath('..'))
+# import sys, os
+# sys.path.insert(0, os.path.abspath('..'))
 from ask_gpt import ask_llm
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pref_model import Preferences, HotelPreferences
+from backend.pref_model import Preferences, HotelPreferences
 from engine.cluster import get_similar_engine
 from db.get_from_db import *
 from engine import user_tower
