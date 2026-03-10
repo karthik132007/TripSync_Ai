@@ -194,11 +194,11 @@ export const PlaceInfo = () => {
                 />
                 <div
                     className="absolute w-[600px] h-[600px] rounded-full animate-blob animation-delay-2000 opacity-[0.08]"
-                    style={{ background: 'radial-gradient(circle, #FFD1D1 0%, transparent 70%)', top: '40%', left: '-10%', filter: 'blur(100px)' }}
+                    style={{ background: 'radial-gradient(circle, var(--color-pink-200) 0%, transparent 70%)', top: '40%', left: '-10%', filter: 'blur(100px)' }}
                 />
                 <div
                     className="absolute w-[700px] h-[700px] rounded-full animate-blob animation-delay-4000 opacity-[0.06]"
-                    style={{ background: 'radial-gradient(circle, #FF9494 0%, transparent 70%)', bottom: '-10%', right: '20%', filter: 'blur(110px)' }}
+                    style={{ background: 'radial-gradient(circle, var(--color-pink-300) 0%, transparent 70%)', bottom: '-10%', right: '20%', filter: 'blur(110px)' }}
                 />
                 <div
                     className="absolute w-[500px] h-[500px] rounded-full animate-blob opacity-[0.05]"
@@ -242,7 +242,7 @@ export const PlaceInfo = () => {
 
                         <div className="animate-fade-in-up">
                             <div className="flex items-center gap-2 mb-3">
-                                <MapPin size={18} className="text-coral-400" />
+                                <MapPin size={18} className="text-pink-400" />
                                 <span className="text-white/90 text-sm md:text-base font-medium tracking-widest uppercase">
                                     {placeData.state ? `${placeData.state}, ` : ''}{placeData.country || 'Destination'}
                                 </span>
@@ -266,12 +266,12 @@ export const PlaceInfo = () => {
                                 <h2 className="text-2xl font-black text-space-900 mb-6 font-mono tracking-tight relative z-10">Trip Highlights</h2>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 relative z-10">
-                                    <div className="flex items-start gap-4 p-5 rounded-2xl bg-gradient-to-br from-coral-50/50 to-blush-50/30 border border-coral-100/50 shadow-sm hover:shadow-[0_8px_20px_rgba(255,148,148,0.1)] transition-all duration-300 hover:-translate-y-1">
-                                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-coral-100 to-blush-100 flex items-center justify-center shrink-0 border border-coral-200/50">
-                                            <CloudSun size={24} className="text-coral-500" />
+                                    <div className="flex items-start gap-4 p-5 rounded-2xl bg-gradient-to-br from-pink-50/50 to-white/30 border border-pink-100/50 shadow-sm hover:shadow-[0_8px_20px_rgba(255,96,144,0.1)] transition-all duration-300 hover:-translate-y-1">
+                                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-100 to-pink-50 flex items-center justify-center shrink-0 border border-pink-200/50">
+                                            <CloudSun size={24} className="text-pink-500" />
                                         </div>
                                         <div>
-                                            <p className="text-xs font-mono uppercase font-bold text-coral-400 tracking-wider mb-1">Best Season</p>
+                                            <p className="text-xs font-mono uppercase font-bold text-pink-400 tracking-wider mb-1">Best Season</p>
                                             <p className="text-sm font-semibold text-space-800">
                                                 {placeData.season ? placeData.season.join(', ') : 'Year-round'}
                                             </p>
@@ -307,13 +307,13 @@ export const PlaceInfo = () => {
                             </div>
 
                             {/* AI Trip Planner Section */}
-                            <div className="relative rounded-3xl border border-white/40 bg-white/[0.6] backdrop-blur-xl p-8 sm:p-10 shadow-[0_8px_32px_rgba(255,148,148,0.05)] transition-all duration-500 hover:bg-white/[0.8] hover:shadow-[0_20px_60px_rgba(255,148,148,0.1)] overflow-hidden">
-                                <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-coral-300/10 to-transparent rounded-full blur-3xl pointer-events-none" />
+                            <div className="relative rounded-3xl border border-white/40 bg-white/[0.6] backdrop-blur-xl p-8 sm:p-10 shadow-[0_8px_32px_rgba(255,96,144,0.05)] transition-all duration-500 hover:bg-white/[0.8] hover:shadow-[0_20px_60px_rgba(255,96,144,0.1)] overflow-hidden">
+                                <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-pink-300/10 to-transparent rounded-full blur-3xl pointer-events-none" />
 
                                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 relative z-10">
                                     <div className="flex items-center gap-3">
-                                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-coral-400/20 to-blush-400/20 flex items-center justify-center border border-coral-200/50">
-                                            <Sparkles size={24} className="text-coral-500" />
+                                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-300/20 to-pink-400/20 flex items-center justify-center border border-pink-200/50">
+                                            <Sparkles size={24} className="text-pink-500" />
                                         </div>
                                         <div>
                                             <h2 className="text-2xl font-black text-space-900 font-mono tracking-tight">AI Trip Planner</h2>
@@ -322,7 +322,7 @@ export const PlaceInfo = () => {
                                     </div>
                                     <button
                                         onClick={() => setIsEditingPlan(!isEditingPlan)}
-                                        className="text-sm font-bold text-coral-500 hover:text-coral-600 underline cursor-pointer"
+                                        className="text-sm font-bold text-pink-500 hover:text-pink-600 underline cursor-pointer"
                                     >
                                         {isEditingPlan ? "Save Preferences" : "Edit Preferences"}
                                     </button>
@@ -333,19 +333,19 @@ export const PlaceInfo = () => {
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 relative z-10">
                                         <div className="space-y-1">
                                             <label className="text-xs font-bold text-space-500 uppercase">Duration (Days)</label>
-                                            <input type="number" name="duration" value={planParams.duration} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-coral-400" />
+                                            <input type="number" name="duration" value={planParams.duration} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-pink-400" />
                                         </div>
                                         <div className="space-y-1">
                                             <label className="text-xs font-bold text-space-500 uppercase">Budget (₹)</label>
-                                            <input type="number" name="budget" value={planParams.budget} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-coral-400" />
+                                            <input type="number" name="budget" value={planParams.budget} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-pink-400" />
                                         </div>
                                         <div className="space-y-1">
                                             <label className="text-xs font-bold text-space-500 uppercase">Best For</label>
-                                            <input type="text" name="best_for" value={planParams.best_for} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-coral-400" />
+                                            <input type="text" name="best_for" value={planParams.best_for} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-pink-400" />
                                         </div>
                                         <div className="space-y-1">
                                             <label className="text-xs font-bold text-space-500 uppercase">Tags</label>
-                                            <input type="text" name="tags" value={planParams.tags} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-coral-400" />
+                                            <input type="text" name="tags" value={planParams.tags} onChange={handleParamChange} className="w-full px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 focus:outline-none focus:border-pink-400" />
                                         </div>
                                     </div>
                                 ) : (
@@ -355,7 +355,7 @@ export const PlaceInfo = () => {
                                             <span className="text-sm font-bold text-space-700">{planParams.duration} Days</span>
                                         </div>
                                         <div className="flex items-center gap-2 px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 shadow-sm">
-                                            <DollarSign size={14} className="text-coral-500" />
+                                            <DollarSign size={14} className="text-pink-500" />
                                             <span className="text-sm font-bold text-space-700">₹{planParams.budget}</span>
                                         </div>
                                         <div className="flex items-center gap-2 px-4 py-2 bg-white/50 backdrop-blur-md rounded-xl border border-space-200/60 shadow-sm">
@@ -374,7 +374,7 @@ export const PlaceInfo = () => {
                                     disabled={generatingPlan}
                                     className={`group relative w-full py-4 rounded-xl font-bold text-sm transition-all duration-500 flex items-center justify-center gap-2 disabled:cursor-not-allowed overflow-hidden z-10
                                     ${generatingPlan ? 'bg-space-100/60 backdrop-blur-md text-space-400 border border-space-200 text-opacity-80'
-                                            : 'bg-gradient-to-r from-coral-400 via-blush-400 to-ice-400 text-white shadow-[0_8px_30px_rgba(255,148,148,0.25)] hover:shadow-[0_12px_40px_rgba(255,148,148,0.35)] hover:-translate-y-0.5'}`}
+                                            : 'bg-gradient-to-r bg-gradient-to-r from-ice-400 to-pink-400 text-white shadow-[0_8px_30px_rgba(255,96,144,0.25)] hover:shadow-[0_12px_40px_rgba(255,96,144,0.35)] hover:-translate-y-0.5'}`}
                                 >
                                     {!generatingPlan && (
                                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
@@ -399,16 +399,16 @@ export const PlaceInfo = () => {
                         <div className="space-y-6">
                             {/* Hotels Action Card */}
                             <div className="relative rounded-3xl border border-white/40 bg-white/[0.6] backdrop-blur-xl p-8 shadow-[0_8px_32px_rgba(166,227,233,0.1)] transition-all duration-500 hover:bg-white/[0.8] hover:shadow-[0_20px_60px_rgba(166,227,233,0.15)] overflow-hidden sticky top-24">
-                                <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-to-bl from-blush-300/10 to-transparent rounded-full blur-3xl pointer-events-none" />
-                                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blush-50 to-coral-50 flex items-center justify-center mb-6 border border-blush-100/50">
-                                    <Building size={28} className="text-coral-400" />
+                                <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-to-bl from-pink-300/10 to-transparent rounded-full blur-3xl pointer-events-none" />
+                                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-pink-50 to-white flex items-center justify-center mb-6 border border-pink-100/50">
+                                    <Building size={28} className="text-pink-400" />
                                 </div>
                                 <h2 className="text-2xl font-bold font-mono text-space-900 mb-2 relative z-10">Ready to book?</h2>
                                 <p className="text-space-500 text-sm mb-8 leading-relaxed relative z-10">
                                     Explore the finest accommodations handpicked to enhance your stay in {placeData.place || "this destination"}.
                                 </p>
 
-                                <button onClick={() => setShowHotelModal(true)} className="w-full py-4 rounded-xl bg-space-900 hover:bg-coral-500 text-white font-bold text-sm shadow-[0_8px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_25px_rgba(255,148,148,0.4)] transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-1 relative z-10">
+                                <button onClick={() => setShowHotelModal(true)} className="w-full py-4 rounded-xl bg-space-900 hover:bg-pink-500 text-white font-bold text-sm shadow-[0_8px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_25px_rgba(255,96,144,0.4)] transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-1 relative z-10">
                                     Show Hotels at this Place
                                 </button>
                             </div>
@@ -420,7 +420,7 @@ export const PlaceInfo = () => {
                         <div className="mt-24 relative z-10">
                             <div className="flex items-center justify-between mb-8">
                                 <h2 className="text-3xl font-black font-mono text-space-900 tracking-tight">Similar Destinations</h2>
-                                <span className="text-sm font-bold text-coral-500 tracking-wide uppercase"></span>
+                                <span className="text-sm font-bold text-pink-500 tracking-wide uppercase"></span>
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6">
@@ -448,7 +448,7 @@ export const PlaceInfo = () => {
                                             <span className="text-[10px] text-space-500 uppercase font-bold font-mono tracking-wider truncate mr-2">
                                                 {related.state || 'Destination'}
                                             </span>
-                                            <span className="text-xs font-bold text-coral-500 bg-coral-50/80 px-2 py-0.5 rounded-md border border-coral-100/50">
+                                            <span className="text-xs font-bold text-pink-500 bg-pink-50/80 px-2 py-0.5 rounded-md border border-pink-100/50">
                                                 {related.score}% Match
                                             </span>
                                         </div>
@@ -480,7 +480,7 @@ export const PlaceInfo = () => {
                                         {/* Price */}
                                         <div className="space-y-3">
                                             <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
-                                                <Coins size={16} className="text-coral-500" />
+                                                <Coins size={16} className="text-pink-500" />
                                                 Max Price: ₹{hotelPrefs.price_per_night}
                                             </label>
                                             <input
@@ -490,7 +490,7 @@ export const PlaceInfo = () => {
                                                 step="500"
                                                 value={hotelPrefs.price_per_night}
                                                 onChange={(e) => setHotelPrefs(prev => ({ ...prev, price_per_night: Number(e.target.value) }))}
-                                                className="w-full accent-coral-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
+                                                className="w-full accent-pink-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
                                             />
                                         </div>
                                         {/* Rating */}
@@ -512,7 +512,7 @@ export const PlaceInfo = () => {
                                         {/* Distance */}
                                         <div className="space-y-3">
                                             <label className="text-sm font-bold text-space-700 uppercase flex items-center gap-2">
-                                                <MapPin size={16} className="text-blush-500" />
+                                                <MapPin size={16} className="text-pink-500" />
                                                 Max Dist: {hotelPrefs.distance_from_downtown} km
                                             </label>
                                             <input
@@ -522,7 +522,7 @@ export const PlaceInfo = () => {
                                                 step="0.5"
                                                 value={hotelPrefs.distance_from_downtown}
                                                 onChange={(e) => setHotelPrefs(prev => ({ ...prev, distance_from_downtown: Number(e.target.value) }))}
-                                                className="w-full accent-blush-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
+                                                className="w-full accent-pink-500 h-2 bg-space-100 rounded-full appearance-none cursor-pointer"
                                             />
                                         </div>
                                     </div>
@@ -553,7 +553,7 @@ export const PlaceInfo = () => {
                                         <button
                                             onClick={fetchHotels}
                                             disabled={loadingHotels}
-                                            className="px-8 py-3 bg-gradient-to-r from-coral-500 to-blush-500 text-white font-bold rounded-xl shadow-lg shadow-coral-200 hover:shadow-xl hover:-translate-y-0.5 transition-all disabled:opacity-70 disabled:cursor-not-allowed flex items-center gap-2"
+                                            className="px-8 py-3 bg-gradient-to-r from-pink-400 to-pink-500 text-white font-bold rounded-xl shadow-lg shadow-pink-200 hover:shadow-xl hover:-translate-y-0.5 transition-all disabled:opacity-70 disabled:cursor-not-allowed flex items-center gap-2"
                                         >
                                             {loadingHotels ? (
                                                 <>
@@ -606,7 +606,7 @@ export const PlaceInfo = () => {
                                                         </div>
                                                         <div className="text-right self-end flex flex-col items-end gap-2 shrink-0">
                                                             <div className="text-right">
-                                                                <div className="text-lg font-black text-coral-500">
+                                                                <div className="text-lg font-black text-pink-500">
                                                                     ₹{hotel.price_per_night || hotel.price_per_nigh}
                                                                 </div>
                                                                 <div className="text-[10px] text-space-400 uppercase font-bold">per night</div>
@@ -617,7 +617,7 @@ export const PlaceInfo = () => {
                                                                     href={hotel.hotel_link}
                                                                     target="_blank"
                                                                     rel="noreferrer"
-                                                                    className="px-3 py-1.5 bg-space-900 hover:bg-coral-500 text-white text-xs font-bold rounded-lg transition-colors flex items-center gap-1"
+                                                                    className="px-3 py-1.5 bg-space-900 hover:bg-pink-500 text-white text-xs font-bold rounded-lg transition-colors flex items-center gap-1"
                                                                 >
                                                                     View Deal
                                                                     <ArrowLeft size={10} className="rotate-180" />

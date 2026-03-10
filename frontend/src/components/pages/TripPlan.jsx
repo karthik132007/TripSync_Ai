@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Download, Sparkles, Compass, MapPin, Coffee, Sun, Moon, Info, Utensils, Star, CheckCircle2, ChevronRight } from 'lucide-react';
+import { ArrowLeft, Download, Sparkles, Compass, MapPin, Coffee, Sun, Moon, Info, Utensils, Star, CheckCircle2, ChevronRight, Wallet } from 'lucide-react';
 import { AmbientParticles } from '../ui/AmbientParticles';
 import imageCache from '../../data/image_cache.json';
 
@@ -146,7 +146,7 @@ const renderList = (items) => {
         <ul className="space-y-3">
             {items.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 group/item">
-                    <CheckCircle2 size={18} className="text-coral-400 mt-0.5 shrink-0 opacity-70 group-hover/item:opacity-100 transition-opacity" />
+                    <CheckCircle2 size={18} className="text-pink-400 mt-0.5 shrink-0 opacity-70 group-hover/item:opacity-100 transition-opacity" />
                     <span className="text-space-700 font-medium group-hover/item:text-space-900 transition-colors">{item}</span>
                 </li>
             ))}
@@ -160,17 +160,17 @@ const formatTitle = (str) => {
 
 const getExtraIcon = (title) => {
     const t = title.toLowerCase();
-    if (t.includes('food') || t.includes('eat')) return <Utensils size={20} className="text-coral-500" />;
+    if (t.includes('food') || t.includes('eat')) return <Utensils size={20} className="text-pink-500" />;
     if (t.includes('place') || t.includes('visit')) return <Star size={20} className="text-ice-600" />;
-    return <Info size={20} className="text-blush-500" />;
+    return <Info size={20} className="text-pink-400" />;
 };
 
 const getTimeIcon = (time) => {
     const t = time.toLowerCase();
-    if (t.includes('morning')) return <Coffee size={20} className="text-coral-500" />;
+    if (t.includes('morning')) return <Coffee size={20} className="text-pink-500" />;
     if (t.includes('afternoon')) return <Sun size={20} className="text-ice-600" />;
     if (t.includes('evening') || t.includes('night')) return <Moon size={20} className="text-space-700" />;
-    return <Sparkles size={20} className="text-blush-500" />;
+    return <Sparkles size={20} className="text-pink-400" />;
 };
 
 // --- Main Component ---
@@ -180,6 +180,7 @@ export const TripPlan = () => {
     const [planData, setPlanData] = useState(null);
     const [preferences, setPreferences] = useState(null);
     const [isRendering, setIsRendering] = useState(true);
+    const [activeTab, setActiveTab] = useState('Itinerary');
 
     useEffect(() => {
         let rawPlan = location.state?.recommendations || location.state?.planMarkdown;
@@ -219,13 +220,13 @@ export const TripPlan = () => {
             <div className="relative min-h-screen flex items-center justify-center bg-space-50">
                 <AmbientParticles />
                 <div className="relative z-10 text-center max-w-md mx-auto p-12 bg-white/80 backdrop-blur-2xl rounded-[2.5rem] shadow-xl border border-black/5">
-                    <div className="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-black/5 shadow-[0_0_30px_rgba(255,148,148,0.2)]">
-                        <Compass size={40} className="text-coral-400 animate-pulse" />
+                    <div className="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-black/5 shadow-[0_0_30px_rgba(255,96,144,0.2)]">
+                        <Compass size={40} className="text-pink-500 animate-pulse" />
                     </div>
                     <h2 className="text-3xl font-black text-space-900 mb-3 tracking-tight font-mono">No Journey Found</h2>
                     <p className="text-space-600 mb-8 text-lg font-medium">Your itinerary is a blank canvas. Let's design something extraordinary.</p>
                     <button onClick={() => navigate('/plan')} className="px-8 py-4 bg-space-900 text-white rounded-full font-bold hover:bg-space-800 hover:scale-105 hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 mx-auto">
-                        <Sparkles size={20} className="text-coral-400" />
+                        <Sparkles size={20} className="text-pink-400" />
                         Craft New Plan
                     </button>
                 </div>
@@ -233,13 +234,21 @@ export const TripPlan = () => {
         );
     }
 
+    const tabs = [
+        { id: 'Itinerary', icon: <Compass size={18} /> },
+        { id: 'Budget', icon: <Wallet size={18} /> },
+        { id: 'Food', icon: <Utensils size={18} /> },
+        { id: 'Places', icon: <Star size={18} /> },
+        { id: 'Tips', icon: <Info size={18} /> }
+    ];
+
     return (
-        <div className="relative min-h-screen bg-space-50 text-space-900 font-sans selection:bg-coral-200 selection:text-space-900 pb-24">
+        <div className="relative min-h-screen bg-space-50 text-space-900 font-sans selection:bg-pink-200 selection:text-space-900 pb-24">
             {/* Background Layers */}
             <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-white">
                 <div className="absolute w-[800px] h-[800px] rounded-full opacity-[0.3]" style={{ background: 'radial-gradient(circle, var(--color-ice-200) 0%, transparent 70%)', top: '-15%', right: '-10%', filter: 'blur(120px)' }} />
-                <div className="absolute w-[600px] h-[600px] rounded-full opacity-[0.2]" style={{ background: 'radial-gradient(circle, var(--color-coral-200) 0%, transparent 70%)', top: '40%', left: '-10%', filter: 'blur(100px)' }} />
-                <div className="absolute w-[700px] h-[700px] rounded-full opacity-[0.2]" style={{ background: 'radial-gradient(circle, var(--color-blush-200) 0%, transparent 70%)', bottom: '-10%', right: '20%', filter: 'blur(110px)' }} />
+                <div className="absolute w-[600px] h-[600px] rounded-full opacity-[0.2]" style={{ background: 'radial-gradient(circle, var(--color-pink-200) 0%, transparent 70%)', top: '40%', left: '-10%', filter: 'blur(100px)' }} />
+                <div className="absolute w-[700px] h-[700px] rounded-full opacity-[0.2]" style={{ background: 'radial-gradient(circle, var(--color-ice-300) 0%, transparent 70%)', bottom: '-10%', right: '20%', filter: 'blur(110px)' }} />
             </div>
             <div className="fixed inset-0 opacity-[0.4] pointer-events-none z-[1]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
 
@@ -248,15 +257,15 @@ export const TripPlan = () => {
                 {/* Header */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mb-12 sticky top-4 z-50">
                     <button onClick={handleBack} className="group inline-flex items-center gap-2 px-6 py-3 bg-white/90 backdrop-blur-xl border border-black/5 rounded-full text-space-700 hover:text-space-900 hover:bg-white transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-0.5">
-                        <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform text-coral-500" />
+                        <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform text-pink-500" />
                         <span className="text-sm font-bold tracking-wide font-mono">Back</span>
                     </button>
                     <div className="flex items-center gap-3 w-full sm:w-auto">
                         <button onClick={handleDownload} className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 px-6 py-3 rounded-full bg-white/90 backdrop-blur-xl border border-black/5 text-space-700 hover:text-space-900 hover:bg-white hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 text-sm font-mono font-bold">
-                            <Download size={18} className="text-coral-500" /> Download JSON
+                            <Download size={18} className="text-pink-500" /> Download JSON
                         </button>
                         <button onClick={() => navigate('/plan')} className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 px-8 py-3 rounded-full bg-space-900 text-white font-black shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-sm font-mono">
-                            <Sparkles size={18} className="text-coral-400" /> New Plan
+                            <Sparkles size={18} className="text-pink-400" /> New Plan
                         </button>
                     </div>
                 </div>
@@ -264,7 +273,7 @@ export const TripPlan = () => {
                 {/* Hero / Images */}
                 <div className="mb-14 text-center animate-[fadeInUp_0.8s_ease-out]">
                     <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-md px-5 py-2 rounded-full border border-black/5 shadow-sm mb-6">
-                        <Sparkles size={16} className="text-coral-400 animate-pulse" />
+                        <Sparkles size={16} className="text-pink-500 animate-pulse" />
                         <span className="text-space-700 text-xs sm:text-sm font-bold tracking-[0.2em] uppercase font-mono">
                             AI Curated Journey
                         </span>
@@ -313,102 +322,170 @@ export const TripPlan = () => {
                             </div>
                         )}
 
-                        {/* Timeline */}
-                        {planData.days && planData.days.length > 0 && (
-                            <div className="mt-16">
-                                <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Day-by-Day Itinerary</h2>
-                                <div className="space-y-16">
-                                    {planData.days.map((day, idx) => (
-                                        <div key={idx} className="relative pl-0 sm:pl-16 group/day">
-                                            {/* Timeline vertical line (desktop only) */}
-                                            <div className="hidden sm:block absolute left-4 top-10 bottom-[-4rem] w-px bg-gradient-to-b from-coral-200 via-ice-200 to-transparent"></div>
-                                            
-                                            {/* Day Header */}
-                                            <div className="flex items-center gap-4 mb-8">
-                                                <div className="hidden sm:flex relative z-10 w-8 h-8 rounded-full bg-white border-4 border-coral-200 items-center justify-center -ml-[3.5rem] shadow-sm">
-                                                    <div className="w-2 h-2 rounded-full bg-coral-500"></div>
-                                                </div>
-                                                <h3 className="text-2xl sm:text-3xl font-black text-coral-500 font-mono inline-flex items-center gap-3">
-                                                    {formatTitle(day.name)} 
-                                                    <ChevronRight size={24} className="text-coral-200" />
-                                                </h3>
-                                            </div>
+                        {/* Tabs Navigation */}
+                        <div className="flex justify-center mb-12 sticky top-[88px] z-40">
+                            <div className="inline-flex items-center p-1.5 bg-white/60 backdrop-blur-2xl rounded-full border border-black/5 shadow-sm overflow-x-auto max-w-full glass-acrylic hide-scrollbar">
+                                {tabs.map((tab) => (
+                                    <button
+                                        key={tab.id}
+                                        onClick={() => setActiveTab(tab.id)}
+                                        className={`flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold font-mono transition-all duration-300 whitespace-nowrap ${
+                                            activeTab === tab.id
+                                                ? 'bg-pink-500 text-white shadow-md shadow-pink-500/20'
+                                                : 'text-space-600 hover:text-space-900 hover:bg-space-100'
+                                        }`}
+                                    >
+                                        {React.cloneElement(tab.icon, { className: activeTab === tab.id ? 'text-white' : 'text-ice-500' })}
+                                        {tab.id}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
 
-                                            {/* Activities Grid */}
-                                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                                {Object.entries(day.activities).map(([time, acts], actIdx) => (
-                                                    <div key={actIdx} className="bg-white/80 backdrop-blur-xl border border-black/5 p-8 rounded-[1.5rem] shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                                                        <div className="flex items-center gap-3 mb-6 border-b border-black/5 pb-4">
-                                                            <div className="w-10 h-10 rounded-full bg-space-50 flex items-center justify-center shadow-inner">
-                                                                {getTimeIcon(time)}
-                                                            </div>
-                                                            <h4 className="font-bold text-space-900 text-lg font-mono tracking-tight">{formatTitle(time)}</h4>
-                                                        </div>
-                                                        <div className="text-space-700">
-                                                            {renderList(acts)}
-                                                        </div>
+                        {/* Tab Content Rendering */}
+                        <div className="animate-[fadeInUp_0.8s_ease-out]">
+                            {/* ITINERARY TAB */}
+                            {activeTab === 'Itinerary' && planData.days && planData.days.length > 0 && (
+                                <div>
+                                    <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Day-by-Day Itinerary</h2>
+                                    <div className="space-y-16">
+                                        {planData.days.map((day, idx) => (
+                                            <div key={idx} className="relative pl-0 sm:pl-16 group/day">
+                                                {/* Timeline vertical line (desktop only) */}
+                                                <div className="hidden sm:block absolute left-4 top-10 bottom-[-4rem] w-px bg-gradient-to-b from-pink-200 via-ice-200 to-transparent"></div>
+                                                
+                                                {/* Day Header */}
+                                                <div className="flex items-center gap-4 mb-8">
+                                                    <div className="hidden sm:flex relative z-10 w-8 h-8 rounded-full bg-white border-4 border-pink-200 items-center justify-center -ml-[3.5rem] shadow-sm">
+                                                        <div className="w-2 h-2 rounded-full bg-pink-500"></div>
                                                     </div>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        )}
+                                                    <h3 className="text-2xl sm:text-3xl font-black text-pink-500 font-mono inline-flex items-center gap-3">
+                                                        {formatTitle(day.name)} 
+                                                        <ChevronRight size={24} className="text-pink-200" />
+                                                    </h3>
+                                                </div>
 
-                        {/* Extras (Tips, Food, Places) */}
-                        {planData.extras && planData.extras.length > 0 && (
-                            <div className="mt-24 pt-16 border-t border-black/5">
-                                <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Curated Insights</h2>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                    {planData.extras.map((extra, idx) => (
-                                        <div key={idx} className="bg-gradient-to-br from-white to-ice-50/30 backdrop-blur-xl border border-black/5 p-8 rounded-[2rem] shadow-lg hover:shadow-xl transition-all">
-                                            <div className="flex items-center gap-3 mb-6">
-                                                {getExtraIcon(extra.title)}
-                                                <h3 className="text-xl font-bold text-space-900 font-mono tracking-tight">{formatTitle(extra.title)}</h3>
+                                                {/* Activities Grid */}
+                                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                                    {Object.entries(day.activities).map(([time, acts], actIdx) => (
+                                                        <div key={actIdx} className="bg-white/80 backdrop-blur-xl border border-black/5 p-8 rounded-[1.5rem] shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 glass-card">
+                                                            <div className="flex items-center gap-3 mb-6 border-b border-black/5 pb-4">
+                                                                <div className="w-10 h-10 rounded-full bg-space-50 flex items-center justify-center shadow-inner">
+                                                                    {getTimeIcon(time)}
+                                                                </div>
+                                                                <h4 className="font-bold text-space-900 text-lg font-mono tracking-tight">{formatTitle(time)}</h4>
+                                                            </div>
+                                                            <div className="text-space-700">
+                                                                {renderList(acts)}
+                                                            </div>
+                                                        </div>
+                                                    ))}
+                                                </div>
                                             </div>
-                                            {renderList(extra.content)}
-                                        </div>
-                                    ))}
+                                        ))}
+                                    </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
 
-                        {/* Budget/Expenses Table */}
-                        {planData.expenses && (
-                            <div className="mt-24 pt-16 border-t border-black/5">
-                                <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Estimated Expenses</h2>
-                                <div className="overflow-hidden rounded-[2rem] border border-black/5 bg-white shadow-xl">
-                                    <table className="min-w-full divide-y divide-black/5 text-left text-sm sm:text-base">
-                                        <thead className="bg-[#f8fafc]/95 border-b border-black/10">
-                                            <tr>
-                                                <th className="px-8 py-6 font-bold uppercase tracking-wider text-space-600 font-mono text-xs">Category</th>
-                                                <th className="px-8 py-6 font-bold uppercase tracking-wider text-space-600 font-mono text-xs text-right">Cost (INR)</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody className="divide-y divide-black/5 bg-white">
-                                            {Array.isArray(planData.expenses) 
-                                                ? planData.expenses.map((exp, idx) => (
-                                                    <tr key={idx} className="hover:bg-space-50 transition-colors">
-                                                        {Object.values(exp).map((val, vIdx) => (
-                                                                <td key={vIdx} className={`px-8 py-5 text-space-800 font-medium ${vIdx === 1 ? 'text-right font-mono font-bold text-coral-600' : ''}`}>
-                                                                    {val}
-                                                                </td>
-                                                        ))}
-                                                    </tr>
-                                                ))
-                                                : Object.entries(planData.expenses).map(([cat, cost], idx) => (
-                                                    <tr key={idx} className="hover:bg-space-50 transition-colors group">
-                                                        <td className="px-8 py-5 text-space-800 font-medium group-hover:text-space-900">{formatTitle(cat)}</td>
-                                                        <td className="px-8 py-5 text-right font-mono font-bold text-coral-600">INR {cost}</td>
-                                                    </tr>
-                                                ))
-                                            }
-                                        </tbody>
-                                    </table>
+                            {/* BUDGET TAB */}
+                            {activeTab === 'Budget' && planData.expenses && (
+                                <div>
+                                    <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Estimated Expenses</h2>
+                                    <div className="overflow-hidden rounded-[2rem] border border-black/5 bg-white shadow-xl glass-card">
+                                        <table className="min-w-full divide-y divide-black/5 text-left text-sm sm:text-base">
+                                            <thead className="bg-space-50 border-b border-black/10">
+                                                <tr>
+                                                    <th className="px-8 py-6 font-bold uppercase tracking-wider text-space-600 font-mono text-xs">Category</th>
+                                                    <th className="px-8 py-6 font-bold uppercase tracking-wider text-space-600 font-mono text-xs text-right">Cost (INR)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody className="divide-y divide-black/5 bg-white/50">
+                                                {Array.isArray(planData.expenses) 
+                                                    ? planData.expenses.map((exp, idx) => (
+                                                        <tr key={idx} className="hover:bg-space-50/80 transition-colors">
+                                                            {Object.values(exp).map((val, vIdx) => (
+                                                                    <td key={vIdx} className={`px-8 py-5 text-space-800 font-medium ${vIdx === 1 ? 'text-right font-mono font-bold text-pink-600' : ''}`}>
+                                                                        {val}
+                                                                    </td>
+                                                            ))}
+                                                        </tr>
+                                                    ))
+                                                    : Object.entries(planData.expenses).map(([cat, cost], idx) => (
+                                                        <tr key={idx} className="hover:bg-space-50/80 transition-colors group">
+                                                            <td className="px-8 py-5 text-space-800 font-medium group-hover:text-space-900">{formatTitle(cat)}</td>
+                                                            <td className="px-8 py-5 text-right font-mono font-bold text-pink-600">INR {cost}</td>
+                                                        </tr>
+                                                    ))
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
+
+                            {/* FOOD TAB */}
+                            {activeTab === 'Food' && (
+                                <div>
+                                    <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Gastronomic Journey</h2>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                        {planData.extras?.filter(e => e.title.toLowerCase().includes('food') || e.title.toLowerCase().includes('eat')).map((extra, idx) => (
+                                            <div key={idx} className="bg-gradient-to-br from-white to-pink-50/30 backdrop-blur-xl border border-black/5 p-8 rounded-[2rem] shadow-lg hover:shadow-xl transition-all glass-card">
+                                                <div className="flex items-center gap-3 mb-6">
+                                                    {getExtraIcon(extra.title)}
+                                                    <h3 className="text-xl font-bold text-space-900 font-mono tracking-tight">{formatTitle(extra.title)}</h3>
+                                                </div>
+                                                {renderList(extra.content)}
+                                            </div>
+                                        ))}
+                                    </div>
+                                    {planData.extras?.filter(e => e.title.toLowerCase().includes('food') || e.title.toLowerCase().includes('eat')).length === 0 && (
+                                        <p className="text-center text-space-600 font-mono">No specific food recommendations found for this trip.</p>
+                                    )}
+                                </div>
+                            )}
+
+                            {/* PLACES TAB */}
+                            {activeTab === 'Places' && (
+                                <div>
+                                    <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Must Visit Spots</h2>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                        {planData.extras?.filter(e => e.title.toLowerCase().includes('place') || e.title.toLowerCase().includes('visit')).map((extra, idx) => (
+                                            <div key={idx} className="bg-gradient-to-br from-white to-ice-50/30 backdrop-blur-xl border border-black/5 p-8 rounded-[2rem] shadow-lg hover:shadow-xl transition-all glass-card">
+                                                <div className="flex items-center gap-3 mb-6">
+                                                    {getExtraIcon(extra.title)}
+                                                    <h3 className="text-xl font-bold text-space-900 font-mono tracking-tight">{formatTitle(extra.title)}</h3>
+                                                </div>
+                                                {renderList(extra.content)}
+                                            </div>
+                                        ))}
+                                    </div>
+                                    {planData.extras?.filter(e => e.title.toLowerCase().includes('place') || e.title.toLowerCase().includes('visit')).length === 0 && (
+                                        <p className="text-center text-space-600 font-mono">No additional place priorities extracted.</p>
+                                    )}
+                                </div>
+                            )}
+
+                            {/* TIPS TAB */}
+                            {activeTab === 'Tips' && (
+                                <div>
+                                    <h2 className="text-3xl font-black text-space-900 mb-10 text-center font-mono">Traveler Tips & Info</h2>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                        {planData.extras?.filter(e => !e.title.toLowerCase().includes('place') && !e.title.toLowerCase().includes('visit') && !e.title.toLowerCase().includes('food') && !e.title.toLowerCase().includes('eat')).map((extra, idx) => (
+                                            <div key={idx} className="bg-gradient-to-br from-white to-space-50/50 backdrop-blur-xl border border-black/5 p-8 rounded-[2rem] shadow-lg hover:shadow-xl transition-all glass-card">
+                                                <div className="flex items-center gap-3 mb-6">
+                                                    {getExtraIcon(extra.title)}
+                                                    <h3 className="text-xl font-bold text-space-900 font-mono tracking-tight">{formatTitle(extra.title)}</h3>
+                                                </div>
+                                                {renderList(extra.content)}
+                                            </div>
+                                        ))}
+                                    </div>
+                                    {planData.extras?.filter(e => !e.title.toLowerCase().includes('place') && !e.title.toLowerCase().includes('visit') && !e.title.toLowerCase().includes('food') && !e.title.toLowerCase().includes('eat')).length === 0 && (
+                                        <p className="text-center text-space-600 font-mono">No extra tips or info available.</p>
+                                    )}
+                                </div>
+                            )}
+                        </div>
 
                     </div>
                 )}
