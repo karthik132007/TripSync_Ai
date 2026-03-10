@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, ArrowLeft, Send, Compass } from 'lucide-react';
+import { Sparkles, ArrowLeft, ArrowRight, Send, Compass, CheckCircle2 } from 'lucide-react';
 import { MonthSelector } from '../plantrip/MonthSelector';
 import { BudgetSlider } from '../plantrip/BudgetSlider';
 import { DurationInput } from '../plantrip/DurationInput';
@@ -8,79 +8,23 @@ import { TravelTypeSelector } from '../plantrip/TravelTypeSelector';
 import { ClimateSelector } from '../plantrip/ClimateSelector';
 import { TagSelector } from '../plantrip/TagSelector';
 import { PopularitySelector } from '../plantrip/PopularitySelector';
-import { AmbientParticles } from '../ui/AmbientParticles';
 import { API_CONFIG, getApiUrl } from '../../config/api';
 
-// ─── Scroll reveal hook ─────────────────────────────────────────────────
-const useScrollReveal = (threshold = 0.15) => {
-    const ref = useRef(null);
-    const [isVisible, setIsVisible] = useState(false);
+const TOTAL_SLIDES = 2;
 
-    useEffect(() => {
-        const el = ref.current;
-        if (!el) return;
-
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true);
-                    observer.unobserve(el);
-                }
-            },
-            { threshold }
-        );
-
-        observer.observe(el);
-        return () => observer.disconnect();
-    }, [threshold]);
-
-    return { ref, isVisible };
-};
-
-// ─── Journey step wrapper ───────────────────────────────────────────────
-const JourneyStep = ({ number, question, hint, children, delay = 0 }) => {
-    const { ref, isVisible } = useScrollReveal(0.1);
-
-    return (
-        <div
-            ref={ref}
-            className={`transition-all duration-[900ms] ease-out ${isVisible
-                ? 'opacity-100 translate-y-0'
-                : 'opacity-0 translate-y-10'
-                }`}
-            style={{ transitionDelay: `${delay}ms` }}
-        >
-            <div className="relative rounded-3xl border border-white/20 bg-white/[0.06] backdrop-blur-xl p-8 sm:p-10 transition-all duration-500 hover:bg-white/[0.10] hover:border-white/30 hover:shadow-[0_20px_80px_rgba(166,227,233,0.05)]">
-                {/* Step marker */}
-                <div className="flex items-center gap-3 mb-7">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-coral-400/20 to-ice-400/15 border border-white/20 flex items-center justify-center">
-                        <span className="text-[11px] font-mono font-bold text-coral-400 tracking-wider">
-                            {String(number).padStart(2, '0')}
-                        </span>
-                    </div>
-                    <div className="flex-1 h-px bg-gradient-to-r from-coral-400/10 via-ice-300/8 to-transparent" />
-                </div>
-
-                {/* Question */}
-                <h3 className="text-2xl sm:text-3xl font-mono font-bold text-space-800 tracking-tight leading-snug mb-2">
-                    {question}
-                </h3>
-
-                {hint && (
-                    <p className="text-sm text-space-400 mb-8 leading-relaxed max-w-lg">{hint}</p>
-                )}
-                {!hint && <div className="mb-8" />}
-
-                {children}
-            </div>
-        </div>
-    );
-};
+const slideConfig = [
+    { step: 1, total: 2, title: 'Travel Style', subtitle: 'What kind of traveler are you?', description: 'Select the styles that resonate with your dream trip. TripSync AI uses these preferences to curate a bespoke itinerary just for you.' },
+    { step: 2, total: 2, title: 'Trip Details', subtitle: 'Tell us about your perfect trip', description: 'Help us dial in the specifics — dates, duration, climate, and the experiences that light you up.' },
+];
 
 export const PlanTrip = () => {
     const navigate = useNavigate();
+    const [currentSlide, setCurrentSlide] = useState(0);
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [direction, setDirection] = useState('next'); // 'next' or 'prev'
+    const containerRef = useRef(null);
 
+    // Form state
     const [month, setMonth] = useState([]);
     const [budget, setBudget] = useState(50000);
     const [duration, setDuration] = useState(5);
@@ -89,7 +33,27 @@ export const PlanTrip = () => {
     const [tags, setTags] = useState([]);
     const [popularity, setPopularity] = useState('');
 
-    const isFormValid = month.length > 0 && bestFor && climate.length > 0 && tags.length > 0 && popularity;
+    const isSlide1Valid = bestFor && popularity;
+    const isSlide2Valid = month.length > 0 && climate.length > 0 && tags.length > 0;
+    const isFormValid = isSlide1Valid && isSlide2Valid;
+
+    const goNext = () => {
+        if (currentSlide < TOTAL_SLIDES - 1) {
+            setDirection('next');
+            setCurrentSlide(currentSlide + 1);
+            containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
+    const goBack = () => {
+        if (currentSlide > 0) {
+            setDirection('prev');
+            setCurrentSlide(currentSlide - 1);
+            containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            navigate('/');
+        }
+    };
 
     const handleSubmit = async () => {
         if (!isFormValid) return;
@@ -97,16 +61,14 @@ export const PlanTrip = () => {
         const payload = {
             month: month.map((m) => m.toLowerCase()),
             budget,
-            duration: duration,
+            duration,
             best_for: bestFor,
             weather: climate,
             tags,
             popular: popularity,
         };
 
-        // Save preferences stringified for the AI planner on the Place details page
         localStorage.setItem('tripPreferences', JSON.stringify(payload));
-
         console.log('🚀 Trip Preferences:', JSON.stringify(payload, null, 2));
         setIsSubmitting(true);
 
@@ -118,10 +80,7 @@ export const PlanTrip = () => {
             });
             if (!response.ok) throw new Error('Request failed');
             const data = await response.json();
-            console.log('✅ Recommendations:', data);
-
-            // Navigate to recommendations page with data
-            if (data && data.data) {
+            if (data?.data) {
                 navigate('/recommend', { state: { recommendations: data.data } });
             }
         } catch (err) {
@@ -131,188 +90,246 @@ export const PlanTrip = () => {
         }
     };
 
-    const heroReveal = useScrollReveal(0.05);
+    const config = slideConfig[currentSlide];
+    const progress = ((currentSlide + 1) / TOTAL_SLIDES) * 100;
 
     return (
-        <div className="relative min-h-screen overflow-hidden">
+        <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-space-50 via-white to-ice-50/30" ref={containerRef}>
 
-            {/* ===== BACKGROUND LAYERS (UNCHANGED) ===== */}
-
-            <div className="fixed inset-0 bg-gradient-to-br from-space-50 via-white to-ice-50/30 z-0" />
-
+            {/* ===== BACKGROUND ===== */}
             <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-                <div
-                    className="absolute w-[800px] h-[800px] rounded-full animate-blob opacity-[0.12]"
-                    style={{ background: 'radial-gradient(circle, #A6E3E9 0%, transparent 70%)', top: '-15%', right: '-10%', filter: 'blur(120px)' }}
-                />
-                <div
-                    className="absolute w-[600px] h-[600px] rounded-full animate-blob animation-delay-2000 opacity-[0.08]"
-                    style={{ background: 'radial-gradient(circle, #FFD1D1 0%, transparent 70%)', top: '40%', left: '-10%', filter: 'blur(100px)' }}
-                />
-                <div
-                    className="absolute w-[700px] h-[700px] rounded-full animate-blob animation-delay-4000 opacity-[0.06]"
-                    style={{ background: 'radial-gradient(circle, #FF9494 0%, transparent 70%)', bottom: '-10%', right: '20%', filter: 'blur(110px)' }}
-                />
-                <div
-                    className="absolute w-[500px] h-[500px] rounded-full animate-blob opacity-[0.05]"
-                    style={{ background: 'radial-gradient(circle, #b6eaee 0%, transparent 70%)', top: '60%', left: '40%', filter: 'blur(90px)', animationDelay: '6s' }}
-                />
+                <div className="absolute w-[700px] h-[700px] rounded-full animate-blob opacity-[0.10]"
+                    style={{ background: 'radial-gradient(circle, #7ad1ff 0%, transparent 70%)', top: '-10%', right: '-10%', filter: 'blur(120px)' }} />
+                <div className="absolute w-[500px] h-[500px] rounded-full animate-blob animation-delay-2000 opacity-[0.07]"
+                    style={{ background: 'radial-gradient(circle, #ffb3c7 0%, transparent 70%)', top: '50%', left: '-10%', filter: 'blur(100px)' }} />
+                <div className="absolute w-[600px] h-[600px] rounded-full animate-blob animation-delay-4000 opacity-[0.05]"
+                    style={{ background: 'radial-gradient(circle, #36b9ff 0%, transparent 70%)', bottom: '-15%', right: '25%', filter: 'blur(110px)' }} />
             </div>
 
-            <div className="fixed inset-0 pointer-events-none z-[1]">
-                <AmbientParticles />
-            </div>
-
-            <div className="fixed inset-0 opacity-[0.03] pointer-events-none z-[1]" style={{
-                backgroundImage: 'radial-gradient(circle at 1px 1px, #A6E3E9 0.6px, transparent 0)',
-                backgroundSize: '32px 32px',
+            <div className="fixed inset-0 opacity-[0.025] pointer-events-none z-[1]" style={{
+                backgroundImage: 'radial-gradient(circle at 1px 1px, #36b9ff 0.5px, transparent 0)',
+                backgroundSize: '36px 36px',
             }} />
 
-            <div className="fixed inset-0 opacity-[0.015] pointer-events-none z-[1]" style={{
-                backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E")',
-            }} />
+            {/* ===== MAIN CONTENT ===== */}
+            <div className="relative z-10 max-w-[960px] mx-auto px-6 sm:px-10 pt-28 pb-16 min-h-screen flex flex-col">
 
-            {/* ===== MAIN CONTENT — VERTICAL STORYTELLING FLOW ===== */}
-            <div className="relative z-10">
+                {/* ── Step Indicator Header ── */}
+                <div className="rounded-2xl bg-white/70 backdrop-blur-xl border border-space-100/50 shadow-[0_4px_24px_rgba(54,185,255,0.06)] p-6 sm:p-8 mb-10">
+                    <div className="flex items-center justify-between mb-3">
+                        <div>
+                            <p className="text-xs font-bold text-ice-500 tracking-[0.2em] uppercase mb-1">
+                                Step {config.step} of {config.total}
+                            </p>
+                            <h2 className="text-2xl sm:text-3xl font-black text-space-800 tracking-tight">
+                                {config.title}
+                            </h2>
+                        </div>
+                        <div className="p-3 bg-ice-50 rounded-xl text-ice-500 hidden sm:block">
+                            <Compass size={24} />
+                        </div>
+                    </div>
+                    {/* Progress bar */}
+                    <div className="h-1.5 rounded-full bg-space-100 overflow-hidden">
+                        <div
+                            className="h-full rounded-full bg-gradient-to-r from-ice-400 to-ice-500 transition-all duration-700 ease-out relative"
+                            style={{ width: `${progress}%` }}
+                        >
+                            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shimmer_3s_ease-in-out_infinite] bg-[length:200%_100%]" />
+                        </div>
+                    </div>
+                </div>
 
-                {/* ─── Hero ─────────────────────────────────────── */}
-                <div className="max-w-[1050px] mx-auto px-6 sm:px-10 lg:px-16 pt-28 pb-6">
-                    <button
-                        onClick={() => navigate('/')}
-                        className="group inline-flex items-center gap-1.5 text-space-400 hover:text-coral-500 transition-colors duration-200 mb-20 cursor-pointer"
+                {/* ── Slide Title ── */}
+                <div className="text-center mb-10">
+                    <h1
+                        className="text-3xl sm:text-4xl md:text-5xl font-black text-space-800 tracking-tight mb-3 transition-all duration-500"
+                        key={`title-${currentSlide}`}
+                        style={{ animation: `fade-in-up 0.5s ease-out forwards` }}
                     >
-                        <ArrowLeft size={15} className="group-hover:-translate-x-0.5 transition-transform duration-200" />
-                        <span className="text-xs font-medium tracking-widest uppercase">Back</span>
+                        {config.subtitle}
+                    </h1>
+                    <p
+                        className="text-base text-space-500 font-light max-w-xl mx-auto leading-relaxed"
+                        key={`desc-${currentSlide}`}
+                        style={{ animation: `fade-in-up 0.6s ease-out 0.1s forwards`, opacity: 0 }}
+                    >
+                        {config.description}
+                    </p>
+                </div>
+
+                {/* ── Slide Content ── */}
+                <div className="flex-1">
+                    <div
+                        key={currentSlide}
+                        style={{
+                            animation: `fade-in-up 0.5s ease-out 0.15s forwards`,
+                            opacity: 0,
+                        }}
+                    >
+                        {currentSlide === 0 && (
+                            <div className="space-y-8">
+                                {/* Travel Type */}
+                                <SectionCard
+                                    title="Travel Style"
+                                    description="Who's coming along for the ride?"
+                                    delay={0}
+                                >
+                                    <TravelTypeSelector value={bestFor} onChange={setBestFor} />
+                                </SectionCard>
+
+                                {/* Popularity / Pace */}
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                                    <SectionCard
+                                        title="Preferred Pace"
+                                        description="How off the beaten path do you want to go?"
+                                        delay={100}
+                                    >
+                                        <PopularitySelector value={popularity} onChange={setPopularity} />
+                                    </SectionCard>
+
+                                    {/* Budget */}
+                                    <SectionCard
+                                        title="Trip Budget"
+                                        description="Slide to your comfort zone"
+                                        delay={200}
+                                    >
+                                        <BudgetSlider value={budget} onChange={setBudget} />
+                                    </SectionCard>
+                                </div>
+                            </div>
+                        )}
+
+                        {currentSlide === 1 && (
+                            <div className="space-y-8">
+                                {/* Month + Duration side by side */}
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                                    <SectionCard
+                                        title="When's the adventure?"
+                                        description="Pick months that work for you"
+                                        delay={0}
+                                    >
+                                        <MonthSelector value={month} onChange={setMonth} />
+                                    </SectionCard>
+
+                                    <SectionCard
+                                        title="Duration"
+                                        description="How many days of freedom?"
+                                        delay={100}
+                                    >
+                                        <DurationInput value={duration} onChange={setDuration} />
+                                    </SectionCard>
+                                </div>
+
+                                {/* Climate */}
+                                <SectionCard
+                                    title="Weather Vibes"
+                                    description="Pick the climates you love"
+                                    delay={200}
+                                >
+                                    <ClimateSelector value={climate} onChange={setClimate} />
+                                </SectionCard>
+
+                                {/* Tags */}
+                                <SectionCard
+                                    title="What lights you up? 🔥"
+                                    description="Choose the experiences that make your heart race"
+                                    delay={300}
+                                >
+                                    <TagSelector value={tags} onChange={setTags} />
+                                </SectionCard>
+                            </div>
+                        )}
+                    </div>
+                </div>
+
+                {/* ── Navigation Bar ── */}
+                <div className="mt-12 pt-6 border-t border-space-100/50 flex items-center justify-between">
+                    <button
+                        onClick={goBack}
+                        className="inline-flex items-center gap-2 text-space-500 hover:text-ice-600 font-medium text-sm transition-colors duration-200 cursor-pointer group"
+                    >
+                        <ArrowLeft size={16} className="group-hover:-translate-x-0.5 transition-transform" />
+                        Back
                     </button>
 
-                    <div
-                        ref={heroReveal.ref}
-                        className={`max-w-2xl transition-all duration-[1000ms] ease-out ${heroReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-                    >
-                        <div className="flex items-center gap-2.5 mb-5">
-                            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-coral-400/20 to-ice-400/20 flex items-center justify-center">
-                                <Compass size={16} className="text-coral-400" />
-                            </div>
-                            <span className="text-xs font-mono font-bold text-coral-400/80 tracking-[0.2em] uppercase">
-                                AI Trip Planner
-                            </span>
-                        </div>
-
-                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-space-900 tracking-tight leading-[1.05] mb-5">
-                            We're designing<br />
-                            your next{' '}
-                            <span className="text-gradient">experience</span>
-                        </h1>
-
-                        <p className="text-lg text-space-400 leading-relaxed max-w-lg">
-                            Answer a few questions and our AI will curate destinations that match your soul — not just your search history.
-                        </p>
-                    </div>
-                </div>
-
-                {/* ─── Journey steps — vertical flow ────────────── */}
-                <div className="max-w-[1050px] mx-auto px-6 sm:px-10 lg:px-16 pt-20 pb-32 space-y-16 sm:space-y-20">
-
-                    <JourneyStep
-                        number={1}
-                        question="When's the adventure happening?"
-                        hint="Pick all the months that work — the more flexible, the better our picks"
-                        delay={0}
-                    >
-                        <MonthSelector value={month} onChange={setMonth} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={2}
-                        question="How heavy is the wallet feeling?"
-                        hint="No judgment — just slide to your comfort zone"
-                        delay={50}
-                    >
-                        <BudgetSlider value={budget} onChange={setBudget} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={3}
-                        question="How many days of freedom?"
-                        delay={50}
-                    >
-                        <DurationInput value={duration} onChange={setDuration} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={4}
-                        question="Who's coming along for the ride?"
-                        hint="Your crew shapes the whole journey"
-                        delay={50}
-                    >
-                        <TravelTypeSelector value={bestFor} onChange={setBestFor} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={5}
-                        question="What weather do you vibe with?"
-                        hint="Pick as many as you'd like — variety is the spice of travel"
-                        delay={50}
-                    >
-                        <ClimateSelector value={climate} onChange={setClimate} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={6}
-                        question="What lights you up? 🔥"
-                        hint="Choose the experiences that make your heart race"
-                        delay={50}
-                    >
-                        <TagSelector value={tags} onChange={setTags} />
-                    </JourneyStep>
-
-                    <JourneyStep
-                        number={7}
-                        question="Hidden gem or crowd favorite?"
-                        hint="How off the beaten path do you want to go?"
-                        delay={50}
-                    >
-                        <PopularitySelector value={popularity} onChange={setPopularity} />
-                    </JourneyStep>
-
-                    {/* ─── CTA ──────────────────────────────────── */}
-                    <div className="pt-8">
-                        <div className="flex flex-col sm:flex-row items-start gap-5">
-                            <button
-                                onClick={handleSubmit}
-                                disabled={!isFormValid || isSubmitting}
-                                className={`group relative inline-flex items-center gap-3 px-12 py-5 rounded-full text-lg font-bold transition-all duration-500 cursor-pointer overflow-hidden
-                                    ${isFormValid
-                                        ? 'bg-gradient-to-r from-coral-400 via-blush-400 to-ice-400 text-white shadow-[0_8px_40px_rgba(255,148,148,0.25)] hover:shadow-[0_12px_56px_rgba(255,148,148,0.35)] hover:-translate-y-1 hover:scale-[1.02]'
-                                        : 'bg-space-100/60 backdrop-blur-md text-space-400 cursor-not-allowed'
-                                    }`}
-                            >
-                                {isFormValid && (
-                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
-                                )}
-
-                                {isSubmitting ? (
-                                    <>
-                                        <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                                        <span className="relative">Crafting your journey...</span>
-                                    </>
-                                ) : (
-                                    <>
-                                        <Sparkles size={20} className="relative group-hover:rotate-12 transition-transform duration-500" />
-                                        <span className="relative">Generate My Trip</span>
-                                        <Send size={18} className="relative group-hover:translate-x-1 transition-transform duration-300" />
-                                    </>
-                                )}
-                            </button>
-
-                            {!isFormValid && (
-                                <p className="text-sm text-space-400 pt-1 sm:pt-4 font-medium">
-                                    Complete all steps to unlock AI recommendations ✨
-                                </p>
+                    {currentSlide < TOTAL_SLIDES - 1 ? (
+                        <button
+                            onClick={goNext}
+                            disabled={!isSlide1Valid}
+                            className={`inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full font-semibold text-[15px] transition-all duration-500 cursor-pointer
+                                ${isSlide1Valid
+                                    ? 'btn-gradient shadow-lg shadow-ice-400/20 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(54,185,255,0.25)]'
+                                    : 'bg-space-100 text-space-400 cursor-not-allowed'
+                                }`}
+                        >
+                            Continue
+                            <ArrowRight size={16} />
+                        </button>
+                    ) : (
+                        <button
+                            onClick={handleSubmit}
+                            disabled={!isFormValid || isSubmitting}
+                            className={`group relative inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full font-semibold text-[15px] transition-all duration-500 cursor-pointer overflow-hidden
+                                ${isFormValid
+                                    ? 'btn-gradient shadow-lg shadow-ice-400/20 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(54,185,255,0.25)]'
+                                    : 'bg-space-100 text-space-400 cursor-not-allowed'
+                                }`}
+                        >
+                            {isFormValid && (
+                                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
                             )}
-                        </div>
-                    </div>
+                            {isSubmitting ? (
+                                <>
+                                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                                    <span className="relative">Crafting your journey...</span>
+                                </>
+                            ) : (
+                                <>
+                                    <Sparkles size={17} className="relative" />
+                                    <span className="relative">Generate My Trip</span>
+                                    <Send size={15} className="relative group-hover:translate-x-0.5 transition-transform" />
+                                </>
+                            )}
+                        </button>
+                    )}
                 </div>
+
+                {/* Validation hint */}
+                {currentSlide === 0 && !isSlide1Valid && (
+                    <p className="text-center text-sm text-space-400 mt-4 font-medium">
+                        Select a travel style and pace to continue ✨
+                    </p>
+                )}
+                {currentSlide === 1 && !isSlide2Valid && (
+                    <p className="text-center text-sm text-space-400 mt-4 font-medium">
+                        Complete all sections to generate your trip ✨
+                    </p>
+                )}
+            </div>
+        </div>
+    );
+};
+
+/* ─── Section Card Component ──────────────────────────────────── */
+const SectionCard = ({ title, description, children, delay = 0 }) => {
+    return (
+        <div
+            className="rounded-2xl bg-white/70 backdrop-blur-xl border border-space-100/50 shadow-[0_4px_24px_rgba(54,185,255,0.04)] p-6 sm:p-8 transition-all duration-500 hover:shadow-[0_8px_40px_rgba(54,185,255,0.08)] hover:border-ice-200/40"
+            style={{
+                animation: `fade-in-up 0.5s ease-out ${delay + 200}ms forwards`,
+                opacity: 0,
+            }}
+        >
+            <div className="flex items-center gap-3 mb-2">
+                <div className="w-2 h-2 rounded-full bg-ice-400" />
+                <h3 className="text-lg font-bold text-space-800 tracking-tight">{title}</h3>
+            </div>
+            {description && (
+                <p className="text-sm text-space-500 mb-6 ml-5">{description}</p>
+            )}
+            <div className="ml-0">
+                {children}
             </div>
         </div>
     );

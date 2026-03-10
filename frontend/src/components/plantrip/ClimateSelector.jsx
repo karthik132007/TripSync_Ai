@@ -32,10 +32,10 @@ export const ClimateSelector = ({ value = [], onChange }) => {
                         key={opt.id}
                         type="button"
                         onClick={() => toggle(opt.id)}
-                        className={`group inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl border backdrop-blur-md text-sm font-semibold transition-all duration-500 cursor-pointer
+                        className={`group inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-sm font-semibold transition-all duration-500 cursor-pointer
                             ${isSelected
-                                ? 'border-coral-400/40 bg-gradient-to-r from-coral-400/12 to-blush-300/10 text-coral-600 shadow-[0_0_16px_rgba(255,148,148,0.12)] scale-[1.04]'
-                                : 'border-white/25 bg-white/15 text-space-600 hover:bg-white/30 hover:border-ice-300/40 hover:scale-[1.02] hover:shadow-[0_0_12px_rgba(166,227,233,0.1)]'
+                                ? 'border-ice-400/50 bg-gradient-to-r from-ice-400/12 to-ice-300/10 text-ice-600 shadow-[0_0_16px_rgba(54,185,255,0.12)] scale-[1.04]'
+                                : 'border-space-200/50 bg-white/40 text-space-600 hover:bg-white/70 hover:border-ice-300/40 hover:scale-[1.02] hover:shadow-[0_0_12px_rgba(54,185,255,0.06)]'
                             }`}
                     >
                         <span className="text-base transition-transform duration-300 group-hover:scale-110">{opt.emoji}</span>

@@ -1,60 +1,64 @@
 import React, { useState, useEffect } from 'react';
 import { Compass, Menu, X } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../ui/Button';
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
-        const handleScroll = () => {
-            setIsScrolled(window.scrollY > 20);
-        };
+        const handleScroll = () => setIsScrolled(window.scrollY > 20);
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     return (
         <nav
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-                    ? 'bg-white/70 backdrop-blur-xl border-b border-space-100/50 shadow-[0_2px_20px_#a6e3e910] py-3'
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+                isScrolled
+                    ? 'bg-white/80 backdrop-blur-2xl border-b border-space-100/40 shadow-[0_1px_20px_rgba(54,185,255,0.06)] py-3'
                     : 'bg-transparent py-5'
-                }`}
+            }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
-                    <div className="flex items-center gap-2.5 cursor-pointer group">
-                        <div className="p-2 bg-gradient-to-br from-ice-400 to-coral-400 rounded-xl text-white shadow-md group-hover:shadow-lg group-hover:shadow-ice-300/30 transition-all duration-300 group-hover:-rotate-12">
-                            <Compass size={22} strokeWidth={2.5} />
+                    <div
+                        className="flex items-center gap-2.5 cursor-pointer group"
+                        onClick={() => navigate('/')}
+                    >
+                        <div className="p-2 bg-gradient-to-br from-ice-400 to-ice-500 rounded-xl text-white shadow-md group-hover:shadow-lg group-hover:shadow-ice-300/30 transition-all duration-300 group-hover:-rotate-12">
+                            <Compass size={20} strokeWidth={2.5} />
                         </div>
-                        <span className={`font-mono font-bold text-xl tracking-tight transition-colors duration-300 ${isScrolled ? 'text-space-900' : 'text-space-900'
-                            }`}>
-                            TripSync<span className="text-transparent bg-clip-text bg-gradient-to-r from-ice-500 to-coral-400">.AI</span>
+                        <span className="font-bold text-xl tracking-tight text-space-900">
+                            TripSync<span className="text-gradient"> AI</span>
                         </span>
                     </div>
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center gap-8">
-                        <div className={`flex gap-6 font-medium text-sm transition-colors duration-300 ${isScrolled ? 'text-space-600' : 'text-space-600'
-                            }`}>
-                            <a href="#how-it-works" className="hover:text-ice-600 transition-colors duration-200">How it Works</a>
-                            <a href="#destinations" className="hover:text-ice-600 transition-colors duration-200">Destinations</a>
-                            <a href="#why-us" className="hover:text-ice-600 transition-colors duration-200">Why Us</a>
+                        <div className="flex gap-7 font-medium text-sm text-space-600">
+                            <a href="#features" className="hover:text-ice-500 transition-colors duration-200">Features</a>
+                            <a href="#how-it-works" className="hover:text-ice-500 transition-colors duration-200">How it Works</a>
+                            <a href="#destinations" className="hover:text-ice-500 transition-colors duration-200">Destinations</a>
                         </div>
-                        <Button variant="primary" size="sm" className="rounded-full shadow-md shadow-coral-400/15">
-                            Start Planning
+                        <Button
+                            variant="primary"
+                            size="sm"
+                            onClick={() => navigate('/plan')}
+                            className="shadow-lg shadow-ice-400/20"
+                        >
+                            Plan Your Trip
                         </Button>
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden flex items-center">
+                    <div className="md:hidden">
                         <button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                            className={`p-2.5 rounded-xl transition-colors duration-200 ${isScrolled
-                                    ? 'text-space-800 hover:bg-space-100'
-                                    : 'text-space-800 hover:bg-space-100/50'
-                                }`}
+                            className="p-2.5 rounded-xl text-space-800 hover:bg-space-100/50 transition-colors duration-200"
                         >
                             {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
                         </button>
@@ -64,19 +68,13 @@ export const Navbar = () => {
 
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-full left-0 right-0 bg-white/90 backdrop-blur-xl border-t border-space-100/50 shadow-xl">
+                <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-2xl border-t border-space-100/40 shadow-xl">
                     <div className="px-4 pt-3 pb-6 space-y-1 flex flex-col">
-                        <a href="#how-it-works" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-600 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">
-                            How it Works
-                        </a>
-                        <a href="#destinations" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-600 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">
-                            Destinations
-                        </a>
-                        <a href="#why-us" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-600 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">
-                            Why Us
-                        </a>
+                        <a href="#features" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-500 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">Features</a>
+                        <a href="#how-it-works" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-500 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">How it Works</a>
+                        <a href="#destinations" onClick={() => setIsMobileMenuOpen(false)} className="block px-4 py-3 text-space-700 hover:text-ice-500 hover:bg-ice-50/50 rounded-xl font-medium transition-colors">Destinations</a>
                         <div className="pt-3 px-4">
-                            <Button variant="primary" className="w-full rounded-full">Start Planning</Button>
+                            <Button variant="primary" className="w-full" onClick={() => { setIsMobileMenuOpen(false); navigate('/plan'); }}>Plan Your Trip</Button>
                         </div>
                     </div>
                 </div>

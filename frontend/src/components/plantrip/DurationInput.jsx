@@ -23,18 +23,17 @@ export const DurationInput = ({ value, onChange }) => {
 
     return (
         <div className="flex items-center gap-5">
-            {/* Modern stepper */}
-            <div className="flex items-center gap-0 rounded-2xl border border-white/30 backdrop-blur-md bg-white/15 overflow-hidden shadow-lg shadow-space-900/[0.03]">
+            <div className="flex items-center gap-0 rounded-2xl border border-space-200/60 bg-white/50 overflow-hidden shadow-sm">
                 <button
                     type="button"
                     onClick={decrement}
                     disabled={value <= min}
-                    className="w-14 h-14 flex items-center justify-center text-space-500 hover:bg-white/20 hover:text-coral-500 active:scale-90 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed cursor-pointer"
+                    className="w-14 h-14 flex items-center justify-center text-space-500 hover:bg-ice-50 hover:text-ice-600 active:scale-90 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed cursor-pointer"
                 >
                     <Minus size={18} strokeWidth={2.5} />
                 </button>
 
-                <div className="w-px h-8 bg-white/20" />
+                <div className="w-px h-8 bg-space-200/40" />
 
                 <input
                     type="number"
@@ -42,16 +41,16 @@ export const DurationInput = ({ value, onChange }) => {
                     max={max}
                     value={value}
                     onChange={handleInput}
-                    className="w-20 h-14 text-center text-3xl font-mono font-black text-space-800 bg-transparent focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    className="w-20 h-14 text-center text-3xl font-black text-space-800 bg-transparent focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 />
 
-                <div className="w-px h-8 bg-white/20" />
+                <div className="w-px h-8 bg-space-200/40" />
 
                 <button
                     type="button"
                     onClick={increment}
                     disabled={value >= max}
-                    className="w-14 h-14 flex items-center justify-center text-space-500 hover:bg-white/20 hover:text-ice-600 active:scale-90 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed cursor-pointer"
+                    className="w-14 h-14 flex items-center justify-center text-space-500 hover:bg-ice-50 hover:text-ice-600 active:scale-90 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed cursor-pointer"
                 >
                     <Plus size={18} strokeWidth={2.5} />
                 </button>

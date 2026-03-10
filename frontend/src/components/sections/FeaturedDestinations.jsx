@@ -13,8 +13,9 @@ const DestinationCard = ({ dest, index }) => {
                 transitionDelay: `${(index % 3) * 120}ms`,
                 opacity: isVisible ? 1 : 0,
                 transform: isVisible ? 'translateY(0) scale(1)' : 'translateY(50px) scale(0.97)',
+                transition: 'all 0.7s ease-out',
             }}
-            className="group rounded-2xl overflow-hidden bg-white/80 backdrop-blur-sm border border-ice-100/40 shadow-[0_2px_16px_#a6e3e908] hover:shadow-[0_20px_60px_-10px_#a6e3e925] transition-all duration-700 hover:-translate-y-2 flex flex-col card-shine"
+            className="group rounded-2xl overflow-hidden bg-white border border-space-100/50 shadow-[0_2px_16px_rgba(54,185,255,0.05)] hover:shadow-[0_20px_60px_-10px_rgba(54,185,255,0.15)] transition-all duration-700 hover:-translate-y-2 flex flex-col card-shine"
         >
             {/* Image */}
             <div className="relative h-56 overflow-hidden">
@@ -28,7 +29,7 @@ const DestinationCard = ({ dest, index }) => {
 
                 {/* Rating badge */}
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-1.5 text-sm font-bold text-space-900 shadow-sm">
-                    <Star size={13} className="text-coral-400 fill-coral-400" />
+                    <Star size={13} className="text-amber-400 fill-amber-400" />
                     {dest.rating}
                 </div>
 
@@ -53,7 +54,7 @@ const DestinationCard = ({ dest, index }) => {
                 <p className="text-space-500 leading-relaxed mb-5 flex-1 text-[15px]">
                     {dest.description}
                 </p>
-                <button className="w-full flex items-center justify-between px-4 py-3 rounded-xl border border-space-100 text-space-500 hover:border-ice-300 hover:text-ice-700 hover:bg-ice-50/50 transition-all duration-300 font-medium text-sm group/btn">
+                <button className="w-full flex items-center justify-between px-4 py-3 rounded-xl border border-space-100 text-space-500 hover:border-ice-300 hover:text-ice-600 hover:bg-ice-50/50 transition-all duration-300 font-medium text-sm group/btn cursor-pointer">
                     <span>Explore Itinerary</span>
                     <ArrowRight size={15} className="text-ice-500 group-hover/btn:translate-x-1 transition-transform" />
                 </button>
@@ -120,14 +121,9 @@ export const FeaturedDestinations = () => {
     return (
         <section id="destinations" className="py-28 md:py-36 bg-white relative overflow-hidden">
             {/* Parallax background */}
-            <div
-                ref={parallaxRef}
-                className="absolute inset-0 pointer-events-none"
-                style={{ transform: `translateY(${offset * 0.5}px)`, willChange: 'transform' }}
-            >
-                <div className="absolute -top-20 right-0 w-[400px] h-[400px] bg-ice-200 rounded-full opacity-25 blur-[130px]" />
-                <div className="absolute -bottom-20 left-0 w-[350px] h-[350px] bg-blush-200 rounded-full opacity-20 blur-[110px]" />
-                <div className="absolute top-1/3 -left-20 w-[250px] h-[250px] bg-coral-200 rounded-full opacity-10 blur-[100px]" />
+            <div ref={parallaxRef} className="absolute inset-0 pointer-events-none" style={{ transform: `translateY(${offset * 0.5}px)`, willChange: 'transform' }}>
+                <div className="absolute -top-20 right-0 w-[400px] h-[400px] bg-ice-200 rounded-full opacity-20 blur-[130px]" />
+                <div className="absolute -bottom-20 left-0 w-[350px] h-[350px] bg-pink-200 rounded-full opacity-15 blur-[110px]" />
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -141,18 +137,18 @@ export const FeaturedDestinations = () => {
                     }}
                 >
                     <div className="max-w-2xl">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ice-50/80 border border-ice-200/40 text-ice-700 text-xs font-mono tracking-widest uppercase mb-5 shadow-sm">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ice-50/80 border border-ice-200/40 text-ice-600 text-xs font-semibold tracking-widest uppercase mb-5 shadow-sm">
                             <Compass size={14} />
                             <span>Curated For You</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-black text-space-800 mb-4 tracking-tight">
-                            Trending Destinations
+                            Trending <span className="text-gradient">Destinations</span>
                         </h2>
                         <p className="text-lg text-space-500 font-light leading-relaxed">
                             Explore handpicked locations that match your unique travel style. Let AI uncover places you never knew you wanted to visit.
                         </p>
                     </div>
-                    <Button variant="outline" className="shrink-0 group rounded-full">
+                    <Button variant="outline" className="shrink-0 group">
                         View All <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                     </Button>
                 </div>
