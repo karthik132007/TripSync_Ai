@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Building, CloudSun, Calendar, Tag, Sparkles, DollarSign, Clock, Users, X, Bed, Coins, Star } from 'lucide-react';
 import { AmbientParticles } from '../ui/AmbientParticles';
+import { Loader } from '../ui/Loader';
 import { API_CONFIG } from '../../config/api';
 
 export const PlaceInfo = () => {
@@ -158,10 +159,7 @@ export const PlaceInfo = () => {
     if (loading) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-[#fafafc] text-space-500">
-                <div className="flex flex-col items-center gap-4">
-                    <div className="w-8 h-8 border-2 border-coral-200 border-t-coral-500 rounded-full animate-spin" />
-                    <p className="animate-pulse tracking-wide font-medium">Loading destination details...</p>
-                </div>
+                 <Loader size="lg" text="Loading destination details..." />
             </div>
         );
     }
@@ -384,8 +382,7 @@ export const PlaceInfo = () => {
 
                                     {generatingPlan ? (
                                         <>
-                                            <div className="w-5 h-5 border-2 border-space-400/30 border-t-space-500 rounded-full animate-spin" />
-                                            <span className="relative">Generating Magic...</span>
+                                            <Loader size="sm" text="Generating Magic..." flexRow />
                                         </>
                                     ) : (
                                         <>
@@ -560,8 +557,7 @@ export const PlaceInfo = () => {
                                         >
                                             {loadingHotels ? (
                                                 <>
-                                                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                                                    Searching...
+                                                     <Loader size="sm" text="Searching..." flexRow />
                                                 </>
                                             ) : (
                                                 <>

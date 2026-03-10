@@ -8,6 +8,7 @@ import { TravelTypeSelector } from '../plantrip/TravelTypeSelector';
 import { ClimateSelector } from '../plantrip/ClimateSelector';
 import { TagSelector } from '../plantrip/TagSelector';
 import { PopularitySelector } from '../plantrip/PopularitySelector';
+import { Loader } from '../ui/Loader';
 import { API_CONFIG, getApiUrl } from '../../config/api';
 
 const TOTAL_SLIDES = 2;
@@ -281,8 +282,7 @@ export const PlanTrip = () => {
                             )}
                             {isSubmitting ? (
                                 <>
-                                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                                    <span className="relative">Crafting your journey...</span>
+                                    <Loader size="sm" text="Crafting your journey..." flexRow />
                                 </>
                             ) : (
                                 <>

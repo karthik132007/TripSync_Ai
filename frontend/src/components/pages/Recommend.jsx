@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Heart, Sparkles, RefreshCw, SlidersHorizontal } from 'lucide-react';
+import { Loader } from '../ui/Loader';
 
 const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -116,10 +117,7 @@ export const Recommend = () => {
     if (!recommendations.length) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-white text-space-500">
-                <div className="flex flex-col items-center gap-4">
-                    <div className="w-8 h-8 border-2 border-ice-200 border-t-ice-500 rounded-full animate-spin" />
-                    <p className="animate-pulse">Preparing your personal recommendations...</p>
-                </div>
+                <Loader size="lg" text="Preparing your personal recommendations..." />
             </div>
         );
     }

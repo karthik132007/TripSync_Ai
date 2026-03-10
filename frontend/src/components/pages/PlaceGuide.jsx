@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, CalendarDays, CloudSun, Coins, Sparkles } from 'lucide-react';
 import { getPlaceDetailsUrl, getPlaceRelatedUrl } from '../../config/api';
+import { Loader } from '../ui/Loader';
 
 const GRADIENT_PLACEHOLDER = 'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)';
 
@@ -92,7 +92,7 @@ export const PlaceGuide = () => {
     if (loading) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-white">
-                <div className="w-9 h-9 border-2 border-coral-200 border-t-coral-500 rounded-full animate-spin" />
+                <Loader size="lg" />
             </div>
         );
     }

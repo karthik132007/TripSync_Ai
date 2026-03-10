@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Loader2 } from 'lucide-react';
+import { Loader } from '../ui/Loader';
 
 const tagEmojis = {
     adventure: '🧗', beach: '🏖️', 'bird-watching': '🦅', boating: '🚣',
@@ -38,8 +38,7 @@ export const TagSelector = ({ value = [], onChange }) => {
     if (loading) {
         return (
             <div className="flex items-center gap-3 text-space-400 py-8">
-                <Loader2 size={18} className="animate-spin text-ice-400" />
-                <span className="text-sm font-medium">Curating experiences...</span>
+                <Loader size="sm" text="Curating experiences..." flexRow />
             </div>
         );
     }
