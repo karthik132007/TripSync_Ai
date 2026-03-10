@@ -169,3 +169,9 @@ def show_hotels(place_id: int, preferences: HotelPreferences = Body(...)):
         "message": "top 5 hotels",
         "data": hotels,
     }
+
+@app.get("/health")
+def health():
+    return {
+        "status":"alive"
+    }
