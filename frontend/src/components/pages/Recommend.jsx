@@ -21,23 +21,7 @@ const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
         return () => observer.disconnect();
     }, []);
 
-    // Pool of beautiful travel placeholders to avoid repetition if Unsplash API fails/rate-limits
-    const fallbacks = [
-        'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800', // Desert road
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470', // Lake/Mountains
-        'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1', // Lake/Forest
-        'https://images.unsplash.com/photo-1506744038136-46273834b3fb', // Valley
-        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee', // Forest path
-        'https://images.unsplash.com/photo-1470770841072-f978cf4d019e', // Village/Mountains
-        'https://images.unsplash.com/photo-1530789253388-582c481c54b0', // Airplane/Clouds
-        'https://images.unsplash.com/photo-1519681393784-d120267933ba', // Snowy peaks
-        'https://images.unsplash.com/photo-1533105079780-92b9be482077', // Santorini
-        'https://images.unsplash.com/photo-1493246507139-91e8bef99c02', // Northern Lights
-        'https://images.unsplash.com/photo-1501594907352-04cda38ebc29', // Beach
-        'https://images.unsplash.com/photo-1440778303588-435521a205bc'  // Tropical
-    ];
-
-    const imageUrl = place.image_url || `${fallbacks[index % fallbacks.length]}?auto=format&fit=crop&q=80&w=1000`;
+    const imageUrl = place.image_url || null;
 
     return (
         <div
@@ -52,13 +36,14 @@ const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
             </div>
 
             {/* Image Section */}
-            <div className="relative h-64 overflow-hidden">
+            <div className="relative h-64 overflow-hidden" style={!imageUrl ? { background: 'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)' } : undefined}>
                 <div className="absolute inset-0 bg-space-900/10 z-10 group-hover:bg-transparent transition-colors duration-500" />
+                {imageUrl && (
                 <img
                     src={imageUrl}
                     alt={place.name}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
-                />
+                />)}
 
                 {/* Gradient Overlay for Text Visibility */}
                 <div className="absolute inset-0 bg-gradient-to-t from-space-900/80 via-space-900/20 to-transparent z-10" />
