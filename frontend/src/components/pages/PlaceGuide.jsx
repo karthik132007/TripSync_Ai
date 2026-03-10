@@ -3,10 +3,7 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, CalendarDays, CloudSun, Coins, Sparkles } from 'lucide-react';
 import { getPlaceDetailsUrl, getPlaceRelatedUrl } from '../../config/api';
 
-const FALLBACK_HERO =
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=1800';
-const FALLBACK_RELATED =
-    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=500';
+const GRADIENT_PLACEHOLDER = 'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)';
 
 const InfoCard = ({ icon: Icon, title, value, accent = 'text-ice-600' }) => (
     <div className="rounded-2xl border border-ice-100/70 bg-ice-50/40 p-5 shadow-[0_8px_24px_rgba(15,17,21,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_34px_rgba(15,17,21,0.08)]">
@@ -31,12 +28,13 @@ const RelatedPlaceCard = ({ item, onClick }) => (
         onClick={onClick}
         className="group text-left rounded-2xl border border-ice-100/80 bg-white overflow-hidden shadow-[0_10px_26px_rgba(15,17,21,0.05)] transition-all duration-500 hover:-translate-y-1.5 hover:border-coral-200 hover:shadow-[0_16px_40px_rgba(15,17,21,0.12)] cursor-pointer"
     >
-        <div className="relative h-28 overflow-hidden">
+        <div className="relative h-28 overflow-hidden" style={!item.thumbnail_image_url ? { background: GRADIENT_PLACEHOLDER } : undefined}>
+            {item.thumbnail_image_url && (
             <img
-                src={item.thumbnail_image_url || FALLBACK_RELATED}
+                src={item.thumbnail_image_url}
                 alt={item.name}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+            />)}
             <div className="absolute inset-0 bg-gradient-to-t from-space-900/60 to-transparent" />
         </div>
         <div className="p-4">
@@ -114,16 +112,17 @@ export const PlaceGuide = () => {
         );
     }
 
-    const heroImage = place.hero_image_url || place.image_url || FALLBACK_HERO;
+    const heroImage = place.hero_image_url || place.image_url || null;
 
     return (
         <div className="min-h-screen bg-[#fafafc] pb-20">
-            <section className="relative h-[350px] md:h-[420px] overflow-hidden animate-fade-in">
+            <section className="relative h-[350px] md:h-[420px] overflow-hidden animate-fade-in" style={!heroImage ? { background: GRADIENT_PLACEHOLDER } : undefined}>
+                {heroImage && (
                 <img
                     src={heroImage}
                     alt={place.place || place.name}
                     className="w-full h-full object-cover"
-                />
+                />)}
                 <div className="absolute inset-0 bg-gradient-to-t from-space-950/90 via-space-900/45 to-space-900/20" />
 
                 <div className="absolute top-24 left-6 sm:left-10 lg:left-16 z-10">

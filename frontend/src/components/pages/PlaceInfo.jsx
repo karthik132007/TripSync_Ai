@@ -180,7 +180,8 @@ export const PlaceInfo = () => {
         );
     }
 
-    const imageUrl = placeData.image_url || 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=2000';
+    const imageUrl = placeData.image_url || null;
+    const GRADIENT_PLACEHOLDER = 'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)';
 
     return (
         <div className="relative min-h-screen pb-24 font-sans text-space-900 selection:bg-ice-300/40 selection:text-space-900 overflow-x-hidden">
@@ -223,12 +224,13 @@ export const PlaceInfo = () => {
             <div className="relative z-10 w-full">
                 {/* Header / Hero Section */}
                 <div className="relative h-[60vh] min-h-[500px] w-full">
-                    <div className="absolute inset-0 z-0">
+                    <div className="absolute inset-0 z-0" style={!imageUrl ? { background: GRADIENT_PLACEHOLDER } : undefined}>
+                        {imageUrl && (
                         <img
                             src={imageUrl}
                             alt={placeData.place || "Destination"}
                             className="w-full h-full object-cover"
-                        />
+                        />)}
                         <div className="absolute inset-0 bg-gradient-to-t from-[#fafafc] via-space-900/40 to-space-900/10" />
                     </div>
 
@@ -431,13 +433,14 @@ export const PlaceInfo = () => {
                                         onClick={() => navigate(`/places/${related.id}`)}
                                         className="group cursor-pointer bg-white/60 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/60 hover:border-ice-300/50 shadow-[0_4px_20px_rgba(166,227,233,0.05)] hover:shadow-[0_15px_40px_rgba(166,227,233,0.2)] transition-all duration-300 hover:-translate-y-1"
                                     >
-                                        <div className="h-32 sm:h-40 overflow-hidden relative">
+                                        <div className="h-32 sm:h-40 overflow-hidden relative" style={!related.image_url ? { background: GRADIENT_PLACEHOLDER } : undefined}>
                                             <div className="absolute inset-0 bg-space-900/10 z-10 group-hover:bg-transparent transition-colors duration-500" />
+                                            {related.image_url && (
                                             <img
-                                                src={related.image_url || 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=600'}
+                                                src={related.image_url}
                                                 alt={related.name}
                                                 className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
-                                            />
+                                            />)}
                                             <div className="absolute bottom-0 inset-x-0 h-1/2 bg-gradient-to-t from-space-900/80 to-transparent z-10" />
 
                                             <div className="absolute bottom-3 left-3 right-3 z-20">
@@ -576,15 +579,8 @@ export const PlaceInfo = () => {
                                             <div className="grid grid-cols-1 gap-4">
                                                 {hotels.map((hotel, idx) => (
                                                     <div key={idx} className="flex gap-4 p-4 rounded-xl border border-space-100 bg-space-50/50 hover:bg-white hover:shadow-md transition-all">
-                                                        <div className="w-24 h-24 bg-space-200 rounded-lg shrink-0 overflow-hidden relative">
-                                                            <img
-                                                                src={`https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=200&h=200&random=${idx}`}
-                                                                alt={hotel.hotel_name}
-                                                                className="w-full h-full object-cover"
-                                                                onError={(e) => {
-                                                                    e.target.src = 'https://placehold.co/200x200/e2e8f0/64748b?text=Hotel';
-                                                                }}
-                                                            />
+                                                        <div className="w-24 h-24 rounded-lg shrink-0 overflow-hidden relative flex items-center justify-center" style={{ background: GRADIENT_PLACEHOLDER }}>
+                                                            <Bed size={32} className="text-white/60" />
                                                         </div>
                                                         <div className="flex-1 min-w-0">
                                                             <div className="flex justify-between items-start">

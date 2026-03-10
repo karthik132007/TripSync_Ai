@@ -21,22 +21,7 @@ const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
         return () => observer.disconnect();
     }, []);
 
-    const fallbacks = [
-        'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800',
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470',
-        'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1',
-        'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
-        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
-        'https://images.unsplash.com/photo-1470770841072-f978cf4d019e',
-        'https://images.unsplash.com/photo-1530789253388-582c481c54b0',
-        'https://images.unsplash.com/photo-1519681393784-d120267933ba',
-        'https://images.unsplash.com/photo-1533105079780-92b9be482077',
-        'https://images.unsplash.com/photo-1493246507139-91e8bef99c02',
-        'https://images.unsplash.com/photo-1501594907352-04cda38ebc29',
-        'https://images.unsplash.com/photo-1440778303588-435521a205bc',
-    ];
-
-    const imageUrl = place.image_url || `${fallbacks[index % fallbacks.length]}?auto=format&fit=crop&q=80&w=800`;
+    const imageUrl = place.image_url || null;
 
     // Generate a match percentage based on index (higher rank = higher match)
     const matchPercent = Math.max(82, 98 - index * 2);
@@ -53,13 +38,14 @@ const RecommendationCard = ({ place, index, delay = 0, navigate }) => {
             }}
         >
             {/* Image */}
-            <div className="relative h-48 overflow-hidden">
+            <div className="relative h-48 overflow-hidden" style={!imageUrl ? { background: 'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)' } : undefined}>
+                {imageUrl && (
                 <img
                     src={imageUrl}
                     alt={place.name || place.place}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
-                />
+                />)}
 
                 {/* Match badge */}
                 <div className={`absolute top-3 left-3 z-20 flex items-center gap-1.5 px-2.5 py-1 rounded-full ${badgeColor} text-white text-xs font-bold shadow-md`}>

@@ -3,6 +3,15 @@ import { MapPin, Star, ArrowRight, Compass } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { useScrollReveal, useParallax } from '../../hooks/useScrollAnimations';
 
+const CARD_GRADIENTS = [
+    'linear-gradient(135deg, #0F1115 0%, #1a2332 40%, #A6E3E9 100%)',
+    'linear-gradient(135deg, #0F1115 0%, #2d1f3d 40%, #FFD1D1 100%)',
+    'linear-gradient(135deg, #0F1115 0%, #1a3324 40%, #A6E3E9 80%, #FFD1D1 100%)',
+    'linear-gradient(135deg, #1a2332 0%, #A6E3E9 50%, #FF9494 100%)',
+    'linear-gradient(135deg, #0F1115 0%, #1a2332 30%, #A6E3E9 60%, #FFD1D1 100%)',
+    'linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #A6E3E9 100%)',
+];
+
 const DestinationCard = ({ dest, index }) => {
     const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
 
@@ -19,11 +28,9 @@ const DestinationCard = ({ dest, index }) => {
         >
             {/* Image */}
             <div className="relative h-56 overflow-hidden">
-                <img
-                    src={dest.image}
-                    alt={dest.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
+                <div
+                    className="w-full h-full transition-transform duration-700 group-hover:scale-110"
+                    style={{ background: CARD_GRADIENTS[index % CARD_GRADIENTS.length] }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-space-900/60 via-space-900/15 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
 
@@ -71,7 +78,6 @@ export const FeaturedDestinations = () => {
         {
             id: 1,
             title: "Kyoto, Japan",
-            image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1000&auto=format&fit=crop",
             tags: ["Culture", "Temples", "Food"],
             rating: 4.9,
             description: "Experience the magic of ancient temples, serene gardens, and traditional tea houses."
@@ -79,7 +85,6 @@ export const FeaturedDestinations = () => {
         {
             id: 2,
             title: "Amalfi Coast, Italy",
-            image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=1000&auto=format&fit=crop",
             tags: ["Romance", "Views", "Cuisine"],
             rating: 4.8,
             description: "Dramatic cliffs, pastel-colored villages, and the sparkling Mediterranean Sea."
@@ -87,7 +92,6 @@ export const FeaturedDestinations = () => {
         {
             id: 3,
             title: "Bali, Indonesia",
-            image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1000&auto=format&fit=crop",
             tags: ["Nature", "Wellness", "Beaches"],
             rating: 4.7,
             description: "Lush rice terraces, vibrant culture, and world-class surfing spots."
@@ -95,7 +99,6 @@ export const FeaturedDestinations = () => {
         {
             id: 4,
             title: "Santorini, Greece",
-            image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1000&auto=format&fit=crop",
             tags: ["Sunsets", "Architecture", "Relaxation"],
             rating: 4.9,
             description: "Iconic blue domes, stunning sunsets, and crystal-clear Aegean waters."
@@ -103,7 +106,6 @@ export const FeaturedDestinations = () => {
         {
             id: 5,
             title: "Banff, Canada",
-            image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop",
             tags: ["Adventure", "Mountains", "Wildlife"],
             rating: 4.8,
             description: "Turquoise glacial lakes, majestic peaks, and endless outdoor adventures."
@@ -111,7 +113,6 @@ export const FeaturedDestinations = () => {
         {
             id: 6,
             title: "Marrakech, Morocco",
-            image: "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=1000&auto=format&fit=crop",
             tags: ["History", "Markets", "Architecture"],
             rating: 4.6,
             description: "Bustling souks, intricate palaces, and vibrant colors at every turn."
