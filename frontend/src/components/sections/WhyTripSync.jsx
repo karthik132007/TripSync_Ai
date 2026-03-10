@@ -63,11 +63,9 @@ export const WhyTripSync = () => {
                         }}
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-[0_20px_60px_-15px_#a6e3e930] border border-ice-100/40 group">
-                            <img
-                                src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1000&auto=format&fit=crop"
-                                alt="Beautiful travel landscape"
-                                className="w-full h-[400px] lg:h-[500px] object-cover transition-transform duration-1000 group-hover:scale-105"
-                                loading="lazy"
+                            <div
+                                className="w-full h-[400px] lg:h-[500px] transition-transform duration-1000 group-hover:scale-105"
+                                style={{ background: 'linear-gradient(135deg, #0F1115 0%, #1a2332 30%, #A6E3E9 60%, #FFD1D1 100%)' }}
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-space-900/80 via-space-900/25 to-transparent" />
 
