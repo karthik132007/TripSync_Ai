@@ -226,11 +226,11 @@ export const PlaceInfo = () => {
                 <div className="relative h-[60vh] min-h-[500px] w-full">
                     <div className="absolute inset-0 z-0" style={!imageUrl ? { background: GRADIENT_PLACEHOLDER } : undefined}>
                         {imageUrl && (
-                        <img
-                            src={imageUrl}
-                            alt={placeData.place || "Destination"}
-                            className="w-full h-full object-cover"
-                        />)}
+                            <img
+                                src={imageUrl}
+                                alt={placeData.place || "Destination"}
+                                className="w-full h-full object-cover"
+                            />)}
                         <div className="absolute inset-0 bg-gradient-to-t from-[#fafafc] via-space-900/40 to-space-900/10" />
                     </div>
 
@@ -436,11 +436,11 @@ export const PlaceInfo = () => {
                                         <div className="h-32 sm:h-40 overflow-hidden relative" style={!related.image_url ? { background: GRADIENT_PLACEHOLDER } : undefined}>
                                             <div className="absolute inset-0 bg-space-900/10 z-10 group-hover:bg-transparent transition-colors duration-500" />
                                             {related.image_url && (
-                                            <img
-                                                src={related.image_url}
-                                                alt={related.name}
-                                                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
-                                            />)}
+                                                <img
+                                                    src={related.image_url}
+                                                    alt={related.name}
+                                                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
+                                                />)}
                                             <div className="absolute bottom-0 inset-x-0 h-1/2 bg-gradient-to-t from-space-900/80 to-transparent z-10" />
 
                                             <div className="absolute bottom-3 left-3 right-3 z-20">
